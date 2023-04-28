@@ -1,0 +1,241 @@
+! Title: Dania's Filters
+! Description: Dania's filters
+! Expires: 365 days
+! Last modified: %timestamp%
+
+! 2021-11-06 https://rutracker.org
+rutracker.org##[src="https://rutrk.org/240x400/210902_01.png"]
+rutracker.org##[src="https://betsonsport.ru/b/lend3.php"]
+rutracker.org##[src="https://cdn.admitad-connect.com/public/bs/2021/05/06/240x400_img_F_Liverpool.ac6c.jpg"]
+rutracker.org##div.bn-idx:nth-of-type(12)
+rutracker.org###idx-sidebar2 > .bn-idx
+
+! 2021-11-06 https://kwork.ru
+kwork.ru##.widget_item
+
+! 2021-11-06 https://rutracker.org
+rutracker.org###idx-sidebar2 > div:nth-of-type(4)
+rutracker.org##div.bn-idx:nth-of-type(5)
+
+! 2021-11-06 https://appnee.com
+appnee.com###\32 EMdbtpDsLxDeA0C79eKNK3DVdnvYI
+appnee.com###mhUmfNbAfQE74U8T0O1MEMgmMO9CyC
+
+! 2021-11-06 https://cs.rin.ru
+cs.rin.ru##.text-center.col-sm-8
+cs.rin.ru##.text-center.col-sm-12
+
+! 2021-11-08 https://www.kcsoftwares.com
+www.kcsoftwares.com##.alert-info.alert
+www.kcsoftwares.com##.btn-success.btn
+www.kcsoftwares.com##.btn-info.btn
+www.kcsoftwares.com##a.btn:nth-of-type(3)
+www.kcsoftwares.com##div.well.span2:nth-of-type(2)
+www.kcsoftwares.com##div.well.span2 .btn
+www.kcsoftwares.com##div.well.span2:nth-of-type(3)
+
+! 2021-11-09 https://www.wemod.com
+www.wemod.com##.modal-overlay
+www.wemod.com##.modal-wrapper
+www.wemod.com###modal-618aabbb77773
+
+! 2021-11-09 https://appnee.com
+appnee.com###super_rss_reader-8
+appnee.com###super_rss_reader-5
+appnee.com###custom_html-5
+appnee.com###custom_html-6 > .widget-title
+appnee.com###cool_tag_cloud-2 > .widget-title
+
+! 2021-11-12 https://rutracker.org
+rutracker.org###bn-topic-block
+
+! 2021-11-18 https://www.guru3d.com
+www.guru3d.com##.content3 > div > strong
+
+! 2021-11-21 https://unogs.com
+unogs.com##.alert-warning.alert
+
+! 2021-11-21 https://www.howtogeek.com
+www.howtogeek.com##.e-content.entry-content > div
+
+! 2021-11-22 https://pornstarbyface.com
+pornstarbyface.com##div.text-center > .info-first-page
+
+! 2021-12-03 http://audiobookbay.nl
+audiobookbay.nl##[src="/images/dir.gif"]
+audiobookbay.nl###rsidebar > ul > li:nth-of-type(4)
+audiobookbay.nl###rsidebar > ul > li:nth-of-type(5)
+audiobookbay.nl##.yellow
+audiobookbay.nl##li > ul > li > div
+audiobookbay.nl###rsidebar > ul > li:nth-of-type(2) > ul > li
+audiobookbay.nl##[src="http://audiobookbay.nl/images/bz.jpg"]
+audiobookbay.nl##tr:nth-of-type(27) > td:nth-of-type(2) > span
+audiobookbay.nl##tr:nth-of-type(27) > td:nth-of-type(1)
+audiobookbay.nl##tr:nth-of-type(27) > td:nth-of-type(2)
+
+! 2021-12-05 https://www.kcsoftwares-alt.com
+www.kcsoftwares-alt.com##.btn-primary.btn
+www.kcsoftwares-alt.com##.alert-info.alert
+www.kcsoftwares-alt.com##.btn-success.btn
+www.kcsoftwares-alt.com##.btn-info.btn
+www.kcsoftwares-alt.com##a.btn:nth-of-type(3)
+www.kcsoftwares-alt.com##div.well.span2:nth-of-type(2)
+www.kcsoftwares-alt.com##div.well.span2:nth-of-type(3)
+
+! 2021-12-07 https://www.foobar2000.org
+www.foobar2000.org##.padding > table
+
+! 2021-12-07 https://iir.ai
+||iir.ai/webroot/modern_theme/img/dwndbnr1.png$image
+||clk.sh/webroot/img/Newbackground.jpg$image
+||clk.sh/webroot/img/Newbackground.jpg$image
+||clk.sh/webroot/img/Newbackground.jpg$image
+iir.ai##.navbar-default.navbar
+
+! 2021-12-10 https://fastpic.org
+fastpic.org##.d-lg-block.d-none.m-2.rounded.p-1.bg-white.row
+fastpic.org##.if.embed-responsive
+fastpic.org##.vright.overflow-hidden.sticky-top.p-1.rounded.bg-white.col-auto
+fastpic.org##.text-center.sticky-top.bleft.p-1.rounded.bg-dark.col-auto
+
+! 2021-12-18 https://www.kcsoftwares.com
+www.kcsoftwares.com##.btn-primary.btn
+
+! 2021-12-20 https://rutracker.org
+rutracker.org##.internal-promo-text-top > b
+
+! 2022-02-26 https://locallhost.me
+||locallhost.me/assets/img/abs/nordvpn-d.jpg$image
+
+! 2022-03-28 https://www.radiorecord.ru
+@@||www.radiorecord.ru/components/TrackInfo/img/vk.png?ab0413d212caea0b8d56daf0588be4d6
+www.radiorecord.ru##.col.QWxu-9CNzq6qNzEaXjOYT > noindex > ._2zjTceSR-qLU9Q4p5D9Pcz
+
+! 2022-04-03 https://www.speedtest.net
+www.speedtest.net##.u-c.pure-u-custom-ad-skyscraper
+
+! 2022-04-10 https://www.mail.com
+||i0.mail.com/image/255/702468435187,pd=1,f=teaser-m/WUUhb4c-wallpaper-machen-kann-name.jpeg$image
+www.mail.com##.CUrjtABU
+www.mail.com##div.mod-container:nth-of-type(1)
+www.mail.com##.MvhqEhxT
+
+! 2022-04-11 https://mail.yandex.ru
+mail.yandex.ru##.ns-view-id-134.ns-view-spntu
+
+! 2022-05-02 https://www.games-manuals.com
+www.games-manuals.com###aepbjvrd-blanket > div
+www.games-manuals.com###aepbjvrd-blanket
+
+! 2022-05-17 https://www.base64encode.org
+www.base64encode.org##.adsbypubmax.ad_corner
+
+! 2022-05-26 http://www.c1oc.uk
+||www.c1oc.co.uk/forum/bugstorelink.gif$image
+
+! 2022-09-01 https://www.marcucciogemel.it
+www.marcucciogemel.it###lYLFzYFHRd52T5kUXe0lINLGSeH8xT
+www.marcucciogemel.it###GoPvmbB0YHgFIhVUaB4rDUM7WbrqeD
+
+! 2022-09-19 https://days.to
+days.to##.affix.right-panel
+
+! 2022-10-24 https://www.lampemania.dk
+www.lampemania.dk##.cookie-setting
+
+! 2022-12-27 https://www.freereceivesms.com
+www.freereceivesms.com##.show.fade.modal
+www.freereceivesms.com##.show.fade.modal-backdrop
+
+! 2023-01-15 https://short.up-load.one
+||screenshotfactory.com/marketing2/monosnap/55a9e51463bdac29dc503163da955861.png_2019-02-26_14-45-26.png$image
+
+! 2023-03-12 https://app.degoo.com
+app.degoo.com##.ng-star-inserted.ng-tns-c38-7
+
+! 2023-03-20 https://www.lomax.dk
+www.lomax.dk##.show.fade.modal-backdrop
+
+! 2023-04-20 https://cs.rin.ru
+cs.rin.ru##div.row:nth-of-type(2)
+cs.rin.ru##.text-center.col-sm-12
+
+! 2023-04-24 https://www.kcsoftwares.com
+||www.kcsoftwares.com/sumo/images/twitter.png$image
+
+! 2022-02-17 https://bunkr.is
+bunkr.is##center:nth-of-type(1)
+
+! 2022-05-01 https://paste.pandaadmin.xyz
+paste.pandaadmin.xyz###v99a
+
+! 2022-05-16 https://gofile.io
+gofile.io###adsGoogle
+
+! 2022-05-16 https://forum.thotsbay.com
+forum.thotsbay.com##.nav-mf.p-navEl-link
+
+! 2022-05-16 https://www.redgifs.com
+||cdn.camshq.info/streamate/70321197/profile.jpeg$image
+
+! 2022-05-20 https://pornjuices.com
+pornjuices.com##.active.adde_modal-overlay
+
+! 2022-05-22 https://ekstrabladet.dk
+ekstrabladet.dk###CybotCookiebotDialogBodyUnderlay
+
+! 2022-05-23 https://gofile.io
+gofile.io##.ml-auto.navbar-nav > li.nav-item
+
+! 2022-06-01 https://www.youtube.com
+www.youtube.com##.ytd-consent-bump-v2-lightbox.style-scope.eom-v1-dialog
+www.youtube.com##.opened
+
+! 2022-06-01 https://www.redgifs.com
+||cdn.camshq.info/streamate/108454927/profile.jpeg$image
+www.redgifs.com###jerky-im
+
+! 2022-06-10 https://bunkr.is
+bunkr.is##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
+
+! 2022-06-12 https://stream.bunkr.is
+stream.bunkr.is##center:nth-of-type(3) > p
+stream.bunkr.is##center
+
+! 2022-09-29 https://www.xfree.com
+www.xfree.com##.aside-content__middle
+
+! 2022-12-29 https://bunkr.ru
+bunkr.ru##.friends
+bunkr.ru##hr:nth-of-type(2)
+
+@@||jpg.church^
+
+
+! 2023-02-05 https://bunkr.su
+bunkr.su##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+
+! 2023-03-24 https://bunkr.su
+||a.realsrv.com/popunder1000.js$script,domain=bunkr.su
+
+! 2023-04-15 https://simpcity.su
+simpcity.su##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(3)
+simpcity.su##.nav-stripchat.p-navEl-link
+simpcity.su##.nav-dfake.p-navEl-link
+simpcity.su##.nav-faze.p-navEl-link
+simpcity.su##.nav-tpd.p-navEl-link
+simpcity.su##.node--link.node--depth2.node--id20.node
+simpcity.su##.node--link.node--depth2.node--id119.node
+simpcity.su##.node--link.node--depth2.node--id95.node > .node-body
+simpcity.su##.node--link.node--depth2.node--id107.node
+
+! 2023-04-16 https://www.instagram.com
+www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
+www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
+www.instagram.com##.x1uhb9sk
+
+! 2023-04-28 pixl.li pop-up
+||pixl.li/wtf.js$important
+||pixl.li/lol.php$important
+
+
