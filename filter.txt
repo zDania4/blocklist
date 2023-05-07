@@ -236,6 +236,15 @@ www.instagram.com##.x1uhb9sk
 
 ! 2023-04-28 pixl.li pop-up
 ||pixl.li/wtf.js$important
-||pixl.li/lol.php$important
+||pixl.li/lol.php$important'
+||https://if.pittinekunai.com$important
+||https://godpvqnszo.com$important
 
+! 2023-05-07 https://simpcity.su
+simpcity.su##.offCanvasMenu-link.nav-shoosh
+simpcity.su##li:nth-of-type(3) > .offCanvasMenu-linkHolder
+simpcity.su##li:nth-of-type(4) > .offCanvasMenu-linkHolder
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 
