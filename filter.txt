@@ -252,6 +252,11 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 bunkr.la##+js(abort-current-script, document.createElement, click)
 bunkr.*##^script:has-text(cfasync)
+bunkr.*##^script:has-text(window.document.querySelectorAll)
+bunkr.*##^script:has-text(this.config.ads_host)
+bunkr.*##^script:has-text(config.syndication_host)
+bunkr.*##^script:has-text(wtf.js)
+bunkr.*##^script:has-text(lol.php)
 
 ! 2023-05-13 https://gofile.io
 gofile.io###adsATF
