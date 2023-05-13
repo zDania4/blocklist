@@ -164,7 +164,7 @@ cs.rin.ru##.text-center.col-sm-12
 ||www.kcsoftwares.com/sumo/images/twitter.png$image
 
 ! 2022-02-17 https://bunkr.is
-bunkr.is##center:nth-of-type(1)
+bunkr.*##center:nth-of-type(1)
 
 ! 2022-05-01 https://paste.pandaadmin.xyz
 paste.pandaadmin.xyz###v99a
@@ -196,7 +196,7 @@ www.youtube.com##.opened
 www.redgifs.com###jerky-im
 
 ! 2022-06-10 https://bunkr.is
-bunkr.is##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
+bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 
 ! 2022-06-12 https://stream.bunkr.is
 stream.bunkr.is##center:nth-of-type(3) > p
@@ -206,17 +206,17 @@ stream.bunkr.is##center
 www.xfree.com##.aside-content__middle
 
 ! 2022-12-29 https://bunkr.ru
-bunkr.ru##.friends
-bunkr.ru##hr:nth-of-type(2)
+bunkr.*##.friends
+bunkr.*##hr:nth-of-type(2)
 
 @@||jpg.church^
 
 
 ! 2023-02-05 https://bunkr.su
-bunkr.su##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+bunkr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 
 ! 2023-03-24 https://bunkr.su
-||a.realsrv.com/popunder1000.js$script,domain=bunkr.su
+||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
 
 ! 2023-04-15 https://simpcity.su
 simpcity.su##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(3)
@@ -250,7 +250,7 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 
 ! 2023-05-13 https://bunkr.la
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-bunkr.la##+js(abort-current-script, document.createElement, click)
+bunkr.*##+js(abort-current-script, document.createElement, click)
 bunkr.*##^script:has-text(cfasync)
 bunkr.*##^script:has-text(window.document.querySelectorAll)
 bunkr.*##^script:has-text(this.config.ads_host)
