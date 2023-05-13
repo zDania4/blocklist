@@ -248,3 +248,9 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
 simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 
+! 2023-05-13 https://bunkr.la
+bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+bunkr.la##+js(abort-current-script, document.createElement, click)
+
+! 2023-05-13 https://gofile.io
+gofile.io###adsATF
