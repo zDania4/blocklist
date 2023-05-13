@@ -257,6 +257,10 @@ bunkr.*##^script:has-text(this.config.ads_host)
 bunkr.*##^script:has-text(config.syndication_host)
 bunkr.*##^script:has-text(wtf.js)
 bunkr.*##^script:has-text(lol.php)
+bunkr.*##^script:has-text(spakkoorbamz.com)
+bunkr.*##^script:has-text(clerrrep.com)
+||spakkoorbamz.com
+||clerrrep.com
 
 ! 2023-05-13 https://gofile.io
 gofile.io###adsATF
