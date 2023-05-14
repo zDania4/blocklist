@@ -250,8 +250,9 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 
 ! 2023-05-13 https://bunkr.la
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-bunkr.*##+js(abort-current-script, document.createElement, click)
-bunkr.*##^script:has-text(cfasync)
+bunkr.la##+js(abort-current-script, document.createElement, click)
+||bunkr.se/build/asdajklsdashjdasjk.js$script,important
+bunkr.*##^script:has-text(data-cfasync)
 bunkr.*##^script:has-text(window.document.querySelectorAll)
 bunkr.*##^script:has-text(this.config.ads_host)
 bunkr.*##^script:has-text(config.syndication_host)
@@ -259,8 +260,29 @@ bunkr.*##^script:has-text(wtf.js)
 bunkr.*##^script:has-text(lol.php)
 bunkr.*##^script:has-text(spakkoorbamz.com)
 bunkr.*##^script:has-text(clerrrep.com)
+bunkr.*##^script:has-text(aaZoneid)
 ||spakkoorbamz.com
 ||clerrrep.com
+
+! 2023-05-14 https://bunkr.la
+bunkr.la##iframe
+||godpvqnszo.com^$important
+||gy.fatuoidmunify.com^$important
+||hhbypdoecp.com^$important
+||godpvqnszo.com^
+||limurol.com^$important
+||lwonclbench.com^$important
+||cdn.bncloudfl.com/bn/*
+
+! 2023-05-14 https://sportsfanonews.com
+||sportsfanonews.com^$important
+
+! 2023-05-14 https://bunkr.la
+||ojlkmijwemf.com^$important
+||bunkr.la/api/last_visit$xhr
+
+! 2023-05-13 https://gofile.io
+gofile.io###adsATF
 
 ! 2023-05-13 https://gofile.io
 gofile.io###adsATF
