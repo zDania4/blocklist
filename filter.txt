@@ -250,7 +250,7 @@ simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
 
 ! 2023-05-13 https://bunkr.la
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-bunkr.la##+js(abort-current-script, document.createElement, click)
+bunkr.*##+js(abort-current-script, document.createElement, click)
 ||bunkr.se/build/asdajklsdashjdasjk.js$script,important
 bunkr.*##^script:has-text(data-cfasync)
 bunkr.*##^script:has-text(window.document.querySelectorAll)
@@ -286,3 +286,6 @@ gofile.io###adsATF
 
 ! 2023-05-13 https://gofile.io
 gofile.io###adsATF
+
+! From uAssets/Annoyances (https://github.com/uBlockOrigin/uAssets/issues/12534)
+bunkr.*##+js(acs, document.oncontextmenu)
