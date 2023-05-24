@@ -1,6 +1,6 @@
 ! Title: Dania's SC filters
 ! Description: Dania's SC filters. This list focuses on mainly Bunkr.* and GoFile's annoyances, but also includes some other NSFW stuff.
-! Expires: 365 days
+! Expires: 7 days
 ! Last modified: %timestamp%
 
 ! ALLOWLIST
