@@ -1,0 +1,112 @@
+! Title: Dania's SC filters
+! Description: Dania's SC filters. This list focuses on mainly Bunkr.* and GoFile's annoyances, but also includes some other NSFW stuff.
+! Expires: 365 days
+! Last modified: %timestamp%
+
+! ALLOWLIST
+@@||jpg.church
+
+! BLOCKLIST:
+
+! bunkr 
+bunkr.*##center:nth-of-type(1)
+bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
+bunkr.*##center:nth-of-type(3) > p
+bunkr.*##center
+bunkr.*##.friends
+bunkr.*##hr:nth-of-type(2)
+bunkr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+bunkr.la##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+
+
+!bunkr ads/popup
+||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
+||pixl.li/wtf.js$important
+||pixl.li/lol.php$important'
+||https://if.pittinekunai.com$important
+||https://godpvqnszo.com$important
+bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+bunkr.*##+js(abort-current-script, document.createElement, click)
+||bunkr.se/build/asdajklsdashjdasjk.js$script,important
+bunkr.*##^script:has-text(data-cfasync)
+bunkr.*##^script:has-text(window.document.querySelectorAll)
+bunkr.*##^script:has-text(this.config.ads_host)
+bunkr.*##^script:has-text(config.syndication_host)
+bunkr.*##^script:has-text(wtf.js)
+bunkr.*##^script:has-text(lol.php)
+bunkr.*##^script:has-text(spakkoorbamz.com)
+bunkr.*##^script:has-text(clerrrep.com)
+bunkr.*##^script:has-text(aaZoneid)
+||spakkoorbamz.com
+||clerrrep.com
+bunkr.*#iframe
+||godpvqnszo.com^$important
+||fatuoidmunify.com^$important
+||hhbypdoecp.com^$important
+||godpvqnszo.com^
+||limurol.com^$important
+||lwonclbench.com^$important
+||cdn.bncloudfl.com/bn/*
+||sportsfanonews.com^$important
+||ojlkmijwemf.com^$important
+||bunkr.*/api/last_visit$xhr
+bunkr.*##+js(acs, document.oncontextmenu)
+||hhbypdoecp.com^$important
+||limurol.com^$important
+||lwonclbench.com^$important
+||gulsachpyrexia.uno^$important
+||gy.fatuoidmunify.com^$important
+||godpvqnszo.com^$important
+||bavamplumo.com^$important
+||pixl.li/wtf.js$important
+||ad.a-ads.com^$important
+||bunkr.*/v/^$popup,important
+||pixl.li/lol.php$important
+||api.kekw.website^$important
+||mc.yandex.ru^
+||pixl.li/lol.php$document,important
+||bunkr.se/api/last_visit$important
+||bunkr.se/build/asdajklsdashjdasjk.js$important
+||bunkr.*/build/asdajklsdashjdasjk.js$important
+||bunkr.*/api/last_visit$important
+bunkr.*##+js(abort-current-script, document.querySelectorAll)
+||*.*/lol.php$important
+||*.*/wtf.js$important
+||*.*/build/asdajklsdashjdasjk.js
+
+! GoFile
+gofile.io###adsGoogle
+gofile.io##.ml-auto.navbar-nav > li.nav-item
+gofile.io###adsATF
+
+! Instagram
+www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
+www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
+www.instagram.com##.x1uhb9sk
+
+! Pornjuices
+pornjuices.com##.active.adde_modal-overlay
+
+! Redgifs
+||cdn.camshq.info/streamate/$image
+www.redgifs.com###jerky-im
+
+! Simpcity
+simpcity.su##.offCanvasMenu-link.nav-shoosh
+simpcity.su##li:nth-of-type(3) > .offCanvasMenu-linkHolder
+simpcity.su##li:nth-of-type(4) > .offCanvasMenu-linkHolder
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
+simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
+simpcity.su##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(3)
+simpcity.su##.nav-stripchat.p-navEl-link
+simpcity.su##.nav-dfake.p-navEl-link
+simpcity.su##.nav-faze.p-navEl-link
+simpcity.su##.nav-tpd.p-navEl-link
+simpcity.su##.node--link.node--depth2.node--id20.node
+simpcity.su##.node--link.node--depth2.node--id119.node
+simpcity.su##.node--link.node--depth2.node--id95.node > .node-body
+simpcity.su##.node--link.node--depth2.node--id107.node
+
+! xfree
+www.xfree.com##.aside-content__middle
