@@ -289,3 +289,32 @@ gofile.io###adsATF
 
 ! From uAssets/Annoyances (https://github.com/uBlockOrigin/uAssets/issues/12534)
 bunkr.*##+js(acs, document.oncontextmenu)
+
+! 2023-05-24 https://bunkr.la
+||hhbypdoecp.com^$important
+||limurol.com^$important
+||lwonclbench.com^$important
+||gulsachpyrexia.uno^$important
+||gy.fatuoidmunify.com^$important
+||godpvqnszo.com^$important
+||bavamplumo.com^$important
+||pixl.li/wtf.js$important
+||ad.a-ads.com^$important
+||bunkr.la^$popup,important
+
+! 2023-05-24 https://pixl.li
+||pixl.li/lol.php$important
+
+! 2023-05-24 https://api.kekw.website
+||api.kekw.website^$important
+
+! 2023-05-24 https://gamestobesthugs.com
+||mc.yandex.ru^
+
+! 2023-05-24 https://pixl.li
+||pixl.li/lol.php$document,important
+
+! 2023-05-24 https://bunkr.la
+||bunkr.se/api/last_visit$important
+||bunkr.se/build/asdajklsdashjdasjk.js$important
+bunkr.*##+js(abort-current-script, document.querySelectorAll)
