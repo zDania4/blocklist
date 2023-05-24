@@ -318,3 +318,4 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||bunkr.se/api/last_visit$important
 ||bunkr.se/build/asdajklsdashjdasjk.js$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll)
+bunkr.la##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
