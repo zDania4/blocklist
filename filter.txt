@@ -73,6 +73,8 @@ bunkr.*##+js(abort-current-script, document.querySelectorAll)
 ||*.*/lol.php$important
 ||*.*/wtf.js$important
 ||*.*/build/asdajklsdashjdasjk.js
+||*.*/oqm/$important
+||fteadcofpo.com$important
 
 ! GoFile
 gofile.io###adsGoogle
