@@ -20,11 +20,11 @@ bunkr.la##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 
 
 !bunkr ads/popup
-||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
+a.realsrv.com/popunder1000.js$script,domain=bunkr.*
 ||pixl.li/wtf.js$important
-||pixl.li/lol.php$important'
-||https://if.pittinekunai.com$important
-||https://godpvqnszo.com$important
+||pixl.li/lol.php$important
+https://if.pittinekunai.com$important
+https://godpvqnszo.com$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 bunkr.*##+js(abort-current-script, document.createElement, click)
 ||bunkr.se/build/asdajklsdashjdasjk.js$script,important
@@ -37,36 +37,41 @@ bunkr.*##^script:has-text(lol.php)
 bunkr.*##^script:has-text(spakkoorbamz.com)
 bunkr.*##^script:has-text(clerrrep.com)
 bunkr.*##^script:has-text(aaZoneid)
-||spakkoorbamz.com
-||clerrrep.com
+bunkr.*##^script:has-text(__aaZoneid)
+bunkr.*##^script:has-text(zoneid)
+bunkr.*##^script:has-text(_0x4bca)
+bunkr.*##^script:has-text(1970906)
+
+spakkoorbamz.com
+clerrrep.com$important
 bunkr.*#iframe
-||godpvqnszo.com^$important
-||fatuoidmunify.com^$important
-||hhbypdoecp.com^$important
-||godpvqnszo.com^
-||limurol.com^$important
-||lwonclbench.com^$important
-||cdn.bncloudfl.com/bn/*
-||sportsfanonews.com^$important
-||ojlkmijwemf.com^$important
+godpvqnszo.com$important
+fatuoidmunify.com$important
+hhbypdoecp.com$important
+godpvqnszo.com$important
+limurol.com$important
+lwonclbench.com$important
+bncloudfl.com$important
+sportsfanonews.com$important
+ojlkmijwemf.com$important
 ||bunkr.*/api/last_visit$xhr
 bunkr.*##+js(acs, document.oncontextmenu)
-||hhbypdoecp.com^$important
-||limurol.com^$important
-||lwonclbench.com^$important
-||gulsachpyrexia.uno^$important
-||gy.fatuoidmunify.com^$important
-||godpvqnszo.com^$important
-||bavamplumo.com^$important
+hhbypdoecp.com$important
+limurol.com$important
+lwonclbench.com$important
+gulsachpyrexia.uno$important
+gy.fatuoidmunify.com$important
+godpvqnszo.com$important
+bavamplumo.com$important
 ||pixl.li/wtf.js$important
-||ad.a-ads.com^$important
-||bunkr.*/v/^$popup,important
-||pixl.li/lol.php$important
-||api.kekw.website^$important
-||mc.yandex.ru^
-||pixl.li/lol.php$document,important
-||bunkr.se/api/last_visit$important
-||bunkr.se/build/asdajklsdashjdasjk.js$important
+ad.a-ads.com$important
+bunkr.*/v/^$popup,important
+pixl.li/lol.php$important
+api.kekw.website$important
+mc.yandex.ru^
+pixl.li/lol.php$document,important
+bunkr.se/api/last_visit$important
+bunkr.se/build/asdajklsdashjdasjk.js$important
 ||bunkr.*/build/asdajklsdashjdasjk.js$important
 ||bunkr.*/api/last_visit$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll)
@@ -74,7 +79,8 @@ bunkr.*##+js(abort-current-script, document.querySelectorAll)
 ||*.*/wtf.js$important
 ||*.*/build/asdajklsdashjdasjk.js
 ||*.*/oqm/$important
-||fteadcofpo.com$important
+fteadcofpo.com$important
+opdvriwmixu.com$important
 
 ! GoFile
 gofile.io###adsGoogle
