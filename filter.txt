@@ -107,8 +107,9 @@ simpcity.su##.nav-faze.p-navEl-link
 simpcity.su##.nav-tpd.p-navEl-link
 simpcity.su##.node--link.node--depth2.node--id20.node
 simpcity.su##.node--link.node--depth2.node--id119.node
-simpcity.su##.node--link.node--depth2.node--id95.node > .node-body
+simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
+simpcity.su##.node--link.node--depth2.node--id122.node
 
 ! xfree
 www.xfree.com##.aside-content__middle
