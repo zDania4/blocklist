@@ -95,6 +95,10 @@ www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
 www.pornhub.com##.wrapVideoBlock
 www.pornhub.com##.ad-tabSplit.clearfix.adContainer
 www.pornhub.com##.clearfix.w14bf6388aqazlrtv
+www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v > div:nth-of-type(3)
+www.pornhub.com##.clearfix.ze6tlzt64u2gv
+www.pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v > div > bedab
+www.pornhub.com##.shiftDown
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
