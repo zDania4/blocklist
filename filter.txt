@@ -99,6 +99,8 @@ www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v > div:nth-of-type(3)
 www.pornhub.com##.clearfix.ze6tlzt64u2gv
 www.pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v > div > bedab
 www.pornhub.com##.shiftDown
+pornhub.com##div[id="vpContentContainer"] > * > div[class*="clearfix"]
+pornhub.com##deicc[class="alpha"]
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
