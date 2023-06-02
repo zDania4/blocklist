@@ -17,6 +17,8 @@ bunkr.*##.friends
 bunkr.*##hr:nth-of-type(2)
 bunkr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 bunkr.la##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+! Donate button on album page - please consider donating.
+bunkr.la##.mb-2.bg-green-900.hover\:bg-green-800.hover\:border-green-800.hover\:text-white.font-medium.text-base.text-center.px-4.py-2.bg-transparent.border.rounded-\[5px\].justify-center.items-center.inline-flex.border-primary.hover\:bg-primary.text-white
 
 !bunkr ads/popup
 ||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
