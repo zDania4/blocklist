@@ -86,6 +86,9 @@ gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
 gofile.io###adsATF
 
+! jpg.fish - .fishing - .pet
+jpg.fishing/quicknoisilyheadbites.js
+
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
 www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
@@ -110,6 +113,9 @@ pornjuices.com##.active.adde_modal-overlay
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
 www.redgifs.com###jerky-im
+
+! Saint
+*$3p,script,denyallow=fluidplayer.com|b-cdn.net,domain=saint.to
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
