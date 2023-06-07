@@ -113,7 +113,7 @@ pornjuices.com##.active.adde_modal-overlay
 www.redgifs.com###jerky-im
 
 ! Saint
-*$3p,script,denyallow=fluidplayer.com|b-cdn.net,domain=saint.to
+*$3p,script,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com,domain=saint.to
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
