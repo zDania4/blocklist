@@ -86,6 +86,7 @@ gofile.io###adsATF
 ! Gofile ads
 gofile.io##.show.modal-backdrop
 gofile.io##.show.modal
+gofile.io##body:style(overflow: scroll !important)
 
 ! jpg.fish - .fishing - .pet
 jpg.fishing/quicknoisilyheadbites.js
