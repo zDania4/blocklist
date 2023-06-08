@@ -61,7 +61,7 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||ad.a-ads.com^$important
 ||bunkr.*/v/^$popup,important
 ||pixl.li/lol.php^$important
-||api.kekw.website^$important
+||api.kekw.*^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$document,important
 ||bunkr.se/api/last_visit$important
