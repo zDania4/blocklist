@@ -83,6 +83,9 @@ bunkr.*##+js(abort-current-script, document.querySelectorAll)
 gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
 gofile.io###adsATF
+! Gofile ads
+gofile.io##.show.modal-backdrop
+gofile.io##.show.modal
 
 ! jpg.fish - .fishing - .pet
 jpg.fishing/quicknoisilyheadbites.js
