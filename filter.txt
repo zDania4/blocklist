@@ -17,6 +17,13 @@ bunkr.*##.friends
 bunkr.*##hr:nth-of-type(2)
 bunkr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 bunkr.la##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+bunkrr.*##center:nth-of-type(1)
+bunkrr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
+bunkrr.*##center:nth-of-type(3) > p
+bunkrr.*##center
+bunkrr.*##.friends
+bunkrr.*##hr:nth-of-type(2)
+bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 
 !bunkr ads/popup
 ||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
@@ -77,6 +84,27 @@ bunkr.*##+js(abort-current-script, document.querySelectorAll)
 ||advojhszeat.com^$important
 *adbtt^$important
 *$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkr.*
+*$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkrr.*
+bunkrr.*##+js(abort-current-script, document.querySelectorAll)
+bunkrr.*##+js(acs, document.oncontextmenu)
+bunkrr.*##iframe
+bunkrr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+bunkrr.*##+js(abort-current-script, document.createElement, click)
+bunkrr.*##^script:has-text(data-cfasync)
+bunkrr.*##^script:has-text(window.document.querySelectorAll)
+bunkrr.*##^script:has-text(this.config.ads_host)
+bunkrr.*##^script:has-text(config.syndication_host)
+bunkrr.*##^script:has-text(wtf.js)
+bunkrr.*##^script:has-text(lol.php)
+bunkrr.*##^script:has-text(spakkoorbamz.com)
+bunkrr.*##^script:has-text(clerrrep.com)
+bunkrr.*##^script:has-text(__aaZoneid)
+bunkrr.*##iframe
+||bunkrr.*/api/last_visit$xhr
+bunkrr.*##+js(acs, document.oncontextmenu)
+||bunkrr.*/build/asdajklsdashjdasjk.js^$important
+||bunkrr.*/api/last_visit$important
+bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 
 
 ! GoFile
