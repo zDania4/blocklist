@@ -3,9 +3,6 @@
 ! Expires: 5 days
 ! Last modified: %timestamp%
 
-! ALLOWLIST
-@@||jpg.church
-
 ! BLOCKLIST:
 
 ! bunkr 
@@ -117,7 +114,8 @@ gofile.io##.show.modal
 gofile.io##body:style(overflow: scroll !important)
 
 ! jpg.fish - .fishing - .pet
-jpg.fishing/quicknoisilyheadbites.js
+jpg.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg.*
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
