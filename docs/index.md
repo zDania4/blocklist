@@ -1,8 +1,8 @@
 ## Documents ##
-[Code of conduct](https://zdania4.github.io/blocklist/docs/CODE_OF_CONDUCT.md)
+[Code of conduct](https://github.com/zDania4/blocklist/blob/main/docs/CODE_OF_CONDUCT.md)
 
-[Contributing](https://zdania4.github.io/blocklist/docs/CONTRIBUTING.md)
+[Contributing](https://github.com/zDania4/blocklist/blob/main/docs/CONTRIBUTING.md)
 
-[Security](https://zdania4.github.io/blocklist/docs/SECURITY.md)
+[Security](https://github.com/zDania4/blocklist/blob/main/docs/SECURITY.md)
 
-[Pull request template](https://zdania4.github.io/blocklist/docs/pull_request_template.md)
+[Pull request template](https://github.com/zDania4/blocklist/blob/main/docs/pull_request_template.md)
