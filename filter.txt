@@ -21,9 +21,11 @@ bunkrr.*##center
 bunkrr.*##.friends
 bunkrr.*##hr:nth-of-type(2)
 bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
+!Removes kekw links on bunkrr
+bunkrr.*##[href*="api.kekw.world"]
 
 !bunkr ads/popup
-||a.realsrv.com/popunder1000.js$script,domain=bunkr.*
+||a.realsrv.com/popunder1000.js$script
 ||pixl.li/wtf.js$important
 ||pixl.li/lol.php$important
 ||https://if.pittinekunai.com$important
@@ -40,8 +42,8 @@ bunkr.*##^script:has-text(lol.php)
 bunkr.*##^script:has-text(spakkoorbamz.com)
 bunkr.*##^script:has-text(clerrrep.com)
 bunkr.*##^script:has-text(__aaZoneid)
-||spakkoorbamz.com
-||clerrrep.com
+||spakkoorbamz.com^$important
+||clerrrep.com^$important
 bunkr.*##iframe
 ||godpvqnszo.com^$important
 ||fatuoidmunify.com^$important
@@ -49,7 +51,7 @@ bunkr.*##iframe
 ||godpvqnszo.com^
 ||limurol.com^$important
 ||lwonclbench.com^$important
-||cdn.bncloudfl.com/bn/*
+||cdn.bncloudfl.com^$all,important
 ||sportsfanonews.com^$important
 ||ojlkmijwemf.com^$important
 ||bunkr.*/api/last_visit$xhr
@@ -65,7 +67,6 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||ad.a-ads.com^$important
 ||bunkr.*/v/^$popup,important
 ||pixl.li/lol.php^$important
-||api.kekw.*^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$document,important
 ||bunkr.se/api/last_visit$important
@@ -76,10 +77,10 @@ bunkr.*##+js(abort-current-script, document.querySelectorAll)
 *lol.php$important
 *wtf.js$important
 *build/asdajklsdashjdasjk.js
-||tfapatncea.com^$important
-||do.shellypartile.com^$important
-||advojhszeat.com^$important
-*adbtt^$important
+||tfapatncea.com^$all,important
+||do.shellypartile.com^$all,important
+||advojhszeat.com^$all,important
+*adbtt^$all,important
 *$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkr.*
 *$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
@@ -104,10 +105,10 @@ bunkrr.*##+js(acs, document.oncontextmenu)
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##^script:has-text(clb-1971181)
 bunkrr.*##^script:has-text(preparePop)
-*.kekw.*
-*1971181/code.js
 bunkrr.*##^script[data-cfasync="false"]
 ||olwawtfzyo.com^$important
+||kekw.*^$all,important
+
 
 ! GoFile
 gofile.io###adsGoogle
@@ -168,7 +169,7 @@ simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
-! The following removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
+!The following removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
 simpcity.su##.block--category101.block--category.block
 
 ! xfree
