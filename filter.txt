@@ -140,6 +140,7 @@ www.pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v > div > bedab
 www.pornhub.com##.shiftDown
 pornhub.com##div[id="vpContentContainer"] > * > div[class*="clearfix"]
 pornhub.com##deicc[class="alpha"]
+www.pornhub.com##.cookiesBanner
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
