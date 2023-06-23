@@ -108,7 +108,9 @@ bunkrr.*##^script:has-text(preparePop)
 bunkrr.*##^script[data-cfasync="false"]
 ||olwawtfzyo.com^$important
 ||kekw.*^$all,important
-
+bunkrr.la^$inline-script
+bunkrr.su^$inline-script
+pziobmoqrtk.com^$important
 
 ! GoFile
 gofile.io###adsGoogle
