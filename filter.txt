@@ -108,9 +108,11 @@ bunkrr.*##^script:has-text(preparePop)
 bunkrr.*##^script[data-cfasync="false"]
 ||olwawtfzyo.com^$important
 ||kekw.*^$all,important
-bunkrr.la^$inline-script
-bunkrr.su^$inline-script
-pziobmoqrtk.com^$important
+bunkrr.*##^script:has-text(adConfig)
+bunkrr.*##^script:has-text(1970906)
+bunkrr.*##^script:has-text(1970905)
+pziobmoqrtk.com^$all,important
+||bunkrr.*/build/370.a4405777.js^$all,important
 
 ! GoFile
 gofile.io###adsGoogle
