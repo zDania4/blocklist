@@ -113,6 +113,7 @@ bunkrr.*##^script:has-text(1970906)
 bunkrr.*##^script:has-text(1970905)
 pziobmoqrtk.com^$all,important
 ||bunkrr.*/build/370.a4405777.js^$all,important
+*$1p,script,domain=bunkrr.*
 
 ! GoFile
 gofile.io###adsGoogle
