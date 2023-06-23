@@ -21,8 +21,6 @@ bunkrr.*##center
 bunkrr.*##.friends
 bunkrr.*##hr:nth-of-type(2)
 bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
-!Removes kekw links on bunkrr
-bunkrr.*##[href*="api.kekw.world"]
 
 !bunkr ads/popup
 ||a.realsrv.com/popunder1000.js$script
@@ -74,15 +72,16 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||bunkr.*/build/asdajklsdashjdasjk.js^$important
 ||bunkr.*/api/last_visit$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll)
-*lol.php$important
-*wtf.js$important
-*build/asdajklsdashjdasjk.js
+lol.php$important
+wtf.js$important
+build/asdajklsdashjdasjk.js
 ||tfapatncea.com^$all,important
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
-*adbtt^$all,important
+^adbtt^$all,important
 *$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkr.*
 *$3p,script,denyallow=plyr.io|b-cdn.net,domain=bunkrr.*
+*$1p,script,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
 bunkrr.*##iframe
@@ -96,6 +95,7 @@ bunkrr.*##^script:has-text(wtf.js)
 bunkrr.*##^script:has-text(lol.php)
 bunkrr.*##^script:has-text(spakkoorbamz.com)
 bunkrr.*##^script:has-text(clerrrep.com)
+afu.php^$important
 bunkrr.*##^script:has-text(__aaZoneid)
 bunkrr.*##iframe
 ||bunkrr.*/api/last_visit$xhr
@@ -106,14 +106,16 @@ bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##^script:has-text(clb-1971181)
 bunkrr.*##^script:has-text(preparePop)
 bunkrr.*##^script[data-cfasync="false"]
-||olwawtfzyo.com^$important
-||kekw.*^$all,important
+||olwawtfzyo.com^$all,important
+||kekw.*/^$all,important
 bunkrr.*##^script:has-text(adConfig)
-bunkrr.*##^script:has-text(1970906)
-bunkrr.*##^script:has-text(1970905)
 pziobmoqrtk.com^$all,important
 ||bunkrr.*/build/370.a4405777.js^$all,important
-*$1p,script,domain=bunkrr.*
+bunkrr.*##^script:has-text(afu.php)
+1970906$all,important
+qifwpepixziv.com$all,important
+absqu$all,important
+
 
 ! GoFile
 gofile.io###adsGoogle
