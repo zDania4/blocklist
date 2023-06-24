@@ -1,6 +1,6 @@
 ! Title: Dania's SC filters
 ! Description: Dania's SC filters. This list focuses on mainly Bunkr.* and GoFile's annoyances, but also includes some other NSFW stuff.
-! Expires: 365 days
+! Expires: 3 days
 ! Last modified: %timestamp%
 
 ! BLOCKLIST:
@@ -116,6 +116,9 @@ bunkrr.*##^script:has-text(afu.php)
 qifwpepixziv.com$all,important
 *$3p,all,denyallow=plyr.io|b-cdn.net,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
+!Allow for login- plus upload scripts to work on Bunkrr
+*$1p,script,denyallow=app.bunkrr.su,domain=bunkrr.*
+@@||bunkr.ru/api/upload$domain=app.bunkrr.*
 
 
 ! GoFile
