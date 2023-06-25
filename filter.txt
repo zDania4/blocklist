@@ -94,7 +94,7 @@ bunkrr.*##^script:has-text(wtf.js)
 bunkrr.*##^script:has-text(lol.php)
 bunkrr.*##^script:has-text(spakkoorbamz.com)
 bunkrr.*##^script:has-text(clerrrep.com)
-afu.php^$important
+afu.php?zoneid^$important
 bunkrr.*##^script:has-text(__aaZoneid)
 bunkrr.*##iframe
 ||bunkrr.*/api/last_visit$xhr
@@ -122,6 +122,9 @@ qifwpepixziv.com$all,important
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
 ?ab=1&zoneid=
+zoneid=
+?zoneid=1970905&var=1970906
+?id=1970906
 
 ! GoFile
 gofile.io###adsGoogle
