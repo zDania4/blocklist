@@ -79,7 +79,7 @@ build/asdajklsdashjdasjk.js
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,script,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru,domain=bunkr.*
+*$3p,script,denyallow=plyr.io|b-cdn.net|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|bunkr.la|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru,domain=bunkr.*
 *$1p,script,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
@@ -121,7 +121,7 @@ qifwpepixziv.com$all,important
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
-
+?ab=1&zoneid=
 
 ! GoFile
 gofile.io###adsGoogle
