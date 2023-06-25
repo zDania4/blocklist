@@ -119,6 +119,9 @@ qifwpepixziv.com$all,important
 *$1p,script,denyallow=app.bunkrr.su,domain=bunkrr.*
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
+||opmvivogsb.com^$all,important
+||bunkrr.su^$third-party
+
 
 ! GoFile
 gofile.io###adsGoogle
