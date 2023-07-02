@@ -166,15 +166,16 @@ pornjuices.com##.active.adde_modal-overlay
 www.redgifs.com###jerky-im
 
 ! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
 ||gmxvmvptfm.com^$important
 1987050^$important
-*$1p,script,domain=saint.to
 saint.to##+js(abort-current-script, document.querySelectorAll, popMagic)
 saint.to##all:has-text(popupUrl)
 saint.to##all:has-text(popupWindow)
+saint.to##all:has-text(adx)
 ||lovefap.com/v2/js^$important
-saint.to##+js(aeld)
+!saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
+||saint.to/embed^$inline-script
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
