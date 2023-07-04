@@ -181,6 +181,7 @@ saint.to##all:has-text(0x2e4efe)
 !saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
 ||saint.to/embed^$inline-script,important
 ||oljjiplpyo.com^$all,important
+||oljjiplpyo.com^
 phuru$all,important
 ?id=1986859$all,important
 ltas?id=1986859$all,important
