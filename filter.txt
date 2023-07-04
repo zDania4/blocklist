@@ -168,6 +168,8 @@ www.redgifs.com###jerky-im
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
+*$1p,script,domain=saint.to
+saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
 1987050^$all,important
 saint.to##+js(abort-current-script, document.querySelectorAll, popMagic)
@@ -183,8 +185,13 @@ saint.to##all:has-text(0x2e4efe)
 ||oljjiplpyo.com^$all,important
 ||oljjiplpyo.com^
 phuru$all,important
+?id=1986859$all
 ?id=1986859$all,important
 ltas?id=1986859$all,important
+saint.to/63e52888c97f0.php$all,important
+@@||saint.to/dropzone/dropzone.js
+@@||saint.to/js/main.js?101-112-021-333
+@@||saint.to/js/main-login.js?162-02333
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
