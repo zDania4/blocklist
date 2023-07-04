@@ -24,13 +24,13 @@ bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 
 !bunkr ads/popup
 ||a.realsrv.com/popunder1000.js$script
-||pixl.li/wtf.js$important
-||pixl.li/lol.php$important
+||pixl.li/wtf.js$all,important
+||pixl.li/lol.php$all,important
 ||https://if.pittinekunai.com$important
 ||https://godpvqnszo.com$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 bunkr.*##+js(abort-current-script, document.createElement, click)
-||bunkr.se/build/asdajklsdashjdasjk.js$script,important
+||bunkr.se/build/asdajklsdashjdasjk.js$all,important
 bunkr.*##^script:has-text(data-cfasync)
 bunkr.*##^script:has-text(window.document.querySelectorAll)
 bunkr.*##^script:has-text(this.config.ads_host)
@@ -41,12 +41,12 @@ bunkr.*##^script:has-text(spakkoorbamz.com)
 bunkr.*##^script:has-text(clerrrep.com)
 bunkr.*##^script:has-text(__aaZoneid)
 ||spakkoorbamz.com^$important
-||clerrrep.com^$important
+||clerrrep.com^$all,important
 bunkr.*##iframe
-||godpvqnszo.com^$important
+||godpvqnszo.com^$all,important
+||godpvqnszo.com^
 ||fatuoidmunify.com^$important
 ||hhbypdoecp.com^$important
-||godpvqnszo.com^
 ||limurol.com^$important
 ||lwonclbench.com^$important
 ||cdn.bncloudfl.com^$all,important
@@ -66,15 +66,15 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||bunkr.*/v/^$popup,important
 ||pixl.li/lol.php^$important
 ||mc.yandex.ru^
-||pixl.li/lol.php^$document,important
+||pixl.li/lol.php^$all,important
 ||bunkr.se/api/last_visit$important
 ||bunkr.se/build/asdajklsdashjdasjk.js^$important
 ||bunkr.*/build/asdajklsdashjdasjk.js^$important
 ||bunkr.*/api/last_visit$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll)
-lol.php$important
-wtf.js$important
-build/asdajklsdashjdasjk.js
+lol.php$all,important
+wtf.js$all,important
+build/asdajklsdashjdasjk.js$all
 ||tfapatncea.com^$all,important
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
@@ -121,10 +121,11 @@ qifwpepixziv.com$all,important
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
-?ab=1&zoneid=
-zoneid=
-?zoneid=1970905&var=1970906
-?id=1970906
+?ab=1&zoneid=$all
+zoneid=$all
+?zoneid=1970905&var=1970906$all
+?id=1970906$all
+
 
 ! GoFile
 gofile.io###adsGoogle
@@ -167,15 +168,22 @@ www.redgifs.com###jerky-im
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
-||gmxvmvptfm.com^$important
-1987050^$important
+||gmxvmvptfm.com^$all,important
+1987050^$all,important
 saint.to##+js(abort-current-script, document.querySelectorAll, popMagic)
 saint.to##all:has-text(popupUrl)
 saint.to##all:has-text(popupWindow)
 saint.to##all:has-text(adx)
-||lovefap.com/v2/js^$important
+saint.to##all:has-text(0xd965)
+saint.to##all:has-text(1986859)
+saint.to##all:has-text(0x2e4efe)
+||lovefap.com/v2/js^$all,important
 !saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
-||saint.to/embed^$inline-script
+||saint.to/embed^$inline-script,important
+||oljjiplpyo.com^$all,important
+phuru$all,important
+?id=1986859$all,important
+ltas?id=1986859$all,important
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
