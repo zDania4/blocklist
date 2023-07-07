@@ -214,6 +214,14 @@ simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
 !The following removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
 simpcity.su##.block--category101.block--category.block
+!SC annoying trial link redirects
+||letsfuntogethernow.com^$important
+||luvmenow.com^$important
+||onlyfinder.bio^$important
+/click?pid=*&sub1=$doc
+||timeformeeting.com
+||datingsteam.com
+?aid=*&sub1=$doc
 
 ! xfree
 www.xfree.com##.aside-content__middle
