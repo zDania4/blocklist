@@ -80,7 +80,7 @@ build/asdajklsdashjdasjk.js$all
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
 *$3p,script,denyallow=plyr.io|b-cdn.net|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|bunkr.la|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la,domain=bunkr.*
-*$1p,script,domain=bunkrr.*
+*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
 bunkrr.*##iframe
@@ -115,10 +115,6 @@ bunkrr.*##^script:has-text(afu.php)
 qifwpepixziv.com$all,important
 *$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
-!Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
-*$1p,script,denyallow=app.bunkrr.su,domain=bunkrr.*
-@@||bunkr.ru/api/upload$domain=app.bunkrr.*
-@@||bunkr.ru/thumbs/$domain=bunkrr.*
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
 !||bunkrr.la^$third-party
@@ -126,6 +122,10 @@ qifwpepixziv.com$all,important
 zoneid=$all
 ?zoneid=1970905&var=1970906$all
 ?id=1970906$all
+bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
+!Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
+@@||bunkr.ru/api/upload$domain=app.bunkrr.*
+@@||bunkr.ru/thumbs/$domain=bunkrr.*
 
 
 ! GoFile
