@@ -178,6 +178,11 @@ recordbate.com##+js(acs, document.oncontextmenu)
 recordbate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
 recordbate.com##+js(abort-current-script, document.createElement, click)
 recordbate.com##^script:has-text(adConfig)
+||recordbate.com/worker.js$important
+||wpnsrv.com^
+recordbate.com##^script:has-text(myFP)
+recordbate.com##^script:has-text(pn_idzone)
+recordbate.com##^script:has-text(4947244)
 
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
