@@ -159,6 +159,9 @@ www.pornhub.com##.shiftDown
 pornhub.com##div[id="vpContentContainer"] > * > div[class*="clearfix"]
 pornhub.com##deicc[class="alpha"]
 www.pornhub.com##.cookiesBanner
+||trafficjunky.net^
+pornhub.com/_xa/ads^$all
+?zone_id=1650251
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
