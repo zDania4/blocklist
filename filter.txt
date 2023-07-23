@@ -166,6 +166,19 @@ pornhub.com/_xa/ads^$all
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
 
+! Recordbate
+||recordbate.com^$popup,1p,important
+||realsrv.com^
+##.adsbyexoclick
+*$1p,all,denyallow=recordbate.com|serve15.recordbate.com,domain=recordbate.com
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|code.jquery.com|bootstrapcdn.com|jsdelivr.net|serve15.recordbate.com|challenges.cloudflare.com|fonts.googleapis.com,domain=recordbate.com
+@@https://recordbate.com/assets/js/main.js
+!recordbate.com##+js(abort-current-script, document.querySelectorAll) --> Breaks preview images, but stops ads. Only left here for further testing.
+recordbate.com##+js(acs, document.oncontextmenu)
+recordbate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+recordbate.com##+js(abort-current-script, document.createElement, click)
+recordbate.com##^script:has-text(adConfig)
+
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
 www.redgifs.com###jerky-im
