@@ -127,7 +127,6 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 
-
 ! GoFile
 gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
@@ -162,6 +161,47 @@ www.pornhub.com##.cookiesBanner
 ||trafficjunky.net^
 pornhub.com/_xa/ads^$all
 ?zone_id=1650251
+$websocket,domain=imagefap.com|pornhub.com
+.com./$popup,domain=pornhub.com
+|http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com
+pornhub.com###customSkin
+pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
+pornhub.com###singleFeedSection > .emptyBlockSpace
+babesandstars.com,pornhubpremium.com##.join
+pornhub.com##.sniperModeEngaged
+pornhub.com,xvideos.com,youporn.com##[href*="base64"]
+pornhub.com,xvideos.com,youporn.com##[href*="data:"]
+pornhub.com##[href^="https://weedmaps.com"]
+pornhub.com##[srcdoc]
+pornhub.com##[srcset*="bloB:"]
+pornhub.com,youporn.com##[style*="base64"]
+pornhub.com,youporn.com##[style*="blob:"]:not(video)
+pornhub.com,pornhubpremium.com,sxyprn.com,##a[href*="?ats="]
+pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+pornhub.com##div[onclick*="bp1.com"]
+pornhub.com,xvideos.com##img[src*="blob:" i]:not(video)
+pornhub.com##img[width="300"]
+pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
+pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
+pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
+pornhub.com###welcome
+pornhub.com#@#.share-link-container
+pornhub.*##div[id^="customSkin"]
+pornhub.*##div.container:style(margin-top: 0px !important)
+pornhub.*##+js(nostif, adsbytrafficjunkycontext)
+pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
+pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
+pornhub.*##+js(nowoif)
+pornhub.*##.video-wrapper > #player ~ .hd.clear
+pornhub.*##.sniperModeEngaged
+pornhub.*##a[href^="http://ads.trafficjunky.net/"]
+pornhub.*##.realsex
+pornhub.*###pb_block
+pornhub.*##+js(set, page_params.holiday_promo, true)
+pornhub.*###relatedVideosCenter > .wrapVideoBlock
+pornhub.*##+js(set, abp1, 1)
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -187,6 +227,13 @@ recordbate.com##^script:has-text(4947244)
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
 www.redgifs.com###jerky-im
+redgifs.com##div[class^="AdTabs_"]
+redgifs.com##div[class^="AdUnit_"]
+redgifs.com##div[style="width: 300px; height: 250px;"]
+||redgifs.com/assets/js/goCtrl.js
+redgifs.com##.placard-wrapper
+redgifs.com##a[href*="theporndude.com"]
+redgifs.com##a[href^="https://camsfinders.com/"]
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
@@ -243,6 +290,11 @@ simpcity.su##.block--category101.block--category.block
 ||timeformeeting.com
 ||datingsteam.com
 ?aid=*&sub1=$doc
+
+! sxyprn
+sxyprn.com##.cbd
+sxyprn.com##.tbd
+sxyprn.com##[href*="/re/"]
 
 ! xfree
 www.xfree.com##.aside-content__middle
