@@ -146,62 +146,118 @@ www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv
 www.instagram.com##.x1uhb9sk
 
 ! Pornhub
-www.pornhub.com##.clearfix.h0cq9tjyersrhcfv
-www.pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
-www.pornhub.com##.wrapVideoBlock
-www.pornhub.com##.ad-tabSplit.clearfix.adContainer
-www.pornhub.com##.clearfix.w14bf6388aqazlrtv
-www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v > div:nth-of-type(3)
-www.pornhub.com##.clearfix.ze6tlzt64u2gv
-www.pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v > div > bedab
-www.pornhub.com##.shiftDown
-pornhub.com##div[id="vpContentContainer"] > * > div[class*="clearfix"]
-pornhub.com##deicc[class="alpha"]
-www.pornhub.com##.cookiesBanner
-||trafficjunky.net^
-pornhub.com/_xa/ads^$all
-?zone_id=1650251
+##.adsbytrafficjunky
 $websocket,domain=imagefap.com|pornhub.com
 .com./$popup,domain=pornhub.com
-|http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com
-pornhub.com###customSkin
-pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
-pornhub.com###singleFeedSection > .emptyBlockSpace
+?zone_id=1650251
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
 babesandstars.com,pornhubpremium.com##.join
-pornhub.com##.sniperModeEngaged
-pornhub.com,xvideos.com,youporn.com##[href*="base64"]
-pornhub.com,xvideos.com,youporn.com##[href*="data:"]
+pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
+pornhub.*###pb_block
+pornhub.*###relatedvideoscenter &gt; .wrapvideoblock
+pornhub.*##+js(abort-current-script, object.defineproperty, trafficjunky)
+pornhub.*##+js(acs, object.defineproperty, trafficjunky)
+pornhub.*##+js(no-settimeout-if, adsbytrafficjunkycontext)
+pornhub.*##+js(no-window-open-if)
+pornhub.*##+js(nostif, adsbytrafficjunkycontext)
+pornhub.*##+js(nowoif)
+pornhub.*##+js(set, abp1, 1)
+pornhub.*##+js(set, htmlelement.prototype.attachshadow, null)
+pornhub.*##+js(set, page_params.holiday_promo, true)
+pornhub.*##+js(set-constant, abp1, 1)
+pornhub.*##+js(set-constant, htmlelement.prototype.attachshadow, null)
+pornhub.*##+js(set-constant, page_params.holiday_promo, true)
+pornhub.*##.realsex
+pornhub.*##.snipermodeengaged
+pornhub.*##.video-wrapper &gt; #player ~ .hd.clear
+pornhub.*##a[href^="http://ads.trafficjunky.net/"]
+pornhub.*##div.container:style(margin-top: 0px !important)
+pornhub.*##div[id^="customskin"]
+pornhub.com###cookiebanner
+pornhub.com###customskin
+pornhub.com###js-abcontaintermain
+pornhub.com###singlefeedsection &gt; .emptyblockspace
+pornhub.com###welcome
+pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v &gt; div &gt; bedab
+pornhub.com##.clearfix.h0cq9tjyersrhcfv
+pornhub.com##.clearfix.w14bf6388aqazlrtv
+pornhub.com##.nobottom.clearfix.adcontainer
+pornhub.com##.snipermodeengaged
+pornhub.com##a[href*="?ats="]
+pornhub.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com##a[href^="https://ads.trafficjunky.net/"]
+pornhub.com##deicc[class="alpha"]
+pornhub.com##div[id="vpcontentcontainer"] &gt; * &gt; div[class*="clearfix"]
+pornhub.com##div[onclick*="bp1.com"]
+pornhub.com##img[width="300"]
 pornhub.com##[href^="https://weedmaps.com"]
 pornhub.com##[srcdoc]
-pornhub.com##[srcset*="bloB:"]
+pornhub.com##[srcset*="blob:"]
+pornhub.com#?#.sectionwrapper:-abp-has(&gt; #bottomvideos &gt; .wrapvideoblock)
+pornhub.com#?#.sectionwrapper:nth-of-type(3):-abp-contains(live cam models - online now)
+pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
+pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+pornhub.com#@#.share-link-container
+pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+pornhub.com,pornhubpremium.com,sxyprn.com##a[href*="?ats="]
+pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com,xvideos.com##img[src*="blob:" i]:not(video)
+pornhub.com,xvideos.com,youporn.com##[href*="base64"]
+pornhub.com,xvideos.com,youporn.com##[href*="data:"]
 pornhub.com,youporn.com##[style*="base64"]
 pornhub.com,youporn.com##[style*="blob:"]:not(video)
-pornhub.com,pornhubpremium.com,sxyprn.com,##a[href*="?ats="]
-pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
-pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
-pornhub.com##div[onclick*="bp1.com"]
-pornhub.com,xvideos.com##img[src*="blob:" i]:not(video)
-pornhub.com##img[width="300"]
-pornhub.com#?#.sectionWrapper:-abp-has(> #bottomVideos > .wrapVideoBlock)
-pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
-@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
-pornhub.com###welcome
-pornhub.com#@#.share-link-container
-pornhub.*##div[id^="customSkin"]
-pornhub.*##div.container:style(margin-top: 0px !important)
-pornhub.*##+js(nostif, adsbytrafficjunkycontext)
-pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
-pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
-pornhub.*##+js(nowoif)
-pornhub.*##.video-wrapper > #player ~ .hd.clear
-pornhub.*##.sniperModeEngaged
-pornhub.*##a[href^="http://ads.trafficjunky.net/"]
-pornhub.*##.realsex
-pornhub.*###pb_block
-pornhub.*##+js(set, page_params.holiday_promo, true)
-pornhub.*###relatedVideosCenter > .wrapVideoBlock
-pornhub.*##+js(set, abp1, 1)
+pornhub.com/_xa/ads^$all
+tgp1?ad_id=^$all
+www.pornhub.com###adspot
+www.pornhub.com###cookiebannerwrapper
+www.pornhub.com##.abAlertShown
+www.pornhub.com##.ad-tabsplit.clearfix.adcontainer
+www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v &gt; div:nth-of-type(3)
+www.pornhub.com##.clearfix.ze6tlzt64u2gv
+www.pornhub.com##.cookiesbanner
+www.pornhub.com##.cookiesBanner
+www.pornhub.com##.middleadcontainer.clearfix.adcontainer
+www.pornhub.com##.middlevideoadcontainer.clearfix.adcontainer
+www.pornhub.com##.shiftdown
+www.pornhub.com##.topadcontainter
+www.pornhub.com##.wrapvideoblock
+www.pornhub.com##a.noimage.floatleft.uppercase.blackbtn.buttonclass
+||http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com
+||ads.trafficjunky.net^$important
+||c.bannerflow.net^$important
+||di.phncdn.com/www-static/js/cookiebanner/cookie_banner.js
+||etahub.com^
+||google-analytics.com/analytics.js$script,redirect-rule=google-analytics_analytics.js:5
+||google-analytics.com^
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js:5
+||googletagmanager.com^
+||ht-cdn2.adtng.com^$important
+||hubt.pornhub.com/htcheck.html$important
+||hubt.pornhub.com/js/ht.js
+||hw-cdn2.adtng.com^$all,important
+||adtng.com^$all,important
+||landing1.brazzersnetwork.com^$all,important
+||media.trafficjunky.net^$all,important
+||mxpnl.com^$all,important
+||pornhub.com/_xa/ads_batch^$all,important
+||region1.google-analytics.com^
+||s1.adform.net^$all,important
+||adform.net^$all,important
+||static.trafficjunky.com^$all,important
+||tgp1.brazzersnetwork.com^$all,important
+||track.adform.net^$all,important
+||track.adform.net^$all,important
+||trafficjunky.com^$all
+||www.google-analytics.com/analytics.js
+||www.googletagmanager.com/gtm.js
+||www.pornhub.com/_xa/ads_batch$important
+! unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
+@@||naiadsystems.com^$domain=pornhublive.com
+! unbreak for Adguard Base Filters, livecams information section not displayed
+pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+##.adsbyexoclick
+www.pornhub.com##.withOverlay
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -291,10 +347,61 @@ simpcity.su##.block--category101.block--category.block
 ||datingsteam.com
 ?aid=*&sub1=$doc
 
+! spankbang
+!*$popunder,3p,domain=spankbang.com
+spankbang.com##+js(nowoif)
+spankbang.com##+js(set, chrome, undefined)
+spankbang.com##.ttaa2v3
+||ersties.com^$3p
+||spankbang.com/official/serve_
+spankbang.com##[id^="interstitial_div"]
+spankbang.com##.video-list-with-ads > .video-item[data-id="0"]
+spankbang.com##.lv_cm_int_come_on
+##a[href^="https://go.xlviiirdr.com"]
+spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
+spankbang.com##.ptgncdn_holder
+
 ! sxyprn
 sxyprn.com##.cbd
 sxyprn.com##.tbd
 sxyprn.com##[href*="/re/"]
+sxyprn.*##+js(acs, decodeURI, decodeURIComponent)
+sxyprn.*##+js(acs, document.querySelectorAll, popMagic)
+sxyprn.*##+js(acs, vast_urls)
+sxyprn.*##+js(aopr, popns)
+sxyprn.*##+js(acs, document.createElement, /l\.parentNode\.insertBefore\(s/)
+sxyprn.*##+js(aopw, __aaZoneid)
+sxyprn.*##.post_el_wrap > .tdn
+sxyprn.*###vid_container_id > .tdn
+*$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
+##.adsbyexoclick
+
+! xfantazy
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
+||wpadmngr.com^
+||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
+/^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
+||d3t87ooo0697p8.cloudfront.net^
+||tapioni.com^
+/api/users/*&ev=$script
+xfantazy.com##a[href*="theporndude.com"]
+||jhfhdkhkh.site^
+xfantazy.com##.partwidg1
+||vidghjlgkuyfk.site^
+xfantazy.com##.partwidg1
+/amp-analytics-
+||.site^$domain=xfantazy.com
+/splash.php?idzone=
 
 ! xfree
 www.xfree.com##.aside-content__middle
+www.xfree.com##.aside-section--right.aside-section
+
+! xmegadrive
+xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+xmegadrive.com##+js(set-constant, flashvars.adv_pause_html, )
+&action=js_stats&
+##.addthis_toolbox
+www.xmegadrive.com##li:nth-of-type(11)
+www.xmegadrive.com##li:nth-of-type(3)
+/player/stats.php?
