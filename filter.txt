@@ -127,6 +127,12 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 
+! Erome
+erome.com##+js(acs, $, exo)
+erome.com##+js(aopr, tic)
+erome.com##+js(set, tiPopAction, noopFunc)
+erome.com##.ads
+
 ! GoFile
 gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
@@ -227,6 +233,8 @@ www.pornhub.com##.wrapvideoblock
 www.pornhub.com##a.noimage.floatleft.uppercase.blackbtn.buttonclass
 ||http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com
 ||ads.trafficjunky.net^$important
+||ads.trafficjunky.net/deep_click^
+||trafficjunky.net^
 ||c.bannerflow.net^$important
 ||di.phncdn.com/www-static/js/cookiebanner/cookie_banner.js
 ||etahub.com^
@@ -260,6 +268,8 @@ www.pornhub.com##a.noimage.floatleft.uppercase.blackbtn.buttonclass
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 ##.adsbyexoclick
 www.pornhub.com##.withOverlay
+||yeioreo.net^
+||tsyndicate.com^
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
