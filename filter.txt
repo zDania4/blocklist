@@ -132,6 +132,7 @@ erome.com##+js(acs, $, exo)
 erome.com##+js(aopr, tic)
 erome.com##+js(set, tiPopAction, noopFunc)
 erome.com##.ads
+erome.com##div.sp
 
 ! GoFile
 gofile.io###adsGoogle
