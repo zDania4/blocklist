@@ -136,9 +136,11 @@ gofile.io##.show.modal-backdrop
 gofile.io##.show.modal
 gofile.io##body:style(overflow: scroll !important)
 
-! jpg.fish - .fishing - .pet
+! jpg.fish - .fishing - .pet / jpg1.su
 jpg.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg.*
+jpg1.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg1.*
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
