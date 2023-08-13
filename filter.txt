@@ -271,6 +271,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 www.pornhub.com##.withOverlay
 ||yeioreo.net^
 ||tsyndicate.com^
+pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass:nth-of-type(1)
+pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
+pornhub.com##.wrapVideoBlock
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
