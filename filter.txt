@@ -5,6 +5,10 @@
 
 ! BLOCKLIST:
 
+! anon-v
+anon-v.*##+js(abort-current-script, atob, decodeURI)
+anon-v.*##+js(abort-current-script, onload)
+
 ! bunkr 
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
@@ -21,8 +25,7 @@ bunkrr.*##center
 bunkrr.*##.friends
 bunkrr.*##hr:nth-of-type(2)
 bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
-
-!bunkr ads/popup
+! ! bunkr ads/popup
 ||a.realsrv.com/popunder1000.js$script
 ||pixl.li/wtf.js$all,important
 ||pixl.li/lol.php$all,important
@@ -79,7 +82,7 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,script,denyallow=plyr.io|b-cdn.net|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|bunkr.la|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la,domain=bunkr.*
+*$3p,script,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru,domain=bunkr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
@@ -113,7 +116,7 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la,domain=bunkrr.*
+*$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
@@ -123,9 +126,78 @@ zoneid=$all
 ?zoneid=1970905&var=1970906$all
 ?id=1970906$all
 bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
-!Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
+! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
+
+! Camwhores
+camwhores.tv##a[href*="theporndude.com"]
+camwhores.tv##li:nth-of-type(10)
+camwhores.tv##[href="https://striptease.sex/"]
+camwhores.tv##+js(no-setTimeout-if, innerText, 2000)
+camwhores.*##+js(abort-current-script, onload)
+camwhores.*##+js(addEventListener-defuser, , Pop)
+camwhores.*##+js(abort-on-property-read, _wm)
+camwhores.*##+js(abort-on-property-read, loadTool)
+camwhores.*##+js(no-window-open-if)
+camwhores.*##+js(set-constant, flashvars.adv_pre_src, )
+camwhores.*##+js(set-constant, flashvars.adv_pre_url, )
+camwhores.*##+js(set-constant, flashvars.adv_pre_vast, )
+camwhores.*##+js(set-constant, flashvars.protect_block, )
+camwhores.*##+js(set-constant, flashvars.video_click_url, )
+||cfgr5.com^
+||bngprm.com^
+||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
+googletagmanager_gtm.js
+||scfsdvc.com^
+||afgtrwd1.com^
+
+! Camwhoresbay
+www.camwhoresbay.com##.-blink.hidden-sm > .hidden-sm
+www.camwhoresbay.com##li.hidden-sm > .hidden-sm
+camwhoresbay.com##+js(abort-current-script, readCookieDelit)
+www.camwhoresbay.com##.block-chat
+www.camwhoresbay.com##.chatbro_container
+camwhoresbay.com##.content > center:has([style="width:300px;height:250px"])
+camwhoresbay.com##div.opt
+*$frame,permissions=run-ad-auction=(),from=~localhost
+*$frame,permissions=join-ad-interest-group=(),from=~localhost
+*$frame,permissions=idle-detection=(),from=~localhost
+*$frame,permissions=browsing-topics=(),from=~localhost
+www.google.*##+js(set-constant, rwt, noopFunc)
+
+! Eporner
+||eporner.com/dot/
+||eporner.com/event.php
+||eporner.com^$subdocument,~third-party
+###admobilefoot
+###admobilefootinside
+###admobilemiddle
+###admobiletop
+###admobiletopinside
+/^https?:\/\/.*\.eporner\.com\/[0-9a-f]{10,}\/$/$script,domain=eporner.com
+eporner.com###btasd
+eporner.com###deskadmiddle
+eporner.com###movieplayer-box-adv
+eporner.com##.hptab
+eporner.com##.vjs-inplayer-container
+eporner.com##+js(aopw, EPeventFire)
+eporner.com##+js(nostif, additional_src, 300)
+*.xml$xhr,3p,domain=eporner.com
+||eporner.com/js/bowser.php
+||eporner.com/cppb/
+||eporner.com/dotm/
+eporner.com##.mb > .adnative-1x1:upward(1)
+/piwik-$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+/piwik.$image,script,domain=~matomo.org|~piwik.org|~piwik.pro|~piwikpro.de
+/piwik/*$domain=~github.com|~matomo.org|~piwik.org|~piwik.pro
+/piwik1.
+/piwik2.
+/piwik_
+/piwikapi.js
+/piwikC_
+/piwikTracker.
+##.adsText
 
 ! Erome
 erome.com##+js(acs, $, exo)
@@ -143,11 +215,35 @@ gofile.io##.show.modal-backdrop
 gofile.io##.show.modal
 gofile.io##body:style(overflow: scroll !important)
 
+! HQPorner
+hqporner.com##.hide_ad_marker.button
+mydaddy.cc##+js(set-constant, adt, 0)
+||stat.mydaddy.cc^
+###sidebar_ad
+hqporner.com##.uvb_wrapper
+hqporner.com##li:nth-of-type(5)
+hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/7a15bc0eaa9d7e3556b9bf3b011c09dfa73c9597e0bc74194b32773415018fa6"]
+hqporner.com###footer > div:nth-of-type(4)
+mydaddy.cc###ovrl_ad
+
 ! jpg.fish - .fishing - .pet / jpg1.su
 jpg.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg.*
 jpg1.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg1.*
+||qrlsx.com^
+||jpg1.*/quicknoisilyheadbites.js
+*$1p,script,domain=jpg1.su
+||jpg1.su/63bfe33665231.php$all,important
+jpg1.su##^script:has-text(config.syndication_host)
+jpg1.su##^script:has-text(adConfig)
+jpg1.su##^script:has-text(popMagic)
+jpg1.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+jpg1.su##+js(abort-current-script, document.createElement, click)
+||jpg1.su/img/*$popup,important
+@@||jpg1.su/app/lib/chevereto.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
@@ -274,9 +370,23 @@ www.pornhub.com##.withOverlay
 pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass:nth-of-type(1)
 pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
 pornhub.com##.wrapVideoBlock
+tgp1.brazzersnetwork.com
+||pornhub.com^$popup
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
+
+! Porntrex
+porntrex.com##+js(disable-newtab-links)
+&action=js_stats&
+##a[href^="https://go.xxxjmp.com"]
+##a[href^="https://serve.awmdelivery.com/"]
+##.bottom-adv
+porntrex.com###exclusive-link
+porntrex.com###index-link
+##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
+www.porntrex.com##li.hidden-sm > .hidden-sm
+www.porntrex.com##[href="https://bongacams.com/"]
 
 ! Recordbate
 ||recordbate.com^$popup,1p,important
@@ -306,6 +416,7 @@ redgifs.com##div[style="width: 300px; height: 250px;"]
 redgifs.com##.placard-wrapper
 redgifs.com##a[href*="theporndude.com"]
 redgifs.com##a[href^="https://camsfinders.com/"]
+||www.redgifs.com^$popup
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
@@ -363,7 +474,7 @@ simpcity.su##.block--category101.block--category.block
 ||datingsteam.com
 ?aid=*&sub1=$doc
 
-! spankbang
+! Spankbang
 !*$popunder,3p,domain=spankbang.com
 spankbang.com##+js(nowoif)
 spankbang.com##+js(set, chrome, undefined)
@@ -377,7 +488,7 @@ spankbang.com##.lv_cm_int_come_on
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##.ptgncdn_holder
 
-! sxyprn
+! Sxyprn
 sxyprn.com##.cbd
 sxyprn.com##.tbd
 sxyprn.com##[href*="/re/"]
@@ -391,8 +502,20 @@ sxyprn.*##.post_el_wrap > .tdn
 sxyprn.*###vid_container_id > .tdn
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 ##.adsbyexoclick
+sxyprn.com##.main_content > div:nth-of-type(1)
 
-! xfantazy
+! Theporndude
+theporndude.com##+js(trusted-set-cookie, wallpaper, click)
+theporndude.com##body::before
+
+! Thothub
+thothub.*##+js(abort-current-script, decodeURI, decodeURIComponent)
+thothub.*##+js(abort-on-stack-trace, localStorage, inlineScript)
+thothub.*##li:nth-of-type(8)
+thothub.*##li:nth-of-type(9)
+thothub.*##.sponsor
+
+! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
 ||wpadmngr.com^
 ||js.wpadmngr.com/static/admanager.js$script,redirect-rule=noopjs
@@ -409,11 +532,11 @@ xfantazy.com##.partwidg1
 ||.site^$domain=xfantazy.com
 /splash.php?idzone=
 
-! xfree
+! Xfree
 www.xfree.com##.aside-content__middle
 www.xfree.com##.aside-section--right.aside-section
 
-! xmegadrive
+! Xmegadrive
 xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
 xmegadrive.com##+js(set-constant, flashvars.adv_pause_html, )
 &action=js_stats&
@@ -421,3 +544,45 @@ xmegadrive.com##+js(set-constant, flashvars.adv_pause_html, )
 www.xmegadrive.com##li:nth-of-type(11)
 www.xmegadrive.com##li:nth-of-type(3)
 /player/stats.php?
+
+! Xnxx
+www.xnxx.com##.disclaimer-enter-gay.btn-primary.btn
+www.xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
+||xnxx.com/zoneload/
+
+! Xvideos
+www.xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
+www.xvideos.com##.disclaimer-enter-gay.btn-primary.btn
+||xvideos.com/zoneload/
+||xvideos.es/zoneload/
+||xvideos.name/*.php
+||xvideos.name/7b3bf680a29d.js
+xvideos.com,xvideos.es##.player-video.xv-cams-block
+xnxx.com,xvideos.com##.thumb-ad
+xvideos.com##[href*="base64"]
+xvideos.com##[href*="data:"]
+xvideos.com#?#:-abp-properties(*data:image*)
+xvideos.com#?#:-abp-properties(base64)
+xvideos.com#?#:-abp-properties(data:)
+xvideos.com#?#:-abp-properties(image/)
+xvideos.com##img[src*="blob:" i]:not(video)
+###video-sponsor-links
+xvideos.com,xvideos2.com##+js(nowoif)
+xvideos.com,xvideos2.com,xnxx.com##.banner-game
+xvideos.com,xvideos2.com##.videoad-title
+xvideos.*###video-ad + div[class]
+xvideos.com##.thumb-ad
+xnxx.com,xvideos.*###ad-footer
+xvideos.*###video-ad + div[class]
+##.remove-ads
+##.remove-ads-link
+xvideos.com##.videoad-title
+xvideos.com##+js(no-window-open-if)
+##.exo-ad-ins-container
+##video-ad
+###video-ad
+###video-ad-companion-rectangle
+###video-adv
+###video-adv-wrapper
+###video-advert
+||xvideos.com/picserror/
