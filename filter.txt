@@ -129,6 +129,10 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
+/aas/r45d/vki/*$script,3p,redirect-rule=noop.js
+||wheetlemetreza.com^
+||hhbypdoecp.com^
+||a-ads.com^
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
