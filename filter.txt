@@ -248,6 +248,8 @@ jpg1.su##+js(abort-current-script, document.createElement, click)
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
+!#Allows for necessary popups to show content on JPG, when linked from SC
+@@||jpg1.su/img/*$popup,domain=simpcity.su
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
