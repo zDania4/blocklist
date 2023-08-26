@@ -3,7 +3,61 @@
 ! Expires: 3 days
 ! Last modified: %timestamp%
 
+! ALLOWLIST: 
+! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
+@@||bunkr.ru/api/upload$domain=app.bunkrr.*
+@@||bunkr.ru/thumbs/$domain=bunkrr.*
+
+! #Allows for necessary popups to show content on JPG, when linked from SC
+@@||jpg1.su/img$popup,domain=simpcity.su
+
+! #Anti-adblock / #CHP Ads Block Detector
+#@#.ad-link
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com
+sendvid.com#@#+js(abort-current-inline-script, $, pop)
+
+! Unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
+@@||naiadsystems.com^$domain=pornhublive.com
+
+! Unbreak for Adguard Base Filters, livecams information section not displayed
+pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+
+! #Website functionality
+@@||jpg1.su/app/lib/chevereto.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||https://recordbate.com/assets/js/main.js
+@@||saint.to/dropzone/dropzone.js
+@@||saint.to/js/main.js?101-112-021-333
+@@||saint.to/js/main-login.js?162-02333
+pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+pornhub.com#@#.share-link-container
+
 ! BLOCKLIST:
+
+! 3movs
+3movs.com##+js(popads-dummy)
+3movs.com##+js(noeval-if, ExoLoader)
+3movs.com##+js(set, flashvars.adv_pause_html, '')
+3movs.com##[src*="aid="]
+3movs.com###player-pop-layer
+||3movs.com/su4unbl-ssu.js
+/sum.js?i=*&v=
+||3movs.com/2ff/
+||3movs.xxx/2ff/
+3movs.com###side_col_video_view
+3movs.com,chaturbate.com,imagezog.com,playvids.com,##.banner
+3movs.com##.cs
+3movs.com##.player + .aside
+3movs.com##.player-side
+3movs.com,3movs.xxx##.spot
+3movs.com##.spot-header
+3movs.com,tnaflix.com##iframe[width="300"]
+3movs.com##.p-ig.playside
+3movs.com##.p-ig.notify
+3movs.com##.p-ig.recommended.section
+www.3movs.com##div.item:nth-of-type(6)
 
 ! anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
@@ -126,9 +180,6 @@ zoneid=$all
 ?zoneid=1970905&var=1970906$all
 ?id=1970906$all
 bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
-! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
-@@||bunkr.ru/api/upload$domain=app.bunkrr.*
-@@||bunkr.ru/thumbs/$domain=bunkrr.*
 /aas/r45d/vki/*$script,3p,redirect-rule=noop.js
 ||wheetlemetreza.com^
 ||hhbypdoecp.com^
@@ -230,7 +281,32 @@ hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/7a15bc0eaa9d7e3556b9bf3b01
 hqporner.com###footer > div:nth-of-type(4)
 mydaddy.cc###ovrl_ad
 
-! jpg.fish - .fishing - .pet / jpg1.su
+! Imagebam
+imagebam.com###inter > [src]
+##a[href^="https://go.goaserv.com/"]
+##.ad-link:not(.adsbox)
+imagebam.com###aad-header-1
+imagebam.com###aad-header-2
+imagebam.com###aad-header-3
+imagebam.com###cs-link
+##.ad-link:not(.adsbox)
+imagebam.com##a[href*="theporndude.com"]
+
+! Imgbb
+imgbb.com##.abnr
+##ins.adsbygoogle
+
+! Imgbox
+imgbox.com##+js(abort-current-script, navigator, shouldPop)
+||imgbox.com/images/tpd.png
+###aad-header-1
+###aad-header-2
+###aad-header-3
+imgbox.com###full-page-redirect
+imgbox.com##a[href*="theporndude.com"]
+##a[href^="https://go.goaserv.com/"]
+
+! Jpg.fish - .fishing - .pet / jpg1.su
 jpg.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg.*
 jpg1.*/quicknoisilyheadbites.js
@@ -249,11 +325,6 @@ jpg1.su##+js(abort-current-script, popMagic)
 jpg1.su##+js(acis, document.querySelectorAll, popMagic)
 jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/img$popup,important
-@@||jpg1.su/app/lib/chevereto.min.js$script,1p
-@@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
-!#Allows for necessary popups to show content on JPG, when linked from SC
-@@||jpg1.su/img$popup,domain=simpcity.su
 ||jpg1.su/quicknoisilyheadbites.js$all
 
 ! Instagram
@@ -261,12 +332,36 @@ www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
 www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
 www.instagram.com##.x1uhb9sk
 
+! Noodlemagazine
+*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
+noodlemagazine.com##div[style] > ins:upward(1)
+noodlemagazine.com##noindex
+noodlemagazine.com##+js(nano-stb, download, 1100)
+
+! Nudevista
+||click.nudevista.com^
+/advert_$from=~canalplus.com
+nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+
+! Peekvids
+peekvids.com##+js(abort-on-property-read, open)
+peekvids.com##+js(set-constant, pop_target, null)
+/ads/banner?
+peekvids.com##.card-deck-promotion
+peekvids.com###mediaPlayerBanner
+peekvids.com##.mediaPlayerSponsored
+peekvids.com,playvids.com,pornflip.com,pornoeggs.com##+js(aopr, open)
+*&token$media,redirect=noopmp3-0.1s,domain=peekvids.com|playvids.com|pornflip.com|pornoeggs.com
+peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
+##.block-advert
+www.peekvids.com##[href="/gayporn"]
+www.peekvids.com##.add_href_jsclick
+
 ! Pornhub
 ##.adsbytrafficjunky
 $websocket,domain=imagefap.com|pornhub.com
 .com./$popup,domain=pornhub.com
 ?zone_id=1650251
-@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
 babesandstars.com,pornhubpremium.com##.join
 pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
 pornhub.*###pb_block
@@ -312,8 +407,6 @@ pornhub.com##[srcset*="blob:"]
 pornhub.com#?#.sectionwrapper:-abp-has(&gt; #bottomvideos &gt; .wrapvideoblock)
 pornhub.com#?#.sectionwrapper:nth-of-type(3):-abp-contains(live cam models - online now)
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
-pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
-pornhub.com#@#.share-link-container
 pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
 pornhub.com,pornhubpremium.com,sxyprn.com##a[href*="?ats="]
 pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
@@ -370,10 +463,6 @@ www.pornhub.com##a.noimage.floatleft.uppercase.blackbtn.buttonclass
 ||www.google-analytics.com/analytics.js
 ||www.googletagmanager.com/gtm.js
 ||www.pornhub.com/_xa/ads_batch$important
-! unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
-@@||naiadsystems.com^$domain=pornhublive.com
-! unbreak for Adguard Base Filters, livecams information section not displayed
-pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 ##.adsbyexoclick
 www.pornhub.com##.withOverlay
 ||yeioreo.net^
@@ -405,7 +494,6 @@ www.porntrex.com##[href="https://bongacams.com/"]
 ##.adsbyexoclick
 *$1p,all,denyallow=recordbate.com|serve15.recordbate.com,domain=recordbate.com
 *$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|code.jquery.com|bootstrapcdn.com|jsdelivr.net|serve15.recordbate.com|challenges.cloudflare.com|fonts.googleapis.com,domain=recordbate.com
-@@https://recordbate.com/assets/js/main.js
 !recordbate.com##+js(abort-current-script, document.querySelectorAll) --> Breaks preview images, but stops ads. Only left here for further testing.
 recordbate.com##+js(acs, document.oncontextmenu)
 recordbate.com##+js(abort-current-script, document.querySelectorAll, popMagic)
@@ -428,6 +516,42 @@ redgifs.com##.placard-wrapper
 redgifs.com##a[href*="theporndude.com"]
 redgifs.com##a[href^="https://camsfinders.com/"]
 ||www.redgifs.com^$popup
+
+! Redtube
+redtube.*###paid_tabs_list
+redtube.*##+js(acs, Object.defineProperty, trafficjunky)
+redtube.*##+js(nowoif)
+redtube.*##+js(set, page_params.holiday_promo, true)
+redtube.*##.abovePlayer
+redtube.*##.adsbytrafficjunky
+redtube.*##.adsbytrafficjunky:upward(li)
+redtube.*##.remove_ads
+||redtube.com^$subdocument,~third-party
+||redtube.fm/advertisment.htm
+||redtube.fm/lcgldrbboxj.php
+$websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube8.fr|xtube.com|youporn.com
+|http*://*?$popup,third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com
+redtube.com###live_models_row_wrap
+redtube.com,redtube.com.br,redtube.net###pb_block
+redtube.com###popsByTrafficJunky
+redtube.com###video_right_col > .clearfix
+redtube.com##.hd
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##[href*="base64"]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##[href*="data:"]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="base64"]
+pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
+pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
+redtube.com##div > iframe
+redtube.com##div[class*="display: block; height:"]
+redtube.com##svg
+redtube.com##video[autoplay][src*="blob:" i]
+redtube.com##video[autoplay][src*="data:" i]
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(*data:image*)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(base64)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
+/_xa/ads_
+/ht.js?site_
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
@@ -452,9 +576,11 @@ phuru$all,important
 ?id=1986859$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
-@@||saint.to/dropzone/dropzone.js
-@@||saint.to/js/main.js?101-112-021-333
-@@||saint.to/js/main-login.js?162-02333
+
+! sendvid
+sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
+sendvid.com###ftr
+sendvid.com##a[href*="theporndude.com"]
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
@@ -525,6 +651,26 @@ thothub.*##+js(abort-on-stack-trace, localStorage, inlineScript)
 thothub.*##li:nth-of-type(8)
 thothub.*##li:nth-of-type(9)
 thothub.*##.sponsor
+
+! Tnaflix
+tnaflix.com##+js(aopr, ads.pop_url)
+tnaflix.com##+js(aeld, getexoloader)
+||tnaflix.com/*.php$script,1p
+empflix.com,tnaflix.com##.lastLiAvx
+tnaflix.com###vidPlayer span:has-text(Advertisement)
+tnaflix.com###vidPlayer > div:last-child
+tnaflix.com###zoneInPlayer
+tnaflix.com##.improveADS
+||dyn.tnaflix.com^
+||tnaflix.com/azUhsbtsuzm?
+||tnaflix.com/js/mew.js?
+/^https?:\/\/.*\/[a-z0-9A-Z_]{2,15}\.(php|jx|jsx|1ph|jsf|jz|jsm|j$)/$script,subdocument,domain=erome.com|tnaflix.com
+tnaflix.com##.bannerBlock
+empflix.com,tnaflix.com##.mewBlock
+tnaflix.com##.pspBanner
+tnaflix.com##.rbsd
+tnaflix.com##.zzMeBploz
+tnaflix.com##iframe[width="300"]
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
@@ -597,3 +743,9 @@ xvideos.com##+js(no-window-open-if)
 ###video-adv-wrapper
 ###video-advert
 ||xvideos.com/picserror/
+||twinrdsrv.com^
+||crmpt.livejasmin.com^
+||crmentjg.com^
+/^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case
+||impactserving.com^
+xbabe.com/_xbm_p.php
