@@ -14,7 +14,7 @@
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
-@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=|~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com
+@@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com
 sendvid.com#@#+js(abort-current-inline-script, $, pop)
 
 ! Unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
@@ -516,6 +516,18 @@ redgifs.com##.placard-wrapper
 redgifs.com##a[href*="theporndude.com"]
 redgifs.com##a[href^="https://camsfinders.com/"]
 ||www.redgifs.com^$popup
+||goaserv.com^
+||prtord.com^
+www.redgifs.com##.aNEGYgbV
+www.redgifs.com##div.css-7klr92.MuiListItemButton-gutters.MuiListItemButton-root.MuiButtonBase-root:nth-of-type(1)
+||www.redgifs.com/static/media/live-3.5965d4d1ba74e87f9ee6.webp$image
+www.redgifs.com##.css-4qe5v1.MuiBackdrop-root
+www.redgifs.com##.live
+www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button > .nMf9HAtt > .LiveButton_imageWrapper__lQwnshrD
+www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button
+www.redgifs.com##.boosted-btn
+!#Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. Direct links to videos can be found by using Share -> Copy link.
+redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
 
 ! Redtube
 redtube.*###paid_tabs_list
