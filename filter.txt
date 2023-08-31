@@ -324,7 +324,7 @@ jpg1.su##+js(abort-current-script, document.createElement, click)
 jpg1.su##+js(abort-current-script, popMagic)
 jpg1.su##+js(acis, document.querySelectorAll, popMagic)
 jpg1.su##+js(aeld, click, popMagic)
-||jpg1.su/img$popup,important
+||jpg1.su/img$popup
 ||jpg1.su/quicknoisilyheadbites.js$all
 
 ! Instagram
