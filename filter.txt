@@ -8,6 +8,11 @@
 @@||bunkr.ru/api/upload$domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 
+! # DDOS-Guard
+@@||check.ddos-guard.net^$3p
+@@||https://bunkrr.su/.well-known/ddos-guard/check
+@@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
+
 ! #Allows for necessary popups to show content on JPG, when linked from SC
 @@||jpg1.su/img$popup,domain=simpcity.su
 
@@ -16,7 +21,6 @@
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com
 sendvid.com#@#+js(abort-current-inline-script, $, pop)
-
 ! Unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
 @@||naiadsystems.com^$domain=pornhublive.com
 
@@ -27,12 +31,17 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||https://recordbate.com/assets/js/main.js
+@@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js?101-112-021-333
 @@||saint.to/js/main-login.js?162-02333
 pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 pornhub.com#@#.share-link-container
+@@||tnaflix.com/assets/js/dist/bundle.min.js
+@@||sxyprn.com/player/p12m.js
+@@||sxyprn.com/js/main.js
+@@||sxyprn.com/js/lazysizes.min.js
+@@||sxyprn.com/js/jq36.js
 
 ! BLOCKLIST:
 
@@ -136,11 +145,11 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,script,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru,domain=bunkr.*
-*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
+*$3p,script,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru,domain=bunkr.*
+!*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
+t*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
-bunkrr.*##iframe
 bunkrr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 bunkrr.*##+js(abort-current-script, document.createElement, click)
 bunkrr.*##^script:has-text(data-cfasync)
@@ -153,7 +162,7 @@ bunkrr.*##^script:has-text(spakkoorbamz.com)
 bunkrr.*##^script:has-text(clerrrep.com)
 afu.php?zoneid^$important
 bunkrr.*##^script:has-text(__aaZoneid)
-bunkrr.*##iframe
+*$frame,denyallow=newassets.hcaptcha.com,domain=bunkrr.*
 ||bunkrr.*/api/last_visit$xhr
 bunkrr.*##+js(acs, document.oncontextmenu)
 ||bunkrr.*/build/asdajklsdashjdasjk.js^$important
@@ -170,7 +179,7 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru,domain=bunkrr.*
+*$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
@@ -184,6 +193,8 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 ||wheetlemetreza.com^
 ||hhbypdoecp.com^
 ||a-ads.com^
+pixl.li/lazyhungrilyheadlicks.js$all,important
+bunkrr.su/magic/pure-magic.js$all,important
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
@@ -265,7 +276,7 @@ erome.com##div.sp
 gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
 gofile.io###adsATF
-! Gofile ads
+!#Gofile ads
 gofile.io##.show.modal-backdrop
 gofile.io##.show.modal
 gofile.io##body:style(overflow: scroll !important)
@@ -462,9 +473,9 @@ tgp1.brazzersnetwork.com
 landing1.brazzersnetwork.com
 ##a[href^="https://www.brazzersnetwork.com/landing/"]
 ||brazzerssurvey.com^$popup
-||ads.brazzers.com^
-||static.brazzers.com^
-||enter.brazzersnetwork.com^
+||ads.brazzers.com^$all,important
+||static.brazzers.com^$all,important
+||enter.brazzersnetwork.com^$all,important
 ||brazzers.com/click/$popup
 ||brazzers.com/ads/
 ##a[href^="https://land.brazzersnetwork.com/landing/"]
@@ -483,7 +494,7 @@ www.pornhub.com##.withOverlay
 pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass:nth-of-type(1)
 pornhub.com##a.noImage.floatLeft.upperCase.blackBtn.buttonClass
 pornhub.com##.wrapVideoBlock
-tgp1.brazzersnetwork.com
+tgp1.brazzersnetwork.com$all,important
 ||pornhub.com^$popup
 $popup,third-party,domain=pornhub.com
 
@@ -501,6 +512,7 @@ porntrex.com###index-link
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
 www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
+www.porntrex.com##.open-tool.pop-adv
 
 ! Recordbate
 ||recordbate.com^$popup,1p,important
@@ -603,7 +615,7 @@ phuru$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 
-! sendvid
+! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
 sendvid.com###ftr
 sendvid.com##a[href*="theporndude.com"]
@@ -666,6 +678,8 @@ sxyprn.*###vid_container_id > .tdn
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 ##.adsbyexoclick
 sxyprn.com##.main_content > div:nth-of-type(1)
+*$3p,script,domain=sxyprn.com|sxyprn.net
+*$1p,script,domain=sxyprn.com
 
 ! Theporndude
 theporndude.com##+js(trusted-set-cookie, wallpaper, click)
@@ -697,6 +711,9 @@ tnaflix.com##.pspBanner
 tnaflix.com##.rbsd
 tnaflix.com##.zzMeBploz
 tnaflix.com##iframe[width="300"]
+https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
+*$3p,script,domain=tnaflix.com|empflix.com
+*$1p,script,domain=tnaflix.com
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
@@ -732,6 +749,9 @@ www.xmegadrive.com##li:nth-of-type(3)
 www.xnxx.com##.disclaimer-enter-gay.btn-primary.btn
 www.xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
 ||xnxx.com/zoneload/
+www.xnxx.com###mobile-menu .gold-plate
+www.xnxx.com###site-nav > .gold-plate
+www.xnxx.com###header-mobile-live-cam
 
 ! Xvideos
 www.xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
