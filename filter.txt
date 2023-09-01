@@ -42,6 +42,10 @@ pornhub.com#@#.share-link-container
 @@||sxyprn.com/js/main.js
 @@||sxyprn.com/js/lazysizes.min.js
 @@||sxyprn.com/js/jq36.js
+@@||sxyprn.net/player/p12m.js
+@@||sxyprn.net/js/main.js
+@@||sxyprn.net/js/lazysizes.min.js
+@@||sxyprn.net/js/jq36.js
 
 ! BLOCKLIST:
 
@@ -679,7 +683,7 @@ sxyprn.*###vid_container_id > .tdn
 ##.adsbyexoclick
 sxyprn.com##.main_content > div:nth-of-type(1)
 *$3p,script,domain=sxyprn.com|sxyprn.net
-*$1p,script,domain=sxyprn.com
+*$1p,script,domain=sxyprn.com|sxyprn.net
 
 ! Theporndude
 theporndude.com##+js(trusted-set-cookie, wallpaper, click)
