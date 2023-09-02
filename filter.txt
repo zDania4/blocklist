@@ -132,6 +132,7 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||pixl.li/wtf.js$important
 ||ad.a-ads.com^$important
 ||bunkr.*/v/^$popup,important
+||bunkrr.*/v/^$popup,important
 ||pixl.li/lol.php^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$all,important
