@@ -197,6 +197,14 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 ||a-ads.com^
 pixl.li/lazyhungrilyheadlicks.js$all,important
 bunkrr.su/magic/pure-magic.js$all,important
+bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
+||ojtarsdukk.com^$all,important
+||fvcwqkkqmuv.com^$all,important
+||itponytaa.com^$all,important
+||gulsachpyrexia.uno^$all,important
+||trigscocos.com^$all,important
+||pncloudfl.com^$all,important
+||cloudtraff.com^$all,important
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
