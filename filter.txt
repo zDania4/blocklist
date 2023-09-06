@@ -58,7 +58,7 @@ pornhub.com#@#.share-link-container
 ||3movs.com/2ff/
 ||3movs.xxx/2ff/
 3movs.com###side_col_video_view
-3movs.com,chaturbate.com,imagezog.com,playvids.com,##.banner
+3movs.com,chaturbate.com,imagezog.com,playvids.com##.banner
 3movs.com##.cs
 3movs.com##.player + .aside
 3movs.com##.player-side
@@ -133,6 +133,7 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||ad.a-ads.com^$important
 ||bunkr.*/v/^$popup,important
 ||bunkrr.*/v/^$popup,important
+bunkr.*##+js(nowoif)
 ||pixl.li/lol.php^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$all,important
@@ -184,6 +185,7 @@ bunkrr.*##^script:has-text(afu.php)
 qifwpepixziv.com$all,important
 *$3p,all,denyallow=plyr.io|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
+/^_0x\w+[A-Za-z0-9]$/$frame,script,xhr,popup,match-case
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
 !||bunkrr.la^$third-party
@@ -206,6 +208,7 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||trigscocos.com^$all,important
 ||pncloudfl.com^$all,important
 ||cloudtraff.com^$all,important
+bunkrr.*##+js(nowoif)
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
@@ -348,6 +351,7 @@ jpg1.su##+js(acis, document.querySelectorAll, popMagic)
 jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/img$popup
 ||jpg1.su/quicknoisilyheadbites.js$all
+jpg1.su##+js(nowoif)
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
@@ -508,6 +512,9 @@ pornhub.com##.wrapVideoBlock
 tgp1.brazzersnetwork.com$all,important
 ||pornhub.com^$popup
 $popup,third-party,domain=pornhub.com
+brazzerssurvey.com##+js(nowoif)
+brazzers.com##+js(nowoif)
+pornhub.com##+js(nowoif)
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -541,6 +548,7 @@ recordbate.com##^script:has-text(adConfig)
 recordbate.com##^script:has-text(myFP)
 recordbate.com##^script:has-text(pn_idzone)
 recordbate.com##^script:has-text(4947244)
+recordbate.com##+js(nowoif)
 
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
@@ -565,6 +573,7 @@ www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button
 www.redgifs.com##.boosted-btn
 !#Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. Direct links to videos can be found by using Share -> Copy link.
 redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
+redgifs.com##+js(nowoif)
 
 ! Redtube
 redtube.*###paid_tabs_list
@@ -625,6 +634,7 @@ phuru$all,important
 ?id=1986859$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
+saint.to##+js(nowoif)
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -649,9 +659,8 @@ simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
-!The following removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
+!The following line removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
 simpcity.su##.block--category101.block--category.block
-!SC annoying trial link redirects
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
 ||onlyfinder.bio^$important
@@ -659,6 +668,19 @@ simpcity.su##.block--category101.block--category.block
 ||timeformeeting.com
 ||datingsteam.com
 ?aid=*&sub1=$doc
+||simpcity.su/magic/badpapi.php$all
+||simpcity.su/magic/surprise-master.js$all
+||simpcity.su^$popup,1p
+simpcity.su##^script:has-text(papi-hates-blocks)
+simpcity.su##+js(abort-current-script, papiMagicldr)
+simpcity.su##.p-body-content > div:nth-of-type(2)
+simpcity.su##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
+simpcity.su##.nav-shoosh.p-navEl-link
+simpcity.su##+js(nowoif)
+simpcity.su##.js-bottomFixTarget.u-bottomFixer
+simpcity.su##.p-body-inner > div:nth-of-type(2)
+x7r3mk6ldr.com$all,important
+.*/aas/r45d
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
@@ -689,10 +711,12 @@ sxyprn.*###vid_container_id > .tdn
 *$frame,script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,domain=sxyprn.*
 ##.adsbyexoclick
 sxyprn.com##.main_content > div:nth-of-type(1)
-*$3p,script,domain=sxyprn.com
+*$3p,script,domain=sxyprn.com|sxyprn.net
 *$1p,script,domain=sxyprn.com
-*$3p,script,denyallow=sxyprn.com,domain=sxyprn.net
-*$1p,script,denyallow=sxyprn.com,domain=sxyprn.net
+@@||sxyprn.com/player/p12m.js
+@@||sxyprn.com/js/main.js
+@@||sxyprn.com/js/lazysizes.min.js
+@@||sxyprn.com/js/jq36.js
 
 ! Theporndude
 theporndude.com##+js(trusted-set-cookie, wallpaper, click)
@@ -727,6 +751,7 @@ tnaflix.com##iframe[width="300"]
 https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 *$3p,script,domain=tnaflix.com|empflix.com
 *$1p,script,domain=tnaflix.com
+@@||tnaflix.com/assets/js/dist/bundle.min.js
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
