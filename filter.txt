@@ -134,6 +134,7 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||bunkr.*/v/^$popup,important
 ||bunkrr.*/v/^$popup,important
 bunkr.*##+js(nowoif)
+bunkr.*##+js(window-close-if, /v/)
 ||pixl.li/lol.php^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$all,important
@@ -209,6 +210,7 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||pncloudfl.com^$all,important
 ||cloudtraff.com^$all,important
 bunkrr.*##+js(nowoif)
+bunkrr.*##+js(window-close-if, /v/)
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
@@ -352,6 +354,7 @@ jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/img$popup
 ||jpg1.su/quicknoisilyheadbites.js$all
 jpg1.su##+js(nowoif)
+jpg1.su##+js(window-close-if, /^/)
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
@@ -398,6 +401,7 @@ pornhub.*##+js(no-settimeout-if, adsbytrafficjunkycontext)
 pornhub.*##+js(no-window-open-if)
 pornhub.*##+js(nostif, adsbytrafficjunkycontext)
 pornhub.*##+js(nowoif)
+pornhub.*##+js(window-close-if, /^/)
 pornhub.*##+js(set, abp1, 1)
 pornhub.*##+js(set, htmlelement.prototype.attachshadow, null)
 pornhub.*##+js(set, page_params.holiday_promo, true)
@@ -513,8 +517,9 @@ tgp1.brazzersnetwork.com$all,important
 ||pornhub.com^$popup
 $popup,third-party,domain=pornhub.com
 brazzerssurvey.com##+js(nowoif)
+brazzerssurvey.com##+js(window-close-if, /^/)
 brazzers.com##+js(nowoif)
-pornhub.com##+js(nowoif)
+brazzers.com##+js(window-close-if, /^/)
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -549,6 +554,7 @@ recordbate.com##^script:has-text(myFP)
 recordbate.com##^script:has-text(pn_idzone)
 recordbate.com##^script:has-text(4947244)
 recordbate.com##+js(nowoif)
+recordbate.com##+js(window-close-if, /^/)
 
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
@@ -574,11 +580,13 @@ www.redgifs.com##.boosted-btn
 !#Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. Direct links to videos can be found by using Share -> Copy link.
 redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
 redgifs.com##+js(nowoif)
+redgifs.com##+js(window-close-if, /^/)
 
 ! Redtube
 redtube.*###paid_tabs_list
 redtube.*##+js(acs, Object.defineProperty, trafficjunky)
 redtube.*##+js(nowoif)
+redtube.*##+js(window-close-if, /^/)
 redtube.*##+js(set, page_params.holiday_promo, true)
 redtube.*##.abovePlayer
 redtube.*##.adsbytrafficjunky
@@ -635,6 +643,7 @@ phuru$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 saint.to##+js(nowoif)
+saint.to##+js(window-close-if, /^/)
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -677,6 +686,7 @@ simpcity.su##.p-body-content > div:nth-of-type(2)
 simpcity.su##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
 simpcity.su##.nav-shoosh.p-navEl-link
 simpcity.su##+js(nowoif)
+simpcity.su##+js(window-close-if, /^/)
 simpcity.su##.js-bottomFixTarget.u-bottomFixer
 !simpcity.su##.p-body-inner > div:nth-of-type(2) - Breaks logged in users, but shows ads when not logged in in Chromium, but not in Brave -- Needs further testing.
 x7r3mk6ldr.com$all,important
@@ -685,6 +695,7 @@ x7r3mk6ldr.com$all,important
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
 spankbang.com##+js(nowoif)
+spankbang.com##+js(window-close-if, /^/)
 spankbang.com##+js(set, chrome, undefined)
 spankbang.com##.ttaa2v3
 ||ersties.com^$3p
@@ -808,7 +819,10 @@ xvideos.com#?#:-abp-properties(data:)
 xvideos.com#?#:-abp-properties(image/)
 xvideos.com##img[src*="blob:" i]:not(video)
 ###video-sponsor-links
-xvideos.com,xvideos2.com##+js(nowoif)
+xvideos.com##+js(nowoif)
+xvideos2.com##+js(nowoif)
+xvideos.com##+js(window-close-if, /^/)
+xvideos2.com##+js(window-close-if, /^/)
 xvideos.com,xvideos2.com,xnxx.com##.banner-game
 xvideos.com,xvideos2.com##.videoad-title
 xvideos.*###video-ad + div[class]
