@@ -620,7 +620,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 /ht.js?site_
 
 ! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net,domain=saint.to
 *$1p,script,domain=saint.to
 saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
@@ -679,7 +679,7 @@ simpcity.su##.block--category101.block--category.block
 ?aid=*&sub1=$doc
 ||simpcity.su/magic/badpapi.php$all
 ||simpcity.su/magic/surprise-master.js$all
-||simpcity.su^$popup,1p
+||simpcity.su^$popup,3p
 simpcity.su##^script:has-text(papi-hates-blocks)
 simpcity.su##+js(abort-current-script, papiMagicldr)
 simpcity.su##.p-body-content > div:nth-of-type(2)
