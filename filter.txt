@@ -75,6 +75,7 @@ anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
 
 ! bunkr 
+$popup,3p,denyallow=bunkr.ru,domain=bunkrr.su
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
@@ -334,6 +335,7 @@ imgbox.com##a[href*="theporndude.com"]
 ##a[href^="https://go.goaserv.com/"]
 
 ! Jpg.fish - .fishing - .pet / jpg1.su
+$popup,3p,domain=jpg1.su
 jpg.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg.*
 jpg1.*/quicknoisilyheadbites.js
@@ -679,7 +681,7 @@ simpcity.su##.block--category101.block--category.block
 ?aid=*&sub1=$doc
 ||simpcity.su/magic/badpapi.php$all
 ||simpcity.su/magic/surprise-master.js$all
-||simpcity.su^$popup,3p
+$popup,3p,denyallow=jpg1.su|bunkrr.su,domain=simpcity.su
 simpcity.su##^script:has-text(papi-hates-blocks)
 simpcity.su##+js(abort-current-script, papiMagicldr)
 simpcity.su##.p-body-content > div:nth-of-type(2)
