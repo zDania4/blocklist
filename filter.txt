@@ -14,7 +14,8 @@
 @@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
 
 ! #Allows for necessary popups to show content on JPG, when linked from SC
-@@||jpg1.su/img$popup,domain=simpcity.su
+@@||jpg1.su/upload$all,domain=simpycity.su
+@@||jpg1.su/img/*$popup,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
@@ -681,7 +682,6 @@ simpcity.su##.block--category101.block--category.block
 ?aid=*&sub1=$doc
 ||simpcity.su/magic/badpapi.php$all
 ||simpcity.su/magic/surprise-master.js$all
-!$popup,3p,denyallow=jpg1.su|bunkrr.su,domain=simpcity.su - Breaks needed popups
 simpcity.su##^script:has-text(papi-hates-blocks)
 simpcity.su##+js(abort-current-script, papiMagicldr)
 simpcity.su##.p-body-content > div:nth-of-type(2)
