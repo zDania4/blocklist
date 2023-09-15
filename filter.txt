@@ -136,7 +136,7 @@ bunkr.*##+js(acs, document.oncontextmenu)
 ||bunkr.*/v/^$popup,important
 ||bunkrr.*/v/^$popup,important
 bunkr.*##+js(nowoif)
-bunkr.*##+js(window-close-if, /v/)
+!bunkr.*##+js(window-close-if, /v/)
 ||pixl.li/lol.php^$important
 ||mc.yandex.ru^
 ||pixl.li/lol.php^$all,important
@@ -357,7 +357,7 @@ jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/img$popup
 ||jpg1.su/quicknoisilyheadbites.js$all
 jpg1.su##+js(nowoif)
-jpg1.su##+js(window-close-if, /^/)
+!jpg1.su##+js(window-close-if, /^/)
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
