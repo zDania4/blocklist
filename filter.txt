@@ -18,6 +18,8 @@
 @@||jpg1.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
+@@||bunkrr.su/a/*$all,domain=simpcity.su
+@@||bunkrr.su/v/*$all,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
