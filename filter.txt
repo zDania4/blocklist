@@ -18,8 +18,6 @@
 @@||jpg1.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
-@@||bunkrr.su/a/*$all,domain=simpcity.su
-@@||bunkrr.su/v/*$all,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
@@ -216,7 +214,7 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||pncloudfl.com^$all,important
 ||cloudtraff.com^$all,important
 bunkrr.*##+js(nowoif)
-bunkrr.*##+js(window-close-if, /v/)
+!bunkrr.*##+js(window-close-if, /v/)
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
