@@ -16,6 +16,8 @@
 ! #Allows for necessary popups to show content on JPG, when linked from SC
 @@||jpg1.su/upload$all,domain=simpycity.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
+@@||bunkrr.su/a/*$popup,domain=simpcity.su
+@@||bunkrr.su/v/*$popup,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
