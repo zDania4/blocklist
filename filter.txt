@@ -391,6 +391,17 @@ peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
 www.peekvids.com##[href="/gayporn"]
 www.peekvids.com##.add_href_jsclick
 
+! Pixl.li
+pixl.li##+js(nowoif)
+pixl.li##^script[data-cfasync="false"]
+?oo=1&aab=1
+pixl.li##div[id="image_footer_nsfw"]
+vaitotoo.net$all,important
+qsxptjxruxrttu.xyz$all,important
+*$frame,domain=pixl.li
+pixl.li###image_footer_nsfw
+pixl.li##[id^="image_footer_nsfw"]
+
 ! Pornhub
 ##.adsbytrafficjunky
 $websocket,domain=imagefap.com|pornhub.com
