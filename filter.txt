@@ -16,6 +16,8 @@
 ! #Allows for necessary popups to show content on JPG, when linked from SC
 @@||jpg1.su/upload$all,domain=simpycity.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
+@@||jpg2.su/upload$all,domain=simpycity.su
+@@||jpg2.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 
@@ -34,6 +36,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg2.su/app/lib/chevereto.min.js$script,1p
+@@||jpg2.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg2.su/lib/Peafowl/js/scripts.min.js$script,1p
 @@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js?101-112-021-333
@@ -339,7 +344,7 @@ imgbox.com###full-page-redirect
 imgbox.com##a[href*="theporndude.com"]
 ##a[href^="https://go.goaserv.com/"]
 
-! Jpg.fish - .fishing - .pet / jpg1.su
+! Jpg.fish - .fishing - .pet / jpg1.su / jpg2.su
 $popup,3p,domain=jpg1.su
 jpg.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg.*
@@ -362,6 +367,28 @@ jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/quicknoisilyheadbites.js$all
 jpg1.su##+js(nowoif)
 !jpg1.su##+js(window-close-if, /^/)
+
+$popup,3p,domain=jpg2.su
+jpg2.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg2.*
+jpg2.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg2.*
+||jpg2.*/quicknoisilyheadbites.js
+*$1p,script,domain=jpg2.su
+||jpg2.su/63bfe33665231.php$all,important
+jpg2.su##^script:has-text(config.syndication_host)
+jpg2.su##^script:has-text(adConfig)
+jpg2.su##^script:has-text(popMagic)
+jpg2.su##^script:has-text(we-dont-like-blocks)
+jpg2.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+jpg2.su##+js(abort-current-script, document.createElement, click)
+jpg2.su##+js(abort-current-script, popMagic)
+jpg2.su##+js(acis, document.querySelectorAll, popMagic)
+jpg2.su##+js(aeld, click, popMagic)
+||jpg2.su/img$popup
+||jpg2.su/quicknoisilyheadbites.js$all
+jpg2.su##+js(nowoif)
+!jpg2.su##+js(window-close-if, /^/)
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
