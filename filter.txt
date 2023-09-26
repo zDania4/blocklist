@@ -389,6 +389,9 @@ jpg2.su##+js(aeld, click, popMagic)
 ||jpg2.su/quicknoisilyheadbites.js$all
 jpg2.su##+js(nowoif)
 !jpg2.su##+js(window-close-if, /^/)
+||jpg2.su/63bfe33665231.php
+||jpg2.su/img/*$popup,1p
+
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
