@@ -306,6 +306,9 @@ erome.com##+js(aopr, tic)
 erome.com##+js(set, tiPopAction, noopFunc)
 erome.com##.ads
 erome.com##div.sp
+erome.com###bubble
+erome.com##.hidden-lg.hidden-md.hidden-sm.sp-mob
+erome.com##.separator
 
 ! GoFile
 gofile.io###adsGoogle
