@@ -268,6 +268,12 @@ camwhoresbay.com##div.opt
 www.google.*##+js(set-constant, rwt, noopFunc)
 
 ! Coomer
+coomer.party##all:has-text(SCSpotscript)
+||xlivrdr.com^$all
+coomer.party##^script:has-text(ScSpotAppeared)
+||tsyndicate.com^$all
+||coomer.party/api/event
+||img.coomer.party/cnudify1.gif$important
 coomer.party##div.ad-container
 
 ! Eporner
@@ -302,6 +308,22 @@ eporner.com##.mb > .adnative-1x1:upward(1)
 /piwikC_
 /piwikTracker.
 ##.adsText
+eporner.com##+js(remove-node-text, script, /adb/i)
+.adstext
+||eporner.com/getadb$all,important
+pemsrv.com$all,important
+bongacams.com/pwa-bc.js$all,important
+||video.bbrdbr.com/models^$important
+||go.bbrdbr.com/api^$important
+||bbrdbr.com^$important
+||cdn.zblkqa.com^$important
+||pxl.tsyndicate.com^$important
+||go.sexfortokens.com^$important
+||tsyndicate.com^$important
+||twinrdsrv.com^$important
+www.eporner.com###headholder > [href]
+www.eporner.com###footsocbuttons
+www.eporner.com###cookies
 
 ! Erome
 erome.com##+js(acs, $, exo)
