@@ -275,6 +275,11 @@ coomer.party##^script:has-text(ScSpotAppeared)
 ||coomer.party/api/event
 ||img.coomer.party/cnudify1.gif$important
 coomer.party##div.ad-container
+coomer.su##all:has-text(SCSpotscript)
+coomer.su##^script:has-text(ScSpotAppeared)
+||coomer.su/api/event
+coomer.su##div.ad-container
+||img.coomer.su/cnudify1.gif$important
 
 ! Eporner
 ||eporner.com/dot/
