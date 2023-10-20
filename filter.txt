@@ -279,7 +279,9 @@ coomer.su##all:has-text(SCSpotscript)
 coomer.su##^script:has-text(ScSpotAppeared)
 ||coomer.su/api/event
 coomer.su##div.ad-container
-||img.coomer.su/cnudify1.gif$important
+||dynspt.com^
+coomer.party##div.ad-container > .image-link
+coomer.su##div.ad-container > .image-link
 
 ! Eporner
 ||eporner.com/dot/
