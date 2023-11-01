@@ -14,10 +14,12 @@
 @@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr, when linked from SC
-@@||jpg1.su/upload$all,domain=simpycity.su
+@@||jpg1.su/upload$all,domain=simpcity.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
-@@||jpg2.su/upload$all,domain=simpycity.su
+@@||jpg2.su/upload$all,domain=simpcity.su
 @@||jpg2.su/img/*$popup,domain=simpcity.su
+@@||jpg3.su/upload$all,domain=simpcity.su
+@@||jpg3.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 
@@ -39,6 +41,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg2.su/app/lib/chevereto.min.js$script,1p
 @@||jpg2.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg2.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg3.su/app/lib/chevereto.min.js$script,1p
+@@||jpg3.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg3.su/lib/Peafowl/js/scripts.min.js$script,1p
 @@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js?101-112-021-333
@@ -276,12 +281,20 @@ coomer.party##^script:has-text(ScSpotAppeared)
 ||img.coomer.party/cnudify1.gif$important
 coomer.party##div.ad-container
 coomer.su##all:has-text(SCSpotscript)
-coomer.su##^script:has-text(ScSpotAppeared)
+coomer.su##script:has-text(ScSpotAppeared)
 ||coomer.su/api/event
 coomer.su##div.ad-container
 ||dynspt.com^
 coomer.party##div.ad-container > .image-link
 coomer.su##div.ad-container > .image-link
+coomer.su##div.ad-container
+||s.magsrv.com^$all,important
+||coomer.su/api/*$all,important
+||a.magsrv.com^$all,important
+||img.coomer.su/cnudify1.gif$all,important
+||magsrv.com^$all,important
+cnudify1.gif$all,important
+
 
 ! Eporner
 ||eporner.com/dot/
@@ -410,7 +423,6 @@ jpg1.su##+js(aeld, click, popMagic)
 ||jpg1.su/quicknoisilyheadbites.js$all
 jpg1.su##+js(nowoif)
 !jpg1.su##+js(window-close-if, /^/)
-
 $popup,3p,domain=jpg2.su
 jpg2.*/quicknoisilyheadbites.js
 *$3p,script,domain=jpg2.*
@@ -434,7 +446,29 @@ jpg2.su##+js(nowoif)
 !jpg2.su##+js(window-close-if, /^/)
 ||jpg2.su/63bfe33665231.php
 ||jpg2.su/img/*$popup,1p
-
+$popup,3p,domain=jpg3.su
+jpg3.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg3.*
+jpg3.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg3.*
+||jpg3.*/quicknoisilyheadbites.js
+*$1p,script,domain=jpg3.su
+||jpg3.su/63bfe33665231.php$all,important
+jpg3.su##^script:has-text(config.syndication_host)
+jpg3.su##^script:has-text(adConfig)
+jpg3.su##^script:has-text(popMagic)
+jpg3.su##^script:has-text(we-dont-like-blocks)
+jpg3.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+jpg3.su##+js(abort-current-script, document.createElement, click)
+jpg3.su##+js(abort-current-script, popMagic)
+jpg3.su##+js(acis, document.querySelectorAll, popMagic)
+jpg3.su##+js(aeld, click, popMagic)
+||jpg3.su/img$popup
+||jpg3.su/quicknoisilyheadbites.js$all
+jpg3.su##+js(nowoif)
+!jpg3.su##+js(window-close-if, /^/)
+||jpg3.su/63bfe33665231.php
+||jpg3.su/img/*$popup,1p
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
@@ -611,6 +645,11 @@ brazzerssurvey.com##+js(nowoif)
 brazzerssurvey.com##+js(window-close-if, /^/)
 brazzers.com##+js(nowoif)
 brazzers.com##+js(window-close-if, /^/)
+pornhub.*##.video-wrapper > #player ~ .hd.clear
+pornhub.com###abAlert
+pornhub.*###relatedVideosCenter > .wrapVideoBlock
+pornhub.*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
+pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -734,7 +773,7 @@ phuru$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 saint.to##+js(nowoif)
-saint.to##+js(window-close-if, /^/)
+!saint.to##+js(window-close-if, /^/)
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -775,7 +814,7 @@ simpcity.su##+js(abort-current-script, papiMagicldr)
 simpcity.su##.p-body-content > div:nth-of-type(2)
 simpcity.su##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
 simpcity.su##.nav-shoosh.p-navEl-link
-simpcity.su##+js(nowoif)
+!simpcity.su##+js(nowoif) --- Disabled to allow for upload buttons to work.
 !simpcity.su##+js(window-close-if, /^/)
 simpcity.su##.js-bottomFixTarget.u-bottomFixer
 !simpcity.su##.p-body-inner > div:nth-of-type(2) - Breaks logged in users, but shows ads when not logged in in Chromium, but not in Brave -- Needs further testing.
