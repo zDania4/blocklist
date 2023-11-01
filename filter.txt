@@ -235,7 +235,20 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||cloudtraff.com^$all,important
 bunkrr.*##+js(nowoif)
 !bunkrr.*##+js(window-close-if, /v/)
-||hibitomonach.com^
+||hibitomonach.com^$all
+||datelovehub.life^$all,important
+||system-debug-1.b-cdn.net/js/script.js$important
+gtm.js^$all
+||viewyentreat.guru^
+pixl.li/648e92f11de8d.php$all
+bunkrr.*##^all:has-text(taco-loves-ads)
+pixl.li^$all,domain=bunkrr.su
+idzone=taco-loves-ads^$all
+t=bunky
+/tsk/^
+chicken.gif?z=^
+bunkrr.su/build/370.a4405777.js
+bunkrr.su/build/app.291ea157.js
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
