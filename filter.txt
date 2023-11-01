@@ -1,5 +1,5 @@
-! Title: Dania's SC filters
-! Description: Dania's SC filters. This list focuses on mainly Bunkr.* and GoFile's annoyances, but also includes some other NSFW stuff.
+! Title: Dania's Blocklist
+! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 3 days
 ! Last modified: %timestamp%
 
