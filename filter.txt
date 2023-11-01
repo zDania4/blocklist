@@ -35,6 +35,7 @@ sendvid.com#@#+js(abort-current-inline-script, $, pop)
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 
 ! #Website functionality
+@@||coomer.su/api/v1/creators.txt
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
