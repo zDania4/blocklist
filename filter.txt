@@ -67,7 +67,6 @@ pornhub.com#@#.share-link-container
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
 
-
 ! BLOCKLIST:
 
 ! 3movs
@@ -249,6 +248,16 @@ t=bunky
 chicken.gif?z=^
 bunkrr.su/build/370.a4405777.js
 bunkrr.su/build/app.291ea157.js
+bunkrr.su/build/runtime.9a71ee5d.js
+||guigebichir.website
+||yellow-resultsbidder.com
+||fvcwqkkqmuv.com/gtm.js?id=1970903
+||fvcwqkkqmuv.com/gtm.js
+||fvcwqkkqmuv.com/aas/r45d/vki/1970903/b951d420.js
+||hhbypdoecp.com/lv/esnk/1971181/code.js
+||fvcwqkkqmuv.com/get/1970903^
+lazyhungrilyheadlicks.js
+||bunkrr.su/api/last_visit
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
