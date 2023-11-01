@@ -671,6 +671,7 @@ pornhub.com###relatedVideosCenter > .wrapVideoBlock
 pornhub.com/_xa/^$all,important
 pornhub.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com/_xa/deep_preroll^$all,important
+pornhub.com/_xa/tj-ssp/burl^$all,important
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
