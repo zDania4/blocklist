@@ -235,6 +235,7 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||cloudtraff.com^$all,important
 bunkrr.*##+js(nowoif)
 !bunkrr.*##+js(window-close-if, /v/)
+||hibitomonach.com^
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
@@ -799,6 +800,7 @@ ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 saint.to##+js(nowoif)
 !saint.to##+js(window-close-if, /^/)
+||fvcwqkkqmuv.com^
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -847,6 +849,9 @@ x7r3mk6ldr.com$all,important
 .*/aas/r45d
 simpcity.su##.node--link.node--depth2.node--id125.node
 simpcity.su##.nav-bonga.p-navEl-link
+||adtng.com^
+##iframe[src^="https://a.adtng.com/"]
+simpcity.su##+js(addEventListener-defuser, , open)
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
