@@ -650,6 +650,24 @@ pornhub.com###abAlert
 pornhub.*###relatedVideosCenter > .wrapVideoBlock
 pornhub.*##+js(set-constant, HTMLElement.prototype.attachShadow, null)
 pornhub.*##+js(abort-current-script, Object.defineProperty, trafficjunky)
+pornhub.*##div[id^="customSkin"]
+pornhub.*##div.container:style(margin-top: 0px !important)
+pornhub.*##+js(nostif, adsbytrafficjunkycontext)
+pornhub.*##+js(acs, Object.defineProperty, trafficjunky)
+pornhub.*##+js(set, HTMLElement.prototype.attachShadow, null)
+pornhub.*##.video-wrapper > #player ~ .hd.clear
+pornhub.*##.sniperModeEngaged
+pornhub.*##a[href^="http://ads.trafficjunky.net/"]
+pornhub.*##.realsex
+pornhub.*###pb_block
+pornhub.*##+js(set, page_params.holiday_promo, true)
+pornhub.*###relatedVideosCenter > .wrapVideoBlock
+pornhub.*##+js(set, abp1, 1)
+pornhub.*##+js(rc, hasAdAlert, header)
+pornhub.*###js-abContainterMain
+pornhub.com##+js(set, page_params.holiday_promo, true)
+pornhub.com###pb_block
+pornhub.com###relatedVideosCenter > .wrapVideoBlock
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
