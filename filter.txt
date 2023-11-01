@@ -246,8 +246,8 @@ bunkrr.*##^all:has-text(taco-loves-ads)
 pixl.li^$domain=bunkrr.su
 idzone=taco-loves-ads^$all
 t=bunky
-/tsk/^
-chicken.gif?z=^
+/tsk/
+chicken.gif?z=
 bunkrr.su/build/370.a4405777.js
 bunkrr.su/build/app.291ea157.js
 bunkrr.su/build/runtime.9a71ee5d.js
@@ -260,6 +260,8 @@ bunkrr.su/build/runtime.9a71ee5d.js
 ||fvcwqkkqmuv.com/get/1970903^
 lazyhungrilyheadlicks.js
 ||bunkrr.su/api/last_visit
+bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+bunkrr.su##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
