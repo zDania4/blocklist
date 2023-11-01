@@ -317,7 +317,7 @@ coomer.party##div.ad-container > .image-link
 coomer.su##div.ad-container > .image-link
 coomer.su##div.ad-container
 ||s.magsrv.com^$all,important
-||coomer.su/api/*$all,important
+||coomer.su/api/*$all
 ||a.magsrv.com^$all,important
 ||img.coomer.su/cnudify1.gif$all,important
 ||magsrv.com^$all,important
