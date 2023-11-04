@@ -245,10 +245,10 @@ gtm.js
 pixl.li/648e92f11de8d.php$all
 bunkrr.*##^all:has-text(taco-loves-ads)
 pixl.li^$domain=bunkrr.su
-idzone=taco-loves-ads^$all
+idzone=taco-loves-ads$all
 t=bunky
-/tsk/
-chicken.gif?z=
+/tsk/*
+chicken.gif?z=*
 bunkrr.su/build/370.a4405777.js
 bunkrr.su/build/app.291ea157.js
 bunkrr.su/build/runtime.9a71ee5d.js
@@ -258,7 +258,7 @@ bunkrr.su/build/runtime.9a71ee5d.js
 ||fvcwqkkqmuv.com/gtm.js
 ||fvcwqkkqmuv.com/aas/r45d/vki/1970903/b951d420.js
 ||hhbypdoecp.com/lv/esnk/1971181/code.js
-||fvcwqkkqmuv.com/get/1970903^
+||fvcwqkkqmuv.com/get/1970903*
 lazyhungrilyheadlicks.js
 ||bunkrr.su/api/last_visit
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
