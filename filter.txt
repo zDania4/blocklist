@@ -969,6 +969,64 @@ xfantazy.com##.partwidg1
 www.xfree.com##.aside-content__middle
 www.xfree.com##.aside-section--right.aside-section
 
+! Xhamster
+xhamster.com##.yld-pcno-ts-init.yld-pc--top.yld-pc
+xhamster.com##.livesex
+xhamster.com##.big-thumb-block
+xhamster.com##.yld-pcno-ts-init.yld-pc--middle.yld-pc
+xhamster.com##.yld-pc--bottom.yld-pc
+||accounts.google.com/gsi/iframe/select$subdocument,domain=xhamster.com
+xhamster.com##.tag.yld-pcpremium-overlay
+||go.xlivrdr.com^$important
+||img.strpst.com^$important
+||static-cdn.strpst.com^$important
+||lcdn.tsyndicate.com^$important
+||stripchat.com/pwa-offline.html
+||vidsplanet.online/api/*$important
+||accounts.google.com/gsi/*$domain=xhamster.com
+xhamster.com##.layout-video-player__order.yld-pcsp-l-tab
+xhamster.com##.yld-pcunder-player-banner-wrapper
+xhamster.com##.yld-pccam-thumb--lv-red.mobile-video-thumb.yld-pccam-thumb
+xhamster.com##.page-2.yld-pcpremium-overlay
+xhamster.com##.yld-pcpremium-overlay
+xhamster.com##.scrollable > li:nth-of-type(4) > .root-9d8b4
+||tsyndicate.com^$important
+||crmentjg.com^$important
+||impactserving.com^$important
+||pt-static1.jsmsat.com^$important
+||crmpt.livejasmin.com^$important
+||vcmdiawe.com^$important
+||jsmsat.com^$important
+||protoawegw.com^$important
+||dditscdn.com^$important
+||www.google-analytics.com/analytics.js$important
+||collector.xhamster.com^
+xhamster.com##.yld-pcunder-player-banner-wrapper
+xhamster.com##.video-page__layout-ad.yld-pcpremium-overlay
+xhamster.com##+js(set-cookie, cookie_accept, %7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D)
+xhamster.com##+js(trusted-set-cookie, cookie_accept, %7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D, 1year)
+xhamster.com##.yld-pcno-ts-init.yld-pc.yld-pcplayer
+xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(9) > .on-hover.trigger.root-9d8b4
+xhamster.com##.displayed-nav-item.live-nav.nav-item.xh-dropdown
+xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(10)
+xhamster.com##.yld-pc.yld-pcbottom-widget-section
+xhamster.com##.width-wrap.yld-pcclipstore-bottom
+xhamster.com##._762e4-centered
+xhamster.*##div[class*="sp-b"]
+xhamster.*##[class*="sp-l"]
+xhamster.*##[class*="containerBottomSpot"]
+xhamster.*##.video-thumb[class*="__look-like-item"]
+xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
+||xhamster.*/api/models/vast*preroll$xhr,1p
+xhamster.*##+js(cookie-remover, video_view_count)
+xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
+xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
+xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
+xhamster.*##+js(addEventListener-defuser, , pop)
+*$document,csp=worker-src 'none',from=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+*$frame,3p,denyallow=google.com,from=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
+
+
 ! Xmegadrive
 xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
 xmegadrive.com##+js(set-constant, flashvars.adv_pause_html, )
