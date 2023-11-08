@@ -74,6 +74,9 @@ pornhub.com#@#.share-link-container
 @@||tnaflix.com/compiled/header.min.js
 @@||tnaflix.com/js/tnaflix.desktop.comments.js
 @@||tnaflix.com/assets/js/dist/bundle.min.js
+!Allows for Saint thumbnails to load
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
 
 ! BLOCKLIST:
 
@@ -848,7 +851,7 @@ saint.to##all:has-text(adx)
 saint.to##all:has-text(0xd965)
 saint.to##all:has-text(1986859)
 saint.to##all:has-text(0x2e4efe)
-||lovefap.com/v2/js^$all,important
+||lovefap.com/v2/js^$all
 !saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
 ||saint.to/embed^$inline-script,important
 ||oljjiplpyo.com^$all,important
