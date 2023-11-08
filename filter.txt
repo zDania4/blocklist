@@ -31,6 +31,10 @@ sendvid.com#@#+js(abort-current-inline-script, $, pop)
 ! Unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
 @@||naiadsystems.com^$domain=pornhublive.com
 
+!Recaptcha
+@@||google.com/recaptcha/api.js
+@@||gstatic.com/recaptcha/
+
 ! Unbreak for Adguard Base Filters, livecams information section not displayed
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 
@@ -67,6 +71,9 @@ pornhub.com#@#.share-link-container
 @@||bunkrr.su/magic/album-sort.js$script,1p
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
+@@||tnaflix.com/compiled/header.min.js
+@@||tnaflix.com/js/tnaflix.desktop.comments.js
+@@||tnaflix.com/assets/js/dist/bundle.min.js
 
 ! BLOCKLIST:
 
@@ -302,7 +309,7 @@ camwhoresbay.com##div.opt
 *$frame,permissions=join-ad-interest-group=(),from=~localhost
 *$frame,permissions=idle-detection=(),from=~localhost
 *$frame,permissions=browsing-topics=(),from=~localhost
-www.google.*##+js(set-constant, rwt, noopFunc)
+!www.google.*##+js(set-constant, rwt, noopFunc)
 
 ! Coomer
 coomer.party##all:has-text(SCSpotscript)
@@ -972,7 +979,6 @@ tnaflix.com##iframe[width="300"]
 https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 *$3p,script,domain=tnaflix.com|empflix.com
 *$1p,script,domain=tnaflix.com
-@@||tnaflix.com/assets/js/dist/bundle.min.js
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
