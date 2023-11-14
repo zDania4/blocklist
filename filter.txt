@@ -1,6 +1,6 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
-! Expires: 3 days
+! Expires: 2 days
 ! Last modified: %timestamp%
 
 ! ALLOWLIST: 
@@ -740,6 +740,7 @@ pornhub.com/_xa/tj-ssp/burl^$all,important
 /_xa/ads_
 /_xa/ads?
 /_xa/^$all,important
+||pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
