@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Nov15-2
+! Version: 2023Nov17-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -51,8 +51,8 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg3.su/lib/Peafowl/js/scripts.min.js$script,1p
 @@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
-@@||saint.to/js/main.js?101-112-021-333
-@@||saint.to/js/main-login.js?162-02333
+@@||saint.to/js/main.js$script,1p
+@@||saint.to/js/main-login.js$script,1p
 pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 pornhub.com#@#.share-link-container
 @@||tnaflix.com/assets/js/dist/bundle.min.js
@@ -852,9 +852,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 /ht.js?site_
 
 ! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com,domain=saint.to
 *$1p,script,domain=saint.to
-saint.to/embed^$inline-script,important
+!saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
 1987050^$all,important
 saint.to##+js(abort-current-script, document.querySelectorAll, popMagic)
@@ -866,7 +866,7 @@ saint.to##all:has-text(1986859)
 saint.to##all:has-text(0x2e4efe)
 ||lovefap.com/v2/js^$all
 !saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
-||saint.to/embed^$inline-script,important
+!||saint.to/embed^$inline-script,important
 ||oljjiplpyo.com^$all,important
 ||oljjiplpyo.com^
 phuru$all,important
@@ -878,6 +878,8 @@ saint.to##+js(nowoif)
 !saint.to##+js(window-close-if, /^/)
 ||fvcwqkkqmuv.com^
 .php?ping=
+||track.dark.bz^
+||papi-shard.b-cdn.net/script.js
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
