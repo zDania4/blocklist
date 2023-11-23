@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Nov22-1
+! Version: 2023Nov23-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -345,6 +345,8 @@ coomer.su##a[href*="topaitools.fun"]
 ||creative.xlivrdr.com^
 coomer.su##div[class^="ad-container"]
 coomer.su##.ad-container
+coomer.su##[href="//a.adtng.com/get/10014806"]
+coomer.su##[href="//a.adtng.com"]
 
 ! Cyberdrop
 ###ads-header
