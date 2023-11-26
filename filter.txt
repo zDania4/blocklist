@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Nov23-2
+! Version: 2023Nov26-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -39,7 +39,6 @@ sendvid.com#@#+js(abort-current-inline-script, $, pop)
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 
 ! #Website functionality
-@@||coomer.su/api/v1/creators.txt
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
@@ -332,7 +331,7 @@ coomer.party##div.ad-container > .image-link
 coomer.su##div.ad-container > .image-link
 coomer.su##div.ad-container
 ||s.magsrv.com^$all,important
-||coomer.su/api/*$all
+||coomer.su/api/v1/%D0%B5vent$xhr,1p
 ||a.magsrv.com^$all,important
 ||img.coomer.su/cnudify1.gif$all,important
 ||magsrv.com^$all,important
@@ -347,6 +346,7 @@ coomer.su##div[class^="ad-container"]
 coomer.su##.ad-container
 coomer.su##[href="//a.adtng.com/get/10014806"] > div
 coomer.su##[href="//a.adtng.com/get/10014806"]
+coomer.su/api/v1/%D0%B5vent
 
 ! Cyberdrop
 ###ads-header
