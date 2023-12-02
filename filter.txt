@@ -942,6 +942,7 @@ simpcity.su##.nav-bonga.p-navEl-link
 ||adtng.com^
 ##iframe[src^="https://a.adtng.com/"]
 simpcity.su##+js(addEventListener-defuser, , open)
+||a.adtng.com^
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
