@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec07-2
+! Version: 2023Dec09-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -78,6 +78,9 @@ pornhub.com#@#.share-link-container
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
 @@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.su
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
 
 ! BLOCKLIST:
 
