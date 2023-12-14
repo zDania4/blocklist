@@ -1,17 +1,21 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec09-2
+! Version: 2023Dec14-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
 @@||bunkr.ru/api/upload$all,domain=app.bunkrr.*
 @@||bunkr.ru/thumbs/$domain=bunkrr.*
 
-! # DDOS-Guard
-@@||check.ddos-guard.net^$3p
+! # DDOS-Guard / Cloudflare
+@@||check.ddos-guard.net^
 @@||https://bunkrr.su/.well-known/ddos-guard/check
 @@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
+@@||challenges.cloudflare.com^
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
@@ -78,9 +82,7 @@ pornhub.com#@#.share-link-container
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
 @@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.su
-@@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
+
 
 ! BLOCKLIST:
 
@@ -866,6 +868,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 /_xa/ads_
 /ht.js?site_
+pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com,domain=saint.to
