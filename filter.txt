@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec14-1
+! Version: 2023Dec18-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -766,6 +766,7 @@ pornhub.com###menuItem4 > .js-topMenuLink
 pornhub.com##.activeMenuTab.livesex.item-4.menu.asyncLoad
 pornhub.com###menuItem4
 pornhub.com###main-container > .reset
+pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
@@ -812,7 +813,7 @@ redgifs.com##div[style="width: 300px; height: 250px;"]
 redgifs.com##.placard-wrapper
 redgifs.com##a[href*="theporndude.com"]
 redgifs.com##a[href^="https://camsfinders.com/"]
-||www.redgifs.com^$popup
+!||www.redgifs.com^$popup
 ||goaserv.com^
 ||prtord.com^
 www.redgifs.com##.aNEGYgbV
@@ -823,14 +824,18 @@ www.redgifs.com##.live
 www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button > .nMf9HAtt > .LiveButton_imageWrapper__lQwnshrD
 www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button
 www.redgifs.com##.boosted-btn
-!#Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. Direct links to videos can be found by using Share -> Copy link.
-redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
-redgifs.com##+js(nowoif)
-redgifs.com##+js(window-close-if, /^/)
 /v2/ads/*
 /client.rum.
 ||bugsnag.com^$3p
 ||redgifs.com/v2/metrics/
+www.redgifs.com##li.SideBar-Item > .pND5z2xV
+www.redgifs.com##.war\+IzyG
+www.redgifs.com##.videoLink:remove-attr(href)
+!###Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. ###
+!##Disabled because a better solution has been found.##
+!redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
+!redgifs.com##+js(nowoif)
+!redgifs.com##+js(window-close-if, /^/)
 
 ! Redtube
 redtube.*###paid_tabs_list
@@ -868,7 +873,6 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 /_xa/ads_
 /ht.js?site_
-pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com,domain=saint.to
@@ -923,8 +927,9 @@ simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
-!The following line removes the Trans category from the main SC page - posts in this category aren't removed and will show up on the site. Remove if needed.
+!The following two lines removes Trans categories from the main SC page - posts in these aren't removed and will show up on the site. Remove if needed.
 simpcity.su##.block--category101.block--category.block
+simpcity.su##.node-subNodeFlatList > li:nth-of-type(10)
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
 ||onlyfinder.bio^$important
