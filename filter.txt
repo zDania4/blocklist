@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec19-4
+! Version: 2023Dec19-5
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -841,7 +841,9 @@ redgifs.com##.videoLink:remove-attr(href)
 redgifs.com##.embeddedPlayer:remove-attr(href)
 !redgifs.com##.embeddedPlayer[onclick]:remove-attr(onclick)
 !##Depreciated##!
-redgifs.com##+js(remove-attr, href, .videoLink, asap|stay)
+redgifs.com##+js(remove-attr, href|target|rel|class, .videoLink, asap|stay)
+!## Breaks the pause button but should stop the pop on BM ##!
+redgifs.com#$#.videoLink { pointer-events: none !important; cursor: default !important; }
 !###Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. ###
 !##Disabled because a better solution has been found.##
 !redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
