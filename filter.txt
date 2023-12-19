@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec19-7
+! Version: 2023Dec19-8
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -281,6 +281,9 @@ lazyhungrilyheadlicks.js
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkrr.su##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=19\d{5}$/$script,3p,match-case
+||ku42hjr2e.com^
+||mp.chriahotcake.com^
+||pk910324e.com^
 
 ! CamvodsCo
 ###header-ads
@@ -914,6 +917,7 @@ saint.to##+js(nowoif)
 .php?ping=
 ||track.dark.bz^
 ||papi-shard.b-cdn.net/script.js
+/^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=[12]\d{6}$/$script,3p,match-case
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
