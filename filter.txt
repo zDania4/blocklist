@@ -1,7 +1,7 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec18-1
+! Version: 2023Dec19-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -17,7 +17,7 @@
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
 @@||challenges.cloudflare.com^
 
-! #Allows for necessary popups to show content on JPG/Bunkrr, when linked from SC
+! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
 @@||jpg2.su/upload$all,domain=simpcity.su
@@ -26,6 +26,7 @@
 @@||jpg3.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
+@@||redgifs.com^$popup,domain=simpcity.com
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
@@ -813,24 +814,30 @@ redgifs.com##div[style="width: 300px; height: 250px;"]
 redgifs.com##.placard-wrapper
 redgifs.com##a[href*="theporndude.com"]
 redgifs.com##a[href^="https://camsfinders.com/"]
-!||www.redgifs.com^$popup
+||www.redgifs.com^$popup
 ||goaserv.com^
 ||prtord.com^
-www.redgifs.com##.aNEGYgbV
-www.redgifs.com##div.css-7klr92.MuiListItemButton-gutters.MuiListItemButton-root.MuiButtonBase-root:nth-of-type(1)
-||www.redgifs.com/static/media/live-3.5965d4d1ba74e87f9ee6.webp$image
-www.redgifs.com##.css-4qe5v1.MuiBackdrop-root
-www.redgifs.com##.live
-www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button > .nMf9HAtt > .LiveButton_imageWrapper__lQwnshrD
-www.redgifs.com###gif > .metaInfo > .author-wrap > .live-button
-www.redgifs.com##.boosted-btn
+redgifs.com##.aNEGYgbV
+redgifs.com##div.css-7klr92.MuiListItemButton-gutters.MuiListItemButton-root.MuiButtonBase-root:nth-of-type(1)
+||redgifs.com/static/media/live-*$image
+redgifs.com##.css-4qe5v1.MuiBackdrop-root
+redgifs.com##.live
+redgifs.com###gif > .metaInfo > .author-wrap > .live-button > .nMf9HAtt > .LiveButton_imageWrapper__lQwnshrD
+redgifs.com###gif > .metaInfo > .author-wrap > .live-button
+redgifs.com##.boosted-btn
 /v2/ads/*
 /client.rum.
 ||bugsnag.com^$3p
 ||redgifs.com/v2/metrics/
-www.redgifs.com##li.SideBar-Item > .pND5z2xV
-www.redgifs.com##.war\+IzyG
-www.redgifs.com##.videoLink:remove-attr(href)
+redgifs.com##li.SideBar-Item > .pND5z2xV
+redgifs.com##.war\+IzyG
+redgifs.com##.LiveButton_textWrapper__kQyDTxH4
+redgifs.com##li.SideBar-Item:nth-of-type(7)
+redgifs.com##li.SideBar-Item:nth-of-type(6)
+redgifs.com##.topNav-wrap > div:nth-of-type(3)
+redgifs.com##.topNav-wrap > div:nth-of-type(1)
+redgifs.com##.videoLink:remove-attr(href)
+!redgifs.com##.embeddedPlayer[onclick]:remove-attr(onclick)
 !###Breaks all links on RG iframe, but, most importantly, it stops the annoying popup. ###
 !##Disabled because a better solution has been found.##
 !redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
