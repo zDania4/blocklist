@@ -1,7 +1,8 @@
 ! Title: Dania's Blocklist
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
-! Version: 2023Dec19-8
+! Homepage: https://zdania4.github.io/blocklist
+! Version: 2023Dec19-9
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
