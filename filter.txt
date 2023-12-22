@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2023Dec20-1
+! Version: 2023Dec22-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -891,7 +891,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 /ht.js?site_
 
 ! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint.to
 *$1p,script,domain=saint.to
 !saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
