@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2023Dec22-1
+! Version: 2023Dec27-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -773,6 +773,13 @@ pornhub.com##.activeMenuTab.livesex.item-4.menu.asyncLoad
 pornhub.com###menuItem4
 pornhub.com###main-container > .reset
 pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
+pornhub.com##+js(set-cookie, views, 1)
+$websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com
+pornhub.com###singleFeedSection > .emptyBlockSpace
+www.pornhub.com/_xa
+||www.pornhub.com/_xa/*$script,domain=www.pornhub.com
+||www.pornhub.com/_xa/*$xhr,domain=www.pornhub.com
+||static.trafficjunky.com^$script,domain=www.pornhub.com
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
