@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2023Dec28-1
+! Version: 2024Jan04-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -25,6 +25,8 @@
 @@||jpg2.su/img/*$popup,domain=simpcity.su
 @@||jpg3.su/upload$all,domain=simpcity.su
 @@||jpg3.su/img/*$popup,domain=simpcity.su
+@@||jpg4.su/upload$all,domain=simpcity.su
+@@||jpg4.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 @@||redgifs.com^$popup,domain=simpcity.com
@@ -54,6 +56,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg3.su/app/lib/chevereto.min.js$script,1p
 @@||jpg3.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg3.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg4.su/app/lib/chevereto.min.js$script,1p
+@@||jpg4.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg4.su/lib/Peafowl/js/scripts.min.js$script,1p
 @@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js$script,1p
@@ -560,6 +565,29 @@ jpg3.su##+js(nowoif)
 !jpg3.su##+js(window-close-if, /^/)
 ||jpg3.su/63bfe33665231.php
 ||jpg3.su/img/*$popup,1p
+$popup,3p,domain=jpg4.su
+jpg4.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg4.*
+jpg4.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg4.*
+||jpg4.*/quicknoisilyheadbites.js
+*$1p,script,domain=jpg4.su
+||jpg4.su/63bfe33665231.php$all,important
+jpg4.su##^script:has-text(config.syndication_host)
+jpg4.su##^script:has-text(adConfig)
+jpg4.su##^script:has-text(popMagic)
+jpg4.su##^script:has-text(we-dont-like-blocks)
+jpg4.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+jpg4.su##+js(abort-current-script, document.createElement, click)
+jpg4.su##+js(abort-current-script, popMagic)
+jpg4.su##+js(acis, document.querySelectorAll, popMagic)
+jpg4.su##+js(aeld, click, popMagic)
+||jpg4.su/img$popup
+||jpg4.su/quicknoisilyheadbites.js$all
+jpg4.su##+js(nowoif)
+!jpg4.su##+js(window-close-if, /^/)
+||jpg4.su/63bfe33665231.php
+||jpg4.su/img/*$popup,1p
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
