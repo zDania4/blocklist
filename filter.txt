@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan14-1
+! Version: 2024Jan15-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -16,6 +16,11 @@
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
+@@||https://bunkrr.ru/.well-known/ddos-guard/check
+@@||bunkrr.ru/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.ru
 @@||challenges.cloudflare.com^
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
@@ -29,6 +34,8 @@
 @@||jpg4.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
+@@||bunkrr.ru/a/*$popup,domain=simpcity.su
+@@||bunkrr.ru/v/*$popup,domain=simpcity.su
 @@||redgifs.com^$popup,domain=simpcity.com
 
 ! #Anti-adblock / #CHP Ads Block Detector
@@ -78,6 +85,7 @@ pornhub.com#@#.share-link-container
 @@||static.bunkr.is/css/modal.css$domain=bunkrr.su
 @@||bunkrr.su/magic/dashboard.js$script,domain=app.bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$domain=bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image,domain=bunkrr.ru
 @@||bunkrr.su/magic/album-sort.js$script,1p
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
@@ -91,6 +99,16 @@ pornhub.com#@#.share-link-container
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.su
 @@||bunkrr.ru/magic/dashboard-v3.js$script,domain=app.bunkrr.su
 @@||bunkrr.ru/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/dashboard.js$script,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/album-sort.js$script,1p
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.su
+@@||static.bunkr.is/css/modal.css$inline-font,domain=app.bunkrr.su
+@@||bunkrr.ru/v/*$popup,domain=app.bunkrr.su
+@@||bunkrr.ru/a/*$popup,domain=app.bunkrr.su
+@@||bunkrr.ru/i/*$popup,domain=app.bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
+@@||bunkrr.ru/magic/home-v2.js$inline-font,domain=app.bunkrr.su
 
 ! BLOCKLIST:
 
@@ -122,7 +140,8 @@ anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
 
 ! bunkr 
-$popup,3p,denyallow=bunkr.ru,domain=bunkrr.su
+$popup,3p,denyallow=bunkrr.ru|bunkr.ru,domain=bunkrr.su
+$popup,3p,denyallow=bunkr.ru,domain=bunkrr.ru
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
@@ -198,7 +217,7 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru,domain=bunkr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com,domain=bunkr.*
 !*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
@@ -232,11 +251,12 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru,domain=bunkrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 /^_0x\w+[A-Za-z0-9]$/$frame,script,xhr,popup,match-case
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
+||bunkrr.ru^$third-party
 !||bunkrr.la^$third-party
 ?ab=1&zoneid=$all
 zoneid=$all
@@ -249,6 +269,7 @@ bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
 ||a-ads.com^
 pixl.li/lazyhungrilyheadlicks.js$all,important
 bunkrr.su/magic/pure-magic.js$all,important
+bunkrr.ru/magic/pure-magic.js$all,important
 bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||ojtarsdukk.com^$all,important
 ||fvcwqkkqmuv.com^$all,important
@@ -276,6 +297,9 @@ chicken.gif?z=*
 bunkrr.su/build/370.a4405777.js
 bunkrr.su/build/app.291ea157.js
 bunkrr.su/build/runtime.9a71ee5d.js
+bunkrr.ru/build/370.a4405777.js
+bunkrr.ru/build/app.291ea157.js
+bunkrr.ru/build/runtime.9a71ee5d.js
 ||guigebichir.website
 ||yellow-resultsbidder.com
 ||fvcwqkkqmuv.com/gtm.js?id=1970903
@@ -287,6 +311,10 @@ lazyhungrilyheadlicks.js
 ||bunkrr.su/api/last_visit
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkrr.su##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+bunkrr.ru##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+bunkrr.ru##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+bunkrr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+bunkrr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=19\d{5}$/$script,3p,match-case
 ||ku42hjr2e.com^
 ||mp.chriahotcake.com^
