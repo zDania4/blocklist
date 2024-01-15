@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan15-1
+! Version: 2024Jan15-2
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -36,7 +36,8 @@
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 @@||bunkrr.ru/a/*$popup,domain=simpcity.su
 @@||bunkrr.ru/v/*$popup,domain=simpcity.su
-@@||redgifs.com^$popup,domain=simpcity.com
+@@||bunkrr.ru/i/*$popup,domain=simpcity.su
+@@||redgifs.com^$popup,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
@@ -109,6 +110,9 @@ pornhub.com#@#.share-link-container
 @@||bunkrr.ru/i/*$popup,domain=app.bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
 @@||bunkrr.ru/magic/home-v2.js$inline-font,domain=app.bunkrr.su
+@@||www.redgifs.com/users/*$popup,domain=www.redgifs.com
+@@||www.redgifs.com/watch/*$popup,domain=www.redgifs.com
+@@||www.redgifs.com^$popup,domain=www.redgifs.com
 
 ! BLOCKLIST:
 
