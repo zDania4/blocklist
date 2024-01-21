@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan15-2
+! Version: 2024Jan21-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -113,6 +113,7 @@ pornhub.com#@#.share-link-container
 @@||www.redgifs.com/users/*$popup,domain=www.redgifs.com
 @@||www.redgifs.com/watch/*$popup,domain=www.redgifs.com
 @@||www.redgifs.com^$popup,domain=www.redgifs.com
+@@*$generichide,from=streamtape.*
 
 ! BLOCKLIST:
 
@@ -323,6 +324,8 @@ bunkrr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 ||ku42hjr2e.com^
 ||mp.chriahotcake.com^
 ||pk910324e.com^
+||bunkrr.*/magic/pure-magic-1.js
+||bunkrr.*/magic/albums.js
 
 ! CamvodsCo
 ###header-ads
@@ -662,6 +665,80 @@ qsxptjxruxrttu.xyz$all,important
 *$frame,domain=pixl.li
 pixl.li###image_footer_nsfw
 pixl.li##[id^="image_footer_nsfw"]
+
+# Pornhoarder
+pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+ww1.pornhoarder.tv##[href="https://theporndude.com/"]
+ww1.pornhoarder.tv##.mb-sm
+ww1.pornhoarder.tv##.video-detail-bspace
+ww1.pornhoarder.tv##.homepage-center > .mt-md
+||ybs2ffs7v.com/lvesnk.html$subdocument
+dirtyvideo.fun##+js(no-window-open-if)
+dirtyvideo.fun##+js(no-window-open-if)
+dirtyvideo.fun##+js(set-constant, arrvast, [])
+/fuckadblock.$script
+/fuckadblock.$script,redirect-rule=fuckadblock.js-3.2.0:5
+||dirtyvideo.fun/js/script_
+/video.counters.
+||ybs2ffs7v.com^
+||0b7741a902.com^
+.com/script/utils.js|$3p
+||googlesyndication.com^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,from=~zipextractor.app
+||sadjklq.com^
+||alleviatepracticableaddicted.com^
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js
+||marazma.com^
+||popmansion.com^
+||sadjklq.com^
+*$ping,3p
+dirtyvideo.fun/ad/top/popunder.js
+dirtyvideo.fun##a[href*="mailto"]
+||histats.com^$3p
+##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+/assets/jquery/adult0.js?v=$script,1p
+streamwish.*##+js(set-constant, xRds, true)
+streamwish.*##+js(set-constant, cRAds, false)
+streamwish.*##+js(abort-on-property-read, __Y)
+||dalysv.com^
+||coinblocktyrusmiram.com^
+||filemoon.*/js/baf.js
+filemoon.*##+js(addEventListener-defuser, , break;case $.)
+filemoon.*##+js(remove-node-text, script, break;case $.)
+filemoon.*##+js(no-window-open-if)
+filemoon.*##+js(abort-current-script, navigator, popunder)
+filemoon.*##+js(abort-on-property-read, FMPoopS)
+filemoon.*##+js(adjust-setInterval, seconds)
+/^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
+/redirect?tid=
+mdzsmutpcvykb.net##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+||sozzlypeavies.com^
+/plausible.js$from=~plausible.io
+mdzsmutpcvykb.net##+js(no-window-open-if)
+mdzsmutpcvykb.net##+js(nowoif)
+||jocauzee.net^
+||mdzsmutpcvykb.net/xads.js$script
+||sozzlypeavies.com/fMFsIkFaCIm2WRJcX/70562
+ak.*.*/4/
+tauphaub.net/4/6543079?var=MP1P4
+$popup,domain=mdzsmutpcvykb.net
+||ak.jocauzee.net/4/3520015
+ak.stoorgel.com/4/3520015
+mdzsmutpcvykb.net^script:has-text(sfpp45a)
+mdzsmutpcvykb.net##+js(aeld, appendChild)
+mdzsmutpcvykb.net##+js(abort-on-property-read, wpn63s)
+||dsnymrk0k4p3v.cloudfront.net^
+upstream.to##+js(abort-current-script, document.oncontextmenu)
+upstream.to##+js(abort-on-property-read, _0xfff1)
+upstream.to##+js(abort-current-script, $, .css)
+upstream.to##+js(abort-on-property-read, open)
+upstream.to##+js(abort-on-property-read, _run)
+upstream.to##+js(nowebrtc)
+upstream.to##+js(set-constant, cRAds, null)
+upstream.to##+js(abort-current-script, Math, break;case $.)
+upstream.to##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
+||midwifelangurs.com^
 
 ! Pornhub
 ##.adsbytrafficjunky
@@ -1061,6 +1138,16 @@ spankbang.com##.lv_cm_int_come_on
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##.ptgncdn_holder
 
+#Streamtape
+streamtape.*##+js(addEventListener-defuser, contextmenu)
+streamtape.*##+js(remove-node-text, script, /parseInt.*push.*setTimeout.*try.*catch/)
+streamtape.*##+js(no-setInterval-if, adblock)
+streamtape.*##+js(no-window-open-if)
+streamtape.*##+js(remove-attr, target, #downloadvideo)
+streamtape.*##+js(adjust-setTimeout, counter)
+streamtape.*##+js(abort-current-script, JSON.parse, Promise)
+streamtape.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+
 ! Sxyprn
 sxyprn.com##.cbd
 sxyprn.com##.tbd
@@ -1119,6 +1206,14 @@ https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 ||tnaflix.com##+js(set-cookie, popunder_stop, 1)
 ||tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
 m.tnaflix.com##.pause-ad-wrap
+
+# Whoreshub
+whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
+whoreshub.com##.col-second
+##a[href^="https://go.xxxjmp.com"]
+##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
+||xxxjmp.com^
+||rkgwzfwjgk.com^
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
