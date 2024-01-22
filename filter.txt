@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan22-1
+! Version: 2024Jan22-2
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -22,6 +22,7 @@
 @@||bunkrr.ru/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.ru
 @@||challenges.cloudflare.com^
+@@||kemono.su/.well-known/ddos-guard/mark/|
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
@@ -532,6 +533,11 @@ imgbox.com###full-page-redirect
 imgbox.com##a[href*="theporndude.com"]
 ##a[href^="https://go.goaserv.com/"]
 
+! Instagram
+www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
+www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
+www.instagram.com##.x1uhb9sk
+
 ! Jpg.fish - .fishing - .pet / jpg1.su / jpg2.su
 $popup,3p,domain=jpg1.su
 jpg.*/quicknoisilyheadbites.js
@@ -625,10 +631,8 @@ jpg4.su##+js(nowoif)
 ||jpg4.su/63bfe33665231.php
 ||jpg4.su/img/*$popup,1p
 
-! Instagram
-www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
-www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
-www.instagram.com##.x1uhb9sk
+! Kemono
+kemono.su##.ad-container
 
 ! Noodlemagazine
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
