@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan21-1
+! Version: 2024Jan22-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -922,6 +922,15 @@ www.pornhub.com##.removeAdLink.customUpgradeBtn.menuLink
 www.pornhub.com##.middleAdContainer.clearfix.adContainer
 www.pornhub.com##.ad-tabSplit.clearfix.adContainer
 www.pornhub.com##.topAdContainter > .clearfix.adContainer
+||planetoflovers1.cc^
+||afhrutsb.cc^
+||lovelaneexpress.com^
+||static.trafficjunky.com/invocation/embeddedads/production/embeddedads.es6.min.js
+pornhub.*##+js(abort-on-property-read, tjPreloadAds)
+pornhub.*##+js(abort-on-property-read, TJ_ADS_TAKEOVER)
+pornhub.*##+js(abort-on-property-read, adsbytrafficjunkycontext)
+pornhub.*##+js(abort-on-property-read, adsbytrafficjunky)
+||ads2.contentabc.com^
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
