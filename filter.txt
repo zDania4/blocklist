@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan25-1
+! Version: 2024Jan26-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -129,6 +129,8 @@ pornhub.com#@#.share-link-container
 @@||bunkr.sk/i/*$popup,domain=app.bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.sk
 @@||bunkr-albums.io^$popup,domain=bunkr.sk
+@@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
+@@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
 
 ! BLOCKLIST:
 
@@ -396,6 +398,19 @@ camwhoresbay.com##div.opt
 *$frame,permissions=idle-detection=(),from=~localhost
 *$frame,permissions=browsing-topics=(),from=~localhost
 !www.google.*##+js(set-constant, rwt, noopFunc)
+
+! Chatpic
+chatpic.org##.fulfilment.ad
+chatpic.org##div.hr:nth-of-type(1)
+||chatpic.org/js/ads.js$script,1p
+||aibsgc.com/rt/1025701/inpage.js
+||aibsgc.com^
+||lby2kd27c.com^
+||jads.co^
+||creative.mnaspm.com^
+||iosvpnguard.com
+chatpic.org##body > iframe
+chatpic.org##.modal.flex-centered.fulfilment
 
 ! Coomer
 coomer.party##all:has-text(SCSpotscript)
