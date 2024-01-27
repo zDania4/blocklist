@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan27-1
+! Version: 2024Jan27-2
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -16,14 +16,17 @@
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
-@@||https://bunkrr.ru/.well-known/ddos-guard/check
+@@||bunkrr.ru/.well-known/ddos-guard/check
 @@||bunkrr.ru/.well-known/ddos-guard/captcha_js$script,1p
 @@||bunkrr.ru/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkrr.ru/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||bunkr.sk/.well-known/ddos-guard/captcha_js$script,1p
 @@||bunkr.sk/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkr.sk/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.ru
+@@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*
 @@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
 @@||challenges.cloudflare.com^
 @@||kemono.su/.well-known/ddos-guard/mark/|
@@ -45,6 +48,9 @@
 @@||bunkrr.sk/a/*$popup,domain=simpcity.su
 @@||bunkr.sk/v/*$popup,domain=simpcity.su
 @@||bunkr.sk/i/*$popup,domain=simpcity.su
+@@||bunkrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrr.*/i/*$popup,domain=simpcity.su
 @@||redgifs.com^$popup,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
@@ -119,9 +125,9 @@ pornhub.com#@#.share-link-container
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
 @@||bunkrr.ru/magic/home-v2.js$inline-font,domain=app.bunkrr.su
-@@||www.redgifs.com/users/*$popup,domain=www.redgifs.com
-@@||www.redgifs.com/watch/*$popup,domain=www.redgifs.com
-@@||www.redgifs.com^$popup,domain=www.redgifs.com
+@@||www.redgifs.com/users/*$popup,domain=redgifs.com
+@@||www.redgifs.com/watch/*$popup,domain=redgifs.com
+@@||www.redgifs.com^$popup,domain=redgifs.com
 @@*$generichide,from=streamtape.*
 @@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.sk
 @@||bunkr.sk/v/*$popup,domain=app.bunkrr.su
@@ -131,6 +137,22 @@ pornhub.com#@#.share-link-container
 @@||bunkr-albums.io^$popup,domain=bunkr.sk
 @@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
 @@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.*
+@@||bunkr.*/v/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/a/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/i/*$popup,domain=app.bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
+@@||bunkr-albums.io^$popup,domain=bunkr.*
+@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.su
+@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkr.*
+@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
+@@||bunkr.*/lul/pepega-loading.webp$inline-font,domain=bunkr.*
+@@||cdn.jsdelivr.net/npm/*$domain=get.bunkrr.su
+@@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
+@@||bunkr-albums.io^$popup,domain=bunkr.*
+@@||bunkr-albums.io^$popup,domain=bunkrr.*
 
 ! BLOCKLIST:
 
@@ -162,9 +184,7 @@ anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
 
 ! bunkr 
-$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk,domain=bunkrr.su
-$popup,3p,denyallow=bunkr.ru,domain=bunkrr.ru
-$popup,3p,denyallow=bunkr.ru,domain=bunkr.sk
+$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr-albums.io,domain=bunkr.*|bunkrr.*
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
@@ -244,6 +264,7 @@ build/asdajklsdashjdasjk.js$all
 !*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkr.sk
+*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkr.*
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
 bunkrr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
@@ -281,13 +302,15 @@ qifwpepixziv.com$all,important
 ||opmvivogsb.com^$all,important
 ||bunkrr.su^$third-party
 ||bunkrr.ru^$third-party
+!||bunkrr.*^$third-party
+!||bunkr.*^$third-party
 !||bunkrr.la^$third-party
 ?ab=1&zoneid=$all
 zoneid=$all
 ?zoneid=1970905&var=1970906$all
 ?id=1970906$all
 bunkrr.*##+js(abort-current-script, WebAssembly, _0x)
-bunkr.sk*##+js(abort-current-script, WebAssembly, _0x)
+bunkr.sk##+js(abort-current-script, WebAssembly, _0x)
 /aas/r45d/vki/*$script,3p,redirect-rule=noop.js
 ||wheetlemetreza.com^
 ||hhbypdoecp.com^
@@ -296,6 +319,7 @@ pixl.li/lazyhungrilyheadlicks.js$all,important
 bunkrr.su/magic/pure-magic.js$all,important
 bunkrr.ru/magic/pure-magic.js$all,important
 bunkr.sk/magic/pure-magic.js$all,important
+bunkr.*/magic/pure-magic.js$all,important
 bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||ojtarsdukk.com^$all,important
 ||fvcwqkkqmuv.com^$all,important
@@ -306,6 +330,7 @@ bunkrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
 ||cloudtraff.com^$all,important
 bunkrr.*##+js(nowoif)
 bunkr.sk##+js(nowoif)
+bunkr.*##+js(nowoif)
 !bunkrr.*##+js(window-close-if, /v/)
 ||hibitomonach.com^$all
 ||datelovehub.life$all,important
@@ -316,8 +341,11 @@ gtm.js
 ||viewyentreat.guru
 pixl.li/648e92f11de8d.php$all
 bunkrr.*##^all:has-text(taco-loves-ads)
-bunkr.sk*##^all:has-text(taco-loves-ads)
+bunkr.sk##^all:has-text(taco-loves-ads)
+bunkr.*##^all:has-text(taco-loves-ads)
 pixl.li^$domain=bunkrr.su
+pixl.li^$domain=bunkrr.*
+pixl.li^$domain=bunkr.*
 idzone=taco-loves-ads$all
 t=bunky
 /tsk/*
@@ -331,6 +359,12 @@ bunkrr.ru/build/runtime.9a71ee5d.js
 bunkr.sk/build/370.a4405777.js
 bunkr.sk/build/app.291ea157.js
 bunkr.sk/build/runtime.9a71ee5d.js
+bunkrr.*/build/370.a4405777.js
+bunkrr.*/build/app.291ea157.js
+bunkrr.*/build/runtime.9a71ee5d.js
+bunkrr.*/build/370.a4405777.js
+bunkrr.*/build/app.291ea157.js
+bunkrr.*/build/runtime.9a71ee5d.js
 ||guigebichir.website
 ||yellow-resultsbidder.com
 ||fvcwqkkqmuv.com/gtm.js?id=1970903
@@ -346,7 +380,7 @@ bunkrr.ru##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkrr.ru##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkrr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkrr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
-bunkr.sk*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+bunkr.sk##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkr.sk##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 bunkr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
@@ -358,6 +392,9 @@ bunkr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 ||bunkrr.*/magic/albums.js
 ||bunkr.*/magic/pure-magic-1.js
 ||bunkr.*/magic/albums.js
+||bunkr.*/build/370.a4405777.js
+||bunkr.*/build/app.291ea157.js
+||bunkr.*/build/runtime.9a71ee5d.js
 
 ! CamvodsCo
 ###header-ads
@@ -1265,8 +1302,8 @@ https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 ||tnaflix.com/stats.php
 ##a[href^="https://go.admjmp.com/"]
 -prebid-
-||tnaflix.com##+js(set-cookie, popunder_stop, 1)
-||tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
+tnaflix.com##+js(set-cookie, popunder_stop, 1)
+tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
 m.tnaflix.com##.pause-ad-wrap
 
 # Whoreshub
