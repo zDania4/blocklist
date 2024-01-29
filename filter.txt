@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan27-3
+! Version: 2024Jan29-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -156,6 +156,12 @@ pornhub.com#@#.share-link-container
 @@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
 @@||bunkr-albums.io^$popup,domain=bunkr.*
 @@||bunkr-albums.io^$popup,domain=bunkrr.*
+@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/v/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/a/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.*|app.bunkr.*
 
 ! BLOCKLIST:
 
@@ -187,7 +193,7 @@ anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
 
 ! bunkr 
-$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr-albums.io,domain=bunkr.*|bunkrr.*
+$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io,domain=bunkr.*|bunkrr.*
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
