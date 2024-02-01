@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jan29-1
+! Version: 2024Feb01-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -11,7 +11,7 @@
 
 ! # DDOS-Guard / Cloudflare
 @@||check.ddos-guard.net^
-@@||https://bunkrr.su/.well-known/ddos-guard/check
+@@||bunkrr.su/.well-known/ddos-guard/check
 @@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
@@ -26,10 +26,19 @@
 @@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
 @@||bunkr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||bunkr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*
+@@||bunkrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.su
 @@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
 @@||challenges.cloudflare.com^
 @@||kemono.su/.well-known/ddos-guard/mark/|
+@@||simpcity.su/.well-known/ddos-guard/check
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/*$1p
+@@||simpcity.su/.well-known/ddos-guard/*$1p
+@@||simpcity.su/.well-known/ddos-guard/id/*$1p
+@@||simpcity.su/.well-known/ddos-guard/mark/*$,1p
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
