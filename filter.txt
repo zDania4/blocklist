@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb01-1
+! Version: 2024Feb04-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -39,6 +39,7 @@
 @@||simpcity.su/.well-known/ddos-guard/*$1p
 @@||simpcity.su/.well-known/ddos-guard/id/*$1p
 @@||simpcity.su/.well-known/ddos-guard/mark/*$,1p
+@@||check.ddos-guard.net/check.js$inline-font
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
@@ -167,10 +168,16 @@ pornhub.com#@#.share-link-container
 @@||bunkr-albums.io^$popup,domain=bunkrr.*
 @@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkrr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkrr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/v/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/a/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/home-v2.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint.to
 
 ! BLOCKLIST:
 
@@ -238,7 +245,7 @@ bunkr.*##^script:has-text(clerrrep.com)
 bunkr.*##^script:has-text(__aaZoneid)
 ||spakkoorbamz.com^$important
 ||clerrrep.com^$all,important
-bunkr.*##iframe
+!bunkr.*##iframe
 ||godpvqnszo.com^$all,important
 ||godpvqnszo.com^
 ||fatuoidmunify.com^$important
@@ -406,8 +413,8 @@ bunkr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 ||ku42hjr2e.com^
 ||mp.chriahotcake.com^
 ||pk910324e.com^
-||bunkrr.*/magic/pure-magic-1.js
-||bunkrr.*/magic/albums.js
+||/pure-magic-1.js
+||/albums.js
 ||bunkr.*/magic/pure-magic-1.js
 ||bunkr.*/magic/albums.js
 ||bunkr.*/build/370.a4405777.js
