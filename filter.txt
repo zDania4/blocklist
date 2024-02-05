@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb04-1
+! Version: 2024Feb05-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -98,6 +98,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js$script,1p
 @@||saint.to/js/main-login.js$script,1p
+@@||saint2.su/dropzone/dropzone.js
+@@||saint2.su/js/main.js$script,1p
+@@||saint2.su/js/main-login.js$script,1p
 pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 pornhub.com#@#.share-link-container
 @@||tnaflix.com/assets/js/dist/bundle.min.js
@@ -123,6 +126,8 @@ pornhub.com#@#.share-link-container
 !Allows for Saint thumbnails to load
 @@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint.to
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
 @@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.su
 @@||bunkrr.ru/magic/dashboard-v3.js$script,domain=app.bunkrr.su
@@ -178,6 +183,8 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
 @@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint.to
 @@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.su
 
 ! BLOCKLIST:
 
@@ -1165,7 +1172,9 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.su
 *$1p,script,domain=saint.to
+*$1p,script,domain=saint2.su
 !saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
 1987050^$all,important
@@ -1176,6 +1185,13 @@ saint.to##all:has-text(adx)
 saint.to##all:has-text(0xd965)
 saint.to##all:has-text(1986859)
 saint.to##all:has-text(0x2e4efe)
+saint.to##+js(abort-current-script, document.querySelectorAll, popMagic)
+saint2.su##all:has-text(popupUrl)
+saint2.su##all:has-text(popupWindow)
+saint2.su##all:has-text(adx)
+saint2.su##all:has-text(0xd965)
+saint2.su##all:has-text(1986859)
+saint2.su##all:has-text(0x2e4efe)
 ||lovefap.com/v2/js^$all
 !saint.to##+js(aeld) !! Blocks all the popups, BUT breaks uploading to the site and breaks the dashboard page !!
 !||saint.to/embed^$inline-script,important
@@ -1187,6 +1203,8 @@ phuru$all,important
 ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 saint.to##+js(nowoif)
+saint2.su/63e52888c97f0.php$all,important
+saint2.su##+js(nowoif)
 !saint.to##+js(window-close-if, /^/)
 ||fvcwqkkqmuv.com^
 .php?ping=
