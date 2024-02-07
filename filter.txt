@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb05-2
+! Version: 2024Feb07-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1265,6 +1265,9 @@ simpcity.su##.nav-bonga.p-navEl-link
 simpcity.su##+js(addEventListener-defuser, , open)
 ||a.adtng.com^
 ||turbostats.xyz/api/event
+simpcity.su##div[style*="background-color:#FBCA27"]
+simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
+##a[href^="https://a.adtng.com/"]
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
