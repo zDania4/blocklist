@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb21-1
+! Version: 2024Feb22-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -38,7 +38,8 @@
 @@||simpcity.su/.well-known/ddos-guard/js-challenge/*$1p
 @@||simpcity.su/.well-known/ddos-guard/*$1p
 @@||simpcity.su/.well-known/ddos-guard/id/*$1p
-@@||simpcity.su/.well-known/ddos-guard/mark/*$,1p
+@@||simpcity.su/.well-known/ddos-guard/mark/*$1p
+@@||simpcity.su/.well-known/ddos-guard/*$1p
 @@||check.ddos-guard.net/check.js$inline-font
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
@@ -1276,6 +1277,12 @@ simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:cente
 ##a[href^="https://a.adtng.com/"]
 !REMOVE BELOW IF MAIN CONTENT GETS NUKED AFTER BANNER IS GONE!
 !simpcity.su##body > div:nth-of-type(1)
+||weeb.party/api/img.php$image
+||turbostats.xyz/js/script.js$script,domain=simpcity.su
+||simpcity.su/data/assets/nodeicons/soulgen.png$image,1p
+||simpcity.su/data/assets/nodeicons/dp.png$image,1p
+||simpcity.su/data/assets/nodeicons/sexgames.png$image,1p
+||simpcity.su/data/assets/nodeicons/b12.png$image,1p
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
