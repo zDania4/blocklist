@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb22-2
+! Version: 2024Feb24-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -102,7 +102,6 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint2.su/dropzone/dropzone.js
 @@||saint2.su/js/main.js$script,1p
 @@||saint2.su/js/main-login.js$script,1p
-pornhub.com#@#.sectionWrapper &gt; div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 pornhub.com#@#.share-link-container
 @@||tnaflix.com/assets/js/dist/bundle.min.js
 @@||sxyprn.com/player/p12m.js
@@ -408,15 +407,15 @@ bunkrr.*/build/runtime.9a71ee5d.js
 lazyhungrilyheadlicks.js
 ||bunkrr.su/api/last_visit
 bunkrr.su##+js(set-cookie, zone-cap-taco-loves-ads, 1)
-bunkrr.su##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+!bunkrr.su##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkrr.ru##+js(set-cookie, zone-cap-taco-loves-ads, 1)
-bunkrr.ru##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+!bunkrr.ru##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkrr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
-bunkrr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+!bunkrr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkr.sk##+js(set-cookie, zone-cap-taco-loves-ads, 1)
-bunkr.sk##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+!bunkr.sk##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 bunkr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
-bunkr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
+!bunkr.*##+js(trusted-set-cookie, zone-cap-taco-loves-ads, 1, 1year)
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=19\d{5}$/$script,3p,match-case
 ||ku42hjr2e.com^
 ||mp.chriahotcake.com^
@@ -891,7 +890,7 @@ $websocket,domain=imagefap.com|pornhub.com
 babesandstars.com,pornhubpremium.com##.join
 pornhub-com.appspot.com,pornhub.com,pornhub.net,youporn.com###pb_template
 pornhub.*###pb_block
-pornhub.*###relatedvideoscenter &gt; .wrapvideoblock
+pornhub.*###relatedvideoscenter > .wrapvideoblock
 pornhub.*##+js(abort-current-script, object.defineproperty, trafficjunky)
 pornhub.*##+js(acs, object.defineproperty, trafficjunky)
 pornhub.*##+js(no-settimeout-if, adsbytrafficjunkycontext)
@@ -907,16 +906,16 @@ pornhub.*##+js(set-constant, htmlelement.prototype.attachshadow, null)
 pornhub.*##+js(set-constant, page_params.holiday_promo, true)
 pornhub.*##.realsex
 pornhub.*##.snipermodeengaged
-pornhub.*##.video-wrapper &gt; #player ~ .hd.clear
+pornhub.*##.video-wrapper > #player ~ .hd.clear
 pornhub.*##a[href^="http://ads.trafficjunky.net/"]
 pornhub.*##div.container:style(margin-top: 0px !important)
 pornhub.*##div[id^="customskin"]
 pornhub.com###cookiebanner
 pornhub.com###customskin
 pornhub.com###js-abcontaintermain
-pornhub.com###singlefeedsection &gt; .emptyblockspace
+pornhub.com###singlefeedsection > .emptyblockspace
 pornhub.com###welcome
-pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v &gt; div &gt; bedab
+pornhub.com##.clearfix.fqncdyp7l6vwy6k68d7n2v > div > bedab
 pornhub.com##.clearfix.h0cq9tjyersrhcfv
 pornhub.com##.clearfix.w14bf6388aqazlrtv
 pornhub.com##.nobottom.clearfix.adcontainer
@@ -925,15 +924,15 @@ pornhub.com##a[href*="?ats="]
 pornhub.com##a[href^="http://ads.trafficjunky.net/"]
 pornhub.com##a[href^="https://ads.trafficjunky.net/"]
 pornhub.com##deicc[class="alpha"]
-pornhub.com##div[id="vpcontentcontainer"] &gt; * &gt; div[class*="clearfix"]
+pornhub.com##div[id="vpcontentcontainer"] > * > div[class*="clearfix"]
 pornhub.com##div[onclick*="bp1.com"]
 pornhub.com##img[width="300"]
 pornhub.com##[href^="https://weedmaps.com"]
 pornhub.com##[srcdoc]
 pornhub.com##[srcset*="blob:"]
-pornhub.com#?#.sectionwrapper:-abp-has(&gt; #bottomvideos &gt; .wrapvideoblock)
+pornhub.com#?#.sectionwrapper:-abp-has(> #bottomvideos > .wrapvideoblock)
 pornhub.com#?#.sectionwrapper:nth-of-type(3):-abp-contains(live cam models - online now)
-pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
+!pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,pornhubpremium.com,redtube.com##a[href^="https://ads.trafficjunky.net/"]
 pornhub.com,pornhubpremium.com,sxyprn.com##a[href*="?ats="]
 pornhub.com,spankbang.com##a[href^="http://ads.trafficjunky.net/"]
@@ -942,14 +941,14 @@ pornhub.com,xvideos.com,youporn.com##[href*="base64"]
 pornhub.com,xvideos.com,youporn.com##[href*="data:"]
 pornhub.com,youporn.com##[style*="base64"]
 pornhub.com,youporn.com##[style*="blob:"]:not(video)
-pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+!pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
 pornhub.com/_xa/ads^$all
 tgp1?ad_id=^$all
 www.pornhub.com###adspot
 www.pornhub.com###cookiebannerwrapper
 www.pornhub.com##.abAlertShown
 www.pornhub.com##.ad-tabsplit.clearfix.adcontainer
-www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v &gt; div:nth-of-type(3)
+www.pornhub.com##.clearfix.io8uybi7m8h8n3hn0ofo8v > div:nth-of-type(3)
 www.pornhub.com##.clearfix.ze6tlzt64u2gv
 www.pornhub.com##.cookiesbanner
 www.pornhub.com##.cookiesBanner
@@ -1047,7 +1046,7 @@ pornhub.com/_xa/tj-ssp/burl^$all,important
 /_xa/ads_
 /_xa/ads?
 /_xa/^$all,important
-||pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
+pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 pornhub.com##.js-dropdown.livesex.wideDropdown
 pornhub.com###menuItem4 > .js-topMenuLink
 pornhub.com##.activeMenuTab.livesex.item-4.menu.asyncLoad
@@ -1057,7 +1056,8 @@ pornhub.com##.alpha.dropdownTrigger.notificationIcon > span
 pornhub.com##+js(set-cookie, views, 1)
 $websocket,domain=4archive.org|allthetests.com|boards2go.com|colourlovers.com|fastpic.ru|fileone.tv|filmlinks4u.is|imagefap.com|keepvid.com|megaup.net|olympicstreams.me|pocketnow.com|pornhub.com|pornhubthbh7ap3u.onion|powvideo.net|roadracerunner.com|shorte.st|tribune.com.pk|tune.pk|vcpost.com|vidmax.com|vidoza.net|vidtodo.com
 pornhub.com###singleFeedSection > .emptyBlockSpace
-www.pornhub.com/_xa
+www.pornhub.com/_xa*
+pornhub.*/_xa*
 ||www.pornhub.com/_xa/*$script,domain=www.pornhub.com
 ||www.pornhub.com/_xa/*$xhr,domain=www.pornhub.com
 ||static.trafficjunky.com^$script,domain=www.pornhub.com
@@ -1190,10 +1190,10 @@ redtube.com##div[class*="display: block; height:"]
 redtube.com##svg
 redtube.com##video[autoplay][src*="blob:" i]
 redtube.com##video[autoplay][src*="data:" i]
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(*data:image*)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(base64)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
+!redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(*data:image*)
+!redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(base64)
+!redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
+!redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 /_xa/ads_
 /ht.js?site_
 
@@ -1304,6 +1304,18 @@ simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:cente
 ||simpcity.su/data/assets/nodeicons/dp.png$image,1p
 ||simpcity.su/data/assets/nodeicons/sexgames.png$image,1p
 ||simpcity.su/data/assets/nodeicons/b12.png$image,1p
+||gpockaajwo.com^
+solid.gif?z=1986859
+simpcity.su##.p-navEl-link.nav-shoosh
+simpcity.su##.p-navEl-link.nav-bonga
+simpcity.su##.p-navEl-link.nav-dfake
+simpcity.su##.p-navEl-link.nav-faze
+simpcity.su##.p-navEl-link.nav-tpd
+simpcity.su##a[href*="ucam.xxx/?utm_source"]
+simpcity.su##a[href*="ma3ion.com"]
+simpcity.su##a[href*="qrlsx.com"]
+simpcity.su##a[href*="pornfaze.com"]
+simpcity.su##a[href*="theporndude.com"]
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
@@ -1349,7 +1361,8 @@ sxyprn.*###vid_container_id > .tdn
 *$1p,script,domain=sxyprn.com
 
 ! Theporndude
-theporndude.com##+js(trusted-set-cookie, wallpaper, click)
+!theporndude.com##+js(trusted-set-cookie, wallpaper, click)
+theporndude.com##+js(set-cookie, wallpaper, click)
 theporndude.com##body::before
 
 ! Thothub
@@ -1386,7 +1399,7 @@ https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 ##a[href^="https://go.admjmp.com/"]
 -prebid-
 tnaflix.com##+js(set-cookie, popunder_stop, 1)
-tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
+!tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
 m.tnaflix.com##.pause-ad-wrap
 
 # Whoreshub
@@ -1453,7 +1466,7 @@ xhamster.com##.scrollable > li:nth-of-type(4) > .root-9d8b4
 xhamster.com##.yld-pcunder-player-banner-wrapper
 xhamster.com##.video-page__layout-ad.yld-pcpremium-overlay
 xhamster.com##+js(set-cookie, cookie_accept, %7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D)
-xhamster.com##+js(trusted-set-cookie, cookie_accept, %7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D, 1year)
+!xhamster.com##+js(trusted-set-cookie, cookie_accept, %7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D, 1year)
 xhamster.com##.yld-pcno-ts-init.yld-pc.yld-pcplayer
 xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(9) > .on-hover.trigger.root-9d8b4
 xhamster.com##.displayed-nav-item.live-nav.nav-item.xh-dropdown
@@ -1468,7 +1481,7 @@ xhamster.*##.video-thumb[class*="__look-like-item"]
 xhamster.*##.thumb-list > .video-thumb:style(margin-right: 0px !important;)
 ||xhamster.*/api/models/vast*preroll$xhr,1p
 xhamster.*##+js(cookie-remover, video_view_count)
-xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
+!xhamster.*##+js(replace-node-text, script, popunder, , condition, popunder, stay, 1)
 xhamster.*##+js(set-cookie, ts_popunder, true, , reload, 1)
 xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(addEventListener-defuser, , pop)
@@ -1504,10 +1517,10 @@ xvideos.com,xvideos.es##.player-video.xv-cams-block
 xnxx.com,xvideos.com##.thumb-ad
 xvideos.com##[href*="base64"]
 xvideos.com##[href*="data:"]
-xvideos.com#?#:-abp-properties(*data:image*)
-xvideos.com#?#:-abp-properties(base64)
-xvideos.com#?#:-abp-properties(data:)
-xvideos.com#?#:-abp-properties(image/)
+!xvideos.com#?#:-abp-properties(*data:image*)
+!xvideos.com#?#:-abp-properties(base64)
+!xvideos.com#?#:-abp-properties(data:)
+!xvideos.com#?#:-abp-properties(image/)
 xvideos.com##img[src*="blob:" i]:not(video)
 ###video-sponsor-links
 xvideos.com##+js(nowoif)
