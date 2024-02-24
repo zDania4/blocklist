@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb24-2
+! Version: 2024Feb24-3
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1081,6 +1081,19 @@ pornhub.com##.premiumPromoBannerWrapper
 pornhub.com##.noBottom.clearfix.adContainer
 pornhub.com##.middleVideoAdContainer.clearfix.adContainer
 pornhub.com###cookieBanner
+pornhub.com##.networkListContent > .alpha
+pornhub.com##.networkListContent > li:nth-of-type(2) > a.networkTab:nth-of-type(1)
+pornhub.com##.networkBarWrapper
+pornhub.com##.likedVideosTooltip
+pornhub.com##.wide.clear.hd
+||www.pornhub.com/_xa/ads_batch$script,domain=www.pornhub.com
+||www.pornhub.com/_xa/ads$xhr,domain=www.pornhub.com
+||pornhub.com/_xa/ads_batch$script,domain=www.pornhub.com
+||pornhub.com/_xa/ads$xhr,domain=www.pornhub.com
+||www.pornhub.com/_xa/ads_batch$script,domain=pornhub.com
+||www.pornhub.com/_xa/ads$xhr,domain=pornhub.com
+||pornhub.com/_xa/ads_batch$script,domain=pornhub.com
+||pornhub.com/_xa/ads$xhr,domain=pornhub.com
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
