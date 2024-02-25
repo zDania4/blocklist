@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb24-3
+! Version: 2024Feb25-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -432,7 +432,6 @@ bunkr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 ||bunkr.*/magic/pure-magic-2.js$script,1p
 !FAKE Bunkr domains and related stuff!
 ||bunkr.su^
-||bunkrr.su^$document
 /zclkredirect?visitid=$document
 /zclkvisitor/*$document
 ||alard-bhv.com^
@@ -533,9 +532,26 @@ coomer.su##[href="//a.adtng.com/get/10014806"] > div
 coomer.su##[href="//a.adtng.com/get/10014806"]
 coomer.su/api/v1/%D0%B5vent
 ||coomer.su/api/v1/tryagain
+||mnaspm.com^
+||traffichunt.com^
+coomer.su##^all:has-text(SCSpotScript)
+coomer.su##.ad-container
 
 ! Cyberdrop
 ###ads-header
+cyberdrop.me##^all:has-text(aclib.runBanner)
+cyberdrop.me##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+cyberdrop.me##+js(abort-current-script, document.createElement, click)
+cyberdrop.me##+js(abort-current-script, document.oncontextmenu)
+cyberdrop.me##+js(abort-on-property-read, _0xa030e8)
+cyberdrop.me##ads-header-desktop
+cyberdrop.me##ads-header-mobile
+cyberdrop.me##ads-footer-desktop
+cyberdrop.me##ads-footer-mobile
+||cyberdrop.me/js/magic.js$script
+||t7cp4fldl.com^
+||ravqaroffn.com/ajvoz/cisvp?id=2010137
+||acscdn.com/script/aclib.js$script
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
