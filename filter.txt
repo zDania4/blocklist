@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Feb26-1
+! Version: 2024Feb28-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1194,6 +1194,23 @@ redgifs.com##.videoLink:style(pointer-events: none !important; cursor: default !
 !redgifs.com##.embeddedPlayer [href]:style(pointer-events: none !important; cursor: default !important;)
 !redgifs.com##+js(nowoif)
 !redgifs.com##+js(window-close-if, /^/)
+||redgifs.com/static/live-$image
+redgifs.com##[class*="advertLiveButton"]
+redgifs.com##[class*="StripChatPlayer"]
+redgifs.com##:has(button[class*="BaseButton BaseButton_isPrimary"]):is(div[class*="MetaInfo-BoostedBtn"])
+redgifs.com##.cookieNotice
+redgifs.com##._advertTab_hvumk_1
+||xlirdr.com^
+redgifs.com##+js(set-session-storage-item, watched_120s, 1)
+redgifs.com##+js(set-local-storage-item, boosted_gifs, $remove$)
+redgifs.com##+js(set-local-storage-item, bs, $remove$)
+||redgifs.com/~partytown/partytown-sw.js$script
+||redgifs.com/~partytown^
+||api.redgifs.com/v2/gifs/boost
+redgifs.com##iframe
+||api.redgifs.com/v2/chat-models
+||api.redgifs.com/v2/ads^
+redgifs.com##div._Item_1pkpz_48:nth-of-type(1)
 
 ! Redtube
 redtube.*###paid_tabs_list
