@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar07-1
+! Version: 2024Mar08-1
 
 ! ALLOWLIST: 
 ! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -190,6 +190,8 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkrr.*/magic/dashboard-v5.js$script,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkrr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
+@@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 
 ! BLOCKLIST:
 
@@ -436,6 +438,8 @@ bunkr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 ||bunkr.*/magic/pure-magic-2.js$script,1p
 !FAKE Bunkr domains and related stuff!
 ||bunkr.su^
+||bunkr.la^
+!Bunkr.la doesn't look malicious per-se, but it's still likely a site that's not controlled by T4CO.!
 /zclkredirect?visitid=$document
 /zclkvisitor/*$document
 ||alard-bhv.com^
