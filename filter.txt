@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar15-7
+! Version: 2024Mar15-8
 
 ! ALLOWLIST:
 
@@ -194,6 +194,7 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||ajax.googleapis.com^$script,from=imgbox.com
+imgbox.com#@##aad-header-1
 
 ! BLOCKLIST:
 
@@ -690,7 +691,7 @@ imgbb.com##.abnr
 ! Imgbox
 imgbox.com##+js(abort-current-script, navigator, shouldPop)
 ||imgbox.com/images/tpd.png
-###aad-header-1
+!###aad-header-1
 ###aad-header-2
 ###aad-header-3
 imgbox.com###full-page-redirect
@@ -716,6 +717,7 @@ imgbox.com##.text-right.span8
 imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(onclick)
 imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(href)
 imgbox.com##.image-content:style(pointer-events: rs() !important; cursor: default !important;)
+stats.hprofits.com/advertisement.js
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
