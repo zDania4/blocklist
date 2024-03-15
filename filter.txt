@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar15-6
+! Version: 2024Mar15-7
 
 ! ALLOWLIST:
 
@@ -703,8 +703,8 @@ imgbox.com###full-page-redirect-close-container
 imgbox.com^$frame
 imgbox.com##:has(img[class*="image-content"]):is(a[href*="imgbox.com/"]):remove-attr(href)
 ||adsmediabox.com/ads.js
-imgbox.com##+js(rc, hidden-phone, div)
-imgbox.com##.visible-phone.row-fluid
+!imgbox.com##+js(rc, hidden-phone, div)
+!imgbox.com##.visible-phone.row-fluid
 ||hprofits.com^$3p
 *$script,3p,from=imgbox.com
 ||magsrv.com^
@@ -713,8 +713,9 @@ imgbox.com###image-content-container > div:nth-of-type(3)
 imgbox.com##.text-right.span8
 !imgbox.com##+js(rc, span7, div)
 !imgbox.com##+js(rc, span5, div)
+imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(onclick)
 imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(href)
-imgbox.com##.image-content:style(pointer-events: "rs();" !important; cursor: default !important;)
+imgbox.com##.image-content:style(pointer-events: rs() !important; cursor: default !important;)
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
