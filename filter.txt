@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar15-8
+! Version: 2024Mar18-1
 
 ! ALLOWLIST:
 
@@ -194,7 +194,6 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||ajax.googleapis.com^$script,from=imgbox.com
-imgbox.com#@##aad-header-1
 
 ! BLOCKLIST:
 
@@ -302,7 +301,7 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net,domain=bunkr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se,domain=bunkr.*
 !*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkr.sk
@@ -338,7 +337,7 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net,domain=bunkrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 /^_0x\w+[A-Za-z0-9]$/$frame,script,xhr,popup,match-case
 ||opmvivogsb.com^$all,important
@@ -691,7 +690,7 @@ imgbb.com##.abnr
 ! Imgbox
 imgbox.com##+js(abort-current-script, navigator, shouldPop)
 ||imgbox.com/images/tpd.png
-!###aad-header-1
+###aad-header-1
 ###aad-header-2
 ###aad-header-3
 imgbox.com###full-page-redirect
