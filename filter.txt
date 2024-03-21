@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar18-1
+! Version: 2024Mar21-1
 
 ! ALLOWLIST:
 
@@ -452,6 +452,8 @@ bunkr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
 ||sadbh-kye.com/zclkredirect
 ||domaincntrol.com^
 !END!
+bunkr.*##+js(abort-on-property-read, popMagic.init)
+||trionalpistler.com^
 
 ! CamvodsCo
 ###header-ads
@@ -820,6 +822,13 @@ jpg4.su##+js(nowoif)
 ||tipslyrev.com^
 ||a.ma3ion.com/fp-interstitial.js$script
 ||adsession.exacdn.com^
+||sgfsdvc.com^
+jpg4.su$frame
+jpg4.su###user_before_listing
+jpg4.su###album_after_header
+jpg4.su###image_after_header
+jpg4.su###image_footer
+jpg4.su##div[class*="ad-banner"]
 
 ! Kemono
 kemono.su##.ad-container
