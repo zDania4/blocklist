@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar25-1
+! Version: 2024Mar25-2
 
 ! ALLOWLIST:
 
@@ -663,7 +663,7 @@ erome.com##.separator
 ||erome.com/o/p-2$all
 ||pemsrv.com^
 erome.com##+js(abort-on-property-read, adBlockRunning)
-erome.com##+js(abort-on-property-read, NativeAd)
+!erome.com##+js(abort-on-property-read, NativeAd)
 erome.com##+js(abort-current-script, _ti_frequency_minute)
 erome.com##+js(abort-on-property-read, _ti_frequency_minute)
 
