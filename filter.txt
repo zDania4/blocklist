@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar26-1
+! Version: 2024Mar26-2
 
 ! ALLOWLIST:
 
@@ -720,7 +720,6 @@ imgbox.com##+js(abort-on-property-read, isChrome)
 imgbox.com##+js(abort-on-property-read, ($))
 imgbox.com###full-page-redirect-close-container
 imgbox.com^$frame
-imgbox.com##:has(img[class*="image-content"]):is(a[href*="imgbox.com/"]):remove-attr(href)
 ||adsmediabox.com/ads.js
 !imgbox.com##+js(rc, hidden-phone, div)
 !imgbox.com##.visible-phone.row-fluid
@@ -732,10 +731,13 @@ imgbox.com###image-content-container > div:nth-of-type(3)
 imgbox.com##.text-right.span8
 !imgbox.com##+js(rc, span7, div)
 !imgbox.com##+js(rc, span5, div)
-imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(onclick)
-imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(href)
-imgbox.com##.image-content:style(pointer-events: rs() !important; cursor: default !important;)
+!imgbox.com##.image-content:style(pointer-events: rs() !important; cursor: default !important;)
 stats.hprofits.com/advertisement.js
+imgbox.com##+js(rmnt, script, isChrome)
+imgbox.com##div[class*="full-page-redirect"]:remove()
+imgbox.com##+js(rmnt, script, full-page-redirect)
+imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(/href|title|onclick/)
+
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
