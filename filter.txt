@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar25-5
+! Version: 2024Mar26-1
 
 ! ALLOWLIST:
 
@@ -1462,6 +1462,8 @@ simpcity.su##a[href*="ma3ion.com"]
 simpcity.su##a[href*="qrlsx.com"]
 simpcity.su##a[href*="pornfaze.com"]
 simpcity.su##a[href*="theporndude.com"]
+||simpcity.su/data/assets/nodeicons/candy_icon_04.png$image
+simpcity.su##.node--link.node--depth2.node--id128.node
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
