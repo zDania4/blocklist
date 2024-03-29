@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar26-2
+! Version: 2024Mar27-1
 
 ! ALLOWLIST:
 
@@ -1452,6 +1452,7 @@ simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:cente
 ||simpcity.su/data/assets/nodeicons/dp.png$image,1p
 ||simpcity.su/data/assets/nodeicons/sexgames.png$image,1p
 ||simpcity.su/data/assets/nodeicons/b12.png$image,1p
+||simpcity.su/data/assets/nodeicons/image_2024-03-28_16-42-17.png$image,1p
 ||gpockaajwo.com^
 solid.gif?z=1986859
 simpcity.su##.p-navEl-link.nav-shoosh
