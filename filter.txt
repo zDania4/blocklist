@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar27-1
+! Version: 2024Mar30-1
 
 ! ALLOWLIST:
 
@@ -549,7 +549,7 @@ coomer.su##a[href*="topaitools.fun"]
 coomer.su##div[class^="ad-container"]
 coomer.su##.ad-container
 coomer.su##[href="//a.adtng.com/get/10014806"] > div
-coomer.su##[href="//a.adtng.com/get/10014806"]
+coomer.su##[href="//a.adtng.com/get/10014806"]:remove()
 coomer.su/api/v1/%D0%B5vent
 ||coomer.su/api/v1/tryagain
 ||mnaspm.com^
@@ -1441,8 +1441,8 @@ simpcity.su##.nav-bonga.p-navEl-link
 simpcity.su##+js(addEventListener-defuser, , open)
 ||a.adtng.com^
 ||turbostats.xyz/api/event
-simpcity.su##div[style*="background-color:#FBCA27"]
-simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
+simpcity.su##div[style*="background-color:#FBCA27"]:remove()
+simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]:remove()
 ##a[href^="https://a.adtng.com/"]
 !REMOVE BELOW IF MAIN CONTENT GETS NUKED AFTER BANNER IS GONE!
 !simpcity.su##body > div:nth-of-type(1)
