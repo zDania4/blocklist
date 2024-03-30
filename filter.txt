@@ -1441,8 +1441,8 @@ simpcity.su##.nav-bonga.p-navEl-link
 simpcity.su##+js(addEventListener-defuser, , open)
 ||a.adtng.com^
 ||turbostats.xyz/api/event
-simpcity.su##div[style*="background-color:#FBCA27"]:remove()
-simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]:remove()
+simpcity.su##div[style*="background-color:#FBCA27"]
+simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
 ##a[href^="https://a.adtng.com/"]
 !REMOVE BELOW IF MAIN CONTENT GETS NUKED AFTER BANNER IS GONE!
 !simpcity.su##body > div:nth-of-type(1)
