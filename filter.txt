@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar31-3
+! Version: 2024Mar31-4
 
 ! ALLOWLIST:
 
@@ -460,7 +460,6 @@ bunkr.*##+js(abort-on-property-read, adConfig)
 bunkrr.*##+js(abort-on-property-read, adConfig)
 ||trionalpistler.com^
 
-
 ! CamvodsCo
 ###header-ads
 ##.header-ads
@@ -679,10 +678,10 @@ erome.com##+js(rmnt, script, _ti_frequency_minute)
 erome.com##.navbar-static-top.navbar-inverse.navbar:style(display: block; top: 0 !important)
 erome.com##.navbar:style(display: block !important)
 erome.com##.gotop:style(display: block !important)
-erome.com##body:matches-media((max-width:767px)):style(padding-top: 48px !important)
+erome.com##body:matches-media((max-width:767px)):style(padding-top: 0px !important)
 erome.com###main:style(padding-bottom: 0px !important)
 www.erome.com##.suggested-users
-www.erome.com##div.col-sm-12:nth-of-type(4)
+www.erome.com##:has(i[class*="fas fa-user"]):is(div[class*="col-sm-12"])
 
 ! GoFile
 gofile.io###adsGoogle
