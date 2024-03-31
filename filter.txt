@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar30-2
+! Version: 2024Mar31-1
 
 ! ALLOWLIST:
 
@@ -503,7 +503,7 @@ camwhoresbay.com##div.opt
 
 ! Chatpic
 chatpic.org##.fulfilment.ad
-chatpic.org##div.hr:nth-of-type(1)
+!chatpic.org##div.hr:nth-of-type(1)
 ||chatpic.org/js/ads.js$script,1p
 ||aibsgc.com/rt/1025701/inpage.js
 ||aibsgc.com^
@@ -512,11 +512,17 @@ chatpic.org##div.hr:nth-of-type(1)
 ||creative.mnaspm.com^
 ||iosvpnguard.com
 chatpic.org##body > iframe
-chatpic.org##.modal.flex-centered.fulfilment
+!chatpic.org##.modal.flex-centered.fulfilment:remove()
+chatpic.org##:has(div[class*="adblocker-blockade interactive-block"]):is(div[class*="fulfilment flex-centered modal"])
 ||i.imgur.com/UAwTJ2b.jpg$image,domain=chatpic.org
 ||i.imgur.com/td2FmKD.jpg$image,domain=chatpic.org
 !Removes chat from desktop site!
-chatpic.org###right-container
+!chatpic.org###right-container
+chatpic.org##+js(set-local-storage-item, right-container-width, 0)
+chatpic.org##.fulfilment.frame
+chatpic.org##.pb-4.left-container-ad-wrapper
+!Below can be used to circumvent the  "adblock warning" in case there's issues with finding it's class.
+!chatpic.org##+js(set-local-storage-item, nsfw-accepted, 1)
 
 ! Coomer
 coomer.party##all:has-text(SCSpotscript)
