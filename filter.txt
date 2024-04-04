@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Mar31-4
+! Version: 2024Apr04-1
 
 ! ALLOWLIST:
 
@@ -194,6 +194,8 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||ajax.googleapis.com^$script,from=imgbox.com
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
+@@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
 
 ! BLOCKLIST:
 
@@ -459,6 +461,9 @@ bunkrr.*##+js(abort-current-script, aclib.runBanner)
 bunkr.*##+js(abort-on-property-read, adConfig)
 bunkrr.*##+js(abort-on-property-read, adConfig)
 ||trionalpistler.com^
+get.bunkrr.su##+js(rmnt, script, function R)
+get.bunkrr.*##+js(rmnt, script, function R)
+get.bunkr.*##+js(rmnt, script, function R)
 
 ! CamvodsCo
 ###header-ads
@@ -1564,6 +1569,10 @@ https://fri4esianewheywr90itrage.com/lv/esnk/1867854/code.js
 tnaflix.com##+js(set-cookie, popunder_stop, 1)
 !tnaflix.com##+js(trusted-set-cookie, popunder_stop, 1, 1year)
 m.tnaflix.com##.pause-ad-wrap
+||ac2.tnaflix.com/traffic.php$ping,1p
+||tnaflix.com/_livejs$1p
+tnaflix.com##.pause-ad-wrap
+tnaflix.com##.pause-overlay
 
 # Whoreshub
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
