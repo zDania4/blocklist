@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr06-2
+! Version: 2024Apr08-1
 
 ! ALLOWLIST:
 
@@ -225,6 +225,15 @@ www.3movs.com##div.item:nth-of-type(6)
 ! anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
+
+! Beeg
+||stats.externulls.com^$from=beeg.com
+beeg.com##a.rounded-pill.mr-3.pr-3.sidebar__primary-item.v-list-item--variant-text.v-list-item--density-default.v-list-item--link.v-list-item:nth-of-type(6)
+beeg.com##.XContentViewer__sizer:remove-attr(style)
+beeg.com##a.v-btn--variant-text.v-btn--size-large.v-btn--density-default.v-btn--icon.v-btn
+!Setting ls_video_muted to 0 makes no difference for some reason.
+!beeg.com##+js(set-cookie, ls_video_muted, 0)
+beeg.com##+js(set-local-storage-item, ls_last_leave, $remove$)
 
 ! bunkr 
 $popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io,domain=bunkr.*|bunkrr.*
@@ -707,6 +716,19 @@ hqporner.com##li:nth-of-type(5)
 hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/7a15bc0eaa9d7e3556b9bf3b011c09dfa73c9597e0bc74194b32773415018fa6"]
 hqporner.com###footer > div:nth-of-type(4)
 mydaddy.cc###ovrl_ad
+m.hqporner.com##.color4
+m.hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/27ac941e7a902ae4da4cedbdd22f13c7824f9a006b7f0243731ab1d56dca97d6"]
+m.hqporner.com##span.altPlayerButton:nth-of-type(1)
+##.banner-ad
+hqporner.com##[href^="https://s.zlink3.com/d.php"]
+hqporner.com###nav > ul > li:nth-of-type(6)
+!Dark theme does not work at first, reloading page fixes this issue.
+hqporner.com##+js(set-cookie, darkTheme, yes)
+mydaddy.cc##[src="/hf.html"]
+mydaddy.cc###adc:remove-attr(style)
+mydaddy.cc##div[style*="background:#DF7C8C"]
+m.hqporner.com##[href="https://theporndude.com"]
+hqporner.com##+js(rmnt, script, popmagicldr)
 
 ! Imagebam
 imagebam.com###inter > [src]
@@ -754,7 +776,6 @@ imgbox.com##+js(rmnt, script, isChrome)
 imgbox.com##div[class*="full-page-redirect"]:remove()
 imgbox.com##+js(rmnt, script, full-page-redirect)
 imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(/href|title|onclick/)
-
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
