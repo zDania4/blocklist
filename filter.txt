@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr10-1
+! Version: 2024Apr10-2
 
 ! ALLOWLIST:
 
@@ -694,8 +694,42 @@ erome.com##.navbar:style(display: block !important)
 erome.com##.gotop:style(display: block !important)
 erome.com##body:matches-media((max-width:767px)):style(padding-top: 0px !important)
 erome.com###main:style(padding-bottom: 0px !important)
-www.erome.com##.suggested-users
-www.erome.com##:has(i[class*="fas fa-user"]):is(div[class*="col-sm-12"])
+erome.com##.suggested-users
+erome.com##:has(i[class*="fas fa-user"]):is(div[class*="col-sm-12"])
+
+! Famousinternetgirls
+||famousinternetgirls.com/vast/fig.xml
+famousinternetgirls.com###page > .code-block-3.code-block
+||famousinternetgirls.com/famousinternetgirls.com.mp4$media,1p,redirect=noopmp3-0.1s
+famousinternetgirls.com##.code-block-9.code-block
+famousinternetgirls.com##.code-block-11.code-block
+famousinternetgirls.com##.menu-item-26445.menu-item-object-custom.menu-item-type-custom.menu-item
+famousinternetgirls.com##.entry-content.g1-typography-xl.g1-content-narrow > .code-block-4.code-block
+##a[href^="https://tm-offers.gamingadult.com/"]
+famousinternetgirls.com##[href^="https://flirtmeet.life/"]
+famousinternetgirls.com###ai_widget-2
+famousinternetgirls.com###ai_widget-4
+famousinternetgirls.com###ai_widget-7
+famousinternetgirls.com##[href*="slut2fuck.net"]
+
+! Fkbae
+fkbae.to##.fl-node-5f59ec0e1d1f7.fl-col-group
+fkbae.to##[href="https://www.mrporngeek.com/"]
+/popunders/*
+||p.jwpcdn.com/*/vast.js$script
+/ping.gif?
+fkbae.to##+js(set-local-storage-item, jwplayer.mute, false)
+
+! Fyptt
+fyptt.to##.fl-node-content.fl-module-content > p
+##.bottom-post-ad-space
+##.top-post-ad
+fyptt.to##.code-block
+fyptt.to##[href="https://theporndude.com/"]
+fyptt.to###menu-item-4562
+fyptt.to##[href="https://aj1070.online/zOEEowlkN6H0HBN3Hu-okGiqUepf9hUmUgw8SbhewlbmK4270Iu9mQYKwyalXqZ1K29JTjw"]
+fyptt.to##.focus.menu-item-object-custom.menu-item-type-custom.menu-item
+##.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 
 ! GoFile
 gofile.io###adsGoogle
@@ -928,7 +962,7 @@ qsxptjxruxrttu.xyz$all,important
 pixl.li###image_footer_nsfw
 pixl.li##[id^="image_footer_nsfw"]
 
-# Pornhoarder
+! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
 ww1.pornhoarder.tv##[href="https://theporndude.com/"]
 ww1.pornhoarder.tv##.mb-sm
@@ -1266,6 +1300,11 @@ www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
 www.porntrex.com##.open-tool.pop-adv
 
+! Prnfap
+prnfap.com##.menu-item-object-custom.menu-item-type-custom.menu-item.menu-item-depth-0.main-menu-item
+prnfap.com##.block-widget.widget
+prnfap.com##a[href="https://gayfap.tv"]
+
 ! Recordbate
 ||recordbate.com^$popup,1p,important
 ||realsrv.com^
@@ -1436,6 +1475,21 @@ sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
 sendvid.com###ftr
 sendvid.com##a[href*="theporndude.com"]
 
+! Sexy-egirls
+||sexy-egirls.com/vast/sexy-egirls.xml
+sexy-egirls.com###page > .code-block-3.code-block
+||sexy-egirls.com/sexy-egirls.com.mp4$media,1p,redirect=noopmp3-0.1s
+sexy-egirls.com##.code-block-9.code-block
+sexy-egirls.com##.code-block-11.code-block
+sexy-egirls.com##.menu-item-26445.menu-item-object-custom.menu-item-type-custom.menu-item
+sexy-egirls.com##.entry-content.g1-typography-xl.g1-content-narrow > .code-block-4.code-block
+/page-links-to/dist/new-tab.js
+sexy-egirls.com###ai_widget-2
+sexy-egirls.com###ai_widget-4
+sexy-egirls.com###ai_widget-7
+sexy-egirls.com##[href*="slut2fuck.net"]
+sexy-egirls.com##[href^="https://flirtmeet.life/"]
+
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
 simpcity.su##li:nth-of-type(3) > .offCanvasMenu-linkHolder
@@ -1511,6 +1565,20 @@ simpcity.su##a[href*="theporndude.com"]
 ||simpcity.su/data/assets/nodeicons/candy_icon_04.png$image
 simpcity.su##.node--link.node--depth2.node--id128.node
 
+! Someporn
+some.porn##.flex-wrap.flex.w-full
+some.porn##a[id*="ad-paysite-block"]:remove()
+some.porn##div[class*="w-[300px] h-[100px]"]:remove()
+some.porn##video:remove-attr(autoplay)
+some.porn##a[target="_blank"]:remove()
+/^https?:\/\/a\.[-0-9a-z]{4,21}\.[a-z]{2,5}\/(?=[a-z]*[0-9A-Z])[0-9a-zA-Z]{5,7}\.js$/$script,match-case
+||o333o.com^
+||medriz.xyz^
+://a.*/spots/$xhr
+some.porn##+js(aopr, script, videoInPlayerAd)
+some.porn##div[class*="w-[300px]"]
+some.porn##div[class*="fluid_html_on_pause_container"]:remove()
+
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
 spankbang.com##+js(nowoif)
@@ -1526,7 +1594,7 @@ spankbang.com##.lv_cm_int_come_on
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##.ptgncdn_holder
 
-#Streamtape
+! Streamtape
 streamtape.*##+js(addEventListener-defuser, contextmenu)
 streamtape.*##+js(remove-node-text, script, /parseInt.*push.*setTimeout.*try.*catch/)
 streamtape.*##+js(no-setInterval-if, adblock)
@@ -1558,6 +1626,29 @@ sxyprn.*###vid_container_id > .tdn
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
 theporndude.com##+js(set-cookie, wallpaper, click)
 theporndude.com##body::before
+
+! Thotbook
+thotbook.tv###page > .code-block-3.code-block
+thotbook.tv##.code-block-9.code-block
+thotbook.tv##.code-block-11.code-block
+thotbook.tv##.menu-item-26445.menu-item-object-custom.menu-item-type-custom.menu-item
+||tb3.thotbook.tv/thotbook.tv.mp4$media,1p,redirect=noopmp3-0.1s
+/plugins/ad-ace/assets/js/slot-slideup.js
+/plugins/ad-ace/includes/shoppable-images/*
+/plugins/ad-ace/assets/js/coupons.js
+||thotbook.tv/vast/thotbook.xml
+||avhtaapxml.com/sc4fr/rwff/f9ef/1941908/dba.xml
+||avhtaapxml.com^
+||owlunimmvn.com/lv/esnk/1942173/code.js
+/lv/esnk^
+||owlunimmvn.com^
+thotbook.tv##.entry-content.g1-typography-xl.g1-content-narrow > .code-block-4.code-block
+##.adace-slot
+##.adace-slot-wrapper
+##.g1-advertisement
+||mbidadm.com^
+thotbook.tv##[href^="https://flirtmeet.life/"]
+thotbook.tv##[href*="slut2fuck.net"]
 
 ! Thothub
 thothub.*##+js(abort-current-script, decodeURI, decodeURIComponent)
@@ -1600,7 +1691,15 @@ m.tnaflix.com##.pause-ad-wrap
 tnaflix.com##.pause-ad-wrap
 tnaflix.com##.pause-overlay
 
-# Whoreshub
+! Upornplus
+uporn.plus##li.item:nth-of-type(5) > .inner > .text
+uporn.plus##li.item:nth-of-type(6) > .inner > .text
+##.ad-mobile-banner
+uporn.plus##a:remove-attr(target)
+uporn.plus##.top-spot
+uporn.plus##.main-menu > li > .inner
+
+! Whoreshub
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
 whoreshub.com##.col-second
 ##a[href^="https://go.xxxjmp.com"]
@@ -1685,7 +1784,32 @@ xhamster.*##+js(set-constant, initials.yld-pdpopunder, )
 xhamster.*##+js(addEventListener-defuser, , pop)
 *$document,csp=worker-src 'none',from=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
 *$frame,3p,denyallow=google.com,from=fullxh.com|hamsterix.*|megaxh.com|unlockxh4.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com|xhwide8.com
-
+xhamster.com##.yld-pcpremium-n-overlay
+xhamster.com##.page-1.thumb-list-mobile-item--widget.thumb-list-mobile-item
+xhamster.com##li.categories-list__gender:nth-of-type(2) > .categories-list__gender-link
+xhamster.com##li.categories-list__gender:nth-of-type(2)
+xhamster.com##li.categories-list__gender:nth-of-type(3)
+xhamster.com##.scrollable > li:nth-of-type(2) > .primary-48288.root-48288
+||xhamster.com/en/api/ads/commons/ad/assets/ad/*/adwidgets/adimage/adbanners/ads/js/adlib.js
+*$document,csp=worker-src 'none',from=buktube.com|fullxh.com|hamsterix.*|megaxh.com|movingxh.world|taoxh.life|unlockxh4.com|xhaccess.com|xhadult2.com|xhadult3.com|xhadult4.com|xhadult5.com|xhamster.*|xhamster10.*|xhamster11.*|xhamster12.*|xhamster13.*|xhamster14.*|xhamster15.*|xhamster16.*|xhamster17.*|xhamster18.*|xhamster19.*|xhamster2.*|xhamster20.*|xhamster3.*|xhamster4.*|xhamster42.*|xhamster46.com|xhamster5.*|xhamster7.*|xhamster8.*|xhday.com|xhday1.com|xhmoon5.com|xhplanet1.com|xhplanet2.com|xhreal2.com|xhreal3.com|xhtab2.com|xhtree.com|xhvictory.com|xhwebsite.com|xhwebsite2.com|xhwide1.com
+||port7.xhamster.com^
+a[href^="https://flirtify.com/"]
+xhamster.com##div[class*="promoMessageBanner-"]
+xhamster.*##div[class^="yld-"]
+||xhamster.com/api/$ping
+xhamster.com##.yld-pctop:remove()
+xhamster.com##a.header-button.primary-48288.root-48288:remove-attr(data-counter)
+xhamster.com##+js(set-local-storage-item, watchHistory, {"videos":[0],"active":0,"syncing":0,"favorite":null})
+||amsterdam.xhamster.com/mlxhl/v1/for-page$xhr,1p
+xhamster.com##.thumb-list.thumb-list-mobile > .thumb-list-mobile-item--widget.thumb-list-mobile-item
+xhamster.com##.action-cdbbb.button-cdbbb.root-64d24
+xhamster.com##.with-dot
+xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(3)
+xhamster.com##li.displayed-nav-item.nav-item:nth-of-type(11) > .primary-48288.root-48288
+xhamster.com##.xh-dropdown.orientation-dropdown-container
+xhamster.*##div[class$="-pauseSpotContainer"]
+xhamster.*##.xp-banner-bottom + button
+xhamster.*##.xp-banner-pause
 
 ! Xmegadrive
 xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
@@ -1703,6 +1827,33 @@ www.xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
 www.xnxx.com###mobile-menu .gold-plate
 www.xnxx.com###site-nav > .gold-plate
 www.xnxx.com###header-mobile-live-cam
+
+! Xozilla
+/js/ppndr.
+||xozilla.com/player/html.php$frame
+##.adv-holder
+##.adv-text
+xozilla.com##.brazzers-link
+xozilla.com##[style="height: 220px !important; overflow: hidden;"]
+##.right-video-dvertisement
+xozilla.com##a[href*="?ats="]
+##a[href^="https://a.adtng.com/"]
+xozilla.com##.adv-overlay:remove()
+||adzilla.name^
+||adzilla.name/41VeMgc.js
+xozilla.com##+js(rmnt, script, createModelDiv)
+xozilla.com###lj-container
+xozilla.com###item11
+xozilla.com##a[href*="zlinkd.com"]
+||zlinkd.com^
+xozilla.com##a[href*="xozilla.live"]
+xozilla.com##br
+xozilla.com##.container > div:nth-of-type(3)
+xozilla.com##li:nth-of-type(11)
+xozilla.com##.primary > li:nth-of-type(10)
+xozilla.com##.primary > li:nth-of-type(9)
+xozilla.com###scrollhere
+xozilla.com##.main-content > div:nth-of-type(4)
 
 ! Xvideos
 www.xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
