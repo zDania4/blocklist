@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr08-1
+! Version: 2024Apr10-1
 
 ! ALLOWLIST:
 
@@ -517,7 +517,7 @@ camwhoresbay.com##div.opt
 ! Chatpic
 chatpic.org##.fulfilment.ad
 !chatpic.org##div.hr:nth-of-type(1)
-||chatpic.org/js/ads.js$script,1p
+||chatpic.org/js/ads.js$script,1p,redirect=noop.js
 ||aibsgc.com/rt/1025701/inpage.js
 ||aibsgc.com^
 ||lby2kd27c.com^
