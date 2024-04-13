@@ -709,6 +709,9 @@ erome.com##body:matches-media((max-width:767px)):style(padding-top: 0px !importa
 erome.com###main:style(padding-bottom: 0px !important)
 erome.com##.suggested-users
 erome.com##:has(i[class*="fas fa-user"]):is(div[class*="col-sm-12"])
+erome.com##.video-js.player:remove-attr(loop)
+erome.com##.fas.fa-user
+erome.com##h2:has-text(Suggested)
 
 ! Famousinternetgirls
 ||famousinternetgirls.com/vast/fig.xml
