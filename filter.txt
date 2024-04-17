@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr16-2
+! Version: 2024Apr17-1
 
 ! ALLOWLIST:
 
@@ -712,6 +712,7 @@ erome.com##:has(i[class*="fas fa-user"]):is(div[class*="col-sm-12"])
 erome.com##.video-js.player:remove-attr(loop)
 erome.com##.fas.fa-user
 erome.com##h2:has-text(Suggested)
+erome.com##div.col-sm-12:nth-of-type(3) > h2
 
 ! Famousinternetgirls
 ||famousinternetgirls.com/vast/fig.xml
@@ -1327,6 +1328,16 @@ porntrex.com###index-link
 www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
 www.porntrex.com##.open-tool.pop-adv
+
+! Postimages.org / postimg.cc
+postimg.cc###td-image > div:nth-of-type(1)
+postimg.cc##div[style="display:inline-block;width:728px;height:120px;margin-bottom:15px;"]
+##.adtop
+##ins.adsbygoogle
+##ins.adsbygoogle[data-ad-slot]
+||wmpted.com^
+||cdwmpt.com^
+##.td-ad
 
 ! Prnfap
 prnfap.com##.menu-item-object-custom.menu-item-type-custom.menu-item.menu-item-depth-0.main-menu-item
