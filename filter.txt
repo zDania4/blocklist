@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr18-2
+! Version: 2024Apr19-1
 
 ! ALLOWLIST:
 
@@ -730,6 +730,60 @@ famousinternetgirls.com###ai_widget-2
 famousinternetgirls.com###ai_widget-4
 famousinternetgirls.com###ai_widget-7
 famousinternetgirls.com##[href*="slut2fuck.net"]
+
+! Fapachi
+fapachi.com##.exc-pp.btn-success.btn
+fapachi.com##.one-pack > .exc-pp
+fapachi.com##.header-links
+fapachi.com##.mt-3.custom-bann-long.custom-bann
+fapachi.com##.bg-white.top-margin4header.container-fluid > .my-3.text-center.col-12
+||fapachi.com/img/900x110-undress-love.webp
+fapachi.com##+js(rmnt, script, set_cook)
+||mewgzllnsp.com^
+fapachi.com##a[href*="go.xlivrdr.com"]
+fapachi.com##a[href*="traffichaus.com"]
+fapachi.com##a[href*="https://outfitswap.ai"]
+fapachi.com##.text-md-start.text-center.col
+fapachi.com##div.my-3.text-center.col-12 > .px-1.exc-pp.pro-link
+fapachi.com##.bottom-header.box-shadow.bg-dark.px-md-4.align-items-center.w-100.d-flex.flex-row
+fapachi.com##div.model-media-prew.my-2.col-md-4.col-6:nth-of-type(2)
+||fapachi.com/js/blk_clu.js
+||fapachi.com/img/im_clu_agdre.jpg
+fapachi.com##+js(rmnt, script, userAgent)
+$script,3p,domain=fapachi.com
+
+! Fapodrop
+fapodrop.com##.exc-pp.btn-success.btn
+fapodrop.com##.one-pack > .exc-pp
+fapodrop.com##.header-links
+fapodrop.com##.mt-3.custom-bann-long.custom-bann
+fapodrop.com##.bg-white.top-margin4header.container-fluid > .my-3.text-center.col-12
+||fapodrop.com/img/900x110-undress-love.webp
+fapodrop.com##.my-3.row
+fapodrop.com##+js(rmnt, script, set_cook)
+fapodrop.com##+js(rmnt, script, TSVideoInstantMessage)
+fapodrop.com##+js(rmnt, script, TSOutstreamVideo)
+||mewgzllnsp.com^
+fapodrop.com##a[href*="go.xlivrdr.com"]
+fapodrop.com##a[href*="traffichaus.com"]
+fapodrop.com##a[href*="https://outfitswap.ai"]
+||fapodrop.com/fap_analyt/matomo/
+
+! Fapoleaks
+fapoleaks.com##.exc-pp.btn-success.btn
+fapoleaks.com##.one-pack > .exc-pp
+fapoleaks.com##.header-links
+fapoleaks.com##.mt-3.custom-bann-long.custom-bann
+fapoleaks.com##.bg-white.top-margin4header.container-fluid > .my-3.text-center.col-12
+||fapoleaks.com/img/900x110-undress-love.webp
+fapoleaks.com##.my-3.row
+fapoleaks.com##+js(rmnt, script, set_cook)
+fapoleaks.com##+js(rmnt, script, TSVideoInstantMessage)
+||mewgzllnsp.com^
+fapoleaks.com##a[href*="go.xlivrdr.com"]
+fapoleaks.com##a[href*="traffichaus.com"]
+fapoleaks.com##a[href*="https://outfitswap.ai"]
+fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
 
 ! Fkbae
 fkbae.to##.fl-node-5f59ec0e1d1f7.fl-col-group
