@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr19-1
+! Version: 2024Apr20-1
 
 ! ALLOWLIST:
 
@@ -196,6 +196,7 @@ pornhub.com#@#.share-link-container
 @@||ajax.googleapis.com^$script,from=imgbox.com
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
 @@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
+@@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
 
 ! BLOCKLIST:
 
@@ -512,13 +513,18 @@ camwhores.*##+js(set-constant, flashvars.video_click_url, )
 googletagmanager_gtm.js
 ||scfsdvc.com^
 ||afgtrwd1.com^
+camwhores.*##a[href*="t.affoth.com"]
+/livejasmin.$from=~livejasmin.com
+##[href^="https://go.xlrdr.com"]
+##a[href^="http://cam4com.go2cloud.org/aff_c?"]
+||amyfc.link
 
 ! Camwhoresbay
-www.camwhoresbay.com##.-blink.hidden-sm > .hidden-sm
-www.camwhoresbay.com##li.hidden-sm > .hidden-sm
+camwhoresbay.com##.-blink.hidden-sm > .hidden-sm
+camwhoresbay.com##li.hidden-sm > .hidden-sm
 camwhoresbay.com##+js(abort-current-script, readCookieDelit)
-www.camwhoresbay.com##.block-chat
-www.camwhoresbay.com##.chatbro_container
+camwhoresbay.com##.block-chat
+camwhoresbay.com##.chatbro_container
 camwhoresbay.com##.content > center:has([style="width:300px;height:250px"])
 camwhoresbay.com##div.opt
 *$frame,permissions=run-ad-auction=(),from=~localhost
@@ -526,6 +532,39 @@ camwhoresbay.com##div.opt
 *$frame,permissions=idle-detection=(),from=~localhost
 *$frame,permissions=browsing-topics=(),from=~localhost
 !www.google.*##+js(set-constant, rwt, noopFunc)
+camwhoresbay.com##+js(rmnt, script, readCookieDelit)
+||onclckmn.com^
+||trafficshop.com^
+camwhoresbay.com##[href="https://www.camwhoresbay.com/livecam/"]
+camwhoresbay.com##div.col-sm-3:nth-of-type(3) > .list-unstyled
+camwhoresbay.com##div.col-sm-3:nth-of-type(4) > .list-unstyled
+camwhoresbay.com##.mobile-links
+camwhoresbay.com##.fake-player
+||aawdlvr.com^
+
+! Camwhorescloud
+camwhorescloud.com##[href="https://striptease.sex/"]
+camwhorescloud.com##[href="https://theporndude.com/"]
+camwhorescloud.com##li:nth-of-type(9)
+camwhorescloud.com##li:nth-of-type(8)
+camwhorescloud.com##[href="https://megacamwhores.com/"]
+||cfgr3.com/popin/$script,3p
+||ccmiocw.com^
+||imglnkd.com^
+camwhorescloud.com##+js(abort-current-script, crakPopInParams)
+camwhorescloud.com##+js(abort-current-script, onload, onclick)
+camwhorescloud.com##+js(abort-on-stack-trace, Math.round, inlineScript)
+camwhorescloud.com##.sponsor
+camwhorescloud.com##.opt
+
+! Camwhorespy
+camwhorespy.com##[href="https://striptease.sex/"]
+camwhorespy.com##[href="https://camwhorescloud.com/"]
+camwhorespy.com##[href*="https://my.amateur.cash"]
+camwhorespy.com##+js(abort-current-script, crakPopInParams)
+camwhorespy.com##+js(abort-current-script, onload, onclick)
+camwhorespy.com##+js(abort-on-property-read, console.log)
+camwhorespy.com##+js(no-window-open-if)
 
 ! Chatpic
 chatpic.org##.fulfilment.ad
@@ -549,6 +588,17 @@ chatpic.org##.fulfilment.frame
 chatpic.org##.pb-4.left-container-ad-wrapper
 !Below can be used to circumvent the  "adblock warning" in case there's issues with finding it's class.
 !chatpic.org##+js(set-local-storage-item, nsfw-accepted, 1)
+
+! Chatwhores
+chatwhores.*##+js(abort-current-script, crakPopInParams)
+chatwhores.*##+js(abort-current-script, onload, onclick)
+chatwhores.*##+js(abort-on-property-read, console.log)
+chatwhores.*##+js(no-window-open-if)
+||forfeitsubscribe.com^
+||d1f05vr3sjsuy7.cloudfront.net^
+||papmeatidigbo.com^
+||worstideatum.com^
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
 
 ! Coomer
 coomer.party##all:has-text(SCSpotscript)
@@ -632,6 +682,8 @@ dood.*##+js(acs, decodeURI, decodeURIComponent)
 dood.*##+js(aopr, __aaZoneid)
 0dramacool.net,0gomovie.*,0gomovies.*,185.53.88.104,185.53.88.204,185.53.88.15,123moviefree.*,123movies4k.net,123moviesg.com,1kmovies.*,1madrasdub.*,1movieshd.com,1primewire.*,1rowsports.com,2embed.*,2madrasdub.*,2umovies.*,4anime.*,4share-mp3.net,6movies.net,9animetv.to,9xmovies.*,720pstream.me,abysscdn.com,adblockplustape.com,ajkalerbarta.com,akstream.xyz,altadefinizione01.*,androidapks.biz,androidsite.net,animefenix.com,animeonlinefree.org,animesite.net,animespank.com,anitube.*,aniworld.to,apkmody.io,appsfree4u.com,atomixhq.*,audioz.download,bdnewszh.com,beastlyprints.com,beinmatch.*,bengalisite.com,bestfullmoviesinhd.org,betteranime.net,blacktiesports.live,brmovies.*,buffsports.stream,ch-play.com,cima4u.*,clickforhire.com,clicknupload.*,cloudy.pk,cmovies.*,computercrack.com,coolcast2.com,couchtuner.*,crackedsoftware.biz,crackfree.org,cracksite.info,cricfree.*,crichd.*,cryptoblog24.info,cuatrolatastv.blogspot.com,cydiasources.net,databasegdriveplayer.*,dirproxy.com,dood.*,dopebox.to,downloadapk.info,downloadapps.info,downloadgames.info,downloadmusic.info,downloadsite.org,downloadwella.com,ebooksite.org,educationtips213.blogspot.com,egyup.live,embed.meomeo.pw,embed.scdn.to,emulatorsite.com,essaysharkwriting.club,extrafreetv.com,f1stream.*,fakedetail.com,faselhd.*,fbstream.*,fclecteur.com,file4go.*,filemoon.*,filepress.*,files.im,filmlinks4u.*,filmpertutti.*,filmyzilla.*,flexyhit.com,fmoviefree.net,fmovies24.com,fmovies.*,footyhunter3.xyz,freeflix.info,freemoviesu4.com,freeplayervideo.com,freesoccer.net,french-stream.*,fsapi.*,fseries.org,fzlink.*,gamefast.org,gamesite.info,gdriveplayer.*,gmanga.me,gocast123.me,gofilms4u.*,gogoanime.*,gogohd.net,gogoplay5.com,goload.*,gomoviefree.*,gomoviz.*,gooplay.net,gostreamon.net,gowatchseries.*,happy2hub.org,harimanga.com,hdmoviefair.*,hdmovies4u.*,hdmovies50.*,hdmoviesfair.*,healthnewsreel.com,hexupload.net,hh3dhay.*,hinatasoul.com,hindilinks4u.*,hindisite.net,holymanga.net,hotmasti.*,hurawatch.*,hxfile.co,isosite.org,iv-soft.com,januflix.expert,jewelry.com.my,johnwardflighttraining.com,kabarportal.com,klmanga.*,klubsports.*,kstorymedia.com,la123movies.org,lespassionsdechinouk.com,libertestreamvf.*,lilymanga.net,linksdegrupos.com.br,livetvon.*,livestreamtv.pk,macsite.info,manga1000.*,manga1001.*,mangapt.com,mangaraw.*,mangarawjp.*,mangareader.to,mangasite.org,manhuascan.com,megafilmeshdseries.com,megamovies.org,membed.net,mgnetu.com,mlbstream.*,moddroid.com,motogpstream.*,movi.pk,moviefree2.com,movierulz.*,movies123.*,movies-watch.com.pk,movies2watch.*,moviesden.*,moviesite.app,moviesonline.fm,moviesx.org,moviewatchonline.com.pk,moviezaddiction.*,msmoviesbd.com,musicsite.biz,myfernweh.com,myflixer.*,myviid.com,nazarickol.com,nbastream.*,netcine.*,newsrade.com,nflstream.*,nhlstream.*,noob4cast.com,nsw2u.com,oko.sh,olympicstreams.me,onlinewatchmoviespk.*,orangeink.pk,owllink.net,pahaplayers.click,patchsite.net,pctfenix.*,pctnew.*,pdfsite.net,pksmovies.*,play1002.com,player-cdn.com,plyjam.*,plylive.*,pogolinks.*,popcorntime.*,poscitech.*,prmovies.*,productkeysite.com,projectfreetv.one,romsite.org,rufiguta.com,rugbystreams.*,rytmp3.io,send.cm,seriesite.net,seriezloaded.com.ng,serijehaha.com,shahed4u.*,sflix.*,shrugemojis.com,siteapk.net,siteflix.org,sitegames.net,sitekeys.net,sitepdf.com,sitesunblocked.*,sitetorrent.com,socceronline.*,softwaresite.net,solarmovies.*,sportbar.live,sportcast.*,sportkart1.xyz,sportskart.*,sports-stream.*,ssyoutube.com,stardima.com,stream4free.live,streaming-french.*,streamers.*,streamingcommunity.*,strikeout.*,superapk.org,supermovies.org,t20cup.*,tainio-mania.online,talaba.su,tamilguns.org,tatabrada.tv,tennisstreams.*,theflixer.tv,thememypc.net,thetechzone.online,thripy.com,tonnestreamz.xyz,torrentdosfilmes.eu,toonanime.*,travelplanspro.com,turcasmania.com,tusfiles.com,tvonlinesports.com,tvply.*,ufcstream.*,ultramovies.org,uploadbank.com,uptomega.*,uqload.*,urdubolo.pk,vudeo.*,vidoo.*,vidspeeds.com,vipbox.*,vipboxtv.*,vipleague.*,viprow.*,vumoo.to,warezsite.net,watchmovies2.com,watchmoviesforfree.org,watchofree.com,watchsite.net,watchsouthpark.tv,watchtvch.club,web.livecricket.is,webseries.club,worldcupstream.pm,y2mate.com,yesmovies.*,yomovies.*,yomovies1.*,youapk.net,youtube4kdownloader.com,yt2mp3s.*,yts-subs.com##+js(aeld, , break;case $.)
 0123movie.*,123chill.*,123movies-free.*,123movies-org.*,123movies.*,123moviesfree.*,123movieshub.*,123movieweb.*,190.115.18.20,1hd.to,1todaypk.*,2kmovie.*,4movierulz.*,4movierulz1.*,5movies.*,9kmovies.*,a8ix.*,acn.vin,adblocktape.*,aflizmovies.com,ak4eg.*,anihdplay.com,animeonline.ninja,animeunity.*,animixplay.*,aniwatch.*,arc018.to,asianhdplay.*,atishmkv.*,backfirstwo.site,bolly2tolly.*,clickndownload.*,comedyshow.to,cool-etv.net,crackstreams.*,crackstreamshd.click,daddylivehd.*,direct-cloud.*,divicast.com,divxfilmeonline.net,dood.*,doods.pro,dooood.*,downloadhub.*,ds2play.com,dvdplay.*,embed4u.xyz,embedplayer.*,embedstream.me,emovies.*,encurtandourl.com,ev01.sx,exee.app,f123movies.com,faselhd.*,file-upload.com,film4e.com,filmeserialeonline.org,filmyzilla2022.com,fmoviesfree.*,footyhunter.lol,freelivetvon.com,freemovies.*,french-streams.cc,fslinks.org,fstream365.com,gameshdlive.xyz,gdflix.*,gdtot.*,gembedhd.com,gocast2.com,gogohd.*,goku.*,gokutv.*,gomovies.*,goone.pro,gotaku1.com,hdfriday.*,hdhub4u.*,hdmoviehub.*,hdtoday.tv,hihihaha1.xyz,huboflink.in,iflixmovies.*,jockantv.com,kickassanime.*,kuttymovies1.com,ligaset.com,likemanga.io,linkupload.xyz,lulustream.com,luluvdo.com,mangaraw.*,medeberiyas.com,mega4upload.com,megadb.net,megafilmeshd50.com,megaupto.com,membed1.com,mkvcinemas.*,mlwbd.*,movembed.cc,movieplay.*,moviesda4.*,moviesjoy.*,moviesmeta.*,moviesrulz.*,moviestowatch.tv,mp4upload.com,mreader.co,mydownloadtube.*,myflixerz.*,mywatchseries.*,naijachoice.com.ng,naijanowell.com,netfilmes.org,nflstreams.me,niadd.com,noblocktape.*,nolive.me,odiasia.sbs,oii.io,olympicstreams.me,pesktop.com,playgo1.cc,project-free-tv.*,projectfreetv.*,putlocker.*,s.to,send.cm,serienstream.*,series2watch.*,seriesonline.*,seriestv.org,shadowrangers.live,shahed4u.*,shaheed4u.*,sinvida.me,soap2day-online.com,ssoap2day.*,stakes100.xyz,streamadblocker.*,streamcloud.best,streamhub.*,streamnoads.com,streamonsport99.*,streamtape.*,strtapewithadblock.*,swatchseries.*,tapeblocker.com,tapenoads.com,tapewithadblock.org,taxielcima.live,tii.la,tnhitsda.net,todaypk.*,tvpclive.com,up-4ever.net,upbaam.com,uploadhub.*,uproxy.*,vadbam.net,vavada5com.com,vid-guard.com,vidcloud9.*,videoplayer.*,vido.*,vidspeed.cc,vidsrc.*,viidshar.com,vikistream.com,vixcloud.co,watch-free.tv,watchcartoononline.*,watchmovies.*,watchmovierulz.*,watchomovies.*,watchonlinemoviespk.*,watchop.live,watchseries1.*,watchtvchh.xyz,wecast.to,worldstreams.click,yesmovies4u.*,zamundatv.com##+js(acs, document.documentElement, break;case $.)
+dood.*##+js(remove-node-text, script, /adblock|popunder/)
+dood.*##+js(remove-node-text, script, ;}}};break;case $.)
 
 ! Eporner
 ||eporner.com/dot/
@@ -1801,6 +1853,14 @@ whoreshub.com##.col-second
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
 ||xxxjmp.com^
 ||rkgwzfwjgk.com^
+/get_geoip?
+||player.h-cdn.com/loader.js?customer=porntrex
+whoreshub.com##[href="https://bongacams.com"]
+whoreshub.com##+js(set-local-storage-item, hola_bwsaver_cache, $remove$)
+whoreshub.com##.bff
+whoreshub.com##.show-fake.fake-player-wrap
+whoreshub.com##a[href*="theporndude.com"]
+
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
