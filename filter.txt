@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr20-1
+! Version: 2024Apr21-1
 
 ! ALLOWLIST:
 
@@ -911,6 +911,8 @@ imagebam.com###aad-header-3
 imagebam.com###cs-link
 ##.ad-link:not(.adsbox)
 imagebam.com##a[href*="theporndude.com"]
+imagebam.com##+js(set-cookie, nsfw_inter, 1)
+
 
 ! Imgbb
 imgbb.com##.abnr
@@ -1711,6 +1713,7 @@ simpcity.su##a[href*="pornfaze.com"]
 simpcity.su##a[href*="theporndude.com"]
 ||simpcity.su/data/assets/nodeicons/candy_icon_04.png$image
 simpcity.su##.node--link.node--depth2.node--id128.node
+cdn.jsdelivr.net/npm/disable-devtool$domain=simpcity.su
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
@@ -2057,6 +2060,7 @@ xvideos.com##+js(no-window-open-if)
 /^https?:\/\/[0-9a-z]*\.?[-0-9a-z]{4,}\.[a-z]{2,11}\/(?:[0-9a-z]{6,8}\/)?\/?(?:article\d{4}\.doc)?\?u=[0-9a-z]{7}&o=[0-9a-z]{7}/$document,match-case
 ||impactserving.com^
 xbabe.com/_xbm_p.php
+||sentry.io^$3p
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
