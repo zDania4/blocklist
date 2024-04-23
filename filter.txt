@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr21-1
+! Version: 2024Apr23-1
 
 ! ALLOWLIST:
 
@@ -1422,6 +1422,10 @@ pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 ||pornhub.com/_xa/$all,domain=pornhub.com
 ||pornhub.com/_xa/$popunder,domain=pornhub.com
 pornhub.com##.relatedTjIntVideoPcSt
+pornhub.com###relatedVideosCenter > li[class^="related"]
+pornhub.com##a[href^="https://www.uviu.com"]
+##a[data-href^="http://ads.trafficjunky.net/"]
+pornhub.com##.realsex
 
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
