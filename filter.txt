@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr25-1
+! Version: 2024Apr29-1
 
 ! ALLOWLIST:
 
@@ -42,6 +42,8 @@
 @@||simpcity.su/.well-known/ddos-guard/mark/*$1p
 @@||simpcity.su/.well-known/ddos-guard/*$1p
 @@||check.ddos-guard.net/check.js$inline-font
+@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
 
 ! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||jpg1.su/upload$all,domain=simpcity.su
@@ -67,6 +69,9 @@
 @@||bunkr.*/v/*$popup,domain=simpcity.su
 @@||bunkr.*/i/*$popup,domain=simpcity.su
 @@||redgifs.com^$popup,domain=simpcity.su
+@@||bunkrrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrrr.*/i/*$popup,domain=simpcity.su
 
 ! #Anti-adblock / #CHP Ads Block Detector
 #@#.ad-link
@@ -402,7 +407,7 @@ pixl.li^$domain=bunkr.*
 idzone=taco-loves-ads$all
 t=bunky
 /tsk/*
-chicken.gif?z=*
+chicken.gif?z=
 bunkrr.su/build/370.a4405777.js
 bunkrr.su/build/app.291ea157.js
 bunkrr.su/build/runtime.9a71ee5d.js
@@ -474,6 +479,22 @@ bunkrr.*##+js(abort-on-property-read, adConfig)
 get.bunkrr.su##+js(rmnt, script, function R)
 get.bunkrr.*##+js(rmnt, script, function R)
 get.bunkr.*##+js(rmnt, script, function R)
+bunkrrr.*##+js(set-cookie, zone-cap-taco-loves-ads, 1)
+bunkrrr.*##+js(abort-on-property-read, popMagic.init)
+bunkrrr.*##+js(abort-current-script, aclib.runBanner)
+bunkrrr.*##+js(abort-on-property-read, adConfig)
+bunkrrr.*##+js(abort-current-script, WebAssembly, _0x)
+bunkrrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se,domain=bunkrrr.*
+*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrrr.*
+bunkrrr.*##^all:has-text(taco-loves-ads)
+pixl.li^$domain=bunkrrr.*
+bunkrrr.*/build/370.a4405777.js
+bunkrrr.*/build/app.291ea157.js
+bunkrrr.*/build/runtime.9a71ee5d.js
+bunkrrr.*/build/370.a4405777.js
+bunkrrr.*/build/app.291ea157.js
+bunkrrr.*/build/runtime.9a71ee5d.js
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
