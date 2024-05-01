@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Apr29-1
+! Version: 2024May01-1
 
 ! ALLOWLIST:
 
@@ -495,6 +495,18 @@ bunkrrr.*/build/runtime.9a71ee5d.js
 bunkrrr.*/build/370.a4405777.js
 bunkrrr.*/build/app.291ea157.js
 bunkrrr.*/build/runtime.9a71ee5d.js
+||xijgiszfeki.com^
+||68aq8q352.com^
+||negxkj5ca.com^
+||vindexmesode.com^
+/lv/esnk/*/code.js$important
+/en/arh/dfizu?id=$important
+bunkr.*/build/runtime.*.js
+bunkr.*/build/app.*.js
+bunkrr.*/build/runtime.*.js
+bunkrr.*/build/app.*.js
+bunkrrr.*/build/runtime.*.js
+bunkrrr.*/build/app.*.js
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
