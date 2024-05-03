@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May01-1
+! Version: 2024May03-1
 
 ! ALLOWLIST:
 
@@ -671,6 +671,9 @@ coomer.su/api/v1/%D0%B5vent
 ||traffichunt.com^
 coomer.su##^all:has-text(SCSpotScript)
 coomer.su##.ad-container
+coomer.su##+js(rmnt, script, adConfig)
+coomer.su##+js(set-cookie, zone-cap-5294206, 1)
+coomer.su##+js(rmnt, script, flagName)
 
 ! Cyberdrop
 ###ads-header
