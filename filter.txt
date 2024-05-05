@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May03-1
+! Version: 2024May05-1
 
 ! ALLOWLIST:
 
@@ -202,6 +202,12 @@ pornhub.com#@#.share-link-container
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
 @@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
+@@||bunkr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkrrr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||bunkrrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 
 ! BLOCKLIST:
 
@@ -507,6 +513,8 @@ bunkrr.*/build/runtime.*.js
 bunkrr.*/build/app.*.js
 bunkrrr.*/build/runtime.*.js
 bunkrrr.*/build/app.*.js
+/lv/esnk/*$script,3p
+||3zap7emt4.com^
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1658,6 +1666,11 @@ saint2.su##+js(nowoif)
 ||papi-shard.b-cdn.net/script.js
 /^https:\/\/[a-z]{10,12}\.com\/[\/a-z]{2,}\?id=[12]\d{6}$/$script,3p,match-case
 ||core-apps.b-cdn.net/api/event$xhr
+||rriodxsmyjk.com^
+||bestadsforyou.com^
+/jumha/div?id=$important
+/aas/r45d/vki/$script,important
+||saint2.su/api/pst.php$xhr
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -1757,6 +1770,7 @@ cdn.jsdelivr.net/npm/disable-devtool$domain=simpcity.su
 simpcity.su##.node--link.node--depth2.node--id129.node
 simpcity.su##:has(a[href*="/link-forums/"]):is(li)
 simpcity.su##a[href*="/link-forums/"]
+||adtng.com^
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
