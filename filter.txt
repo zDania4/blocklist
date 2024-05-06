@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May05-1
+! Version: 2024May06-1
 
 ! ALLOWLIST:
 
@@ -1671,6 +1671,13 @@ saint2.su##+js(nowoif)
 /jumha/div?id=$important
 /aas/r45d/vki/$script,important
 ||saint2.su/api/pst.php$xhr
+||xufpullrio.com/en/pcaf$script
+/en/pcaf?id=$script
+/\?id=[12]\d{6}$/*$script,domain=saint2.su
+||xufpullrio.com^
+saint2.su##+js(rmnt, script, concat)
+||helukoeu.com^
+||emertilou.com^
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
@@ -1920,7 +1927,6 @@ whoreshub.com##+js(set-local-storage-item, hola_bwsaver_cache, $remove$)
 whoreshub.com##.bff
 whoreshub.com##.show-fake.fake-player-wrap
 whoreshub.com##a[href*="theporndude.com"]
-
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
