@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May24-3
+! Version: 2024May26-1
 
 ! ALLOWLIST:
 
@@ -214,6 +214,7 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkrrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||tiktok.com^$generichide
 
 ! BLOCKLIST:
 
@@ -521,6 +522,9 @@ bunkrrr.*/build/runtime.*.js
 bunkrrr.*/build/app.*.js
 /lv/esnk/*$script,3p
 ||3zap7emt4.com^
+||bunkr.*/t.js$script
+||bunkrr.*/t.js$script
+||bunkrrr.*/t.js$script
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1807,6 +1811,9 @@ simpcity.su##.node--link.node--depth2.node--id129.node
 simpcity.su##:has(a[href*="/link-forums/"]):is(li)
 simpcity.su##a[href*="/link-forums/"]
 ||adtng.com^
+||simpcity.su/data/assets/nodeicons/a.png$image,1p
+||simpcity.su/data/assets/nodeicons/1000162665.jpg$image,1p
+||simpcity.su/data/assets/nodeicons/transHeartIcon.png$image,1p
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
@@ -2153,6 +2160,8 @@ xvideos.com##+js(no-window-open-if)
 ||impactserving.com^
 xbabe.com/_xbm_p.php
 ||sentry.io^$3p
+||tiktokv.com/monitor_browser/
+||tiktok.com/web/report?
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
