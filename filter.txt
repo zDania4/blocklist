@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May26-1
+! Version: 2024May26-2
 
 ! ALLOWLIST:
 
@@ -1948,6 +1948,20 @@ uporn.plus##li.item:nth-of-type(6) > .inner > .text
 uporn.plus##a:remove-attr(target)
 uporn.plus##.top-spot
 uporn.plus##.main-menu > li > .inner
+
+! Vidyy (and it's weird fake Pixeldrain links)
+||waust.at^
+vidyy.online##+js(rmnt, script, _wau)
+vidyy.online##+js(rmnt, script, skipLinkTarget)
+||comparativehoneycomb.com
+||ads3.videy.co
+videy.co##[src="https://ads3.videy.co/"]
+/ads3.
+videy.co##+js(rmnt, script, randomString)
+videy.co##+js(rmnt, iframe, )
+videy.co##+js(rmnt, script, jstemplate)
+$frame,domain=videy.co
+videy.co##iframe
 
 ! Whoreshub
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
