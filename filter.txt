@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024May26-2
+! Version: 2024Jun07-1
 
 ! ALLOWLIST:
 
@@ -215,6 +215,10 @@ pornhub.com#@#.share-link-container
 @@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkrrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||tiktok.com^$generichide
+@@||bunkr.fi/js/alerts.js$script,domain=saint2.su
+@@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.su
+@@||bunkr.*/js/alerts.js$script,domain=saint2.su
+@@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
 
 ! BLOCKLIST:
 
@@ -255,7 +259,7 @@ beeg.com##a.v-btn--variant-text.v-btn--size-large.v-btn--density-default.v-btn--
 beeg.com##+js(set-local-storage-item, ls_last_leave, $remove$)
 
 ! bunkr 
-$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org,domain=bunkr.*|bunkrr.*
+$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci,domain=bunkr.*|bunkrr.*
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
@@ -525,6 +529,9 @@ bunkrrr.*/build/app.*.js
 ||bunkr.*/t.js$script
 ||bunkrr.*/t.js$script
 ||bunkrrr.*/t.js$script
+||nrs6ffl9w.com^
+||qnp16tstw.com^
+||aqptziligoqn.com^
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1814,6 +1821,8 @@ simpcity.su##a[href*="/link-forums/"]
 ||simpcity.su/data/assets/nodeicons/a.png$image,1p
 ||simpcity.su/data/assets/nodeicons/1000162665.jpg$image,1p
 ||simpcity.su/data/assets/nodeicons/transHeartIcon.png$image,1p
+||simpcity.su/data/assets/nodeicons/cflix.png$image
+simpcity.su##.node--link.node--depth2.node--id130.node
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
