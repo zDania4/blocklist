@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jun11-1
+! Version: 2024Jun13-1
 
 ! ALLOWLIST:
 
@@ -532,6 +532,9 @@ bunkrrr.*/build/app.*.js
 ||nrs6ffl9w.com^
 ||qnp16tstw.com^
 ||aqptziligoqn.com^
+bunkr.*##.catflix
+bunkrr.*##.catflix
+bunkrrr.*##.catflix
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1826,6 +1829,7 @@ simpcity.su##a[href*="/link-forums/"]
 ||simpcity.su/data/assets/nodeicons/cflix.png$xhr,image
 simpcity.su##.node--link.node--depth2.node--id130.node
 ||simpcity.su/custom/banners/catflix.png$xhr,image
+simpcity.su##.nav-lcams.p-navEl-link
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
