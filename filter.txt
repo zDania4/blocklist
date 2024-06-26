@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jun22-1
+! Version: 2024Jun26-1
 
 ! ALLOWLIST:
 
@@ -993,6 +993,17 @@ imagebam.com###cs-link
 ##.ad-link:not(.adsbox)
 imagebam.com##a[href*="theporndude.com"]
 imagebam.com##+js(set-cookie, nsfw_inter, 1)
+
+! Imageban.ru
+.ru/ads/
+||cdn-rtb.sape.ru^
+||yandex.ru/cycounter?
+||ads.digitalcaramel.com^$3p
+*$frame,3p,from=imageban.ru
+||yadro.ru^
+||mc.yandex.ru^
+##div[id^="adfox_"]
+##div[id^="yandex_rtb"]
 
 ! Imagevenue
 imagevenue.com##.justify-content-center.col-12
