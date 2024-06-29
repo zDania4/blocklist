@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jun26-2
+! Version: 2024Jun29-1
 
 ! ALLOWLIST:
 
@@ -225,6 +225,8 @@ pornhub.com#@#.share-link-container
 @@||bunkrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
 @@||bunkrrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
 @@||bunkrrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
+@@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
+@@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 
 ! BLOCKLIST:
 
