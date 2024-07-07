@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul04-1
+! Version: 2024Jul07-1
 
 ! ALLOWLIST:
 
@@ -229,6 +229,19 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 
 ! BLOCKLIST:
+
+! 000315
+||umami.000315.xyz/script.js$script
+||cloudflareinsights.com^$domain=000315.xyz
+##a[href^="https://t.ajrkm3.com/"]
+000315.xyz##ins[id*="instant-message"]
+000315.xyz##ins[id*="mobile-instant-message"]
+000315.xyz##+js(rmnt, script, ad_idzone, stay, 1)
+000315.xyz##+js(rmnt, script, 5253666)
+000315.xyz##a[data-umami-event*="ad-click"]
+000315.xyz##div.css-rep5dz.MuiGrid-grid-lg-3.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-6.MuiGrid-item.MuiGrid-root:nth-of-type(16)
+||project-1067751275500851996.firebaseapp.com
+||piatutuvjiklguiizifo.supabase.co^$domain=000315.xyz
 
 ! 3movs
 3movs.com##+js(popads-dummy)
@@ -988,6 +1001,10 @@ hqporner.com##.black_friday
 ||mydaddy.cc/ads/banner.js$script
 m.hqporner.com##.container-300x100
 ||mydaddy.cc/hf.html
+||hqwo.cc/ads/banner.js$script
+||hqwo.cc/hf.html
+hqwo.cc###adc
+hqwo.cc###flvv_fluid_html_on_pause
 
 ! Imagebam
 imagebam.com###inter > [src]
