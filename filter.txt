@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul07-1
+! Version: 2024Jul08-1
 
 ! ALLOWLIST:
 
@@ -559,6 +559,8 @@ bunkrrr.*##.catflix
 bunkr.*##+js(rmnt, script, encode)
 bunkrr.*##+js(rmnt, script, encode)
 bunkrrr.*##+js(rmnt, script, encode)
+||endowmentoverhangutmost.com^
+||blurbreimbursetrombone.com^
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
