@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul08-1
+! Version: 2024Jul08-2
 
 ! ALLOWLIST:
 
@@ -1007,6 +1007,8 @@ m.hqporner.com##.container-300x100
 ||hqwo.cc/hf.html
 hqwo.cc###adc
 hqwo.cc###flvv_fluid_html_on_pause
+m.hqporner.com##div#showifad_span
+m.hqporner.com##div#showifad
 
 ! Imagebam
 imagebam.com###inter > [src]
