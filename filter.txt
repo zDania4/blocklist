@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul16-3
+! Version: 2024Jul16-4
 
 ! ALLOWLIST:
 
@@ -228,6 +228,7 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 simpcity.su#@#+js(addEventListener-defuser, , open)
+@@||reddit.com^$generichide
 
 ! BLOCKLIST:
 
@@ -1617,6 +1618,22 @@ recordbate.com##^script:has-text(4947244)
 recordbate.com##+js(nowoif)
 recordbate.com##+js(window-close-if, /^/)
 
+!Reddit embed
+@@||reddit.com^$generichide
+reddit.com##+js(addEventListener-defuser, block-body-scrolling)
+reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
+reddit.com##+js(remove-class, scroll-disabled, body, stay)
+||embed.reddit.com/svc/shreddit
+||w3-reporting.reddit.com^
+||ad-delivery.net^
+/px.gif?$image,redirect-rule=1x1.gif
+reddit.com##[slot="use-app"]
+reddit.com##body:style(pointer-events:auto !important;)
+||redditstatic.com/shreddit/sentry-$from=reddit.com
+! ! Rules below removes blur and NSFW warning. Uncomment if wanted.
+embed.reddit.com##.p-lg.h-full.w-full.justify-center.items-center.flex.box-border.top-0.left-0.absolute
+embed.reddit.com###embed-container:remove-attr(style)
+
 ! Redgifs
 ||cdn.camshq.info/streamate/$image
 www.redgifs.com###jerky-im
@@ -1778,6 +1795,8 @@ saint2.su##+js(rmnt, script, concat)
 ||ocmosrlpo.com^
 /en/vupa/ri/gpyc?$script
 /en/vupa/ri$script
+vanmhoqm.com^
+saint2.su##+js(rmnt, script, L0soL)
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
