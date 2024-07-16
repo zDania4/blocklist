@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul16-2
+! Version: 2024Jul16-3
 
 ! ALLOWLIST:
 
@@ -227,6 +227,7 @@ pornhub.com#@#.share-link-container
 @@||bunkrrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
 @@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
+simpcity.su#@#+js(addEventListener-defuser, , open)
 
 ! BLOCKLIST:
 
@@ -1843,7 +1844,7 @@ simpcity.su##.node--link.node--depth2.node--id125.node
 simpcity.su##.nav-bonga.p-navEl-link
 ||adtng.com^
 ##iframe[src^="https://a.adtng.com/"]
-simpcity.su##+js(addEventListener-defuser, , open)
+!simpcity.su##+js(addEventListener-defuser, , open)
 ||a.adtng.com^
 ||turbostats.xyz/api/event
 simpcity.su##div[style*="background-color:#FBCA27"]
@@ -1888,6 +1889,8 @@ simpcity.su##.node--link.node--depth2.node--id131.node
 simpcity.su/data/assets/nodeicons/1000208174.png$image
 ||bunkr-cache.se/js/script.js$script
 ||bunkr-cache.se/api/event$xhr
+simpcity.su##a[href*="energizeio.com"]
+energizeio.com^
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
