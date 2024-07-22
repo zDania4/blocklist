@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul21-1
+! Version: 2024Jul22-1
 
 ! ALLOWLIST:
 
@@ -752,17 +752,20 @@ cyberdrop.me##ads-footer-mobile
 /afu.php?zoneid=$all
 dwiovmamhb.com^
 cyberdrop.me##+js(rmnt, script, concat)
+cyberdrop.me##+js(rmnt, script, L0soL, stay, 1)
+
+! Cyberfile
+||acscdn.com^
+##.advert-wrapper
+||core-apps.b-cdn.net/js/script.js$script
 /en/oslom?id=$script
 cyberfile.me##+js(rmnt, script, L0soL, stay, 1)
 /^https:\/\/[a-z]{8,12}\.com\/[\/a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,header=x-js-ab2,to=com
 ||wzeagshwyric.com^
 cyberfile.me##.advert-wrapper:remove()
 /en/oht/jf
-
-! Cyberfile
-||acscdn.com^
-##.advert-wrapper
-||core-apps.b-cdn.net/js/script.js$script
+||banawgaht.com^
+/en/du/aw/atl?
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
