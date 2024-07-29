@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul22-1
+! Version: 2024Jul29-1
 
 ! ALLOWLIST:
 
@@ -229,6 +229,9 @@ pornhub.com#@#.share-link-container
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 simpcity.su#@#+js(addEventListener-defuser, , open)
 @@||reddit.com^$generichide
+!2 lines below adds back RSS link and the scroll buttons that is removed with the uBO "Other annoyances" filter
+simpcity.su#@#.u-scrollButtons
+simpcity.su#@#.p-footer-rssLink
 
 ! BLOCKLIST:
 
@@ -1844,9 +1847,12 @@ simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
-!The following two lines removes Trans categories from the main SC page - posts in these aren't removed and will show up on the site. Remove if needed.
+!The following 4 lines removes Trans categories from the main SC page and their icons - posts in these aren't removed and will show up on the site. Remove if needed.
 simpcity.su##.block--category101.block--category.block
 simpcity.su##.node-subNodeFlatList > li:nth-of-type(10)
+||simpcity.su/static/icons/nodes/36.png$image,1p
+||simpcity.su/static/icons/nodes/42.png$image,1p
+!End of trans category
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
 ||onlyfinder.bio^$important
@@ -1920,6 +1926,17 @@ simpcity.su##a[href*="energizeio.com"]
 energizeio.com^
 simpcity.su##+js(rmnt, script, adConfig)
 simpcity.su##.js-installPromptContainer.offCanvasMenu-installBanner
+||simpcity.su/static/icons/nodes/129.png$image,1p
+||simpcity.su/static/icons/nodes/119.png$image,1p
+||simpcity.su/static/icons/nodes/95.png$image,1p
+||simpcity.su/static/icons/nodes/107.png$image,1p
+||simpcity.su/static/icons/nodes/122.png$image,1p
+||simpcity.su/static/icons/nodes/125.png$image,1p
+||simpcity.su/static/icons/nodes/128.png$image,1p
+||simpcity.su/custom/sgames2.png$image,1p
+||simpcity.su/custom/dp-3.png$image,1p
+||simpcity.su/custom/faze.png$image,1p
+||simpcity.su/custom/tpd-b-24px.png$image,1p
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
