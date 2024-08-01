@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Jul29-1
+! Version: 2024Aug01-1
 
 ! ALLOWLIST:
 
@@ -1711,6 +1711,10 @@ redgifs.com##.live
 redgifs.com##[class*="_adLiveButton_cey2k_1"]
 redgifs.com##div._Item_1pkpz_48:nth-of-type(1)
 redgifs.com##+js(rmnt, script, is_texan)
+||api2.amplitude.com^
+||amplitude.com^$3p
+||api.lab.amplitude.com^
+redgifs.com##div._defaultAd300x250_gvvr7_6
 
 ! Redtube
 redtube.*###paid_tabs_list
@@ -1994,6 +1998,14 @@ sxyprn.*###vid_container_id > .tdn
 !sxyprn.com##.main_content > div:nth-of-type(1)
 *$3p,script,domain=sxyprn.com|sxyprn.net
 *$1p,script,domain=sxyprn.com
+
+! Tiktok (embed only)
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
+tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
+tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
+tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+||mcs-ie.tiktokw.eu^
+||tiktok.com/ttwid/check/
 
 ! Theporndude
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
