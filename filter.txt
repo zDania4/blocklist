@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Aug01-2
+! Version: 2024Aug04-1
 
 ! ALLOWLIST:
 
@@ -232,6 +232,7 @@ simpcity.su#@#+js(addEventListener-defuser, , open)
 !2 lines below adds back RSS link and the scroll buttons that is removed with the uBO "Other annoyances" filter
 simpcity.su#@#.u-scrollButtons
 simpcity.su#@#.p-footer-rssLink
+@@||bunkr-albums.io/js/main.js$script,1p
 
 ! BLOCKLIST:
 
