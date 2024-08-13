@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Aug04-1
+! Version: 2024Aug13-1
 
 ! ALLOWLIST:
 
@@ -60,6 +60,8 @@
 @@||jpg3.su/img/*$popup,domain=simpcity.su
 @@||jpg4.su/upload$all,domain=simpcity.su
 @@||jpg4.su/img/*$popup,domain=simpcity.su
+@@||jpg5.su/upload$all,domain=simpcity.su
+@@||jpg5.su/img/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 @@||bunkrr.ru/a/*$popup,domain=simpcity.su
@@ -107,6 +109,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg4.su/app/lib/chevereto.min.js$script,1p
 @@||jpg4.su/lib/Peafowl/peafowl.min.js$script,1p
 @@||jpg4.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg5.su/app/lib/chevereto.min.js$script,1p
+@@||jpg5.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg5.su/lib/Peafowl/js/scripts.min.js$script,1p
 @@||recordbate.com/assets/js/main.js
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main.js$script,1p
@@ -1212,6 +1217,39 @@ jpg4.su###image_footer
 jpg4.su##div[class*="ad-banner"]
 jpg4.su##+js(abort-current-script, TsMasterSpot)
 jpg4.su##+js(abort-on-property-read, adConfig)
+jpg4.su##+js(rmnt, script, adConfig)
+$popup,3p,domain=jpg5.su
+jpg5.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg5.*
+jpg5.*/quicknoisilyheadbites.js
+*$3p,script,domain=jpg5.*
+||jpg5.*/quicknoisilyheadbites.js
+*$1p,script,domain=jpg5.su
+||jpg5.su/63bfe33665231.php$all,important
+jpg5.su##^script:has-text(config.syndication_host)
+jpg5.su##^script:has-text(adConfig)
+jpg5.su##^script:has-text(popMagic)
+jpg5.su##^script:has-text(we-dont-like-blocks)
+jpg5.su##+js(abort-current-script, document.querySelectorAll, popMagic)
+jpg5.su##+js(abort-current-script, document.createElement, click)
+jpg5.su##+js(abort-current-script, popMagic)
+jpg5.su##+js(acis, document.querySelectorAll, popMagic)
+jpg5.su##+js(aeld, click, popMagic)
+||jpg5.su/img$popup
+||jpg5.su/quicknoisilyheadbites.js$all
+jpg5.su##+js(nowoif)
+!jpg5.su##+js(window-close-if, /^/)
+||jpg5.su/63bfe33665231.php
+||jpg5.su/img/*$popup,1p
+jpg5.su$frame
+jpg5.su###user_before_listing
+jpg5.su###album_after_header
+jpg5.su###image_after_header
+jpg5.su###image_footer
+jpg5.su##div[class*="ad-banner"]
+jpg5.su##+js(abort-current-script, TsMasterSpot)
+jpg5.su##+js(abort-on-property-read, adConfig)
+jpg5.su##+js(rmnt, script, adConfig)
 
 ! Kemono
 kemono.su##.ad-container
