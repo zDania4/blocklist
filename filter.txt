@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Aug28-2
+! Version: 2024Aug28-3
 
 ! ALLOWLIST:
 
@@ -784,8 +784,8 @@ afu.php?zoneid
 /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,header=etag,to=com
 hfofibsig.com^
 /(\?id=|id=)[12]\d{6}$/$domain=cyberfile.me
-!$popup,domain=cyberfile.me !Brings back the Plyr player but gives a single popup, login somehow solves pops entirely? 
-$popup,script,3p,domain=cyberfile.me
+$popup,domain=cyberfile.me
+$script,3p,domain=cyberfile.me
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
