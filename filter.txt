@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Aug20-1
+! Version: 2024Aug28-1
 
 ! ALLOWLIST:
 
@@ -775,6 +775,17 @@ cyberfile.me##.advert-wrapper:remove()
 /en/oht/jf
 ||banawgaht.com^
 /en/du/aw/atl?
+||cyberfile.me/plugins/filepreviewer/assets/players/ultimate/java/FWDUVPlayer.js$script,1p
+cyberfile.me##+js(set-cookie, __PPU_ppucnt, 150)
+id=2021528
+id=202152
+/(?:https?:\/\/[^\s\/]+\/[^\s?]*\?id=|id=)[12]\d{6}/$script
+afu.php?zoneid
+/^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,header=etag,to=com
+hfofibsig.com^
+/(\?id=|id=)[12]\d{6}$/$domain=cyberfile.me
+$popup,domain=cyberfile.me
+!$popup,script,3p,domain=cyberfile.me -> Login solves pops on CF? Otherwise this will at least minimise them a lot, but it breaks the plyr player.
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
@@ -1856,6 +1867,8 @@ saint2.su##+js(rmnt, script, L0soL)
 /t/9/fret/meow4/2021529/03be3360.js
 /fret/meow4
 /03be3360.js
+wadlwoqwuodv.com^
+thedvcshop.com^
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
