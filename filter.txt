@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep03-1
+! Version: 2024Sep03-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -276,7 +276,7 @@ simpcity.su#@#+js(addEventListener-defuser, , open)
 3movs.com##.p-ig.recommended.section
 www.3movs.com##div.item:nth-of-type(6)
 
-! anon-v
+! Anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
 
@@ -289,7 +289,7 @@ beeg.com##a.v-btn--variant-text.v-btn--size-large.v-btn--density-default.v-btn--
 !beeg.com##+js(set-cookie, ls_video_muted, 0)
 beeg.com##+js(set-local-storage-item, ls_last_leave, $remove$)
 
-! bunkr 
+! Bunkr 
 $popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site,domain=bunkr.*|bunkrr.*
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
@@ -1699,8 +1699,7 @@ recordbate.com##^script:has-text(4947244)
 recordbate.com##+js(nowoif)
 recordbate.com##+js(window-close-if, /^/)
 
-!Reddit embed
-@@||reddit.com^$generichide
+! Reddit embed
 reddit.com##+js(addEventListener-defuser, block-body-scrolling)
 reddit.com##+js(set-local-storage-item, xpromo-consolidation, 1)
 reddit.com##+js(remove-class, scroll-disabled, body, stay)
@@ -2083,6 +2082,8 @@ tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
 tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
 ||mcs-ie.tiktokw.eu^
 ||tiktok.com/ttwid/check/
+||tiktokv.com/monitor_browser/
+||tiktok.com/web/report?
 
 ! Theporndude
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
@@ -2386,8 +2387,6 @@ xvideos.com##+js(no-window-open-if)
 ||impactserving.com^
 xbabe.com/_xbm_p.php
 ||sentry.io^$3p
-||tiktokv.com/monitor_browser/
-||tiktok.com/web/report?
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
