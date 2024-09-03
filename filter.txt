@@ -2,244 +2,243 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep01-1
+! Version: 2024Sep03-1
 
-! ALLOWLIST:
-
-! #Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
-@@||bunkr.ru/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
+! ## ALLOWLIST ##
+! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
 @@||bunkr.*/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
-@@||bunkrr.*/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
-@@||bunkrrr.*/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
-@@||bunkr.ru/thumbs/$domain=bunkrr.*
 @@||bunkr.*/thumbs/$domain=bunkr.*|bunkrr.*|bunkrrr.*
+@@||bunkr.ru/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
+@@||bunkr.ru/thumbs/$domain=bunkrr.*
+@@||bunkrr.*/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
 @@||bunkrr.*/thumbs/$domain=bunkr.*|bunkrr.*|bunkrrr.*
+@@||bunkrrr.*/api/upload$all,domain=app.bunkrr.*|app.bunkr.*|app.bunkrrr.*
 @@||bunkrrr.*/thumbs/$domain=bunkr.*|bunkrr.*|bunkrrr.*
 
-! # DDOS-Guard / Cloudflare
-@@||check.ddos-guard.net^
-@@||bunkrr.su/.well-known/ddos-guard/check
-@@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
-@@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
-@@||bunkrr.ru/.well-known/ddos-guard/check
-@@||bunkrr.ru/.well-known/ddos-guard/captcha_js$script,1p
-@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||bunkr.sk/.well-known/ddos-guard/captcha_js$script,1p
-@@||bunkr.sk/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkr.sk/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
-@@||bunkr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||bunkrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.su
-@@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
-@@||challenges.cloudflare.com^
-@@||kemono.su/.well-known/ddos-guard/mark/|
-@@||simpcity.su/.well-known/ddos-guard/check
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/*$1p
-@@||simpcity.su/.well-known/ddos-guard/*$1p
-@@||simpcity.su/.well-known/ddos-guard/id/*$1p
-@@||simpcity.su/.well-known/ddos-guard/mark/*$1p
-@@||simpcity.su/.well-known/ddos-guard/*$1p
-@@||check.ddos-guard.net/check.js$inline-font
-@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
-
-! #Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
-@@||jpg1.su/upload$all,domain=simpcity.su
-@@||jpg1.su/img/*$popup,domain=simpcity.su
-@@||jpg2.su/upload$all,domain=simpcity.su
-@@||jpg2.su/img/*$popup,domain=simpcity.su
-@@||jpg3.su/upload$all,domain=simpcity.su
-@@||jpg3.su/img/*$popup,domain=simpcity.su
-@@||jpg4.su/upload$all,domain=simpcity.su
-@@||jpg4.su/img/*$popup,domain=simpcity.su
-@@||jpg5.su/upload$all,domain=simpcity.su
-@@||jpg5.su/img/*$popup,domain=simpcity.su
+! # Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
+@@||bunkr.*/a/*$popup,domain=simpcity.su
+@@||bunkr.*/i/*$popup,domain=simpcity.su
+@@||bunkr.*/v/*$popup,domain=simpcity.su
+@@||bunkr.sk/i/*$popup,domain=simpcity.su
+@@||bunkr.sk/v/*$popup,domain=simpcity.su
+@@||bunkrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrr.ru/a/*$popup,domain=simpcity.su
+@@||bunkrr.ru/i/*$popup,domain=simpcity.su
+@@||bunkrr.ru/v/*$popup,domain=simpcity.su
+@@||bunkrr.sk/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
-@@||bunkrr.ru/a/*$popup,domain=simpcity.su
-@@||bunkrr.ru/v/*$popup,domain=simpcity.su
-@@||bunkrr.ru/i/*$popup,domain=simpcity.su
-@@||bunkrr.sk/a/*$popup,domain=simpcity.su
-@@||bunkr.sk/v/*$popup,domain=simpcity.su
-@@||bunkr.sk/i/*$popup,domain=simpcity.su
-@@||bunkrr.*/a/*$popup,domain=simpcity.su
-@@||bunkrr.*/v/*$popup,domain=simpcity.su
-@@||bunkrr.*/i/*$popup,domain=simpcity.su
-@@||bunkr.*/a/*$popup,domain=simpcity.su
-@@||bunkr.*/v/*$popup,domain=simpcity.su
-@@||bunkr.*/i/*$popup,domain=simpcity.su
-@@||redgifs.com^$popup,domain=simpcity.su
 @@||bunkrrr.*/a/*$popup,domain=simpcity.su
-@@||bunkrrr.*/v/*$popup,domain=simpcity.su
 @@||bunkrrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrrr.*/v/*$popup,domain=simpcity.su
+@@||jpg1.su/img/*$popup,domain=simpcity.su
+@@||jpg1.su/upload$all,domain=simpcity.su
+@@||jpg2.su/img/*$popup,domain=simpcity.su
+@@||jpg2.su/upload$all,domain=simpcity.su
+@@||jpg3.su/img/*$popup,domain=simpcity.su
+@@||jpg3.su/upload$all,domain=simpcity.su
+@@||jpg4.su/img/*$popup,domain=simpcity.su
+@@||jpg4.su/upload$all,domain=simpcity.su
+@@||jpg5.su/img/*$popup,domain=simpcity.su
+@@||jpg5.su/upload$all,domain=simpcity.su
+@@||redgifs.com^$popup,domain=simpcity.su
 
-! #Anti-adblock / #CHP Ads Block Detector
-#@#.ad-link
+! # DDOS-Guard / Cloudflare
+@@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkr.sk/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkr.sk/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkr.sk/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.ru/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkrr.ru/.well-known/ddos-guard/check
+@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkrr.ru/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/captcha_js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/check
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkrr.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||bunkrrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||challenges.cloudflare.com^
+@@||check.ddos-guard.net/check.js$inline-font
+@@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.su
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
+@@||check.ddos-guard.net^
+@@||kemono.su/.well-known/ddos-guard/mark/
+@@||simpcity.su/.well-known/ddos-guard/*$1p
+@@||simpcity.su/.well-known/ddos-guard/*$1p
+@@||simpcity.su/.well-known/ddos-guard/check
+@@||simpcity.su/.well-known/ddos-guard/id/*$1p
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/*$1p
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||simpcity.su/.well-known/ddos-guard/mark/*$1p
+
+! # Anti-adblock / #CHP Ads Block Detector
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com|~pornhubthbh7ap3u.onion|~redtube.com|~redtube.com.br|~tube8.com|~tube8.es|~tube8.fr|~xtube.com|~youjizz.com|~youporn.com
-sendvid.com#@#+js(abort-current-inline-script, $, pop)
-! Unbreak for adversity, video thumbs gallery not loading sometimes, livecams not playing
-@@||naiadsystems.com^$domain=pornhublive.com
 
-!Recaptcha
+! # Recaptcha
 @@||google.com/recaptcha/api.js
 @@||gstatic.com/recaptcha/
 
-! Unbreak for Adguard Base Filters, livecams information section not displayed
+! # Unbreak PH
+@@||naiadsystems.com^$domain=pornhublive.com
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 
-! #Website functionality
-@@||jpg1.su/app/lib/chevereto.min.js$script,1p
-@@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||jpg2.su/app/lib/chevereto.min.js$script,1p
-@@||jpg2.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg2.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||jpg3.su/app/lib/chevereto.min.js$script,1p
-@@||jpg3.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg3.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||jpg4.su/app/lib/chevereto.min.js$script,1p
-@@||jpg4.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg4.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||jpg5.su/app/lib/chevereto.min.js$script,1p
-@@||jpg5.su/lib/Peafowl/peafowl.min.js$script,1p
-@@||jpg5.su/lib/Peafowl/js/scripts.min.js$script,1p
-@@||recordbate.com/assets/js/main.js
-@@||saint.to/dropzone/dropzone.js
-@@||saint.to/js/main.js$script,1p
-@@||saint.to/js/main-login.js$script,1p
-@@||saint2.su/dropzone/dropzone.js
-@@||saint2.su/js/main.js$script,1p
-@@||saint2.su/js/main-login.js$script,1p
-pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
-pornhub.com#@#.share-link-container
-@@||tnaflix.com/assets/js/dist/bundle.min.js
-@@||sxyprn.com/player/p12m.js
-@@||sxyprn.com/js/main.js
-@@||sxyprn.com/js/lazysizes.min.js
-@@||sxyprn.com/js/jq36.js
-@@||sxyprn.net/js/main.js
-@@||sxyprn.net/js/lazysizes.min.js
-@@||sxyprn.net/js/main2.js
-@@||sxyprn.com/js/main2.js
+! # Website functionality 
+@@*$generichide,from=streamtape.*
+@@||ajax.googleapis.com^$script,from=imgbox.com
 @@||app.bunkrr.su/libs/axios/axios.min.js$1p
-@@||static.bunkr.is/css/modal.css$domain=bunkrr.su
-@@||bunkrr.su/magic/dashboard.js$script,domain=app.bunkrr.su
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$domain=bunkrr.su
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image,domain=bunkrr.ru
-@@||bunkrr.su/magic/album-sort.js$script,1p
-!"Not found" image for Bunkrr.
-@@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
-@@||tnaflix.com/compiled/header.min.js
-@@||tnaflix.com/js/tnaflix.desktop.comments.js
-@@||tnaflix.com/assets/js/dist/bundle.min.js
-!Allows for Saint thumbnails to load
-@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint.to
-@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
-@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.su
-@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
-@@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
+@@||bunkr-albums.io/js/main.js$script,1p
+@@||bunkr-albums.io^$popup,domain=bunkr.*
+@@||bunkr-albums.io^$popup,domain=bunkr.*
+@@||bunkr-albums.io^$popup,domain=bunkr.sk
+@@||bunkr-albums.io^$popup,domain=bunkrr.*
+@@||bunkr.*/a/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/a/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||bunkr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
+@@||bunkr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
+@@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/i/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
+@@||bunkr.*/js/alerts.js$script,domain=saint2.su
+@@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
+@@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
+@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkr.*
+@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
+@@||bunkr.*/lul/pepega-loading.webp$inline-font,domain=bunkr.*
+@@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
+@@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.su
+@@||bunkr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/dashboard-v5.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/home-v2.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkr.*/v/*$popup,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkr.*/v/*$popup,domain=app.bunkrr.su
+@@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.su
+@@||bunkr.fi/js/alerts.js$script,domain=saint2.su
+@@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/dashboard-v3.js$script,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/home-v2.js$script,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/dashboard.js$script,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/album-sort.js$script,1p
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.su
-@@||static.bunkr.is/css/modal.css$inline-font,domain=app.bunkrr.su
-@@||bunkrr.ru/v/*$popup,domain=app.bunkrr.su
+@@||bunkr.sk/a/*$popup,domain=app.bunkrr.su
+@@||bunkr.sk/i/*$popup,domain=app.bunkrr.su
+@@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
+@@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkr.sk/v/*$popup,domain=app.bunkrr.su
+@@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
+@@||bunkrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
+@@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
+@@||bunkrr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkrr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkrr.*/magic/dashboard-v5.js$script,domain=app.bunkrr.*|app.bunkr.*
+@@||bunkrr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkrr.ru/a/*$popup,domain=app.bunkrr.su
 @@||bunkrr.ru/i/*$popup,domain=app.bunkrr.su
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
+@@||bunkrr.ru/magic/album-sort.js$script,1p
+@@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.*
+@@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.sk
+@@||bunkrr.ru/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/dashboard-v3.js$script,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/dashboard.js$script,domain=app.bunkrr.su
 @@||bunkrr.ru/magic/home-v2.js$inline-font,domain=app.bunkrr.su
+@@||bunkrr.ru/magic/home-v2.js$script,domain=app.bunkrr.su
+@@||bunkrr.ru/v/*$popup,domain=app.bunkrr.su
+@@||bunkrr.su/magic/album-sort.js$script,1p
+@@||bunkrr.su/magic/dashboard.js$script,domain=app.bunkrr.su
+@@||bunkrrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
+@@||bunkrrr.*/file-stats.js$script,domain=get.bunkrr.su
+@@||bunkrrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
+@@||bunkrrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
+@@||cdn.jsdelivr.net/npm/*$domain=get.bunkrr.su
+@@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
+@@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
+@@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
+!"Not found" image for Bunkrr.
+@@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
+@@||jpg1.su/app/lib/chevereto.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg1.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg2.su/app/lib/chevereto.min.js$script,1p
+@@||jpg2.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg2.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg3.su/app/lib/chevereto.min.js$script,1p
+@@||jpg3.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg3.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg4.su/app/lib/chevereto.min.js$script,1p
+@@||jpg4.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg4.su/lib/Peafowl/peafowl.min.js$script,1p
+@@||jpg5.su/app/lib/chevereto.min.js$script,1p
+@@||jpg5.su/lib/Peafowl/js/scripts.min.js$script,1p
+@@||jpg5.su/lib/Peafowl/peafowl.min.js$script,1p
+!Allows for Saint thumbnails to load (lovefap URLs)
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
+@@||recordbate.com/assets/js/main.js
+@@||reddit.com^$generichide
+@@||saint.to/dropzone/dropzone.js
+@@||saint.to/js/main-login.js$script,1p
+@@||saint.to/js/main.js$script,1p
+@@||saint2.su/dropzone/dropzone.js
+@@||saint2.su/js/main-login.js$script,1p
+@@||saint2.su/js/main.js$script,1p
+@@||static.bunkr.is/css/modal.css$domain=bunkrr.su
+@@||static.bunkr.is/css/modal.css$inline-font,domain=app.bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$domain=bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image,domain=bunkrr.ru
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=app.bunkrr.su
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.sk
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
+@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
+@@||sxyprn.com/js/jq36.js
+@@||sxyprn.com/js/lazysizes.min.js
+@@||sxyprn.com/js/main.js
+@@||sxyprn.com/js/main2.js
+@@||sxyprn.com/player/p12m.js
+@@||sxyprn.net/js/lazysizes.min.js
+@@||sxyprn.net/js/main.js
+@@||sxyprn.net/js/main2.js
+@@||tiktok.com^$generichide
+@@||tnaflix.com/assets/js/dist/bundle.min.js
+@@||tnaflix.com/assets/js/dist/bundle.min.js
+@@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
+@@||tnaflix.com/compiled/header.min.js
+@@||tnaflix.com/js/tnaflix.desktop.comments.js
 @@||www.redgifs.com/users/*$popup,domain=redgifs.com
 @@||www.redgifs.com/watch/*$popup,domain=redgifs.com
 @@||www.redgifs.com^$popup,domain=redgifs.com
-@@*$generichide,from=streamtape.*
-@@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.sk
-@@||bunkr.sk/v/*$popup,domain=app.bunkrr.su
-@@||bunkr.sk/a/*$popup,domain=app.bunkrr.su
-@@||bunkr.sk/i/*$popup,domain=app.bunkrr.su
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.sk
-@@||bunkr-albums.io^$popup,domain=bunkr.sk
-@@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
-@@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
-@@||bunkrr.ru/magic/album-sort.js$script,domain=bunkr.*
-@@||bunkr.*/v/*$popup,domain=app.bunkrr.su
-@@||bunkr.*/a/*$popup,domain=app.bunkrr.su
-@@||bunkr.*/i/*$popup,domain=app.bunkrr.su
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
-@@||bunkr-albums.io^$popup,domain=bunkr.*
-@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.su
-@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.su
-@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkr.*
-@@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.*
-@@||bunkr.*/lul/pepega-loading.webp$inline-font,domain=bunkr.*
-@@||cdn.jsdelivr.net/npm/*$domain=get.bunkrr.su
-@@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
-@@||bunkr-albums.io^$popup,domain=bunkr.*
-@@||bunkr-albums.io^$popup,domain=bunkrr.*
-@@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkrr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkrr.*/magic/home-v2.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/v/*$popup,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/a/*$popup,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/magic/home-v2.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
-@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint.to
-@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint.to
-@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.su
-@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.su
-@@||bunkr.*/magic/dashboard-v5.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkrr.*/magic/dashboard-v5.js$script,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkrr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
-@@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
-@@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
-@@||ajax.googleapis.com^$script,from=imgbox.com
-@@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
-@@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
-@@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
-@@||bunkr.*/file-stats.js$script,domain=get.bunkrr.su
-@@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
-@@||bunkrrr.*/file-stats.js$script,domain=get.bunkrr.su
-@@||bunkr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
-@@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
-@@||bunkrrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
-@@||tiktok.com^$generichide
-@@||bunkr.fi/js/alerts.js$script,domain=saint2.su
-@@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.su
-@@||bunkr.*/js/alerts.js$script,domain=saint2.su
-@@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
-@@||bunkr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
-@@||bunkr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
-@@||bunkrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
-@@||bunkrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
-@@||bunkrrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
-@@||bunkrrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
-@@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
-@@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
-simpcity.su#@#+js(addEventListener-defuser, , open)
-@@||reddit.com^$generichide
-!2 lines below adds back RSS link and the scroll buttons that is removed with the uBO "Other annoyances" filter
-simpcity.su#@#.u-scrollButtons
+#@#.ad-link
+f95zone.to#@#.p-footer-rssLink
+f95zone.to#@#.u-scrollButtons
+pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
+pornhub.com#@#.share-link-container
+sendvid.com#@#+js(abort-current-inline-script, $, pop)
 simpcity.su#@#.p-footer-rssLink
-@@||bunkr-albums.io/js/main.js$script,1p
+simpcity.su#@#.u-scrollButtons
+simpcity.su#@#+js(addEventListener-defuser, , open)
 
-! BLOCKLIST:
+! ## BLOCKLIST ##
 
 ! 000315
 ||umami.000315.xyz/script.js$script
@@ -902,6 +901,19 @@ erome.com##video:remove-attr(loop)
 ||landing.candynetwork.ai
 idzone=2851174
 splash.php?idzone
+
+! F95Zone
+f95zone.to##.node--link.node--depth2.node--id129.node
+f95zone.to##.node--link.node--depth2.node--id136.node
+||adglare.net^
+##a[href^="https://engine.blueistheneworanges.com/"]
+f95zone.to##a[href*="theporndude.com"]
+f95zone.to##a[data-nav-id="AISexChat"]
+f95zone.to##a[data-nav-id="AIPorn"]
+f95zone.to##.samAlignCenter
+f95zone.to##.samBannerUnit
+/siropu/am/*.min.js$script
+/siropu/am/core.min.js$script,important,from=~audi-sport.net|~hifiwigwam.com|f95zone.to
 
 ! Famousinternetgirls
 ||famousinternetgirls.com/vast/fig.xml
