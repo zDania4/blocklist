@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep03-2
+! Version: 2024Sep03-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -914,6 +914,10 @@ f95zone.to##.samAlignCenter
 f95zone.to##.samBannerUnit
 /siropu/am/*.min.js$script
 /siropu/am/core.min.js$script,important,from=~audi-sport.net|~hifiwigwam.com|f95zone.to
+f95zone.to##+js(rmnt, script, getIgnoredContentHeight)
+$frame,domain=f95zone.to
+f95zone.to##.samItem
+f95zone.to##.samItem:remove()
 
 ! Famousinternetgirls
 ||famousinternetgirls.com/vast/fig.xml
