@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep07-1
+! Version: 2024Sep10-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -785,6 +785,16 @@ hfofibsig.com^
 /(\?id=|id=)[12]\d{6}$/$domain=cyberfile.me
 $popup,domain=cyberfile.me
 $script,3p,domain=cyberfile.me
+cyberfile.su##+js(rmnt, script, L0soL, stay, 1)
+cyberfile.su##.advert-wrapper:remove()
+/en/oht/jf
+||cyberfile.su/plugins/filepreviewer/assets/players/ultimate/java/FWDUVPlayer.js$script,1p
+cyberfile.su##+js(set-cookie, __PPU_ppucnt, 150)
+/(\?id=|id=)[12]\d{6}$/$domain=cyberfile.su
+$popup,domain=cyberfile.su
+$script,3p,domain=cyberfile.su
+||cdn.plyr.io^$script,domain=cyberfile.me
+||cdn.plyr.io^$script,domain=cyberfile.su
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
