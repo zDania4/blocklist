@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep10-1
+! Version: 2024Sep11-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1040,6 +1040,36 @@ gofile.io##body:style(overflow: scroll !important)
 ||qnp16tstw.com^
 ||s.gofile.io^
 
+! HClips
+hclips.com##div.gender-item:nth-of-type(1)
+hclips.com##a.subtitle:nth-of-type(15)
+hclips.com##a.subtitle:nth-of-type(16)
+hclips.com##section
+/assets/jwplayer-*/vast.js$script,1p
+##a[href^="https://clickadilla.com/"]
+hclips.com##.underplayer > section
+##a[href^="https://a.candyai.love/"]
+hclips.com##.wrapper + .partners-wrap + div[class]
+hclips.com##.video__wrapper > section[style]
+hclips.com##.video-page__content > div.left + div:not([class])
+hclips.com##.partners-wrap
+/\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,from=555.porn|abjav.com|abxxx.com|aniporn.com|asiantv.fun|bdsmx.tube|bigdick.tube|blackporn.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube|xmilf.com
+hclips.com##+js(abort-current-script, adver)
+||hcjs.nv7s.com/xxxmas/$script
+hclips.com##+js(rmnt, script, siteId)
+hclips.com##+js(rmnt, script, unified_id)
+||tds.bestsafefast.com^
+hclips.com##+js(rmnt, script, __firstDirectEnter)
+hclips.com##+js(rmnt, script, isPushHouseSetup)
+hclips.com##+js(rmnt, script, prerollId)
+hclips.com##+js(rmnt, script, hl1)
+hclips.com##+js(rmnt, script, cpa_undpRandom)
+||hclips.com/api/input.php?$xhr,1p
+hclips.com##.download-btn
+hclips.com##div.mobile-dropdown__list--item:nth-of-type(1)
+hclips.com##a.mobile-dropdown__list--item:nth-of-type(15)
+hclips.com##a.mobile-dropdown__list--item:nth-of-type(14)
+
 ! HQPorner
 hqporner.com##.hide_ad_marker.button
 mydaddy.cc##+js(set-constant, adt, 0)
@@ -1074,6 +1104,44 @@ hqwo.cc###adc
 hqwo.cc###flvv_fluid_html_on_pause
 m.hqporner.com##div#showifad_span
 m.hqporner.com##div#showifad
+
+! Hotscope
+hotscope.tv##[href="https://hotscope.live"]
+hotscope.tv##[href="http://gotpd.me/hotscope"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##[href="https://thotsgirls.com"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##[href="https://www.xpaja.net/"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##[href="https://theleaksbay.com/"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##[href="https://www.porngames.tv/"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##li.MuiListSubheader-gutters.MuiListSubheader-root:nth-of-type(3)
+hotscope.tv##[href="https://theporndude.com"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##.MuiGrid-grid-md-3.MuiGrid-grid-xs-12.MuiGrid-item.MuiGrid-root
+hotscope.tv##[href="/live"] > .MuiListItem-button.MuiListItem-gutters.MuiListItem-root.MuiButtonBase-root
+hotscope.tv##[href="/live"]
+hotscope.tv##[href="https://theporndude.com"]
+hotscope.tv##[href="https://www.porngames.tv/"]
+hotscope.tv##[href="https://theleaksbay.com/"]
+hotscope.tv##[href="https://www.xpaja.net/"]
+hotscope.tv##[href="https://thotsgirls.com"]
+hotscope.tv##[href="http://gotpd.me/hotscope"]
+hotscope.tv##[href="https://hotscope.live"]
+hotscope.tv##div[class^='MuiGrid-root jss MuiGrid-container MuiGrid-spacing-xs-1']
+hotscope.tv##[style^="transform"]:has(#videoHolder)
+hotscope.tv##+js(rmnt, script, K$f4i[339328], stay, 1)
+||blurbreimbursetrombone.com/aas/r45d/vki/2014792/7f5b3d7f.js
+||blurbreimbursetrombone.com^$domain=hotscope.tv
+hotscope.tv##+js(set-cookie, camAd, 100)
+||bullionglidingscuttle.com^
+/lv/esnk/2014794/code.js
+hotscope.tv##div.MuiGrid-spacing-xs-1.MuiGrid-container.div[class*="jss"].MuiGrid-root:nth-of-type(5)
+hotscope.tv##div.MuiGrid-spacing-xs-1.MuiGrid-container.jss440.MuiGrid-root:nth-of-type(5)
+hotscope.tv##div[class*="jss"].MuiBox-root > .MuiDivider-root
+hotscope.tv##div[class*="jss"].MuiGrid-root:nth-of-type(5)
+hotscope.tv##div.MuiGrid-justify-xs-space-between.MuiGrid-align-items-xs-center.MuiGrid-container.MuiGrid-root:nth-of-type(4)
+hotscope.tv##div > div > .MuiGrid-justify-xs-space-between.MuiGrid-align-items-xs-center.MuiGrid-container.MuiGrid-root > p:nth-ancestor(2)
+hotscope.tv##li.MuiListSubheader-gutters.MuiListSubheader-root:nth-of-type(3)
+||hafonmadp.com^
+hotscope.tv##.MuiGrid-grid-md-9:style(display: flex !important; margin: 0 auto !important; flex-direction: column !important;)
+/en/riz/cak/vmiaz
 
 ! Imagebam
 imagebam.com###inter > [src]
@@ -2401,6 +2469,13 @@ xvideos.com##+js(no-window-open-if)
 ||impactserving.com^
 xbabe.com/_xbm_p.php
 ||sentry.io^$3p
+||referrer.disqus.com^
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/url?url="][title^="http"], [title])
+disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
+##.ad-text
+##.adContent
+##.adBlock
+##.ad-text
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
