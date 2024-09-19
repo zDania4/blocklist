@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep11-1
+! Version: 2024Sep19-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -79,6 +79,7 @@
 @@||simpcity.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||simpcity.su/.well-known/ddos-guard/mark/*$1p
+@@||simpcity.su/.well-known/ddos-guard/mark/$xhr,1p
 
 ! # Anti-adblock / #CHP Ads Block Detector
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
@@ -2099,6 +2100,10 @@ simpcity.su##.js-installPromptContainer.offCanvasMenu-installBanner
 ||simpcity.su/custom/dp-3.png$image,1p
 ||simpcity.su/custom/faze.png$image,1p
 ||simpcity.su/custom/tpd-b-24px.png$image,1p
+||b-cdn.net/js/script.js$script
+||hornylitics.b-cdn.net^
+||hornylitics.b-cdn.net/js/script.js$script
+simpcity.su##[src*="candy.engine.adglare.net"]
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
