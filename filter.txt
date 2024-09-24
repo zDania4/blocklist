@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep23-1
+! Version: 2024Sep24-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -367,7 +367,7 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru,domain=bunkr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkr.*
 !*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkr.sk
@@ -403,7 +403,7 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru,domain=bunkrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 /^_0x\w+[A-Za-z0-9]$/$frame,script,xhr,popup,match-case
 ||opmvivogsb.com^$all,important
@@ -534,7 +534,7 @@ bunkrrr.*##+js(abort-current-script, aclib.runBanner)
 bunkrrr.*##+js(abort-on-property-read, adConfig)
 bunkrrr.*##+js(abort-current-script, WebAssembly, _0x)
 bunkrrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru,domain=bunkrrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkrrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrrr.*
 bunkrrr.*##^all:has-text(taco-loves-ads)
 pixl.li^$domain=bunkrrr.*
@@ -803,6 +803,24 @@ $popup,domain=cyberfile.su
 $script,3p,domain=cyberfile.su
 ||cdn.plyr.io^$script,domain=cyberfile.me
 ||cdn.plyr.io^$script,domain=cyberfile.su
+
+! Dirtyship
+dirtyship.com##+js(abort-on-property-read, dataPopUnder)
+dirtyship.com##+js(abort-current-script, onload)
+dirtyship.com###menu-item-67313 > [href^="https://tsyndicate.com/"]
+dirtyship.com###menu-item-72856 > [href^="https://heauty-viesected.com"]
+dirtyship.com###menu-item-57962 > [href^="https://fucklocal.com"]
+dirtyship.com###menu-item-83175 > [href="https://influencerchicks.com/"]
+dirtyship.com###menu-item-10362 > [href="https://theporndude.com/"]
+dirtyship.com###menu-item-72857 > [href="https://exploitedteens.com/"]
+dirtyship.com##+js(rmnt, script, loadjscssfile)
+dirtyship.com##+js(rmnt, , ad_idzone)
+||exacdn.com^
+dirtyship.com##+js(rmnt, script, fluidPlayerPlugin0)
+||www.youtube.com/s/player/$script,domain=dirtyship.com,important
+dirtyship.com##.mobiletop
+dirtyship.com##div[id="l_340"]
+dirtyship.com##.mobilebottom
 
 ! Dood
 dood.*##+js(acs, adcashMacros)
@@ -1162,6 +1180,16 @@ imagebam.com###cs-link
 ##.ad-link:not(.adsbox)
 imagebam.com##a[href*="theporndude.com"]
 imagebam.com##+js(set-cookie, nsfw_inter, 1)
+imagebam.com##+js(rmnt, script, isChrome)
+imagebam.com##._ln-floater
+||ogle-0740lb.com^
+||gliese-682c.com^
+imagebam.com##+js(rmnt, script, canRunAds)
+||cdn52969391.ahacdn.me/renderer/renderer.js$script
+||ahacdn.me/renderer/renderer.js$script,domain=imagebam.com
+imagebam.com##.mb-3.mt-n4.text-center
+imagebam.com##+js(rmnt, script, goCtrl)
+imagebam.com##+js(rmnt, script, setCookie)
 
 ! Imageban.ru
 .ru/ads/
@@ -1226,6 +1254,22 @@ imgbox.com##+js(rmnt, script, isChrome)
 imgbox.com##div[class*="full-page-redirect"]:remove()
 imgbox.com##+js(rmnt, script, full-page-redirect)
 imgbox.com##a[href*="https://imgbox.com/"]:remove-attr(/href|title|onclick/)
+
+! Influencerchicks
+influencerchicks.com###g1-canvas-primary-nav-menu > .menu-item-97675.menu-item-object-custom.menu-item-type-custom.menu-item.contact-nav > [href^="https://go.bbrdbr.com"]
+/mnpw3.js$script
+##.widget_adace_ads_widget
+##a[href^="https://go.xlirdr.com"]
+influencerchicks.com##.g1-loaded.g1-hb-row-3.g1-sticky-top-wrapper
+influencerchicks.com##.g1-row-layout-page.g1-row.g1-prefooter-4cols.g1-prefooter
+influencerchicks.com##+js(rmnt, , mnpw)
+##.ads_code
+###ads_overlay
+influencerchicks.com###menu-item-97675 > [href^="https://go.bbrdbr.com"]
+influencerchicks.com##.g1-column-1of3.g1-column.g1-sidebar-padded.g1-sidebar
+
+! IXXX
+||ixxx.com/js/analytics$script,domain=www.ixxx.com
 
 ! Instagram
 www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
@@ -1984,6 +2028,31 @@ sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
 sendvid.com###ftr
 sendvid.com##a[href*="theporndude.com"]
 
+! Sextubefun
+sextubefun.com##.col.content-aside-col
+sextubefun.com##.navbar
+sextubefun.com##.page-wrap > center > div
+sextubefun.com##li.nav-elem > [href^="https://s.zlinkn.com/d.php"]
+sextubefun.com##li.nav-elem > [href^="https://bcprm.com/promo.php"]
+sextubefun.com##.adbox-inner
+sextubefun.com##.col.content-col > div:nth-of-type(3)
+sextubefun.com##.related-sec > center > div:nth-of-type(1)
+sextubefun.com##center > div:nth-of-type(6)
+sextubefun.com##div:nth-of-type(11)
+sextubefun.com##div:nth-of-type(14)
+sextubefun.com##section.related-sec:nth-of-type(3) > .wrapper > .row > .col.title-col
+sextubefun.com##section.related-sec:nth-of-type(8) > .wrapper
+||sextubefun.com/templates/default_tube2019/js/customscript.js$script,1p
+sextubefun.com##+js(rmnt, script, adblock)
+sextubefun.com##+js(rmnt, script, customscript.emptyStack)
+||sextubefun.com/clever_ads.js$script,1p
+sextubefun.com##.logo_maintain_display.logo_holder
+sextubefun.com##.network-sec
+sextubefun.com##.models-sec
+sextubefun.com##.promo-sec
+sextubefun.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+sextubefun.com##+js(rmnt, script, customscript)
+
 ! Sexy-egirls
 ||sexy-egirls.com/vast/sexy-egirls.xml
 sexy-egirls.com###page > .code-block-3.code-block
@@ -2168,6 +2237,47 @@ sxyprn.*###vid_container_id > .tdn
 !sxyprn.com##.main_content > div:nth-of-type(1)
 *$3p,script,domain=sxyprn.com|sxyprn.net
 *$1p,script,domain=sxyprn.com
+
+! Theyarehuge
+theyarehuge.com##div.mtab:nth-of-type(3)
+theyarehuge.com##div.mtab:nth-of-type(2)
+theyarehuge.com##.above-player-button.no-tab.upd-source.player-cams-button
+theyarehuge.com##+js(abort-current-script, Object.defineProperty, clickHandler)
+theyarehuge.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+||theyarehuge.com/js/prebid-video.js$script
+||theyarehuge.com/cdn-cgi/trace/
+||theyarehuge.com/to/show-random-chat
+theyarehuge.com##+js(rmnt, script, getCountryCode)
+theyarehuge.com##div.content > div.box > .list-videos
+theyarehuge.com##div.headline:nth-of-type(5)
+theyarehuge.com##div.list-members-separator:nth-of-type(7)
+||theyarehuge.com/to/show-more-cams
+theyarehuge.com##+js(rmnt, script, isLocalStorageEnabled)
+||theyarehuge.net/api/models
+||theyarehuge.net/api/cams
+theyarehuge.com###list_videos_related_videos > .box > .list-videos > div.tah-desktop-spot > div > [src]
+theyarehuge.com###list_videos_related_videos > .box > .list-videos > div.tah-desktop-spot:nth-of-type(1) > div
+theyarehuge.com###list_videos_related_videos > .box > .list-videos > div.tah-desktop-spot > div
+theyarehuge.com##div.headline:nth-of-type(10)
+theyarehuge.com##div.list-members-separator:nth-of-type(9)
+theyarehuge.com###live-spots
+theyarehuge.com###list_videos_related_videos > .box > .list-videos > div.tah-desktop-spot
+theyarehuge.com##div.headline:nth-of-type(11)
+theyarehuge.com##.footer-menu > li:nth-of-type(4)
+theyarehuge.com##.footer-menu > li:nth-of-type(3)
+theyarehuge.com##[href^="/to/"]
+theyarehuge.com##li:nth-of-type(6) > .upd-source
+theyarehuge.com##.player-related-videos
+||theyarehuge.com/api/cams/
+theyarehuge.com##[src="/api/cams/get-spot-js-full/"]:remove()
+theyarehuge.com##[src="/api/cams/get-spot-js-full/"]
+theyarehuge.com##.tah-desktop-spot
+theyarehuge.com##.main-cams
+theyarehuge.com##div.headline:nth-of-type(6)
+theyarehuge.com##.main-content > div:nth-of-type(8)
+theyarehuge.com##div.list-members-separator
+theyarehuge.com##.main-content > .text
+||theyarehuge.com/api/cams/$subdocument
 
 ! Tiktok (embed only)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
