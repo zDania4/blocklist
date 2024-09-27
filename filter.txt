@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep24-1
+! Version: 2024Sep27-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1919,6 +1919,11 @@ redgifs.com##+js(rmnt, script, is_texan)
 ||api.lab.amplitude.com^
 redgifs.com##div._defaultAd300x250_gvvr7_6
 redgifs.com##+js(set-local-storage-item, dismiss_scroll_more, true)
+redgifs.com##.MetaInfo-LiveButton
+redgifs.com##div[class*="_adDefault300x250_"]
+redgifs.com##div[class^="_Item_"]:nth-of-type(1)
+redgifs.com##div[class^="_advertSearchLink_"]
+redgifs.com##div[class^="_liveAdButton_"]
 
 ! Redtube
 redtube.*###paid_tabs_list
@@ -2278,6 +2283,14 @@ theyarehuge.com##.main-content > div:nth-of-type(8)
 theyarehuge.com##div.list-members-separator
 theyarehuge.com##.main-content > .text
 ||theyarehuge.com/api/cams/$subdocument
+theyarehuge.com##[href="https://sexygirlspics.com/big-tits/"]
+theyarehuge.com##[href="https://nakedwomenpics.com/boobs/"]
+theyarehuge.com##[href="https://viewgals.com/"]
+theyarehuge.com##[href="https://theporndude.com/"]
+theyarehuge.com##[href="https://www.inxxx.com/"]
+theyarehuge.com##[href="https://www.bemyhole.com/"]
+theyarehuge.com##.h2
+theyarehuge.com##a[target="_blank"]
 
 ! Tiktok (embed only)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
