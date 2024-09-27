@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep27-1
+! Version: 2024Sep27-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -110,6 +110,10 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
 @@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/i/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/js/alerts.js$inline-font,domain=saint2.*
+@@||bunkr.*/js/alerts.js$script,domain=saint2.*
+@@||bunkr.*/js/alerts.js$inline-font,domain=saint2.pk
+@@||bunkr.*/js/alerts.js$script,domain=saint2.pk
 @@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
 @@||bunkr.*/js/alerts.js$script,domain=saint2.su
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
@@ -128,6 +132,10 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/magic/home-v2.js$script,domain=app.bunkrr.su
 @@||bunkr.*/v/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/v/*$popup,domain=app.bunkrr.su
+@@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.*
+@@||bunkr.fi/js/alerts.js$script,domain=saint2.*
+@@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.pk
+@@||bunkr.fi/js/alerts.js$script,domain=saint2.pk
 @@||bunkr.fi/js/alerts.js$inline-font,domain=saint2.su
 @@||bunkr.fi/js/alerts.js$script,domain=saint2.su
 @@||bunkr.ru/api/upload$inline-font,domain=app.bunkrr.*|app.bunkr.*
@@ -186,21 +194,37 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||jpg5.su/lib/Peafowl/peafowl.min.js$script,1p
 !Allows for Saint thumbnails to load (lovefap URLs)
 @@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.*
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.pk
 @@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=saint2.su
 @@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.*
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.pk
 @@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=saint2.su
 @@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.*
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.pk
 @@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=saint2.su
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint.to
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.*
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.pk
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
 @@||recordbate.com/assets/js/main.js
 @@||reddit.com^$generichide
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main-login.js$script,1p
 @@||saint.to/js/main.js$script,1p
+@@||saint2.*/dropzone/dropzone.js
+@@||saint2.*/js/main-login.js$script,1p
+@@||saint2.*/js/main.js$script,1p
+@@||saint2.pk/dropzone/dropzone.js
+@@||saint2.pk/js/main-login.js$script,1p
+@@||saint2.pk/js/main.js$script,1p
 @@||saint2.su/dropzone/dropzone.js
 @@||saint2.su/js/main-login.js$script,1p
 @@||saint2.su/js/main.js$script,1p
+@@||saint2.*/dropzone/dropzone.js
+@@||saint2.*/js/main-login.js$script,1p
 @@||static.bunkr.is/css/modal.css$domain=bunkrr.su
 @@||static.bunkr.is/css/modal.css$inline-font,domain=app.bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$domain=bunkrr.su
@@ -2027,6 +2051,34 @@ saint2.su##+js(rmnt, script, L0soL)
 /03be3360.js
 wadlwoqwuodv.com^
 thedvcshop.com^
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.pk
+*$1p,script,domain=saint2.pk
+saint2.pk##all:has-text(popupUrl)
+saint2.pk##all:has-text(popupWindow)
+saint2.pk##all:has-text(adx)
+saint2.pk##all:has-text(0xd965)
+saint2.pk##all:has-text(1986859)
+saint2.pk##all:has-text(0x2e4efe)
+saint2.pk/63e52888c97f0.php$all,important
+saint2.pk##+js(nowoif)
+||saint2.pk/api/pst.php$xhr
+/\?id=[12]\d{6}$/*$script,domain=saint2.pk
+saint2.pk##+js(rmnt, script, concat)
+saint2.pk##+js(rmnt, script, L0soL)
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.*
+*$1p,script,domain=saint2.*
+saint2.*##all:has-text(popupUrl)
+saint2.*##all:has-text(popupWindow)
+saint2.*##all:has-text(adx)
+saint2.*##all:has-text(0xd965)
+saint2.*##all:has-text(1986859)
+saint2.*##all:has-text(0x2e4efe)
+saint2.*/63e52888c97f0.php$all,important
+saint2.*##+js(nowoif)
+||saint2.*/api/pst.php$xhr
+/\?id=[12]\d{6}$/*$script,domain=saint2.*
+saint2.*##+js(rmnt, script, concat)
+saint2.*##+js(rmnt, script, L0soL)
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
