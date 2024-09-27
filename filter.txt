@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep27-2
+! Version: 2024Sep27-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -173,8 +173,10 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkrrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
 @@||cdn.jsdelivr.net/npm/*$domain=get.bunkrr.su
 @@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
+@@||cold1.saint2.*/videos/
+@@||ct1.saint2.*/thumbs/
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
-@@||https://static.bunkr.is/css/modal.css$domain=app.bunkrr.su
+@@||static.bunkr.is/css/modal.css$domain=app.bunkrr.su
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
@@ -1987,8 +1989,8 @@ redtube.com##video[autoplay][src*="data:" i]
 /ht.js?site_
 
 ! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint.to
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.su
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk,domain=saint2.su
 *$1p,script,domain=saint.to
 *$1p,script,domain=saint2.su
 !saint.to/embed^$inline-script,important
@@ -2051,7 +2053,7 @@ saint2.su##+js(rmnt, script, L0soL)
 /03be3360.js
 wadlwoqwuodv.com^
 thedvcshop.com^
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.pk
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su,domain=saint2.pk
 *$1p,script,domain=saint2.pk
 saint2.pk##all:has-text(popupUrl)
 saint2.pk##all:has-text(popupWindow)
@@ -2065,7 +2067,7 @@ saint2.pk##+js(nowoif)
 /\?id=[12]\d{6}$/*$script,domain=saint2.pk
 saint2.pk##+js(rmnt, script, concat)
 saint2.pk##+js(rmnt, script, L0soL)
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com,domain=saint2.*
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk,domain=saint2.*
 *$1p,script,domain=saint2.*
 saint2.*##all:has-text(popupUrl)
 saint2.*##all:has-text(popupWindow)
