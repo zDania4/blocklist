@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Sep28-2
+! Version: 2024Oct08-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -260,6 +260,8 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 #@#.ad-link
 f95zone.to#@#.p-footer-rssLink
 f95zone.to#@#.u-scrollButtons
+motherless.com#@#iframe[style]
+motherless.com#@#.page-to-top-link-wrapper
 pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sectionTitle"]):not([class="reset"]):not([class="gifsWrapper "])
 pornhub.com#@#.share-link-container
 sendvid.com#@#+js(abort-current-inline-script, $, pop)
@@ -1447,6 +1449,39 @@ jpg5.su##+js(rmnt, script, adConfig)
 ! Kemono
 kemono.su##.ad-container
 
+! Motherless.com > Weird stuff on this site... wtf...
+motherless.com##.awn-ignore.text-center.motherless-cookie-wrapper
+motherless.com##.big.footer-section
+!motherless.com##+js(set-constant, _ml_ads_ns, null)
+motherless.com##+js(rmnt, script, _ml_ads_ns)
+motherless.com##+js(abort-current-script, jQuery, cookie)
+motherless.com###topsites
+##.menu-ad
+motherless.com##.text-right.view-right
+motherless.com##div.col-md-12:nth-of-type(2)
+motherless.com##div.col-md-12:nth-of-type(3)
+motherless.com##.above-footer-banners
+##.footer-ads
+motherless.com##.top-referers
+motherless.com##a[href*="theporndude.com"]
+motherless.com##div > table[style][border]
+motherless.com##table[style*="max-width:"]
+motherless.com###content > .row > .col-md-12 > .content.split-view > .row:nth-of-type(2):style(justify-content: center !important)
+motherless.com##+js(set-constant, __ip_address, 0.0.0.0)
+motherless.com##+js(set-constant, __is_premium, true)
+motherless.com##+js(rmnt, script, data-click-event)
+motherless.com##+js(rmnt, script, showCBTAd)
+motherless.com##+js(rmnt, script, b9c)
+motherless.com##+js(rmnt, script, _0xad7c)
+motherless.com##+js(rmnt, script, gayRadar)
+motherless.com##.list-inline.list-unstyled > li > .menu-ad-track
+motherless.com##li:nth-of-type(7)
+motherless.com##.awn-ignore.cookie-accept-wrapper
+motherless.com##.menu-element > [href^="https://ad.servetag.com/adraw"]
+motherless.com##div.footer-links-list:nth-of-type(3)
+motherless.com##.header-right > .hidden-xs
+motherless.com##.text-center.ml-footer-girl
+
 ! Noodlemagazine
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
 noodlemagazine.com##div[style] > ins:upward(1)
@@ -1482,6 +1517,34 @@ qsxptjxruxrttu.xyz$all,important
 *$frame,domain=pixl.li
 pixl.li###image_footer_nsfw
 pixl.li##[id^="image_footer_nsfw"]
+
+! Porngo
+porngo.com##li.menu-list__row:nth-of-type(8)
+||porngo.com^$document,csp=child-src *
+porngo.com##+js(abort-on-property-read, AaDetector)
+porngo.com##+js(no-window-open-if)
+||cdnako.com^
+||crisistuesdayartillery.com^
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,to=com
+##.video-side__adv_title
+##a[href^="https://go.admjmp.com"]
+porngo.com##+js(rmnt, script, show_pops2)
+porngo.com###center-spot
+###adsense1
+||starswalker.site^
+/^[a-zA-Z]{10}\.js$/$domain=porngo.com
+porngo.com##.underplayer_banner
+porngo.com###adsense
+porngo.com##.underplayer_banner
+porngo.com##.spot_footer
+porngo.com##.center-spot
+porngo.com##+js(set-constant, asgtbndr, 0)
+porngo.com##+js(set-cookie, kt_ips, disabled)
+porngo.com##.header__box_actions.header__box > .nav-menu > li.nav-menu__item:nth-of-type(6) > .nav-menu__link
+porngo.com##+js(aeld, popstate)
+porngo.com##.video-side
+||porngo.com/vpaid/videojs_5.vast.vpaid.min.js$script
+||porngo.com/vpaid/videojs.vast.vpaid.min.css$stylesheet
 
 ! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
