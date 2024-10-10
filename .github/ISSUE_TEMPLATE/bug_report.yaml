@@ -5,6 +5,11 @@ labels: ["bug"]
 assignees:
 - zDania4
 body:
+  - type: markdown
+    attributes:
+      value: |
+          If your request is about getting a website added, please use "Website request" instead.
+
   - type: checkboxes
     attributes:
       label: I have read the known issues
