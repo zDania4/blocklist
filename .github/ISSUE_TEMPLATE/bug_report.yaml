@@ -27,7 +27,7 @@ body:
     attributes:
       label: The website in question already have rules in the blocklist.
       description: |
-        If the website in question IS NOT in the blocklist, please use "Feature request" instead.
+        If the website in question IS NOT in the blocklist, please use "Website request" instead.
       options:
         - label: The website already have rules in the blocklist.
           required: true
