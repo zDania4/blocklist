@@ -70,7 +70,7 @@ body:
     attributes:
       label: What browser are you using?
       placeholder: |
-        I.e. Chrome, Edge, Firefox, Safari, Opera
+        I.e. Chrome, Edge, Firefox, Safari, Opera, Brave
     validations:
         required: true
 
@@ -91,6 +91,8 @@ body:
         label: What version of uBlock are you using (if applicable)?
         description: |
          This is only applicable for desktop users. Version can be found by clicking the 🛡️ uBlock icon.
+        placeholder: |
+         I.e. "Version 1.60.0"
     validations:
         required: false
 
