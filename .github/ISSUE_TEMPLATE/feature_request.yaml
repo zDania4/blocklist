@@ -5,6 +5,11 @@ labels: ["enhancement"]
 assignees:
 - zDania4
 body:
+    - type: markdown
+      attributes:
+        value: |
+            If your request is about getting a website added, please use "Website request" instead.
+ 
     - type: textarea
       id: problem
       attributes:
