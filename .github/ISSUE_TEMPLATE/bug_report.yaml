@@ -69,6 +69,8 @@ body:
     id: browser
     attributes:
       label: What browser are you using?
+      placeholder: |
+        I.e. Chrome, Edge, Firefox, Safari, Opera
     validations:
         required: true
 
@@ -78,6 +80,8 @@ body:
         label: What browser version are you using?
         description: |
          This can usually be found under "About" in most browsers.
+        placeholder: |
+           I.e. "Version 1.70.126 Chromium: 129.0.6668.100 (Official version) (64-bit)"
     validations:
         required: true
 
