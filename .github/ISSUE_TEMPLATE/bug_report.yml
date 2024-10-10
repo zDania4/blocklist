@@ -1,0 +1,136 @@
+name: Bug report
+description: Report a bug
+title: "[Bug] "
+labels: ["bug"]
+assignees:
+- zDania4
+body:
+  - type: checkboxes
+    attributes:
+      label: I have read the known issues
+      description: |
+        Please read the list of [known issues](https://github.com/zDania4/blocklist/issues/4).
+      options:
+        - label: I have read the known issues, and my issue is not listed.
+    validations:
+        required: true
+
+  - type: checkboxes
+    attributes:
+      label: Everything is updated to latest version.
+      description: |
+        Please make sure your browser, uBlock Origin (if applicable) and this blocklist is updated to their latest version.
+      options:
+        - label: All of the above is updated to their latest version.
+    validations:
+        required: true
+
+  - type: checkboxes
+    attributes:
+      label: The website in question already have rules in the blocklist.
+      description: |
+        If the website in question IS NOT in the blocklist, please use "Feature request" instead.
+      options:
+        - label: The website already have rules in the blocklist.
+    validations:
+        required: true
+
+  - type: dropdown
+    attributes:
+      label: Is this issue caused by this blocklist?
+      description: |
+        Please try disabling this blocklist and see if the issue persists, if it does, please select "Yes", if it is solved then please select "No".
+      multiple: false
+      options:
+        - Yes
+        - No
+    validations:
+        required: true
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: What device are you using?
+      multiple: false
+      options:
+        - Desktop
+        - iOS
+        - Android
+    validations:
+        required: true
+
+  - type: textarea
+    id: deviceversion
+    attributes:
+      label: What OS and version is your device running?
+      value: |
+        I.e. "Windows 10 22H2 19045.5011", "iOS 18.0.1", "Android 14.0.0", etc. 
+    validations:
+        required: true
+
+  - type: textarea
+    id: browser
+    attributes:
+      label: What browser are you using?
+    validations:
+        required: true
+
+  - type: textarea
+    id: browserversion
+    attributes:
+        label: What browser version are you using?
+        description: |
+         This can usually be found under "About" in most browsers.
+    validations:
+        required: true
+
+  - type: textarea
+    id: ublockversion
+    attributes:
+        label: What version of uBlock are you using (if applicable)?
+        description: |
+         This is only applicable for desktop users. Version can be found by clicking the 🛡️ uBlock icon.
+    validations:
+        required: false
+
+    ## Taken from uAssets' bug report, thank you and much love. ##
+  - type: textarea
+    id: ublockconfig
+    attributes:
+      label: uBlock configuration (if applicable).
+      description: |
+       On the affected site: 🛡️ uBO's icon > 💬 Report > Click "Troubleshooting information" > Select all > Copy > Paste it below.
+    value: |
+        <details>
+        <summary>Details</summary>
+
+        <!-- Paste below this line -->
+        ```yaml
+
+
+        ```
+        </details>
+    validations:
+      required: false
+
+  - type: textarea
+    id: url
+    attributes:
+      label: Website URL
+      description: |
+       The URL of the website in question.
+    value: |
+      Please include the entire URL:
+      https://example.com/subpage/1234.html
+      https://example.com/video?id=1234
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Describe the issue.
+      description: |
+       Include as much detail as possible.
+    validations:
+      required: true
