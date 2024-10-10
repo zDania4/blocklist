@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct08-1
+! Version: 2024Oct10-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1073,6 +1073,14 @@ fkbae.to##.ai-viewport-1
 fkbae.to##.ai-viewport-2
 fkbae.to##.ai-viewport-3
 ||fkbae.to/wp-content/uploads/2020/01/girls-wanna-date-on-snapchat.jpg
+*$3p,denyallow=ssl.p.jwpcdn.com,domain=fkbae.to
+||dkmedia.vercel.app/popunders/
+||dkmedia.now.sh/popunders/
+||dkmedia.now.sh^
+||dkmedia.vercel.app^
+fkbae.to##.top-ad-space
+fkbae.to##.bottom-post-ad-space
+fkbae.to##.footer-ad-space
 
 ! Fyptt
 fyptt.to##.fl-node-content.fl-module-content > p
