@@ -12,8 +12,7 @@ body:
         Please read the list of [known issues](https://github.com/zDania4/blocklist/issues/4).
       options:
         - label: I have read the known issues, and my issue is not listed.
-    validations:
-        required: true
+          required: true
 
   - type: checkboxes
     attributes:
@@ -22,8 +21,7 @@ body:
         Please make sure your browser, uBlock Origin (if applicable) and this blocklist is updated to their latest version.
       options:
         - label: All of the above is updated to their latest version.
-    validations:
-        required: true
+          required: true
 
   - type: checkboxes
     attributes:
@@ -32,8 +30,7 @@ body:
         If the website in question IS NOT in the blocklist, please use "Feature request" instead.
       options:
         - label: The website already have rules in the blocklist.
-    validations:
-        required: true
+          required: true
 
   - type: dropdown
     attributes:
