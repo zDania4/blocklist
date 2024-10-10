@@ -63,7 +63,7 @@ body:
     id: deviceversion
     attributes:
       label: What OS and version is your device running?
-      value: |"
+      value: |
         I.e. "Windows 10 22H2 19045.5011", "iOS 18.0.1", "Android 14.0.0", etc."
     validations:
         required: true
