@@ -100,16 +100,16 @@ body:
       label: uBlock configuration (if applicable).
       description: |
        On the affected site: 🛡️ uBO's icon > 💬 Report > Click "Troubleshooting information" > Select all > Copy > Paste it below.
-    placeholder: |
+      value: |
         <details>
         <summary>Details</summary>
 
-        <!-- Paste below this line -->
+        <!-- Paste the troubleshooting information here -->
         ```yaml
 
 
         ```
-        </details>
+        </details>    
     validations:
       required: false
 
@@ -119,10 +119,10 @@ body:
       label: Website URL
       description: |
        The URL of the website in question.
-    placeholder: |
-      Please include the entire URL:
-      https://example.com/subpage/1234.html
-      https://example.com/video?id=1234
+      value: |
+          Please include the entire URL:
+          https://example.com/subpage/1234.html
+          https://example.com/video?id=1234
     validations:
       required: true
 
