@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct10-1
+! Version: 2024Oct14-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2154,6 +2154,12 @@ saint2.*##+js(nowoif)
 /\?id=[12]\d{6}$/*$script,domain=saint2.*
 saint2.*##+js(rmnt, script, concat)
 saint2.*##+js(rmnt, script, L0soL)
+
+! Se.video
+||cef7cb85aa.com^
+se.video##+js(rmnt, script, nager)
+se.video##.kt-api-related-container.player-related-videos-container
+se.video##.player-related-videos
 
 ! Sendvid
 sendvid.com##+js(no-window-open-if, !/^https:\/\/sendvid\.com\/[0-9a-z]+$/)
