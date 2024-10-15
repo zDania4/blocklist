@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct15-1
+! Version: 2024Oct15-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -654,6 +654,20 @@ camwhores.*##a[href*="t.affoth.com"]
 ##[href^="https://go.xlrdr.com"]
 ##a[href^="http://cam4com.go2cloud.org/aff_c?"]
 ||amyfc.link
+camwhores.tv##[href^="https://recu.me/videos/top"]
+camwhores.tv##.primary [href^="https://faphouse.com/tour"]
+camwhores.tv##li:nth-of-type(11)
+||cfgrcr1.com^
+||topqualitylink.com^
+.fh-line
+||cemiocw.com^
+camwhores.tv##.fh-line
+||appointeeivyspongy.com^
+camwhores.tv##[src^="https://crakrevenue.go2cloud.org/aff_ad"]
+camwhores.tv##.network
+camwhores.tv##+js(rmnt, script, crakPopInParams)
+||brikmavim.com^
+camwhores.tv##+js(rmnt, script, z_flgdabcpokrineutm)
 
 ! Camwhoresbay
 camwhoresbay.com##.-blink.hidden-sm > .hidden-sm
