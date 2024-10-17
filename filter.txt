@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct16-1
+! Version: 2024Oct17-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2175,6 +2175,10 @@ saint2.pk##+js(rmnt, script, z_flgdabcpokrineutm)
 saint2.*##+js(rmnt, script, z_flgdabcpokrineutm)
 ||hacspynha.com^
 saint2.*##.ipprtcnt
+/i/npage/*/code.js|$script,3p
+||ojvjryolxxhe.com^
+en/mif/wuh^
+/t/9/fret/meow4/*/*.js
 
 ! Se.video
 ||cef7cb85aa.com^
@@ -2563,6 +2567,9 @@ whoreshub.com##+js(set-local-storage-item, hola_bwsaver_cache, $remove$)
 whoreshub.com##.bff
 whoreshub.com##.show-fake.fake-player-wrap
 whoreshub.com##a[href*="theporndude.com"]
+whoreshub.com##+js(rmnt, script, puURLstrpcht)
+whoreshub.com###my-widget-container
+whoreshub.com##.my-widget-container
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
