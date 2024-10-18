@@ -10,6 +10,7 @@ My custom blocklist that used to focus primarily on blocking annoying popups on 
 > [!CAUTION]
 > While it doesn't happen often, some websites **will** eventually break when updated and can in the worst case lead to ads/popups showing up. If you come across a broken website, please create a bug report under [issues](https://github.com/zDania4/blocklist/issues).
 
+A list of the domains covered can be found [here](https://zdania4.github.io/blocklist/domains).
 
 You can add the list to uBO or your adblocker using one of the following URLs:
 https://raw.githubusercontent.com/zDania4/blocklist/main/filter.txt, https://zdania4.github.io/blocklist/filter.txt or by [clicking here](https://raw.githubusercontent.com/zDania4/blocklist/main/filter.txt) or [here](https://zdania4.github.io/blocklist/filter.txt).
