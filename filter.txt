@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct19-1
+! Version: 2024Oct19-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -89,6 +89,7 @@
 ! # Recaptcha
 @@||google.com/recaptcha/api.js
 @@||gstatic.com/recaptcha/
+@@||google.com/recaptcha/$frame
 
 ! # Unbreak PH
 @@||naiadsystems.com^$domain=pornhublive.com
@@ -177,7 +178,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cold1.saint2.*/videos/
 @@||ct1.saint2.*/thumbs/
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
-@@||static.bunkr.is/css/modal.css$domain=app.bunkrr.su
+@@||fonts.gstatic.com^
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
 @@||jpg1.su/app/lib/chevereto.min.js$script,1p
@@ -226,9 +227,22 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint2.su/dropzone/dropzone.js
 @@||saint2.su/js/main-login.js$script,1p
 @@||saint2.su/js/main.js$script,1p
+@@||saint2.*/api/account.php
+@@||saint2.*/api/upload
+@@||saint2.*/assets/home_cover$image
+@@||saint2.*/assets/saintLogo.png$image
+@@||saint2.*/css/$stylesheet
+@@||saint2.*/css/main.css$stylesheet
+@@||saint2.*/css/player-additional.css$stylesheet
+@@||saint2.*/dropzone/dropzone.css$stylesheet
 @@||saint2.*/dropzone/dropzone.js
+@@||saint2.*/icons/$image
+@@||saint2.*/js/main.js$script
 @@||saint2.*/js/main-login.js$script,1p
+@@||saint2.*/thumbs/$image
+@@||saint2.*/site.webmanifest$domain=saint2.su|saint2.pk
 @@||static.bunkr.is/css/modal.css$domain=bunkrr.su
+@@||static.bunkr.is/css/modal.css$domain=app.bunkrr.su
 @@||static.bunkr.is/css/modal.css$inline-font,domain=app.bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$domain=bunkrr.su
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$image
@@ -1147,6 +1161,79 @@ hclips.com##.download-btn
 hclips.com##div.mobile-dropdown__list--item:nth-of-type(1)
 hclips.com##a.mobile-dropdown__list--item:nth-of-type(15)
 hclips.com##a.mobile-dropdown__list--item:nth-of-type(14)
+hclips.com##.header__network
+hclips.com##[href^="https://porntourist.com/"]
+hclips.com##div.headline:nth-of-type(2)
+hclips.com##.mobile-menu__container > div.mobile-menu__item > .mobile-dropdown
+
+! Hdzog.com
+hdzog.*##a.item-primary.desktop-menu-item:nth-of-type(9)
+hdzog.*##.header-network
+hdzog.*##[href^="http://porntourist.com/"]
+hdzog.*##[href^="https://cherrytv.media"]
+hdzog.*##.mobile-menu-accordion
+hdzog.*##+js(rmnt, script, adver)
+hdzog.*##+js(abort-current-script, adver)
+hdzog.*##.pagination + div[class]:last-of-type
+hdzog.*##+js(aopr, country_code)
+hdzog.*##+js(rmnt, script, directSale)
+hdzog.*##+js(rmnt, script, direct_sale_header_mobile)
+||ads.adxadserv.com^
+hdzog.*##+js(rmnt, script, cpa_undpRandom)
+hdzog.*##+js(rmnt, script, bypassAb)
+hdzog.*##+js(rmnt, script, iabcat)
+hdzog.*##+js(rmnt, script, firstDirectEnter)
+hdzog.*##+js(rmnt, script, popOptions)
+hdzog.*##+js(rmnt, script, cbIsInited)
+hdzog.*##+js(rmnt, script, idzone)
+hdzog.*##+js(rmnt, script, admvn)
+hdzog.*##+js(rmnt, script, prerollId)
+hdzog.*##+js(rmnt, script, constants.country_code)
+hdzog.*##+js(rmnt, script, hlink_1)
+hdzog.*##.jw-reset-text.jw-title
+hdzog.*##.overlay_z.overlay.overlay-hidden
+||exosrv.com^
+hdzog.*##div.item-video.listing__item_video.listing__item
+hdzog.*##.download-btn.info-block__controllers-control
+hdzog.*###downloader-download
+hdzog.*###downloader-install
+
+! Hotmovs
+hotmovs.*##div.hide-item.mobile-menu__list--last.mobile-menu__list:nth-of-type(4) > div.mobile-menu__item:nth-of-type(3)
+hotmovs.*##div.hide-item.mobile-menu__list--last.mobile-menu__list:nth-of-type(4) > div.mobile-menu__item:nth-of-type(2)
+/\/[a-z]{4,}\/(?!holly7|siksik7)[0-9a-z]{3,}\d\.\d{1,2}\.\d{1,2}\.[0-9a-f]{32}\.js$/$script,from=555.porn|abjav.com|abxxx.com|aniporn.com|bigdick.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornj.com|pornl.com|pornq.com|porntop.com|privatehomeclips.com|puporn.com|see.xxx|shemalez.com|sss.xxx|thegay.*|transtxxx.com|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube
+hotmovs.*##+js(abort-current-script, adver)
+hotmovs.*##.block_label--last:has-text(Advertisement)
+hotmovs.*##.pagination + div.block_label--last
+hotmovs.*##+js(rmnt, script, adver)
+hotmovs.*##+js(abort-current-script, adver)
+hotmovs.*##.pagination + div[class]:last-of-type
+hotmovs.*##+js(aopr, country_code)
+hotmovs.*##+js(rmnt, script, directSale)
+hotmovs.*##+js(rmnt, script, direct_sale_header_mobile)
+hotmovs.*##+js(rmnt, script, cpa_undpRandom)
+hotmovs.*##+js(rmnt, script, bypassAb)
+hotmovs.*##+js(rmnt, script, iabcat)
+hotmovs.*##+js(rmnt, script, firstDirectEnter)
+hotmovs.*##+js(rmnt, script, popOptions)
+hotmovs.*##+js(rmnt, script, cbIsInited)
+hotmovs.*##+js(rmnt, script, idzone)
+hotmovs.*##+js(rmnt, script, admvn)
+hotmovs.*##+js(rmnt, script, prerollId)
+hotmovs.*##+js(rmnt, script, constants.country_code)
+hotmovs.*##+js(rmnt, script, hlink_1)
+hotmovs.*##.download__button.download.badge
+hotmovs.*##div.mt-15.block_label
+hotmovs.*##.header__cookie
+hotmovs.*##[href^="https://porntourist.com/"]
+hotmovs.*##[href^="https://myonlygirls.com/"]
+hotmovs.*##.video-page > div:nth-of-type(8)
+hotmovs.*##.wbofoow
+hotmovs.*###downloader-download
+hotmovs.*###downloader-install
+hotmovs.com##.jw-reset-text.jw-title
+hotmovs.com##.oohxxwwiwioot
+hotmovs.com##.video-page > div:nth-of-type(9)
 
 ! HQPorner
 hqporner.com##.hide_ad_marker.button
@@ -1471,6 +1558,28 @@ jpg5.su##+js(rmnt, script, adConfig)
 ! Kemono
 kemono.su##.ad-container
 
+! Manysex
+manysex.com##a.nav__tag:nth-of-type(1)
+manysex.com##div.select:nth-of-type(2) > .select__label
+manysex.com##.cookies-notify
+manysex.com##[href^="https://porntourist.com/"]
+manysex.com##[href^="https://myonlygirls.com/"]
+manysex.com##+js(aopr, country_code)
+manysex.com##+js(rmnt, script, firstDirectEnter)
+manysex.com##+js(rmnt, script, popOptions)
+manysex.com##.jw-reset-text.jw-title
+manysex.com##.header__item
+manysex.com##.site-link
+manysex.com##.tubefriends
+manysex.com##+js(remove-node-text, script, is_antiblock_refresh)
+manysex.com##.jw-reset.jw-logo
+manysex.com##.jw-controls-logo.jw-reset.jw-button-color.jw-icon-inline.jw-icon
+manysex.com##+js(rmnt, script, prerollId)
+manysex.com##+js(rmnt, script, bypassAb)
+manysex.com##+js(rmnt, script, constants.country_code)
+manysex.com##+js(rmnt, script, isAdBlock)
+manysex.com##+js(rmnt, script, hlink_1)
+
 ! Motherless.com > Weird stuff on this site... wtf...
 motherless.com##.awn-ignore.text-center.motherless-cookie-wrapper
 motherless.com##.big.footer-section
@@ -1514,6 +1623,27 @@ noodlemagazine.com##+js(nano-stb, download, 1100)
 ||click.nudevista.com^
 /advert_$from=~canalplus.com
 nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+
+! Ooxxx.com
+ooxxx.com##.header__network
+ooxxx.com##.cookies-policy-block
+ooxxx.com##[href^="https://myonlygirls.com/"]
+ooxxx.com##[href^="https://porntourist.com/"]
+ooxxx.com##.jw-reset-text.jw-title
+ooxxx.com##.piosissruopipiiirr
+ooxxx.com##section:nth-of-type(2)
+ooxxx.com##+js(rmnt, script, exoclick_zone_id)
+ooxxx.com##+js(rmnt, script, loaderUrl)
+ooxxx.com##+js(rmnt, script, firstDirectEnter)
+ooxxx.com##+js(rmnt, script, autoplayAfterPop)
+ooxxx.com##+js(rmnt, script, cbIsInited)
+ooxxx.com##+js(rmnt, script, prerollId)
+||ooxxx.com/7l8mfln3e3/vur09y7wt0.js$script
+ooxxx.com##section:nth-of-type(1)
+ooxxx.com##.container
+ooxxx.com##.underplayer:style(min-height: 0px !important)
+ooxxx.com##.mobile-menu__item > .mobile-dropdown
+ooxxx.com##.mobile-menu__item
 
 ! Peekvids
 peekvids.com##+js(abort-on-property-read, open)
@@ -1899,6 +2029,41 @@ pornhub.com##+js(set-local-storage-item, hideLangRedirect, true)
 ! Pornjuices
 pornjuices.com##.active.adde_modal-overlay
 
+! Pornl
+pornl.com##.header__network
+pornl.com##.cookies-policy-block
+pornl.com##[href^="https://myonlygirls.com/"]
+pornl.com##[href^="https://porntourist.com/"]
+pornl.com##+js(abort-on-property-read, open)
+##a[href^="https://go.rmhfrtnd.com/"]
+pornl.com##+js(rmnt, script, adver)
+pornl.com##+js(abort-current-script, adver)
+pornl.com##.pagination + div[class]:last-of-type
+pornl.com##+js(aopr, country_code)
+pornl.com##+js(rmnt, script, directSale)
+pornl.com##+js(rmnt, script, direct_sale_header_mobile)
+pornl.com##+js(rmnt, script, cpa_undpRandom)
+pornl.com##+js(rmnt, script, bypassAb)
+pornl.com##+js(rmnt, script, iabcat)
+pornl.com##+js(rmnt, script, firstDirectEnter)
+pornl.com##+js(rmnt, script, popOptions)
+pornl.com##+js(rmnt, script, cbIsInited)
+pornl.com##+js(rmnt, script, idzone)
+pornl.com##+js(rmnt, script, admvn)
+pornl.com##+js(rmnt, script, prerollId)
+pornl.com##+js(rmnt, script, constants.country_code)
+pornl.com##+js(rmnt, script, hl1)
+pornl.com##.wrapper > section:nth-of-type(1)
+pornl.com##.jw-reset-text.jw-title
+pornl.com##.underplayer > section
+pornl.com##.wjsiwiiefswwwwjjee
+pornl.com##.container
+pornl.com##.partners-wrap
+pornl.com##section:nth-of-type(2)
+pornl.com##.underplayer:style(min-height: 0px !important)
+pornl.com##.video-ntv-wrapper
+pornl.com##.mobile-menu__item
+
 ! Porntrex
 porntrex.com##+js(disable-newtab-links)
 &action=js_stats&
@@ -1912,6 +2077,33 @@ www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
 www.porntrex.com##.open-tool.pop-adv
 
+! Pornzog
+pornzog.com##.our-network
+pornzog.com##a.hl__link.header-menu-button:nth-of-type(2)
+pornzog.com##a.hl__link.header-menu-button:nth-of-type(1)
+pornzog.com##a[href^="https://porntourist.com"]
+pornzog.com##a[href^="https://vxxx.com"]
+pornzog.com##:has(a[href^="https://vxxx.com"]):is(li)
+pornzog.com##:has(a[href^="https://vid-ip.com"]):is(li)
+pornzog.com##:has(a[href^="https://porntop.com"]):is(li)
+/\.[a-z]{3,5}\/[0-9a-z]{8,12}\/[0-9a-z]{8,12}\.js$/$script,from=555.porn|abjav.com|abxxx.com|aniporn.com|asiantv.fun|bdsmx.tube|bigdick.tube|blackporn.tube|gaytxxx.com|hclips.com|hdzog.*|hotmovs.*|imzog.com|in-porn.com|inporn.com|javdaddy.com|manysex.*|mrgay.tube|onlyporn.tube|porn555.com|pornclassic.tube|pornforrelax.com|porngo.tube|pornhits.com|pornj.com|pornl.com|pornq.com|porntop.com|pornzog.com|privatehomeclips.com|puporn.com|see.xxx|senzuri.tube|sextu.com|shemalez.com|sss.xxx|teenorgy.video|thegay.*|transtxxx.com|tubepornclassic.com|tuberel.com|txxx.*|txxxporn.tube|upornia.*|vjav.*|voyeurhit.*|vxxx.com|xjav.tube|xmilf.com
+pornzog.com###ntv_a
+##.adv-block-container
+pornzog.com##.video-ntv
+pornzog.com##.video-ntv-list
+pornzog.com##.normal-mode.jsVideoContent.video-content:style(display: flex !important)
+pornzog.com##+js(rmnt, script, isBasicBetterAds)
+pornzog.com##+js(rmnt, script, MOBILE_REGEXP)
+pornzog.com##+js(rmnt, script, createLink)
+pornzog.com##+js(rmnt, script, country_code)
+pornzog.com##+js(rmnt, script, ad_tags)
+pornzog.com##+js(rmnt, script, shuffledData)
+pornzog.com##+js(rmnt, script, ageBtn)
+pornzog.com##+js(aopr, xhm_site)
+pornzog.com##a:remove-attr(target)
+##.jw-reset.jw-logo
+##.jw-controls-logo.jw-reset.jw-button-color.jw-icon-inline.jw-icon
+
 ! Postimages.org / postimg.cc
 postimg.cc###td-image > div:nth-of-type(1)
 postimg.cc##div[style="display:inline-block;width:728px;height:120px;margin-bottom:15px;"]
@@ -1921,6 +2113,27 @@ postimg.cc##div[style="display:inline-block;width:728px;height:120px;margin-bott
 ||wmpted.com^
 ||cdwmpt.com^
 ##.td-ad
+
+! Privatehomeclips
+privatehomeclips.com##a[href^="https://porntourist.com"]
+privatehomeclips.com##.jw-reset.jw-logo
+privatehomeclips.com##.header__network--content.aligns-center.d-flex
+privatehomeclips.com##.header__network > .wrapper
+privatehomeclips.com##.cookies-policy-block
+privatehomeclips.com##.header__network
+privatehomeclips.com##.left + div:not([class]):last-child
+||ptwmcd.com^
+/api/model/feed?siteId=
+privatehomeclips.com##.partners-wrap
+privatehomeclips.com##.partners-wrap + div[class]
+privatehomeclips.com##section[style="padding: 20px;"]
+privatehomeclips.com##.afs_ads
+privatehomeclips.com##+js(rmnt, script, hommy)
+||yomeno.xyz^
+||wpushsdk.com
+privatehomeclips.com##+js(rmnt, script, isBasicBetterAds)
+privatehomeclips.com##+js(rmnt, script, adzone)
+privatehomeclips.com##.jw-related
 
 ! Prnfap
 prnfap.com##.menu-item-object-custom.menu-item-type-custom.menu-item.menu-item-depth-0.main-menu-item
@@ -2180,6 +2393,7 @@ saint2.*##.ipprtcnt
 en/mif/wuh^
 /t/9/fret/meow4/*/*.js
 saint2.*##+js(rmnt, script, fromCharCode)
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com,domain=saint2.*
 
 ! Se.video
 ||cef7cb85aa.com^
@@ -2562,6 +2776,37 @@ videy.co##+js(rmnt, script, jstemplate)
 $frame,domain=videy.co
 videy.co##iframe
 
+! Voyeurhit
+voyeurhit.*##.header__network
+voyeurhit.*##[href^="https://porntourist.com/"]
+voyeurhit.*##h2.footer__keyword:nth-of-type(1)
+voyeurhit.*##+js(abort-current-script, adver)
+voyeurhit.*##+js(rmnt, script, adver)
+voyeurhit.*##+js(abort-current-script, adver)
+voyeurhit.*##.pagination + div[class]:last-of-type
+voyeurhit.*##+js(aopr, country_code)
+voyeurhit.*##+js(rmnt, script, directSale)
+voyeurhit.*##+js(rmnt, script, direct_sale_header_mobile)
+voyeurhit.*##+js(rmnt, script, cpa_undpRandom)
+voyeurhit.*##+js(rmnt, script, bypassAb)
+voyeurhit.*##+js(rmnt, script, iabcat)
+voyeurhit.*##+js(rmnt, script, firstDirectEnter)
+voyeurhit.*##+js(rmnt, script, popOptions)
+voyeurhit.*##+js(rmnt, script, cbIsInited)
+voyeurhit.*##+js(rmnt, script, idzone)
+voyeurhit.*##+js(rmnt, script, admvn)
+voyeurhit.*##+js(rmnt, script, prerollId)
+voyeurhit.*##+js(rmnt, script, constants.country_code)
+voyeurhit.*##+js(rmnt, script, hl2)
+voyeurhit.*##+js(rmnt, script, hl1)
+voyeurhit.*##.download-btn.underplayer__control.add-to-button
+voyeurhit.*##.header__cookie
+voyeurhit.*##.nzotqoototzznn
+voyeurhit.*##.header__list-link-dropdown
+voyeurhit.*##.tozwwjjzjzoot
+voyeurhit.*###downloader-download
+voyeurhit.*###downloader-install
+
 ! Whoreshub
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
 whoreshub.com##.col-second
@@ -2783,6 +3028,9 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 ##.adContent
 ##.adBlock
 ##.ad-text
+google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
+www.google.*##+js(set-constant, rwt, noopFunc)
+www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
