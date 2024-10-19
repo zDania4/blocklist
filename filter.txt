@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct19-2
+! Version: 2024Oct19-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1624,7 +1624,7 @@ noodlemagazine.com##+js(nano-stb, download, 1100)
 /advert_$from=~canalplus.com
 nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 
-! Ooxxx.com
+! Ooxxx
 ooxxx.com##.header__network
 ooxxx.com##.cookies-policy-block
 ooxxx.com##[href^="https://myonlygirls.com/"]
