@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct19-5
+! Version: 2024Oct19-6
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -119,6 +119,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
 @@||bunkr.*/js/alerts.js$script,domain=saint2.su
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
+@@||bunkr.*/js/main.js$script,domain=bunkr.*|bunkrr.*|bunkrrr.*
 @@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
 @@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkr.*
 @@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
@@ -177,6 +178,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
 @@||cold1.saint2.*/videos/
 @@||ct1.saint2.*/thumbs/
+@@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
 @@||fonts.gstatic.com^
 !"Not found" image for Bunkrr.
@@ -412,7 +414,7 @@ build/asdajklsdashjdasjk.js$all
 ||do.shellypartile.com^$all,important
 ||advojhszeat.com^$all,important
 ^adbtt^$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps|cdn.vidstack.io,domain=bunkr.*
 !*$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|bunkrr.su,domain=bunkrr.* -> USED IF HCAPTCHA WONT REDIRECT. Otherwise, blocking all 1p scripts except for app.bunkrr might be needed.
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|dash.bunkr.pk,domain=bunkrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la|dash.bunkr.pk,domain=bunkr.sk
@@ -448,7 +450,7 @@ bunkrr.*##^script:has-text(adConfig)
 bunkrr.*##^script:has-text(afu.php)
 1970906$all,important
 qifwpepixziv.com$all,important
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps|cdn.vidstack.io,domain=bunkrr.*
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{7,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/(?:[1-6]\d{4}|[3-9]\d{3})\??(?:_=\d+|v=\d)?$/$script,3p,redirect-rule=noop.js,match-case
 /^_0x\w+[A-Za-z0-9]$/$frame,script,xhr,popup,match-case
 ||opmvivogsb.com^$all,important
@@ -579,7 +581,7 @@ bunkrrr.*##+js(abort-current-script, aclib.runBanner)
 bunkrrr.*##+js(abort-on-property-read, adConfig)
 bunkrrr.*##+js(abort-current-script, WebAssembly, _0x)
 bunkrrr.*##^script:has-text(/^_0x\w+[A-Za-z0-9]$/)
-*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps,domain=bunkrrr.*
+*$3p,all,denyallow=cdn.fluidplayer.com|b-cdn.net|i.bunkr.ru|cdn.bunkr.ru|cdn4.bunkr.ru|cdn8.bunkr.ru|cdn9.bunkr.ru|cdn10.bunkr.ru|cdn11.bunkr.ru|cdn12.bunkr.ru|media-files.bunkr.ru|media-files4.bunkr.ru|media-files8.bunkr.ru|media-files9.bunkr.ru|media-files10.bunkr.ru|media-files11.bunkr.ru|media-files12.bunkr.ru|c9.bunkr.ru|c10.bunkr.ru|media-files.bunkr.la|media-files4.bunkr.la|media-files8.bunkr.la|media-files9.bunkr.la|media-files10.bunkr.la|media-files11.bunkr.la|media-files12.bunkr.la|bunkr.la|i4.bunkr.ru|i8.bunkr.ru|i9.bunkr.ru|i10.bunkr.ru|i11.bunkr.ru|i12.bunkr.ru|big-taco-1.bunkr.ru|nugget.bunkr.ru|pizza.bunkr.ru|burger.bunkr.ru|fries.bunkr.ru|meatballs.bunkr.ru|taco.bunkr.ru|milkshake.bunkr.ru|kebab.bunkr.ru|i-big-taco-1.bunkr.ru|i-nugget.bunkr.ru|i-pizza.bunkr.ru|i-burger.bunkr.ru|i-fries.bunkr.ru|i-meatballs.bunkr.ru|i-taco.bunkr.ru|i-milkshake.bunkr.ru|i-kebab.bunkr.ru|stats.bunkr.ru|fonts.googleapis.com|fonts.bunny.net|taquito.bunkr.ru|i-taquito.bunkr.ru|cdnjs.cloudflare.com|cdn.jsdelivr.net|c.bunkr-cache.se|c100.bunkr-cache.se|bunkr.ph|i-ramen.bunkr.ru|ramen.bunkr.ru|bunkr.pk|bunkr.ps|cdn.vidstack.io,domain=bunkrrr.*
 *$1p,script,denyallow=app.bunkrr.su|app.bunkrr.la,domain=bunkrrr.*
 bunkrrr.*##^all:has-text(taco-loves-ads)
 pixl.li^$domain=bunkrrr.*
@@ -625,6 +627,16 @@ bunkrrr.*##+js(rmnt, script, encode)
 bunkr.*##+js(rmnt, script, aclib)
 bunkrr.*##+js(rmnt, script, aclib)
 bunkrr.*##+js(rmnt, script, aclib)
+||bankingbloatedcaptive.com^
+||appointeeivyspongy.com^
+||bunkr.*/magic/pure-magic$script
+||bunkr.*/magic/pure-magic-v3.js$script
+||bunkrr.*/magic/pure-magic$script
+||bunkrr.*/magic/pure-magic-v3.js$script
+||bunkr.*/magic/pure-magic$script
+||bunkr.*/magic/pure-magic-v3.js$script
+||bunkrrr.*/magic/pure-magic$script
+||bunkrrr.*/magic/pure-magic-v3.js$script
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
