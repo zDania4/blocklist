@@ -1,5 +1,5 @@
 ## Domains
-
+<!-- Last updated: 2024-Oct-19 for version 2024Oct19-2 -->
 > [!NOTE]
 > Want a domain added or updated? Please create an [issue](https://github.com/zDania4/blocklist/issues/new/choose) to let me know.
 
@@ -37,6 +37,8 @@ fkbae.to
 fyptt.to  
 gofile.io  
 hclips.com  
+hdzog.*  
+hotmovs.*  
 hqporner.com (and their mydaddy.cc and hqwo.cc CDN)  
 hotscope.tv  
 imagebam.com  
@@ -49,17 +51,22 @@ ixxx.com
 instagram.com (stylistic rules only)  
 jpg5.su (and its related domains)  
 kemono.su  
+manysex.com  
 motherless.com  
 noodlemagazine.com  
 nudevista.*  
+ooxxx.com  
 peekvids.com  
 pixl.li  
 porngo.com  
 pornhoarder.* (including streamwish.\*, filemoon.\* and upstream.to)  
 pornhub.com  
 pornjuices.com  
+pornl.com
 porntrex.com  
+pornzog.com  
 postimages.org/postimg.cc  
+privatehomeclips.com  
 prnfap.com  
 recordbate.com  
 reddit.com (only for embeds)  
@@ -83,6 +90,7 @@ thothub.*
 tnaflix.com  
 uporn.plus  
 viddy.online/videy.co  
+voyeurhit.*  
 whoreshub.com  
 xfantazy.com  
 xfree.com  
