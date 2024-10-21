@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct21-1
+! Version: 2024Oct21-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1627,6 +1627,17 @@ motherless.com##div.footer-links-list:nth-of-type(3)
 motherless.com##.header-right > .hidden-xs
 motherless.com##.text-center.ml-footer-girl
 
+! Namethatporn
+namethatporn.com##.brtt54
+namethatporn.com##+js(popads-dummy)
+||namethatporn.com/assets/imgs/1x1.gif$frame,redirect-rule=noopframe
+||namethatporn.com/assets/imgs/1x1.gif$frame
+namethatporn.com##div.hme_al
+namethatporn.com##span.fl.sdbrmi
+namethatporn.com##div.sdbrttl:nth-of-type(4)
+namethatporn.com###slddwnr_wrp
+namethatporn.com###fab_blacko
+
 ! Noodlemagazine
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
 noodlemagazine.com##div[style] > ins:upward(1)
@@ -3059,6 +3070,9 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
+||doubleclick.net^
+||doubleclick.net^$xhr,redirect-rule=noop.txt
+##.grecaptcha-badge[data-style]
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
