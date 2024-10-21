@@ -13,8 +13,8 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=bunkr.ru) bunkr/bunkrr/bunkrrr.\*  
-![](https://www.google.com/s2/favicons?sz=16&domain=bunkr.ru) bunkr-albums.io  
+![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr/bunkrr/bunkrrr.\*  
+![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr-albums.io  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhores.tv) camwhores.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhoresbay.com) camwhoresbay.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhorescloud.com) camwhorescloud.com  
