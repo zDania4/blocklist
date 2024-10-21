@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct21-2
+! Version: 2024Oct21-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -106,6 +106,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr-albums.io^$popup,domain=bunkrr.*
 @@||bunkr.*/a/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/a/*$popup,domain=app.bunkrr.su
+@@||bunkr.*/cdn-cgi/challenge-platform^
 @@||bunkr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkr.*/file-stats.js$script,domain=get.bunkrr.su
 @@||bunkr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
@@ -148,6 +149,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
 @@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
 @@||bunkr.sk/v/*$popup,domain=app.bunkrr.su
+@@||bunkrr.*/cdn-cgi/challenge-platform^
 @@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
 @@||bunkrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
@@ -274,6 +276,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||www.redgifs.com/users/*$popup,domain=redgifs.com
 @@||www.redgifs.com/watch/*$popup,domain=redgifs.com
 @@||www.redgifs.com^$popup,domain=redgifs.com
+#@#[data-adblockkey]
 #@#.ad-link
 f95zone.to#@#.p-footer-rssLink
 f95zone.to#@#.u-scrollButtons
@@ -287,19 +290,6 @@ simpcity.su#@#.u-scrollButtons
 simpcity.su#@#+js(addEventListener-defuser, , open)
 
 ! ## BLOCKLIST ##
-
-! 000315
-||umami.000315.xyz/script.js$script
-||cloudflareinsights.com^$domain=000315.xyz
-##a[href^="https://t.ajrkm3.com/"]
-000315.xyz##ins[id*="instant-message"]
-000315.xyz##ins[id*="mobile-instant-message"]
-000315.xyz##+js(rmnt, script, ad_idzone, stay, 1)
-000315.xyz##+js(rmnt, script, 5253666)
-000315.xyz##a[data-umami-event*="ad-click"]
-000315.xyz##div.css-rep5dz.MuiGrid-grid-lg-3.MuiGrid-grid-md-4.MuiGrid-grid-sm-6.MuiGrid-grid-xs-6.MuiGrid-item.MuiGrid-root:nth-of-type(16)
-||project-1067751275500851996.firebaseapp.com
-||piatutuvjiklguiizifo.supabase.co^$domain=000315.xyz
 
 ! 3movs
 3movs.com##+js(popads-dummy)
@@ -651,10 +641,6 @@ bunkr-albums.io##+js(rmnt, script, aclib)
 bunkr-albums.io##+js(rmnt, script, setTimeout)
 bunkr-albums.io##br
 bunkr-albums.io##.menu:style(margin-top: 10px !important)
-
-! CamvodsCo
-###header-ads
-##.header-ads
 
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
@@ -2065,9 +2051,6 @@ pornhub.com##.realsex
 pornhub.com###countryRedirectMessage
 pornhub.com##+js(set-local-storage-item, hideLangRedirect, true)
 
-! Pornjuices
-pornjuices.com##.active.adde_modal-overlay
-
 ! Pornl
 pornl.com##.header__network
 pornl.com##.cookies-policy-block
@@ -3073,6 +3056,11 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ||doubleclick.net^
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
 ##.grecaptcha-badge[data-style]
+/track.php?domain=
+?usid=*&utid=
+##a[href^="https://t.ajrkm3.com/"]
+###header-ads
+##.header-ads
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
