@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct23-1
+! Version: 2024Oct23-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -222,6 +222,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main-login.js$script,1p
 @@||saint.to/js/main.js$script,1p
+@@||saint2.*/favicon.ico$1p
 @@||saint2.*/dropzone/dropzone.js
 @@||saint2.*/js/main-login.js$script,1p
 @@||saint2.*/js/main.js$script,1p
@@ -231,6 +232,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint2.su/dropzone/dropzone.js
 @@||saint2.su/js/main-login.js$script,1p
 @@||saint2.su/js/main.js$script,1p
+@@||saint2.*/js/alerts.js$script
 @@||saint2.*/api/account.php
 @@||saint2.*/api/upload
 @@||saint2.*/assets/home_cover$image
@@ -2345,7 +2347,7 @@ ltas?id=1986859$all,important
 saint.to/63e52888c97f0.php$all,important
 saint.to##+js(nowoif)
 saint2.su/63e52888c97f0.php$all,important
-saint2.su##+js(nowoif)
+!saint2.su##+js(nowoif)
 !saint.to##+js(window-close-if, /^/)
 ||fvcwqkkqmuv.com^
 .php?ping=
@@ -2385,7 +2387,7 @@ saint2.pk##all:has-text(0xd965)
 saint2.pk##all:has-text(1986859)
 saint2.pk##all:has-text(0x2e4efe)
 saint2.pk/63e52888c97f0.php$all,important
-saint2.pk##+js(nowoif)
+!saint2.pk##+js(nowoif)
 ||saint2.pk/api/pst.php$xhr
 /\?id=[12]\d{6}$/*$script,domain=saint2.pk
 saint2.pk##+js(rmnt, script, concat)
@@ -2399,7 +2401,7 @@ saint2.*##all:has-text(0xd965)
 saint2.*##all:has-text(1986859)
 saint2.*##all:has-text(0x2e4efe)
 saint2.*/63e52888c97f0.php$all,important
-saint2.*##+js(nowoif)
+!saint2.*##+js(nowoif)
 ||saint2.*/api/pst.php$xhr
 /\?id=[12]\d{6}$/*$script,domain=saint2.*
 saint2.*##+js(rmnt, script, concat)
@@ -2417,6 +2419,7 @@ en/mif/wuh^
 /t/9/fret/meow4/*/*.js
 saint2.*##+js(rmnt, script, fromCharCode)
 *$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com,domain=saint2.*
+saint2.*##+js(nowoif, !//a/)
 
 ! Se.video
 ||cef7cb85aa.com^
@@ -2776,6 +2779,12 @@ m.tnaflix.com##.pause-ad-wrap
 ||tnaflix.com/_livejs$1p
 tnaflix.com##.pause-ad-wrap
 tnaflix.com##.pause-overlay
+
+! Twitch embed
+player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
+twitch.tv##+js(no-window-open-if, amazon-adsystem)
+twitch.tv##+js(twitch-videoad)
+||d2v02itv0y9u9t.cloudfront.net^
 
 ! Upornplus
 uporn.plus##li.item:nth-of-type(5) > .inner > .text
