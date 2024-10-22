@@ -87,6 +87,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.tv) thotbook.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videy.co) videy.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voyeurhit.com) voyeurhit.*  
