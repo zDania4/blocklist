@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct21-3
+! Version: 2024Oct23-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -628,6 +628,7 @@ bunkrr.*##+js(rmnt, script, aclib)
 ||bunkrrr.*/magic/pure-magic$script
 ||bunkrrr.*/magic/pure-magic-v3.js$script
 ||isolatedovercomepasted.com^
+bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: none !important)
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
