@@ -1,5 +1,5 @@
 ## Domains
-<!-- Last updated: 2024-Oct-21 for version 2024Oct21-3 -->
+<!-- Last updated: 2024-Oct-24 for version 2024Oct24-3 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)"
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 > [!NOTE]
@@ -15,11 +15,13 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
 ![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr/bunkrr/bunkrrr.\*  
 ![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr-albums.io  
+![](https://www.google.com/s2/favicons?sz=16&domain=camshot.tv) camshot.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhores.tv) camwhores.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhoresbay.com) camwhoresbay.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhorescloud.com) camwhorescloud.com  
 ![](https://camo.githubusercontent.com/74626c766e0716f93810d055cbc38362c3d30960fc5ae1979729ffbd656dd705/68747470733a2f2f692e696d6775722e636f6d2f39656e4d647a542e706e67) chatpic.org  
 ![](https://www.google.com/s2/favicons?sz=16&domain=chatwhores.com) chatwhores.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=cloudbate.com) cloudbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=coomer.party) coomer.party/coomer.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=cyberdrop.me) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
@@ -27,11 +29,13 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=eporner.com) eporner.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erome.com) erome.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=erothots.co) erothots.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=f95zone.to) f95zone.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=famousinternetgirls.com) famousinternetgirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapachi.com) fapachi.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=gofile.io) gofile.io  
@@ -77,6 +81,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=sextubefun.com) sextubefun.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sexy-egirls.com) sexy-egirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpcity.su) simpcity.su  
+![](https://www.google.com/s2/favicons?sz=16&domain=simpshub.com) simpshub.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=spankbang.com) spankbang.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
