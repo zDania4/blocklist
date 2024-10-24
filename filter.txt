@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct24-2
+! Version: 2024Oct24-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -180,7 +180,6 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cdn.jsdelivr.net/npm/*$domain=get.bunkrr.su
 @@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
 @@||cold1.saint2.*/videos/
-
 @@||ct1.saint2.*/thumbs/
 @@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
@@ -239,6 +238,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint2.*/api/account.php
 @@||saint2.*/api/upload
 @@||saint2.*/assets/home_cover$image
+@@||saint2.*/assets/dribbble_1.gif$image
 @@||saint2.*/assets/saintLogo.png$image
 @@||saint2.*/css/$stylesheet
 @@||saint2.*/css/main.css$stylesheet
@@ -650,6 +650,10 @@ bunkr-albums.io##+js(rmnt, script, setTimeout)
 bunkr-albums.io##br
 bunkr-albums.io##.menu:style(margin-top: 10px !important)
 
+! Camshot
+camshot.tv##a.link:nth-of-type(4)
+&action=js_online_status&
+
 ! Camwhores
 camwhores.tv##a[href*="theporndude.com"]
 camwhores.tv##li:nth-of-type(10)
@@ -771,6 +775,25 @@ chatwhores.*##+js(no-window-open-if)
 ||papmeatidigbo.com^
 ||worstideatum.com^
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
+
+! Cloudbate
+||cloudbate.com/chat.php$document
+||cloudbate.com/meet-me-now.php$document
+||sawmtraffic.com^
+cloudbate.com###chat-streamer
+/ajax/bz?_
+/?sentry_key=
+||zybrdr.com^
+||xliirdr.com^$popup
+cloudbate.com###menu-item-4725144 > .btn-black.btn
+cloudbate.com###survey
+!Success-suvey being display all the time kind of messes with the login prompt... But it works.
+cloudbate.com###success-suvey:style(display: block !important)
+cloudbate.com##+js(rmnt, script, startti)
+cloudbate.com##div.wpst-register:nth-of-type(1)
+cloudbate.com###menu-item-4843236 > .btn-black.btn
+cloudbate.com##.play-now:remove-attr(onclick)
+cloudbate.com##+js(nowoif)
 
 ! Coomer
 coomer.party##all:has-text(SCSpotscript)
@@ -1004,6 +1027,25 @@ erome.com##video:remove-attr(loop)
 idzone=2851174
 splash.php?idzone
 
+! Erothots
+erothots.co##.list-items.magic-sites
+erothots.co##.new
+erothots.co##.list-btn-box.scroll-box
+erothots.co##+js(no-window-open-if)
+||ounobdlzzks.world^
+/ut.js?cb=
+||youradexchange.com^
+/^https:\/\/[-a-z]{5,12}\.[a-z]{3,}\/[0-9a-z]{1,20}\?(?=[A-Za-z]{0,21}\d)(?=[0-9a-z]{0,21}[A-Z])[0-9A-Za-z]{15,22}=(?=[%a-z]*[0-9A-Z])[%0-9A-Za-z]{35,2000}$/$xhr,3p,match-case,method=get,header=via:2.0 nginx,to=~com|~dev|~edu|~gov|~net|~org|~tv
+##a[href*="/jump/next.php?r="]
+erothots.co##+js(rmnt, script, aclib)
+erothots.co##+js(rmnt, script, adserverDomain)
+erothots.co##.play-iframe
+erothots.co##+js(rmnt, script, _active)
+erothots.co##+js(rmnt, script, is_gen)
+erothots.co##+js(set, _showed, true)
+erothots.co##+js(set, _jerk, true)
+erothots.co##.profile.home.panel-form
+
 ! F95Zone
 f95zone.to##.node--link.node--depth2.node--id129.node
 f95zone.to##.node--link.node--depth2.node--id136.node
@@ -1089,6 +1131,27 @@ fapoleaks.com##a[href*="go.xlivrdr.com"]
 fapoleaks.com##a[href*="traffichaus.com"]
 fapoleaks.com##a[href*="https://outfitswap.ai"]
 fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
+
+! Fapello
+fapello.com##.wbar
+fapello.com###wrapper:style(margin-top: 0px !important)
+fapello.com##header:style(margin-top: 0px !important)
+fapello.com##.uk-visible\@l.hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
+fapello.com##[href="https://theporndude.com/"]
+fapello.com##a[href="https://theporndude.com/"]:remove()
+/www/delivery/*$frame
+||adxsrver.com^
+fapello.com##+js(rmnt, script, kstSettings)
+fapello.com##.uk-hidden\@l.my-2.text-sm.text-center.space-x-3.font-semibold.flex.capitalize > .hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
+fapello.com##a.hover\:bg-blue-400.hover\:text-white.text-white.rounded-md.px-3.pink-500.p-0.shadow-sm.bg-blue-300:nth-of-type(1)
+fapello.com##.mb-5.mx-auto
+fapello.com##.uk-width-1-2.text-white.shado.rounded.py-2.px-4.max-h-10.lg\:block.items-center.inline-block.hover\:text-white.hover\:bg-blue-600.font-bold.flex.bg-green-400.uk-margin-remove-bottom.uk-align-center
+fapello.com##div.p-5.space-x-5.flex:nth-of-type(5)
+fapello.com##[href*="undress.cc"]
+fapello.com##[href*="undress.app"]
+fapello.com##[href*="camsoda.com"]
+fapello.com##[src^="https://fapello.com/assets/exclusive/"]:upward(3)
+fapello.com##[class*='uk-align']:style(margin-top: 0px !important)
 
 ! Fkbae
 fkbae.to##.fl-node-5f59ec0e1d1f7.fl-col-group
@@ -2600,6 +2663,10 @@ simpcity.su##+js(rmnt, script, queenMagic)
 simpcity.su##+js(set-cookie, zone-cap-papi-hates-blocks, 1)
 simpcity.su##+js(rmnt, script, zone-cap)
 
+! Simpshub
+simpshub.com##.tags.links
+||supercounters.com^$3p
+
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
 some.porn##a[id*="ad-paysite-block"]:remove()
@@ -2628,6 +2695,27 @@ spankbang.com##.lv_cm_int_come_on
 ##a[href^="https://go.xlviiirdr.com"]
 spankbang.com##a[href^="https://deliver.ptgncdn.com/"]
 spankbang.com##.ptgncdn_holder
+spankbang.*##+js(set-constant, chrome, undefined)
+spankbang.*##+js(no-window-open-if)
+spankbang.com##.ls > [href] > .item
+||ptgncdn.com^
+||spankbang.com/static/dist/desktop/js/analytics$script
+##a[href^="https://ctrdwm.com/"]
+spankbang.com###shorts-frame
+##a[href^="https://ctrdwm.com/"]
+##.video-inline-ads
+##.s-ad
+##.partner_ads
+spankbang.com##a[href*="?ats="]
+spankbang.*##.download-promo
+spankbang.com###shorts-frame
+||wmcdpt.com^
+spankbang.com##.ad_button
+spankbang.com##div.link
+spankbang.com##.ads_placement
+spankbang.com##.more_videos.ft-button
+spankbang.com##div.space-y-4.mt-6.main_content_container
+spankbang.com##span.video-inline-ads
 
 ! Streamtape
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -2720,6 +2808,9 @@ tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
 theporndude.com##+js(set-cookie, wallpaper, click)
 theporndude.com##body::before
+theporndude.com##.--show.coo-widget.coomeet-app
+theporndude.com###category-block-97 > .category-after-block > .link
+theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
 
 ! Thotbook
 thotbook.tv###page > .code-block-3.code-block
