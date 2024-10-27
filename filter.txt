@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct27-3
+! Version: 2024Oct27-4
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -865,6 +865,10 @@ coomer.su##+js(set-cookie, zone-cap-5294206, 1)
 coomer.su##+js(rmnt, script, flagName)
 coomer.su##+js(rmnt, script, videoAds)
 /Spot/lib.js$script,domain=coomer.su
+coomer.su##+js(rmnt, script, flgdabcpokrineutm)
+coomer.su##.ad-container
+coomer.su##a[href="https://coomer.su/matrix"]
+||owxqunparw.com^
 
 ! Cyberdrop
 ###ads-header
