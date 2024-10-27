@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct24-4
+! Version: 2024Oct27-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -333,6 +333,23 @@ beeg.com##a.v-btn--variant-text.v-btn--size-large.v-btn--density-default.v-btn--
 !Setting ls_video_muted to 0 makes no difference for some reason.
 !beeg.com##+js(set-cookie, ls_video_muted, 0)
 beeg.com##+js(set-local-storage-item, ls_last_leave, $remove$)
+
+! Bitchesgirls
+bitchesgirls.com##.ad-btn-container
+||bitchesgirls.com/libs/adloaders/
+bitchesgirls.com##+js(addEventListener-defuser, load, adSession)
+bitchesgirls.com##.also
+bitchesgirls.com##.a-d-block
+bitchesgirls.com##.item > .post:style(height: auto !important;)
+bitchesgirls.com##.footer-mylinks > p.header:nth-of-type(1)
+bitchesgirls.com##.footer-mylinks > .list > li
+bitchesgirls.com##.buttonContainer
+bitchesgirls.com##+js(rmnt, script, _script)
+bitchesgirls.com##+js(rmnt, script, ClickAds)
+bitchesgirls.com##+js(rmnt, script, adSession)
+bitchesgirls.com##.info-link.model-links
+||bitchesgirls.com/api/viewpage/$xhr
+bitchesgirls.com##div.my-girls-popup-element.popup-element
 
 ! Bunkr 
 $popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|bunkr.ps|bunkr.pk|bunkr.ph|bunkr.cr,domain=bunkr.*|bunkrr.*
@@ -935,6 +952,15 @@ dood.*##+js(aopr, __aaZoneid)
 0123movie.*,123chill.*,123movies-free.*,123movies-org.*,123movies.*,123moviesfree.*,123movieshub.*,123movieweb.*,190.115.18.20,1hd.to,1todaypk.*,2kmovie.*,4movierulz.*,4movierulz1.*,5movies.*,9kmovies.*,a8ix.*,acn.vin,adblocktape.*,aflizmovies.com,ak4eg.*,anihdplay.com,animeonline.ninja,animeunity.*,animixplay.*,aniwatch.*,arc018.to,asianhdplay.*,atishmkv.*,backfirstwo.site,bolly2tolly.*,clickndownload.*,comedyshow.to,cool-etv.net,crackstreams.*,crackstreamshd.click,daddylivehd.*,direct-cloud.*,divicast.com,divxfilmeonline.net,dood.*,doods.pro,dooood.*,downloadhub.*,ds2play.com,dvdplay.*,embed4u.xyz,embedplayer.*,embedstream.me,emovies.*,encurtandourl.com,ev01.sx,exee.app,f123movies.com,faselhd.*,file-upload.com,film4e.com,filmeserialeonline.org,filmyzilla2022.com,fmoviesfree.*,footyhunter.lol,freelivetvon.com,freemovies.*,french-streams.cc,fslinks.org,fstream365.com,gameshdlive.xyz,gdflix.*,gdtot.*,gembedhd.com,gocast2.com,gogohd.*,goku.*,gokutv.*,gomovies.*,goone.pro,gotaku1.com,hdfriday.*,hdhub4u.*,hdmoviehub.*,hdtoday.tv,hihihaha1.xyz,huboflink.in,iflixmovies.*,jockantv.com,kickassanime.*,kuttymovies1.com,ligaset.com,likemanga.io,linkupload.xyz,lulustream.com,luluvdo.com,mangaraw.*,medeberiyas.com,mega4upload.com,megadb.net,megafilmeshd50.com,megaupto.com,membed1.com,mkvcinemas.*,mlwbd.*,movembed.cc,movieplay.*,moviesda4.*,moviesjoy.*,moviesmeta.*,moviesrulz.*,moviestowatch.tv,mp4upload.com,mreader.co,mydownloadtube.*,myflixerz.*,mywatchseries.*,naijachoice.com.ng,naijanowell.com,netfilmes.org,nflstreams.me,niadd.com,noblocktape.*,nolive.me,odiasia.sbs,oii.io,olympicstreams.me,pesktop.com,playgo1.cc,project-free-tv.*,projectfreetv.*,putlocker.*,s.to,send.cm,serienstream.*,series2watch.*,seriesonline.*,seriestv.org,shadowrangers.live,shahed4u.*,shaheed4u.*,sinvida.me,soap2day-online.com,ssoap2day.*,stakes100.xyz,streamadblocker.*,streamcloud.best,streamhub.*,streamnoads.com,streamonsport99.*,streamtape.*,strtapewithadblock.*,swatchseries.*,tapeblocker.com,tapenoads.com,tapewithadblock.org,taxielcima.live,tii.la,tnhitsda.net,todaypk.*,tvpclive.com,up-4ever.net,upbaam.com,uploadhub.*,uproxy.*,vadbam.net,vavada5com.com,vid-guard.com,vidcloud9.*,videoplayer.*,vido.*,vidspeed.cc,vidsrc.*,viidshar.com,vikistream.com,vixcloud.co,watch-free.tv,watchcartoononline.*,watchmovies.*,watchmovierulz.*,watchomovies.*,watchonlinemoviespk.*,watchop.live,watchseries1.*,watchtvchh.xyz,wecast.to,worldstreams.click,yesmovies4u.*,zamundatv.com##+js(acs, document.documentElement, break;case $.)
 dood.*##+js(remove-node-text, script, /adblock|popunder/)
 dood.*##+js(remove-node-text, script, ;}}};break;case $.)
+||du0pud0sdlmzf.cloudfront.net^
+dood.*##+js(addEventListener-defuser, contextmenu)
+dood.*##+js(abort-current-script, WebAssembly, _0x)
+||d3eub2e21dc6h0.cloudfront.net^
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_v]=\d+)?$/$script,3p,match-case
+!dood.*##+js(rmnt, script, userAgentFi)
+dood.*##+js(rmnt, script, openedPop)
+dood.*##.sPreload
+/adgpt.js$script
 
 ! Eporner
 ||eporner.com/dot/
@@ -1153,6 +1179,29 @@ fapello.com##[href*="camsoda.com"]
 fapello.com##[src^="https://fapello.com/assets/exclusive/"]:upward(3)
 fapello.com##[class*='uk-align']:style(margin-top: 0px !important)
 
+! Filemoon
+||filemoon.*/js/baf.js
+filemoon.*##+js(addEventListener-defuser, , break;case $.)
+filemoon.*##+js(remove-node-text, script, break;case $.)
+filemoon.*##+js(no-window-open-if)
+filemoon.*##+js(abort-current-script, navigator, popunder)
+filemoon.*##+js(abort-on-property-read, FMPoopS)
+filemoon.*##+js(adjust-setInterval, seconds)
+/adcgi?
+filemoon.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+filemoon.*##+js(remove-node-text, script, ;}}};break;case $.)
+filemoon.*##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
+filemoon.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+||ieyri61b.xyz^
+file-mi11ljwj-embed.com##+js(no-window-open-if)
+file-mi11ljwj-embed.com##+js(abort-current-script, Math, localStorage['\x)
+file-mi11ljwj-embed.com##+js(rmnt, script, getLink)
+||phovaiksou.net^
+file-mi11ljwj-embed.com##+js(rmnt, script, parseInt)
+||file-mi11ljwj-embed.com/js/bafsd.js$script
+||file-mi11ljwj-embed.com/js/dnsads.js
+||ieyri61b.xyz^
+
 ! Fkbae
 fkbae.to##.fl-node-5f59ec0e1d1f7.fl-col-group
 fkbae.to##[href="https://www.mrporngeek.com/"]
@@ -1203,6 +1252,15 @@ gofile.io##body:style(overflow: scroll !important)
 ||qnp16tstw.com^
 ||s.gofile.io^
 
+! Gotanynudes
+gotanynudes.com###tpbr_topbar
+gotanynudes.com##[href^="https://aj1070.online"]:upward(li)
+gotanynudes.com###menu-item-35094 > [href="https://theporndude.com/"]:upward(li)
+gotanynudes.com##.g1-injected-unit
+||figaroweb.com^
+gotanynudes.com##+js(rmnt, script, customOptions)
+##.wpdiscuz-subscribe-bar
+
 ! HClips
 hclips.com##div.gender-item:nth-of-type(1)
 hclips.com##a.subtitle:nth-of-type(15)
@@ -1237,7 +1295,7 @@ hclips.com##[href^="https://porntourist.com/"]
 hclips.com##div.headline:nth-of-type(2)
 hclips.com##.mobile-menu__container > div.mobile-menu__item > .mobile-dropdown
 
-! Hdzog.com
+! Hdzog
 hdzog.*##a.item-primary.desktop-menu-item:nth-of-type(9)
 hdzog.*##.header-network
 hdzog.*##[href^="http://porntourist.com/"]
@@ -1401,7 +1459,7 @@ imagebam.com##.mb-3.mt-n4.text-center
 imagebam.com##+js(rmnt, script, goCtrl)
 imagebam.com##+js(rmnt, script, setCookie)
 
-! Imageban.ru
+! Imageban
 .ru/ads/
 ||cdn-rtb.sape.ru^
 ||yandex.ru/cycounter?
@@ -1477,6 +1535,33 @@ influencerchicks.com##+js(rmnt, , mnpw)
 ###ads_overlay
 influencerchicks.com###menu-item-97675 > [href^="https://go.bbrdbr.com"]
 influencerchicks.com##.g1-column-1of3.g1-column.g1-sidebar-padded.g1-sidebar
+
+! Influencersgonewild
+influencersgonewild.*##div.g1-hb-shadow-on.g1-hb-sticky-off.g1-hb-boxed.g1-hb-row-3.g1-hb-row-c.g1-hb-row-normal.g1-hb-row.g1-row-layout-page.g1-row > .g1-row-inner > .g1-dropable.g1-column
+influencersgonewild.*###menu-item-63079 > [href="https://lewdinfluencers.com/"]
+influencersgonewild.*###menu-item-14972 > [href="https://theporndude.com/"]
+||qzzzzzzzzzqq.com^
+influencersgonewild.*##+js(abort-on-stack-trace, Math.round, onload)
+influencersgonewild.*##.g1-advertisement-inside-grid:upward(li)
+influencersgonewild.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+influencersgonewild.*##+js(rmnt, script, adace)
+influencersgonewild.*##+js(rmnt, script, qzqz)
+influencersgonewild.*##.g1-hb-shadow-on.g1-hb-sticky-off.g1-hb-boxed.g1-hb-row-3.g1-hb-row-c.g1-hb-row-mobile.g1-hb-row.g1-row-layout-page.g1-row
+influencersgonewild.*###g1-canvas-primary-nav-menu > .menu-item-63079.menu-item-object-custom.menu-item-type-custom.menu-item.nav-placements > [href="https://lewdinfluencers.com/"]
+influencersgonewild.*###g1-canvas-primary-nav-menu > .menu-item-14972.menu-item-object-custom.menu-item-type-custom.menu-item > [href="https://theporndude.com/"]
+influencersgonewild.*##.g1-sticky-widget-wrapper
+influencersgonewild.*##[href="https://www.xxbrits.com/"]
+
+! Internetchicks
+internetchicks.com##[href="https://theporndude.com/"]:upward(li)
+internetchicks.com##+js(rmnt, script, __htas)
+||impeccablewriter.com^
+/frontend-gtag.min.js
+internetchicks.com##+js(rmnt, script, monsterinsights_frontend)
+internetchicks.com##.textwidget
+internetchicks.com##.cam-live-mobile
+internetchicks.com##.cam-live
+||adforcast.com^
 
 ! IXXX
 ||ixxx.com/js/analytics$script,domain=www.ixxx.com
@@ -1629,6 +1714,19 @@ jpg5.su##+js(rmnt, script, adConfig)
 ! Kemono
 kemono.su##.ad-container
 
+! Leakedmodels
+leakedmodels.com##.azz_div.wp_xsize_class
+leakedmodels.com##[href="https://thefappeningblog.com"]:upward(li)
+leakedmodels.com##[href="https://theporndude.com/"]:upward(li)
+leakedmodels.com##[href*="https://aj1070.online"]:upward(li)
+leakedmodels.com##.js-notices.notices--block.notices
+leakedmodels.com##.p-body-nav
+leakedmodels.com##.block--category20.block--category.block
+leakedmodels.com##+js(rmnt, script, flgdabcpokrineutm)
+leakedmodels.com##+js(rmnt, script, ad-banner-wrap)
+||leakedmodels.com/addons/forum_top.html
+||leakedmodels.com/addons/forum_bottom.html
+
 ! Manysex
 manysex.com##a.nav__tag:nth-of-type(1)
 manysex.com##div.select:nth-of-type(2) > .select__label
@@ -1651,7 +1749,7 @@ manysex.com##+js(rmnt, script, constants.country_code)
 manysex.com##+js(rmnt, script, isAdBlock)
 manysex.com##+js(rmnt, script, hlink_1)
 
-! Motherless.com > Weird stuff on this site... wtf...
+! Motherless > Weird stuff on this site... wtf...
 motherless.com##.awn-ignore.text-center.motherless-cookie-wrapper
 motherless.com##.big.footer-section
 !motherless.com##+js(set-constant, _ml_ads_ns, null)
@@ -1720,6 +1818,53 @@ banner.go?spaceid=
 /advert_$from=~canalplus.com
 nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 
+! Nudostar
+nudostar.com##.azz_div.wp_xsize_class
+nudostar.com###post-98942
+nudostar.com###menu-item-89778 > [href="https://bongacams.com"]:upward(li)
+nudostar.com###menu-item-93885 > [href^="https://undressai.tools/"]:upward(li)
+nudostar.com##[href="https://theporndude.vip"]:upward(li)
+nudostar.com###menu-item-93885 > [href="https://ad69.com"]:upward(li)
+nudostar.com###menu-item-5232 > [href="https://theporndude.com/"]:upward(li)
+nudostar.com###menu-item-85840 > [href="https://fapfappy.com"]:upward(li)
+nudostar.com##li:nth-of-type(6) > .p-navEl > .wp_xsize_class.p-navEl-link
+nudostar.com##li:nth-of-type(7) > .p-navEl > .p-navEl-link
+nudostar.com##.node--link.node--depth2.node--id47.node > .node-body > .js-nodeMain.node-main
+nudostar.com##.node--link.node--depth2.node--id47.node > .node-body > .node-icon
+nudostar.com##.node--unread.node--forum.node--depth2.node--id31.node
+nudostar.com##.node--link.node--depth1.node--id41.node
+nudostar.com##.p-body-pageContent > div.block:nth-of-type(3) > .block-container
+nudostar.com##.node--link.node--depth1.node--id39.node
+nudostar.com##div.block:nth-of-type(5) > .block-container
+nudostar.com##.js-notices.notices--block.notices
+nudostar.com###menu-item-95598 > [href="https://fapullo.com/"]:upward(li)
+nudostar.*##+js(rmnt, script, flgdabcpokrineutm)
+/siropu/am/core.min.js$script,important,from=~audi-sport.net|~hifiwigwam.com
+nudostar.com##+js(abort-current-script, $, wbar)
+nudostar.com##+js(abort-on-property-write, __aaZoneid)
+||vilerebuffcontact.com^
+##.samCodeUnit
+##.advertising1
+###ad-banner-wrap
+||pubimageboard.com^
+kzyadnfufmif.com^
+||nudostar.com/addons/blog.html
+||nudostar.com/addons/forum_top.html
+||nudostar.com/addons/forum_bottom.html
+||shakingtacklingunpeeled.com^
+nudostar.com##[href="www.liveinternet.ru/click"]
+nudostar.com##[href="https://fapopedia.net"]:upward(li)
+nudostar.com##.ancestor-wrapper > [href^="https://undressai.tools/"]:upward(li)
+nudostar.com##[href="https://fapullo.com/"]:upward(li)
+nudostar.com##[href="https://theporndude.vip/"]:upward(li)
+nudostar.com##.ancestor-wrapper > [href="https://ad69.com"]:upward(li)
+nudostar.com##[href="https://bongacams.com"]:upward(li)
+nudostar.com##[href="https://theporndude.com/"]:upward(li)
+nudostar.com##[href="https://fapfappy.com"]:upward(li)
+nudostar.com##+js(rmnt, script, ad-label)
+nudostar.tv##.zkido_div.wp_xsize_class
+nudostar.tv##.wp_xsize_class.nav2
+
 ! Ooxxx
 ooxxx.com##.header__network
 ooxxx.com##.cookies-policy-block
@@ -1755,7 +1900,7 @@ peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
 www.peekvids.com##[href="/gayporn"]
 www.peekvids.com##.add_href_jsclick
 
-! Pixl.li
+! Pixlli
 pixl.li##+js(nowoif)
 pixl.li##^script[data-cfasync="false"]
 ?oo=1&aab=1
@@ -1830,13 +1975,6 @@ streamwish.*##+js(set-constant, cRAds, false)
 streamwish.*##+js(abort-on-property-read, __Y)
 ||dalysv.com^
 ||coinblocktyrusmiram.com^
-||filemoon.*/js/baf.js
-filemoon.*##+js(addEventListener-defuser, , break;case $.)
-filemoon.*##+js(remove-node-text, script, break;case $.)
-filemoon.*##+js(no-window-open-if)
-filemoon.*##+js(abort-current-script, navigator, popunder)
-filemoon.*##+js(abort-on-property-read, FMPoopS)
-filemoon.*##+js(adjust-setInterval, seconds)
 /^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
 /redirect?tid=
 mdzsmutpcvykb.net##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
@@ -1856,15 +1994,6 @@ mdzsmutpcvykb.net^script:has-text(sfpp45a)
 mdzsmutpcvykb.net##+js(aeld, appendChild)
 mdzsmutpcvykb.net##+js(abort-on-property-read, wpn63s)
 ||dsnymrk0k4p3v.cloudfront.net^
-upstream.to##+js(abort-current-script, document.oncontextmenu)
-upstream.to##+js(abort-on-property-read, _0xfff1)
-upstream.to##+js(abort-current-script, $, .css)
-upstream.to##+js(abort-on-property-read, open)
-upstream.to##+js(abort-on-property-read, _run)
-upstream.to##+js(nowebrtc)
-upstream.to##+js(set-constant, cRAds, null)
-upstream.to##+js(abort-current-script, Math, break;case $.)
-upstream.to##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
 /^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
 ||midwifelangurs.com^
 
@@ -2169,6 +2298,14 @@ porntrex.com###index-link
 www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
 www.porntrex.com##.open-tool.pop-adv
+
+! Pornxrated
+forum.pornxrated.com##.node--link.node--depth2.node--id5.node
+!pornxrated.com###tpbr_topbar
+pornxrated.com##[href^="https://aj1070.online"]:upward(li)
+pornxrated.com##[href="https://theporndude.com/"]:upward(li)
+pornxrated.com##.g1-injected-unit
+pornxrated.com##+js(rmnt, script, customOptions)
 
 ! Pornzog
 pornzog.com##.our-network
@@ -2489,7 +2626,7 @@ saint2.*##+js(rmnt, script, fromCharCode)
 *$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com,domain=saint2.*
 saint2.*##+js(nowoif, !//a/)
 
-! Se.video
+! Sevideo
 ||cef7cb85aa.com^
 se.video##+js(rmnt, script, nager)
 se.video##.kt-api-related-container.player-related-videos-container
@@ -2726,6 +2863,18 @@ streamtape.*##+js(remove-attr, target, #downloadvideo)
 streamtape.*##+js(adjust-setTimeout, counter)
 streamtape.*##+js(abort-current-script, JSON.parse, Promise)
 streamtape.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+*$document,csp=worker-src 'none',from=alltube.pl|alltube.tv|centrum-dramy.pl|coinfaucet.eu|crictime.com|crictime.is|doodcdn.com|gomo.to|hdvid.fun|hdvid.tv|hitomi.la|kinox.to|lewd.ninja|nflbite.com|pirateproxy.live|plytv.me|potomy.ru|powvideo.cc|powvideo.net|putlocker.to|reactor.cc|rojadirecta.direct|sickrage.ca|streamtape.com|thehiddenbay.com|thepiratebay.org|thepiratebay10.org|torlock.com|tpb.party|uptomega.me|ustream.to|vidoza.co|vidoza.net|wearesaudis.net|yazilir.com
+/prebid.$from=~prebid.org
+streamtape.com##+js(rmnt, script, trigger)
+streamtape.com##+js(rmnt, script, flgdabcpokrineutm)
+streamtape.com##+js(rmnt, script, blockadblock)
+streamtape.com##+js(rmnt, script, accurateTrackBounce)
+/^https?:\/\/[0-9a-z]{5,}\.com\/.*/$script,3p,from=123movies.tw|1cloudfile.com|745mingiestblissfully.com|9xupload.asia|adblockeronstape.me|adblockeronstreamtape.me|adblockeronstrtape.xyz|adblockplustape.xyz|adblockstreamtape.art|adblockstreamtape.fr|adblockstreamtape.site|adblocktape.online|adblocktape.store|adblocktape.wiki|advertisertape.com|anonymz.com|antiadtape.com|bowfile.com|clickndownload.click|clicknupload.space|clicknupload.to|cloudvideo.tv|d000d.com|daddylivehd.sx|dailyuploads.net|databasegdriveplayer.xyz|deltabit.co|dlhd.sx|dood.la|dood.li|dood.pm|dood.re|dood.sh|dood.so|dood.to|dood.watch|dood.wf|dood.ws|dood.yt|doods.pro|dooood.com|dramacool.sr|drivebuzz.icu|ds2play.com|embedplayer.site|embedsb.com|embedsito.com|embedstream.me|engvideo.net|enjoy4k.xyz|eplayvid.net|evoload.io|fembed-hd.com|filemoon.sx|files.im|flexy.stream|fmovies.ps|gamovideo.com|gaybeeg.info|gdriveplayer.pro|gettapeads.com|givemenbastreams.com|gogoanimes.org|gomo.to|greaseball6eventual20.com|hdtoday.ru|hexload.com|hexupload.net|imgtraffic.com|kesini.in|kickassanime.mx|kickasstorrents.to|linkhub.icu|lookmyimg.com|luluvdo.com|mangareader.cc|mangareader.to|membed.net|mirrorace.org|mixdroop.co|mixdrop.ag|mixdrop.bz|mixdrop.click|mixdrop.club|mixdrop.nu|mixdrop.ps|mixdrop.si|mixdrop.sx|mixdrop.to|mixdrp.co|movies2watch.tv|mp4upload.com|nelion.me|noblocktape.com|nsw2u.org|olympicstreams.co|onlinevideoconverter.com|ovagames.com|papahd.club|pcgamestorrents.com|pouvideo.cc|proxyer.org|putlocker-website.com|reputationsheriffkennethsand.com|rintor.space|rojadirecta1.site|scloud.online|send.cm|sflix.to|shavetape.cash|skidrowcodex.net|smallencode.me|soccerstreamslive.co|stapadblockuser.art|stapadblockuser.click|stapadblockuser.info|stapadblockuser.xyz|stape.fun|stapewithadblock.beauty|stapewithadblock.monster|stapewithadblock.xyz|strcloud.in|streamadblocker.cc|streamadblocker.com|streamadblocker.store|streamadblocker.xyz|streamingsite.net|streamlare.com|streamnoads.com|streamta.pe|streamta.site|streamtape.cc|streamtape.com|streamtape.to|streamtape.xyz|streamtapeadblock.art|streamtapeadblockuser.art|streamtapeadblockuser.homes|streamtapeadblockuser.monster|streamtapeadblockuser.xyz|strikeout.ws|strtape.cloud|strtape.tech|strtapeadblock.club|strtapeadblocker.xyz|strtapewithadblock.art|strtapewithadblock.xyz|supervideo.cc|supervideo.tv|tapeadsenjoyer.com|tapeadvertisement.com|tapeantiads.com|tapeblocker.com|tapenoads.com|tapewithadblock.com|tapewithadblock.org|thepiratebay0.org|thepiratebay10.xyz|theproxy.ws|thevideome.com|toxitabellaeatrebates306.com|un-block-voe.net|upbam.org|upload-4ever.com|upload.do|uproxy.to|upstream.to|uqload.co|uqload.io|userscloud.com|v-o-e-unblock.com|vidbam.org|vido.lol|vidshar.org|vidsrc.me|vidsrc.stream|vipleague.im|vipleague.st|voe-unblock.net|voe.sx|vudeo.io|vudeo.net|vumoo.to|yesmovies.mn|youtube4kdownloader.com
+||bulkagetufas.com^
+streamtape.com##+js(rmnt, script, parseInt)
+streamtape.com##+js(rmnt, script, adUnits)
+streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+||streamtape.com/adgpt.js$script
 
 ! Sxyprn
 sxyprn.com##.cbd
@@ -2890,6 +3039,27 @@ uporn.plus##a:remove-attr(target)
 uporn.plus##.top-spot
 uporn.plus##.main-menu > li > .inner
 
+! Upstream
+upstream.to##+js(abort-current-script, document.oncontextmenu)
+upstream.to##+js(abort-on-property-read, _0xfff1)
+upstream.to##+js(abort-current-script, $, .css)
+upstream.to##+js(abort-on-property-read, open)
+upstream.to##+js(abort-on-property-read, _run)
+upstream.to##+js(nowebrtc)
+upstream.to##+js(set-constant, cRAds, null)
+upstream.to##+js(abort-current-script, Math, break;case $.)
+upstream.to##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+
+! Videzz
+videzz.net##+js(no-setTimeout-if, console.clear)
+videzz.net##+js(set-constant, isAdBlockDetected, false)
+videzz.net##+js(set-constant, pData.adblockOverlayEnabled, 0)
+||videocdnshop.com^
+videzz.net##.prevent-first-click
+||my.pixelmuse.store/api/*/?host=videzz.net$script,ping
+||my.pixelmuse.store/Sb7AkA7.js^
+videzz.net##.vjs-disable-ads-button.vjs-button.vjs-control
+
 ! Vidyy (and it's weird fake Pixeldrain links)
 ||waust.at^
 vidyy.online##+js(rmnt, script, _wau)
@@ -2903,6 +3073,74 @@ videy.co##+js(rmnt, iframe, )
 videy.co##+js(rmnt, script, jstemplate)
 $frame,domain=videy.co
 videy.co##iframe
+
+! Voe (and it's stream domains)
+voe.*##+js(addEventListener-defuser, /keydown|keyup/, keyCode)
+voe.*##+js(addEventListener-defuser, contextmenu)
+voe.*##+js(set-constant, console.clear, undefined)
+voe.*##+js(abort-current-script, String.fromCharCode, /btoa|break/)
+voe.*##+js(no-window-open-if)
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,to=com
+||ads-twitter.com^
+||imasdk.googleapis.com^
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,3p,important,redirect-rule=google-ima.js,from=evelynthankregion.com|kimberlyonlocal.com|lorimuchbenefit.com|richardstorehalf.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com
+||indiscreetarcadia.com^
+evelynthankregion.com##.guestMode
+evelynthankregion.com##+js(no-window-open-if)
+evelynthankregion.com##+js(set-constant, console.clear, undefined)
+evelynthankregion.com##+js(rmnt, script, prototype)
+evelynthankregion.com##+js(rmnt, script, u7)
+evelynthankregion.com##+js(rmnt, script, popWin)
+evelynthankregion.com##+js(rmnt, script, iOS)
+||evelynthankregion.com/engine/plyr/playback$xhr,1p
+kimberlyonlocal.com##.guestMode
+kimberlyonlocal.com##+js(no-window-open-if)
+kimberlyonlocal.com##+js(set-constant, console.clear, undefined)
+kimberlyonlocal.com##+js(rmnt, script, prototype)
+kimberlyonlocal.com##+js(rmnt, script, u7)
+kimberlyonlocal.com##+js(rmnt, script, popWin)
+kimberlyonlocal.com##+js(rmnt, script, iOS)
+||kimberlyonlocal.com/engine/plyr/playback$xhr,1p
+lorimuchbenefit.com##.guestMode
+lorimuchbenefit.com##+js(no-window-open-if)
+lorimuchbenefit.com##+js(set-constant, console.clear, undefined)
+lorimuchbenefit.com##+js(rmnt, script, prototype)
+lorimuchbenefit.com##+js(rmnt, script, u7)
+lorimuchbenefit.com##+js(rmnt, script, popWin)
+lorimuchbenefit.com##+js(rmnt, script, iOS)
+||lorimuchbenefit.com/engine/plyr/playback$xhr,1p
+richardstorehalf.com##.guestMode
+richardstorehalf.com##+js(no-window-open-if)
+richardstorehalf.com##+js(set-constant, console.clear, undefined)
+richardstorehalf.com##+js(rmnt, script, prototype)
+richardstorehalf.com##+js(rmnt, script, u7)
+richardstorehalf.com##+js(rmnt, script, popWin)
+richardstorehalf.com##+js(rmnt, script, iOS)
+||richardstorehalf.com/engine/plyr/playback$xhr,1p
+susanhavekeep.com##.guestMode
+susanhavekeep.com##+js(no-window-open-if)
+susanhavekeep.com##+js(set-constant, console.clear, undefined)
+susanhavekeep.com##+js(rmnt, script, prototype)
+susanhavekeep.com##+js(rmnt, script, u7)
+susanhavekeep.com##+js(rmnt, script, popWin)
+susanhavekeep.com##+js(rmnt, script, iOS)
+||susanhavekeep.com/engine/plyr/playback$xhr,1p
+thomasalthoughhear.com##.guestMode
+thomasalthoughhear.com##+js(no-window-open-if)
+thomasalthoughhear.com##+js(set-constant, console.clear, undefined)
+thomasalthoughhear.com##+js(rmnt, script, prototype)
+thomasalthoughhear.com##+js(rmnt, script, u7)
+thomasalthoughhear.com##+js(rmnt, script, popWin)
+thomasalthoughhear.com##+js(rmnt, script, iOS)
+||thomasalthoughhear.com/engine/plyr/playback$xhr,1p
+zacharycollectionmight.com##.guestMode
+zacharycollectionmight.com##+js(no-window-open-if)
+zacharycollectionmight.com##+js(set-constant, console.clear, undefined)
+zacharycollectionmight.com##+js(rmnt, script, prototype)
+zacharycollectionmight.com##+js(rmnt, script, u7)
+zacharycollectionmight.com##+js(rmnt, script, popWin)
+zacharycollectionmight.com##+js(rmnt, script, iOS)
+||zacharycollectionmight.com/engine/plyr/playback$xhr,1p
 
 ! Voyeurhit
 voyeurhit.*##.header__network
@@ -3140,6 +3378,29 @@ xvideos.com##+js(no-window-open-if)
 ###video-adv-wrapper
 ###video-advert
 ||xvideos.com/picserror/
+
+! Xxbrits
+xxbrits.com##.header > div:nth-of-type(1)
+xxbrits.com##.swiper-backface-hidden.swiper-ios.swiper-free-mode.swiper-pointer-events.swiper-horizontal.swiper-initialized.cat-header.swiper-container
+xxbrits.com##.swiper-backface-hidden.swiper-free-mode.swiper-pointer-events.swiper-horizontal.swiper-initialized.cat-header.swiper-container
+xxbrits.com##.flex.block-btn
+xxbrits.com##.nav-hover.nav-item[href^="https://www.ukbabes.co"]
+xxbrits.com##.nav-hover.nav-item[href^="https://out.trkrabb.com"]
+xxbrits.com##.nav-hover.nav-item[href^="https://recu.me"]
+xxbrits.com##.nav-hover.nav-item[href^="https://theporndude.com"]
+xxbrits.com##a.transparent.btn[href^="https://theleaksbay.com"]
+xxbrits.com##a.transparent.btn[href^="https://www.wtfpeople.com"]
+xxbrits.com##a.transparent.btn[href^="https://shooshtime.com"]
+xxbrits.com##a.transparent.btn[href^="https://tabootube.xxx"]
+xxbrits.com##a.transparent.btn[href^="https://viralxxxporn.com"]
+xxbrits.com##a.transparent.btn[href^="https://www.clicporn.com"]
+xxbrits.com##a.transparent.btn[href^="https://pornsites.xxx"]
+xxbrits.com##.mobile-video-thumb.wio-vcams-thumb-widget
+##.fp-player > div[style*="position: absolute"][style*="inset: 0px"][style*="overflow: hidden"][style*="z-index:"][style*="background: transparent"][style*="display: block"]
+xxbrits.com##.block-offer
+xxbrits.com##.link-offer
+xxbrits.com##+js(rmnt, script, adConfig)
+xxbrits.com##.header > .wrap
 
 ! Non-specific and other stuff
 ||twinrdsrv.com^
