@@ -130,5 +130,5 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xozilla.com) xozilla.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xvideos.com) xvideos.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
-</p>
+
 <p align=right>☺</p>
