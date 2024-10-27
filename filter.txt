@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct27-2
+! Version: 2024Oct27-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -97,6 +97,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 
 ! # Website functionality 
 @@*$generichide,from=streamtape.*
+@@/player/stats.php?$domain=porn4fans.com
 @@||ajax.googleapis.com^$script,from=imgbox.com
 @@||app.bunkrr.su/libs/axios/axios.min.js$1p
 @@||bunkr-albums.io/js/main.js$script,1p
@@ -324,6 +325,15 @@ www.3movs.com##div.item:nth-of-type(6)
 ! Anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
+
+! Baddiesxxx
+baddies.xxx##[href="https://pimpbunny.com"]
+baddies.xxx##[href="https://heavyfetish.com"]
+baddies.xxx##[href="https://theporndude.com/"]
+baddies.xxx##[href^="https://go.rmhfrtnd.com"]
+baddies.xxx##[href="https://www.yourlesbians.com"]
+baddies.xxx##[href="https://baddies.xxx/partners/"]
+baddies.xxx##+js(rmnt, script, parseInt)
 
 ! Beeg
 ||stats.externulls.com^$from=beeg.com
@@ -1125,6 +1135,75 @@ fapachi.com##div.model-media-prew.my-2.col-md-4.col-6:nth-of-type(2)
 fapachi.com##+js(rmnt, script, userAgent)
 $script,3p,domain=fapachi.com
 
+! Fapello
+fapello.com##.wbar
+fapello.com###wrapper:style(margin-top: 0px !important)
+fapello.com##header:style(margin-top: 0px !important)
+fapello.com##.uk-visible\@l.hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
+fapello.com##[href="https://theporndude.com/"]
+fapello.com##a[href="https://theporndude.com/"]:remove()
+/www/delivery/*$frame
+||adxsrver.com^
+fapello.com##+js(rmnt, script, kstSettings)
+fapello.com##.uk-hidden\@l.my-2.text-sm.text-center.space-x-3.font-semibold.flex.capitalize > .hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
+fapello.com##a.hover\:bg-blue-400.hover\:text-white.text-white.rounded-md.px-3.pink-500.p-0.shadow-sm.bg-blue-300:nth-of-type(1)
+fapello.com##.mb-5.mx-auto
+fapello.com##.uk-width-1-2.text-white.shado.rounded.py-2.px-4.max-h-10.lg\:block.items-center.inline-block.hover\:text-white.hover\:bg-blue-600.font-bold.flex.bg-green-400.uk-margin-remove-bottom.uk-align-center
+fapello.com##div.p-5.space-x-5.flex:nth-of-type(5)
+fapello.com##[href*="undress.cc"]
+fapello.com##[href*="undress.app"]
+fapello.com##[href*="camsoda.com"]
+fapello.com##[src^="https://fapello.com/assets/exclusive/"]:upward(3)
+fapello.com##[class*='uk-align']:style(margin-top: 0px !important)
+
+! Fapeza
+fapeza.com##+js(abort-current-script, globalThis, break;case)
+fapeza.com##.azz_div:style(height: unset !important;)
+fapeza.com##.azz_iframe
+fapeza.com##.azz_div
+fapeza.com##.navbar-item-sky
+fapeza.com##+js(rmnt, script, flgdabcpokrineutm)
+fapeza.com##.raised.is-fullwidth.accent-button.is-solid.button.wp_secret
+fapeza.com##.raised.is-fullwidth.accent-button.is-solid.button.wp_secret:upward(div)
+fapeza.com##div#open-mobile-search.is-icon.navbar-item:nth-of-type(2)
+fapeza.com##div#open-mobile-search.is-icon.navbar-item:nth-of-type(3)
+||yourlovematches.top^
+||izi.su
+||viii.su/ii2.js$script
+||viii.su^$script
+fapeza.com##script[src*="viii.su"]:upward(.is-comment)
+!Annoying spam comments... Can be toggled I guess.
+fapeza.com##p:has-text("New collection of her private photos and videos"):upward(.is-comment)
+fapeza.com##p:has-text("Massive collection of private photos and videos on a dating site! (registration is free!)"):upward(.is-comment)
+fapeza.com##p:has-text("WWW.BOMGIRL.FUN"):upward(.is-comment)
+fapeza.com##p:has-text("with fans on:"):upward(.is-comment)
+fapeza.com##p:has-text("findmer.online"):upward(.is-comment)
+fapeza.com##p:has-text("with fans on "):upward(.is-comment)
+
+! Fapfappy
+fapfappy.com##.sticky.has-post-thumbnail:upward(li)
+fapfappy.com##[href^="https://undress.cc/"]:upward(li)
+fapfappy.com##[href="https://fapfappy.live"]:upward(li)
+fapfappy.com##[href="https://theporndude.com/"]:upward(li)
+fapfappy.com##[href="https://nudostar.com"]:upward(li)
+fapfappy.com##.g1-hb-shadow-off.g1-hb-sticky-off.g1-hb-boxed.g1-hb-row-1.g1-hb-row-a.g1-hb-row-normal.g1-hb-row.g1-row-layout-page.g1-row
+fapfappy.com##div.g1-column-1of3.g1-column:nth-of-type(2)
+fapfappy.com##div.g1-column-1of3.g1-column:nth-of-type(3)
+fapfappy.com##+js(abort-current-script, WebAssembly, atob)
+fapfappy.com##+js(rmnt, script, flgdabcpokrineutm))
+fapfappy.com##+js(rmnt, script, adace)
+fapfappy.com##[href="https://forum.fapfappy.com"]:upward(li)
+fapfappy.com##[href="https://ilovnudes.com"]:upward(li)
+fapfappy.com##div.wp_xsize_class
+
+! Fapista
+fapista.com##[href="https://theporndude.com/"]
+fapista.com##.sidebar_inner [href="https://fapista.com/partners"]
+fapista.com##.text-white.shado.rounded.py-2.px-1.mr-1.max-h-10.lg\:block.items-center.inline-block.hover\:text-white.hover\:bg-pink-600.font-bold.flex.bg-pink-500
+fapista.com##.text-white.shado.rounded.py-2.px-1.mr-1.max-h-10.lg\:block.items-center.inline-block.hover\:text-white.hover\:bg-blue-600.font-bold.flex.bg-blue-400
+||interruptlogic.com^
+##a[href^="https://bongacams"][href*="com/track?"]
+
 ! Fapodrop
 fapodrop.com##.exc-pp.btn-success.btn
 fapodrop.com##.one-pack > .exc-pp
@@ -1157,27 +1236,6 @@ fapoleaks.com##a[href*="go.xlivrdr.com"]
 fapoleaks.com##a[href*="traffichaus.com"]
 fapoleaks.com##a[href*="https://outfitswap.ai"]
 fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
-
-! Fapello
-fapello.com##.wbar
-fapello.com###wrapper:style(margin-top: 0px !important)
-fapello.com##header:style(margin-top: 0px !important)
-fapello.com##.uk-visible\@l.hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
-fapello.com##[href="https://theporndude.com/"]
-fapello.com##a[href="https://theporndude.com/"]:remove()
-/www/delivery/*$frame
-||adxsrver.com^
-fapello.com##+js(rmnt, script, kstSettings)
-fapello.com##.uk-hidden\@l.my-2.text-sm.text-center.space-x-3.font-semibold.flex.capitalize > .hover\:bg-green-500.hover\:text-white.text-white.rounded-md.px-6.pink-500.p-2.shadow-sm.bg-green-400
-fapello.com##a.hover\:bg-blue-400.hover\:text-white.text-white.rounded-md.px-3.pink-500.p-0.shadow-sm.bg-blue-300:nth-of-type(1)
-fapello.com##.mb-5.mx-auto
-fapello.com##.uk-width-1-2.text-white.shado.rounded.py-2.px-4.max-h-10.lg\:block.items-center.inline-block.hover\:text-white.hover\:bg-blue-600.font-bold.flex.bg-green-400.uk-margin-remove-bottom.uk-align-center
-fapello.com##div.p-5.space-x-5.flex:nth-of-type(5)
-fapello.com##[href*="undress.cc"]
-fapello.com##[href*="undress.app"]
-fapello.com##[href*="camsoda.com"]
-fapello.com##[src^="https://fapello.com/assets/exclusive/"]:upward(3)
-fapello.com##[class*='uk-align']:style(margin-top: 0px !important)
 
 ! Filemoon
 ||filemoon.*/js/baf.js
@@ -1327,6 +1385,18 @@ hdzog.*##.download-btn.info-block__controllers-control
 hdzog.*###downloader-download
 hdzog.*###downloader-install
 
+! Hotleak
+hotleak.vip##+js(aeld, contextmenu)
+hotleak.vip##div.widget-banner.widget
+hotleak.vip##[href="https://theporndude.com/"]:upward(li)
+hotleak.vip##+js(rmnt, script, AdProvider)
+hotleak.vip##+js(rmnt, script, kstSettings)
+hotleak.vip##+js(abort-current-script, document.querySelectorAll, popMagic)
+hotleak.vip##.mt-3.text-center.d-md-none
+hotleak.vip##+js(set-constant, console.clear, undefined)
+hotleak.vip##+js(rmnt, script, devtoolsDetector)
+||image-cdn.hotleak.vip/asset/js/detect2.dev.js$script
+
 ! Hotmovs
 hotmovs.*##div.hide-item.mobile-menu__list--last.mobile-menu__list:nth-of-type(4) > div.mobile-menu__item:nth-of-type(3)
 hotmovs.*##div.hide-item.mobile-menu__list--last.mobile-menu__list:nth-of-type(4) > div.mobile-menu__item:nth-of-type(2)
@@ -1363,41 +1433,6 @@ hotmovs.*###downloader-install
 hotmovs.com##.jw-reset-text.jw-title
 hotmovs.com##.oohxxwwiwioot
 hotmovs.com##.video-page > div:nth-of-type(9)
-
-! HQPorner
-hqporner.com##.hide_ad_marker.button
-mydaddy.cc##+js(set-constant, adt, 0)
-||stat.mydaddy.cc^
-###sidebar_ad
-hqporner.com##.uvb_wrapper
-hqporner.com##li:nth-of-type(5)
-hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/7a15bc0eaa9d7e3556b9bf3b011c09dfa73c9597e0bc74194b32773415018fa6"]
-hqporner.com###footer > div:nth-of-type(4)
-mydaddy.cc###ovrl_ad
-m.hqporner.com##.color4
-m.hqporner.com##[href*="go.xxxvjmp.com/smartpop/"]
-m.hqporner.com##span.altPlayerButton:nth-of-type(1)
-##.banner-ad
-hqporner.com##[href^="https://s.zlink3.com/d.php"]
-hqporner.com###nav > ul > li:nth-of-type(6)
-!Dark theme does not work at first, reloading page fixes this issue.
-hqporner.com##+js(set-cookie, darkTheme, yes)
-mydaddy.cc##[src="/hf.html"]
-mydaddy.cc###adc:remove-attr(style)
-mydaddy.cc##div[style*="background:#DF7C8C"]
-m.hqporner.com##[href="https://theporndude.com"]
-hqporner.com##+js(rmnt, script, popmagicldr)
-mydaddy.cc###flvv_fluid_html_on_pause
-hqporner.com##.black_friday
-||mydaddy.cc/ads/banner.js$script
-m.hqporner.com##.container-300x100
-||mydaddy.cc/hf.html
-||hqwo.cc/ads/banner.js$script
-||hqwo.cc/hf.html
-hqwo.cc###adc
-hqwo.cc###flvv_fluid_html_on_pause
-m.hqporner.com##div#showifad_span
-m.hqporner.com##div#showifad
 
 ! Hotscope
 hotscope.tv##[href="https://hotscope.live"]
@@ -1436,6 +1471,54 @@ hotscope.tv##li.MuiListSubheader-gutters.MuiListSubheader-root:nth-of-type(3)
 ||hafonmadp.com^
 hotscope.tv##.MuiGrid-grid-md-9:style(display: flex !important; margin: 0 auto !important; flex-direction: column !important;)
 /en/riz/cak/vmiaz
+
+! HQPorner
+hqporner.com##.hide_ad_marker.button
+mydaddy.cc##+js(set-constant, adt, 0)
+||stat.mydaddy.cc^
+###sidebar_ad
+hqporner.com##.uvb_wrapper
+hqporner.com##li:nth-of-type(5)
+hqporner.com##[href^="https://go.xxxvjmp.com/smartpop/7a15bc0eaa9d7e3556b9bf3b011c09dfa73c9597e0bc74194b32773415018fa6"]
+hqporner.com###footer > div:nth-of-type(4)
+mydaddy.cc###ovrl_ad
+m.hqporner.com##.color4
+m.hqporner.com##[href*="go.xxxvjmp.com/smartpop/"]
+m.hqporner.com##span.altPlayerButton:nth-of-type(1)
+##.banner-ad
+hqporner.com##[href^="https://s.zlink3.com/d.php"]
+hqporner.com###nav > ul > li:nth-of-type(6)
+!Dark theme does not work at first, reloading page fixes this issue.
+hqporner.com##+js(set-cookie, darkTheme, yes)
+mydaddy.cc##[src="/hf.html"]
+mydaddy.cc###adc:remove-attr(style)
+mydaddy.cc##div[style*="background:#DF7C8C"]
+m.hqporner.com##[href="https://theporndude.com"]
+hqporner.com##+js(rmnt, script, popmagicldr)
+mydaddy.cc###flvv_fluid_html_on_pause
+hqporner.com##.black_friday
+||mydaddy.cc/ads/banner.js$script
+m.hqporner.com##.container-300x100
+||mydaddy.cc/hf.html
+||hqwo.cc/ads/banner.js$script
+||hqwo.cc/hf.html
+hqwo.cc###adc
+hqwo.cc###flvv_fluid_html_on_pause
+m.hqporner.com##div#showifad_span
+m.hqporner.com##div#showifad
+
+! Ilovnudes
+ilovnudes.com##[href="https://theporndude.com/"]:upward(li)
+ilovnudes.com##[href="https://www.kingperv.com/"]:upward(li)
+ilovnudes.com##[href="https://www.getfappy.com/"]:upward(li)
+ilovnudes.com##[href="https://fapista.com"]:upward(li)
+ilovnudes.com##[href="https://leakcelebs.com/"]:upward(li)
+ilovnudes.com##[href="https://t.me/+ZKv_euQ3arNmYjJl/"]
+ilovnudes.com###block-18
+ilovnudes.com###block-12
+ilovnudes.com##+js(rmnt, script, globalThis)
+||chiamfxz.com^
+||ligvraojlrr.com^
 
 ! Imagebam
 imagebam.com###inter > [src]
@@ -1727,6 +1810,28 @@ leakedmodels.com##+js(rmnt, script, ad-banner-wrap)
 ||leakedmodels.com/addons/forum_top.html
 ||leakedmodels.com/addons/forum_bottom.html
 
+! Leakxxx
+leak.xxx##[href="https://theporndude.com/"]
+||nsfwadds.com^
+||rmhfrtnd.com^
+||luyten-98c.com^
+leak.xxx##+js(rmnt, script, parseInt)
+leak.xxx##.sponsor
+leak.xxx##+js(rmnt, script, floverConf)
+
+! Lewdstars
+lewdstars.com##[href="https://theporndude.com/"]:upward(li)
+lewdstars.com###custom_html-2
+lewdstars.com##.widget_custom_html
+##.top-header-ads-mobile:not(html, body, :empty)
+lewdstars.com##.ads-muted-control
+lewdstars.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+lewdstars.com##.main-sidebar
+lewdstars.com##.ads-below-single
+vast.go?spaceid=
+lewdstars.com##+js(rmnt, script, mnpw)
+lewdstars.com##+js(rmnt, script, adMoxyCtrl)
+
 ! Manysex
 manysex.com##a.nav__tag:nth-of-type(1)
 manysex.com##div.select:nth-of-type(2) > .select__label
@@ -1812,6 +1917,22 @@ noodlemagazine.com##div:nth-of-type(6)
 ||cloudflareinsights.com^
 ||tbpot.com^
 banner.go?spaceid=
+
+! Nsfw247
+nsfw247.to###nav-menu-item-322538 > .main-menu-link.menu-link
+nsfw247.to###menu-main-1 > .menu-item-object-custom.menu-item-type-custom.menu-item.theporndude.menu-item-depth-0.menu-item-even.main-menu-item
+nsfw247.to##[href="https://nsfw247.to/club6953/"]
+nsfw247.to##.hidden-xs
+nsfw247.to##.row.foot-widgets
+nsfw247.to##+js(no-setTimeout-if, mdpDeBlocker)
+nsfw247.to##+js(abort-current-script, document.querySelectorAll, popMagic)
+nsfw247.to##+js(rmnt, script, ouq)
+nsfw247.to##+js(rmnt, script, fromCharCode)
+nsfw247.to##+js(rmnt, script, ad_idzone)
+nsfw247.to###side-banners
+nsfw247.to##[href="https://theporndude.com/"]
+nsfw247.to###menu-main > .menu-item-object-custom.menu-item-type-custom.menu-item.theporndude.menu-item-depth-0.menu-item-even.main-menu-item
+nsfw247.to##.container > div > center
 
 ! Nudevista
 ||click.nudevista.com^
@@ -1900,6 +2021,17 @@ peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
 www.peekvids.com##[href="/gayporn"]
 www.peekvids.com##.add_href_jsclick
 
+! Pimpbunny
+pimpbunny.com##[href^="https://go.rmhfrtnd.com"]
+pimpbunny.com##[href="https://theporndude.com"]
+pimpbunny.com##[href="https://heavyfetish.com"]
+pimpbunny.com##[href="https://www.yourlesbians.com"]
+pimpbunny.com##[href="https://baddies.xxx"]
+pimpbunny.com##+js(rmnt, script, parseInt)
+pimpbunny.com##.pb-adv-under-video
+||c0d05e4183.59aa4e4c1c.com/045a07ae2e6c5ee0653c669d893674c6.js
+/^https?:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
+
 ! Pixlli
 pixl.li##+js(nowoif)
 pixl.li##^script[data-cfasync="false"]
@@ -1910,6 +2042,33 @@ qsxptjxruxrttu.xyz$all,important
 *$frame,domain=pixl.li
 pixl.li###image_footer_nsfw
 pixl.li##[id^="image_footer_nsfw"]
+
+! Porn4fans
+porn4fans.com##.top-links-wrap
+porn4fans.com##.footer-link[href="https://www.porn4fans.com/partners/"]:upward(li)
+porn4fans.com##.footer-link[href="/news/"]:upward(li)
+porn4fans.com##.bottom-links
+porn4fans.com##.second_avd_index_wrap
+porn4fans.com###swiper1
+porn4fans.com##.spot-wrap
+porn4fans.com##.spot-wrap:upward(.section)
+porn4fans.com##.adv-wrap-3
+porn4fans.com##.fp-brand
+porn4fans.com##.download-wrap
+porn4fans.com##[href="https://www.analegg.com"]
+porn4fans.com##.download-mobile.btns.tab-btn
+/\/[0-9a-f]{32}\/invoke\.js/$script,3p
+||2495may2024.com
+||12ezo5v60.com^
+||publisher.linkvertise.com^$3p,from=~linkvertise.*
+porn4fans.com##.sponsor
+/player/html.php?aid=pause_html&*&referer=$frame,1p
+||www.porn4fans.com/player/player_ads.html
+porn4fans.com##+js(rmnt, script, settingsList)
+/player/player_ads.html?advertising_id=$frame,1p,redirect-rule=noop.html
+porn4fans.com$frame
+||porn4fans.com/player/html.php?
+porn4fans.com###_iframe_content
 
 ! Porngo
 porngo.com##li.menu-list__row:nth-of-type(8)
@@ -3012,6 +3171,26 @@ thothub.*##+js(abort-on-stack-trace, localStorage, inlineScript)
 thothub.*##li:nth-of-type(8)
 thothub.*##li:nth-of-type(9)
 thothub.*##.sponsor
+
+! Thotsflix
+thotsflix.com##[href="https://thotsflix.com/live-sex/"]:upward(li)
+||stats.wp.com^
+thotsflix.com##+js(rmnt, script, mnpw)
+thotsflix.com##+js(rmnt, script, StripchatSpot)
+thotsflix.com##.sidebar.col-md-3
+thotsflix.com##.mobiletop
+
+! Thotslife
+thotslife.com##div.g1-loaded.g1-hb-row-3.g1-sticky-top-wrapper
+thotslife.com##[href="https://thotslife.com/livecams/"]:upward(li)
+thotslife.com##[href="https://thotsflix.com/"]:upward(li)
+thotslife.com##[href="https://theporndude.com/"]:upward(li)
+thotslife.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
+thotslife.com##+js(rmnt, script, adConfig)
+thotslife.com###secondary
+thotslife.com##+js(rmnt, script, adMoxyCtrl)
+thotslife.com##+js(rmnt, script, myVideo)
+##.ads_code
 
 ! Tnaflix
 tnaflix.com##+js(aopr, ads.pop_url)
