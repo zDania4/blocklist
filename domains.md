@@ -1,5 +1,5 @@
 ## Domains
-<!-- Last updated: 2024-Oct-27 for version 2024Oct27-1 -->
+<!-- Last updated: 2024-Oct-27 for version 2024Oct27-2 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 > [!NOTE]
@@ -78,6 +78,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=postimages.org) postimages.org/postimg.cc  
 ![](https://www.google.com/s2/favicons?sz=16&domain=privatehomeclips.com) privatehomeclips.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=prnfap.com) prnfap.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=prothots.com) prothots.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=recordbate.com) recordbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=reddit.com) reddit.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=redgifs.com) redgifs.com  
@@ -115,3 +116,5 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xozilla.com) xozilla.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xvideos.com) xvideos.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
+
+<p>Last updated:<br><strong>2024-Oct-27</strong></p>
