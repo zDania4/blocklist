@@ -1,7 +1,8 @@
-## Domains
-<!-- Last updated: 2024-Oct-27 for version 2024Oct27-2 -->
+## Domains list
+<p align=center>Last updated: <strong>2024-Oct-27</strong></p><!-- for version 2024Oct27-3 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
+
 > [!NOTE]
 > Want a domain added or updated? Please create an [issue](https://github.com/zDania4/blocklist/issues/new/choose) to let me know.
 
@@ -12,6 +13,7 @@ The following domains have rules in this blocklist:
 
 ![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=baddies.xxx) baddies.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=bitchesgirls.com) bitchesgirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
 ![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr/bunkrr/bunkrrr.\*  
@@ -34,9 +36,12 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=f95zone.to) f95zone.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=famousinternetgirls.com) famousinternetgirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapachi.com) fapachi.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapeza.com) fapeza.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapfappy.com) fapfappy.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapista.com) fapista.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
@@ -44,9 +49,11 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=gotanynudes.com) gotanynudes.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=hclips.com) hclips.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=hdzog.com) hdzog.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=hotleak.vip) hotleak.vip  
 ![](https://www.google.com/s2/favicons?sz=16&domain=hotmovs.com) hotmovs.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=hqporner.com) hqporner.com (and their mydaddy.cc and hqwo.cc CDN)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=hotscope.tv) hotscope.tv  
+![](https://www.google.com/s2/favicons?sz=16&domain=hqporner.com) hqporner.com (and their mydaddy.cc and hqwo.cc CDN)  
+![](https://www.google.com/s2/favicons?sz=16&domain=ilovnudes.com) ilovnudes.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=imagebam.com) imagebam.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=imageban.ru) imageban.ru  
 ![](https://www.google.com/s2/favicons?sz=16&domain=imagevenue.com) imagevenue.com  
@@ -59,21 +66,26 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=kemono.su) kemono.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=leakedmodels.com) leakedmodels.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=leak.xxx) leak.xxx  
+![](https://www.google.com/s2/favicons?sz=16&domain=lewdstars.com) lewdstars.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=manysex.com) manysex.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=namethatporn.com) namethatporn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=noodlemagazine.com) noodlemagazine.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=nsfw247.to) nsfw247.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudevista.com) nudevista.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudostar.com) nudostar.com/nudostar.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
+![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) Pornxrated  
+![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) pornxrated.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornzog.com) pornzog.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=postimages.org) postimages.org/postimg.cc  
 ![](https://www.google.com/s2/favicons?sz=16&domain=privatehomeclips.com) privatehomeclips.com  
@@ -99,6 +111,8 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=theporndude.com) theporndude.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.tv) thotbook.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
@@ -116,5 +130,5 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xozilla.com) xozilla.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xvideos.com) xvideos.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
-
-<p>Last updated:<br><strong>2024-Oct-27</strong></p>
+</p>
+<p align=right>☺</p>
