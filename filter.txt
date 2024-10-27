@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct27-1
+! Version: 2024Oct27-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2369,6 +2369,28 @@ privatehomeclips.com##.jw-related
 prnfap.com##.menu-item-object-custom.menu-item-type-custom.menu-item.menu-item-depth-0.main-menu-item
 prnfap.com##.block-widget.widget
 prnfap.com##a[href="https://gayfap.tv"]
+
+! Prothots
+prothots.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter > .g1-row-background
+prothots.com##.g1-row-layout-page.g1-row.g1-prefooter-3cols.g1-prefooter
+prothots.com##.g1-loaded.g1-hb-row-2.g1-sticky-top-wrapper
+prothots.com##[href="https://theporndude.com/"]:upward(li)
+prothots.com##.g1-injected-unit
+prothots.com##.g1-column-1of3.g1-column.g1-sidebar-padded.g1-sidebar
+prothots.com###ads_overlay
+prothots.com##.ads_overlay
+prothots.com##+js(rmnt, script, adMoxyCtrl)
+||trmzum.com^
+loadeactrl.go?
+prothots.com##+js(rmnt, script, adConfig)
+prothots.com##+js(rmnt, script, myVideo)
+prothots.com###secondary
+||5toft8or7on8tt.com^
+prothots.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+prothots.com##[href="https://prothots.com/livegirls/"]:upward(li)
+prothots.com##[href="https://prothots.com/livecams/"]:upward(li)
+prothots.com##[href="https://prothots.com/hookup/"]:upward(li)
+prothots.com##[href="https://prothots.com/sexcams/"]:upward(li)
 
 ! Recordbate
 ||recordbate.com^$popup,1p,important
