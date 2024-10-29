@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct29-1
+! Version: 2024Oct29-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3180,29 +3180,6 @@ theyarehuge.com##[href="https://www.bemyhole.com/"]
 theyarehuge.com##.h2
 theyarehuge.com##a[target="_blank"]
 
-! Tikporn (shows black inserts where cam ads would be, I haven't found a way to disable them sadly. No ads load though.)
-||tik.porn/plxvid/live/01.webp$image
-tik.porn##.PlayerSidebar_live__shwdf
-tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(1)
-tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(2)
-tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(3)
-tik.porn##a.MenuBottom_menu_item__4ejCQ[href="/live-sex-cam"]
-||bcprm.com/api/v2/models-online$xhr,important
-||plx.tik.porn/zone/$xhr
-||apiv2.tik.porn/updatewatchtime$xhr
-||apiv2.tik.porn/refreshtoken$xhr
-||videos.slashed.cloud/player/country_code$xhr,domain=tik.porn
-
-! Tiktok (embed only)
-www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
-tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
-tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
-tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
-||mcs-ie.tiktokw.eu^
-||tiktok.com/ttwid/check/
-||tiktokv.com/monitor_browser/
-||tiktok.com/web/report?
-
 ! Theporndude
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
 theporndude.com##+js(set-cookie, wallpaper, click)
@@ -3260,6 +3237,29 @@ thotslife.com###secondary
 thotslife.com##+js(rmnt, script, adMoxyCtrl)
 thotslife.com##+js(rmnt, script, myVideo)
 ##.ads_code
+
+! Tikporn (shows black inserts where cam ads would be, I haven't found a way to disable them sadly. No ads load though.)
+||tik.porn/plxvid/live/01.webp$image
+tik.porn##.PlayerSidebar_live__shwdf
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(1)
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(2)
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(3)
+tik.porn##a.MenuBottom_menu_item__4ejCQ[href="/live-sex-cam"]
+||bcprm.com/api/v2/models-online$xhr,important
+||plx.tik.porn/zone/$xhr
+||apiv2.tik.porn/updatewatchtime$xhr
+||apiv2.tik.porn/refreshtoken$xhr
+||videos.slashed.cloud/player/country_code$xhr,domain=tik.porn
+
+! Tiktok (embed only)
+www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
+tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
+tiktok.com##+js(addEventListener-defuser, contextmenu, preventDefault)
+tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important;)
+||mcs-ie.tiktokw.eu^
+||tiktok.com/ttwid/check/
+||tiktokv.com/monitor_browser/
+||tiktok.com/web/report?
 
 ! Tnaflix
 tnaflix.com##+js(aopr, ads.pop_url)
