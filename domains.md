@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Oct-27</strong></p><!-- for version 2024Oct27-3 -->
+<p align=center>Last updated: <strong>2024-Oct-29</strong></p><!-- for version 2024Oct29-1 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -39,9 +39,11 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapeza.com) fapeza.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapfappy.com) fapfappy.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fapfolder.club) fapfolder.club  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapista.com) fapista.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
@@ -75,6 +77,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=nsfw247.to) nsfw247.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudevista.com) nudevista.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudostar.com) nudostar.com/nudostar.tv  
+![](https://www.google.com/s2/favicons?sz=16&domain=onlytik.com) onlytik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
@@ -107,12 +110,13 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sxyprn.com) sxyprn.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theyarehuge.com) theyarehuge.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theporndude.com) theporndude.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.tv) thotbook.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (shows black pages every once in a while in place of cam ads, haven't found a fix yet, keep scrolling to continue on the page)  
+![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
