@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct27-4
+! Version: 2024Oct29-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -65,6 +65,8 @@
 @@||bunkrrr.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
 @@||bunkrrr.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||challenges.cloudflare.com^
+@@||challenges.cloudflare.com^$script
+@@||challenges.cloudflare.com/cdn-cgi/challenge-platform/
 @@||check.ddos-guard.net/check.js$inline-font
 @@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.su
@@ -151,6 +153,9 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.sk/magic/dashboard-v3.js$script,domain=app.bunkrr.su
 @@||bunkr.sk/magic/home-v2.js$script,domain=app.bunkrr.su
 @@||bunkr.sk/v/*$popup,domain=app.bunkrr.su
+@@||bunkr-albums.io/.well-known/ddos-guard/js-challenge/view.js$script
+@@||bunkr-albums.io/.well-known/ddos-guard/js-challenge/index.js$script
+@@||bunkr-albums.io/.well-known/ddos-guard$script
 @@||bunkrr.*/cdn-cgi/challenge-platform^
 @@||bunkrr.*/file-stats.js?00$inline-font,domain=get.bunkrr.su
 @@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
@@ -1200,6 +1205,15 @@ fapfappy.com##[href="https://forum.fapfappy.com"]:upward(li)
 fapfappy.com##[href="https://ilovnudes.com"]:upward(li)
 fapfappy.com##div.wp_xsize_class
 
+! Fapfolder
+fapfolder.club##li.ptb5:nth-of-type(6)
+fapfolder.club##[href="https://bongacams.com"]
+fapfolder.club##[href^="https://undress.cc/"]
+fapfolder.club##[href="https://theporndude.com"]
+fapfolder.club##.postbanner
+fapfolder.club##.hbanner
+fapfolder.club##.hmbanner
+
 ! Fapista
 fapista.com##[href="https://theporndude.com/"]
 fapista.com##.sidebar_inner [href="https://fapista.com/partners"]
@@ -1240,6 +1254,22 @@ fapoleaks.com##a[href*="go.xlivrdr.com"]
 fapoleaks.com##a[href*="traffichaus.com"]
 fapoleaks.com##a[href*="https://outfitswap.ai"]
 fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
+
+! Fikfap
+fikfap.com##:has(.stripcash-card)
+fikfap.com##.pointer-events-none.right-0.left-0.bottom-0.top-0.fixed
+fikfap.com##.drop-shadow.sidebar-position.select-none.pointer-events-auto.size-7.mr-4.top-4.absolute
+fikfap.com##.select-none.justify-center.items-center.sidebar-position.mr-0.bottom-4.flex-col.flex.absolute > .p-2
+fikfap.com##.border-brand.story-pulsating-brand.mb-4.relative.border-2.overflow-hidden.justify-center.items-center.flex.rounded-full.h-12.w-12 > [src]
+fikfap.com##.h-\[19\.5rem\].mobile-container.animate-slide-in-from-below.select-none.overflow-hidden.mx-auto.rounded-t-md.text-black.bg-white.no-scrollbar.overflow-y-scroll.max-h-full.pb-1.pt-3.right-0.left-0.bottom-0.fixed > div > .select-none.cursor-pointer.font-medium.h-12.gap-x-6.px-6.items-center.flex
+||models-api.fikfap.com/live$xhr
+||clarity.ms^
+||fikfap.com/assets/workbox-window.prod.es5-D5gOYdM7.js$script,1p
+||fikfap.com/workbox-b03bd2db.js$script,1p
+fikfap.com##.text-accent-900.bg-accent-50.rounded-md.p-4.w-full.max-w-md.items-center.flex-col.flex.relative
+fikfap.com##.overflow-hidden.m-auto.flex-col.flex.w-full.bottom-0.absolute
+fikfap.com##.md\:aspect-mobile.md\:w-auto.w-full.relative > .h-full.w-full.relative
+||wstats.slashed.cloud^
 
 ! Filemoon
 ||filemoon.*/js/baf.js
@@ -1989,6 +2019,28 @@ nudostar.com##[href="https://fapfappy.com"]:upward(li)
 nudostar.com##+js(rmnt, script, ad-label)
 nudostar.tv##.zkido_div.wp_xsize_class
 nudostar.tv##.wp_xsize_class.nav2
+
+! Onlytik
+onlytik.com##.protection > .noSwipe.sidebar > .toolbar > .noSwipe.ext-link.toolbar-item
+||datingem.com^
+||api-push.com^$3p
+onlytik.com##+js(set-cookie, clkUnder, 1)
+||kingered-banctours.com^
+||great12.org/dlvr^
+onlytik.com##+js(set, ads_every_x_videos, undefined)
+onlytik.com##+js(set, clkUnder, undefined)
+onlytik.com##.temporary-real-extra-block
+onlytik.com##.protection > .noSwipe.sidebar > .toolbar > .btn-install.toolbar-item
+onlytik.com##+js(set, adsArr, undefined)
+onlytik.com##+js(set, login_every_x_videos, undefined)
+onlytik.com##.identifier > [href*="kingered-banctours.com"]:remove-attr(href)
+onlytik.com##.links > [href*="kingered-banctours.com"]:remove-attr(href)
+onlytik.com##.active.modal.app-pick-modal
+onlytik.com##.active.modal-overlay
+||onlytik.com/images/icons/tpd-64.png
+onlytik.com##[href="https://theporndude.com"]
+onlytik.com##.btn-install.toolbar-item
+onlytik.com##.btn-user.toolbar-item
 
 ! Ooxxx
 ooxxx.com##.header__network
@@ -3127,6 +3179,19 @@ theyarehuge.com##[href="https://www.inxxx.com/"]
 theyarehuge.com##[href="https://www.bemyhole.com/"]
 theyarehuge.com##.h2
 theyarehuge.com##a[target="_blank"]
+
+! Tikporn (shows black inserts where cam ads would be, I haven't found a way to disable them sadly. No ads load though.)
+||tik.porn/plxvid/live/01.webp$image
+tik.porn##.PlayerSidebar_live__shwdf
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(1)
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(2)
+tik.porn##span.MultiplayerNav_item___U2jf:nth-of-type(3)
+tik.porn##a.MenuBottom_menu_item__4ejCQ[href="/live-sex-cam"]
+||bcprm.com/api/v2/models-online$xhr,important
+||plx.tik.porn/zone/$xhr
+||apiv2.tik.porn/updatewatchtime$xhr
+||apiv2.tik.porn/refreshtoken$xhr
+||videos.slashed.cloud/player/country_code$xhr,domain=tik.porn
 
 ! Tiktok (embed only)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
