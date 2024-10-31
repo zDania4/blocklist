@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct29-2
+! Version: 2024Oct31-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -83,6 +83,7 @@
 @@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||simpcity.su/.well-known/ddos-guard/mark/*$1p
 @@||simpcity.su/.well-known/ddos-guard/mark/$xhr,1p
+@@/.well-known/ddos-guard/*
 
 ! # Anti-adblock / #CHP Ads Block Detector
 @@/wp-content/plugins/blockalyzer-adblock-counter/*$image,script,~third-party,domain=~pornhub.com
@@ -2860,7 +2861,7 @@ saint2.*##.ipprtcnt
 en/mif/wuh^
 /t/9/fret/meow4/*/*.js
 saint2.*##+js(rmnt, script, fromCharCode)
-*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com,domain=saint2.*
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk,domain=saint2.*
 saint2.*##+js(nowoif, !//a/)
 
 ! Sevideo
