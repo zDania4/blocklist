@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Oct31-1
+! Version: 2024Nov02-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -669,6 +669,7 @@ bunkrr.*##+js(rmnt, script, aclib)
 ||bunkrrr.*/magic/pure-magic-v3.js$script
 ||isolatedovercomepasted.com^
 bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: none !important)
+||bunkr.*/js/last_visit.js$script
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1889,6 +1890,18 @@ manysex.com##+js(rmnt, script, constants.country_code)
 manysex.com##+js(rmnt, script, isAdBlock)
 manysex.com##+js(rmnt, script, hlink_1)
 
+! Mat6tube
+mat6tube.*##+js(set-constant, ads, undefined)
+mat6tube.*##+js(adjust-setTimeout, download, 1100)
+mat6tube.*##div[style]:has(> ins)
+mat6tube.*##div[style="background-color:rgba(17,17,17,.9);position:relative;overflow:hidden;padding-bottom:200%"]
+mat6tube.*##style:has-text(.container{display:-webkit-box;display:-ms-flexbox;display:flex}.video_player{height:auto;max-height:none;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}):remove()
+mat6tube.*##.container > div:nth-of-type(2)
+mat6tube.*###ifa-postload
+mat6tube.*##.ad-placement
+mat6tube.*##+js(rmnt, script, InterstitialTsAd)
+mat6tube.*##.c_video:style(margin-top: 25px !important)
+
 ! Motherless > Weird stuff on this site... wtf...
 motherless.com##.awn-ignore.text-center.motherless-cookie-wrapper
 motherless.com##.big.footer-section
@@ -1973,6 +1986,8 @@ nsfw247.to##.container > div > center
 ||click.nudevista.com^
 /advert_$from=~canalplus.com
 nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+nudevista.com##.header__live.header__tab--white.header__tab
+nudevista.com###paysite
 
 ! Nudostar
 nudostar.com##.azz_div.wp_xsize_class
@@ -3295,6 +3310,11 @@ m.tnaflix.com##.pause-ad-wrap
 ||tnaflix.com/_livejs$1p
 tnaflix.com##.pause-ad-wrap
 tnaflix.com##.pause-overlay
+tnaflix.com###top-temp-ad-web
+tnaflix.com###top-temp-ad-mobile
+tnaflix.com##.bannerBlock
+tnaflix.com###ads-ntv1:nth-ancestor(1)
+tnaflix.com##.footer-wrapper > .row > .offset-lg-3.col-lg-3.col-6
 
 ! Twitch embed
 player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
@@ -3443,6 +3463,27 @@ voyeurhit.*##.header__list-link-dropdown
 voyeurhit.*##.tozwwjjzjzoot
 voyeurhit.*###downloader-download
 voyeurhit.*###downloader-install
+
+! Watchpornto
+watchporn.to##.top-links
+watchporn.to##[href^="https://go.lnkpth.com/aff_f"]
+watchporn.to##.friends
+watchporn.to###player-container
+watchporn.to##.player-related-videos
+watchporn.to##[href*="go.rmhfrtnd.com"]
+watchporn.to##.sponsor
+||watchporn.to/player/stats.php?
+/^https?:\/\/[-a-z]{6,}\.com?\/[a-d][-\.\/_A-Za-z][DHWXm][-\.\/_A-Za-z][59FVZ][-\.\/_A-Za-z][6swyz][-\.\/_A-Za-z][-\/_0-9a-zA-Z][-\.\/_A-Za-z][-\/_0-9a-zA-Z]{22,162}$/$script,3p,match-case,to=co|com
+||flimsypark.com^
+##.fp-ui > a[href][target="_blank"][style^="position: absolute; inset: 0px;"]
+watchporn.to##.table
+||bbrdbr.com^
+watchporn.to##+js(set, flashvars.protect_block, )
+watchporn.to##+js(set, flashvars.popunder_url, )
+||watchporn.to/player/player_ads.html
+watchporn.to##+js(set, flashvars.video_click_url, )
+watchporn.to##+js(rmnt, script, qbtt)
+watchporn.to##+js(rmnt, script, StripchatSpot)
 
 ! Whoreshub
 whoreshub.com##+js(abort-current-script, addEventListener, smartpop)
@@ -3672,6 +3713,46 @@ xxbrits.com##.block-offer
 xxbrits.com##.link-offer
 xxbrits.com##+js(rmnt, script, adConfig)
 xxbrits.com##.header > .wrap
+
+! Youjizz
+youjizz.com##[href^="//youjizzlive.com/lander/v2/preview/"]:nth-ancestor(1)
+youjizz.com##.category-links [href^="//s.zlinkp.com/d.php"]:nth-ancestor(1)
+youjizz.com##[href^="//as.sexad.net/"]:nth-ancestor(1)
+youjizz.com##.menu-main-wrapper [href^="//s.zlinkp.com/d.php"]:nth-ancestor(1)
+youjizz.com###content > .mobile-only
+youjizz.com##.text-center.mobile-only.bottom_pr
+youjizz.com##.relatedThumbPr-frame:nth-ancestor(2)
+youjizz.com##.text-center.mobile-only.tablet-footer
+youjizz.com##.relatedThumbPr-frame:nth-ancestor(2)
+youjizz.com##+js(set-session-storage-item, mobileLoadCount, 1000)
+youjizz.com##+js(set-session-storage-item, desktopLoadCount, 1000)
+youjizz.com##+js(set-cookie, mobileVastVideoAdClosed, true)
+youjizz.com###rightVideoPrs
+youjizz.com##.top_pr
+youjizz.com###desktopFooterPr
+youjizz.com###englishPr
+youjizz.com###footer
+youjizz.com###onPausePrOverlay
+||2020mustang.com^
+/owa.tracker-combined-min.js
+youjizz.com##+js(noeval)
+||orbsrv.com^
+www.youjizz.com###desktopHeaderPr
+||bmrg.reflected.net^
+youjizz.com##+js(set, ads, undefined)
+youjizz.com###dachPr
+youjizz.com##+js(rmnt, script, englishCountry)
+youjizz.com###interstitial
+youjizz.com##interstitialPr
+youjizz.com##.popunderPrs
+youjizz.com##+js(rmnt, script, ad_frequency_period)
+youjizz.com###imPrs
+youjizz.com###exoIMPrs
+youjizz.com###triggerExoMultiPrs
+youjizz.com##.cookie-toast
+!youjizz.com##.adblock-detector
+!youjizz.com##+js(set-session-storage-item, yjAdblockerWarningClosed, true)
+youjizz.com##+js(set-session-storage-item, yj_hd, true)
 
 ! Non-specific and other stuff
 ||twinrdsrv.com^
