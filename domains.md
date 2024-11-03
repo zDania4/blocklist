@@ -87,7 +87,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
-![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=platinumleaks.com) platinumleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
