@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov02-1
+! Version: 2024Nov03-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -327,6 +327,14 @@ simpcity.su#@#+js(addEventListener-defuser, , open)
 3movs.com##.p-ig.notify
 3movs.com##.p-ig.recommended.section
 www.3movs.com##div.item:nth-of-type(6)
+
+! Allfansleak
+allfansleak.net##[href="https://theporndude.com"]
+allfansleak.net##.menu-item-22299.menu-item-object-custom.menu-item-type-custom.menu-item > .ancestor-wrapper
+allfansleak.net##[href="https://theporndude.com/"]
+allfansleak.net##+js(rmnt, script, vjdofmm)
+allfansleak.net##.single-top-ad
+||gmxvmvptfm.com^
 
 ! Anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
@@ -983,6 +991,23 @@ dood.*##+js(rmnt, script, openedPop)
 dood.*##.sPreload
 /adgpt.js$script
 
+! Ds2video (dood)
+ds2video.com##+js(set-constant, console.clear, undefined)
+ds2video.com##+js(abort-current-script, decodeURI, decodeURIComponent)
+ds2video.com##+js(addEventListener-defuser, contextmenu)
+ds2video.com##+js(no-window-open-if)
+ds2video.com##+js(remove-node-text, script, /adblock|popunder/)
+ds2video.com##+js(abort-current-script, WebAssembly, _0x)
+ds2video.com##+js(abort-current-script, document.documentElement, break;case $.)
+||d18t35yyry2k49.cloudfront.net^
+||ancamcdu.com^
+ds2video.com##+js(rmnt, script, openedPop)
+ds2video.com##+js(rmnt, script, flgdabcpokrineutm)
+ds2video.com##+js(rmnt, script, secondsTimeSpanToHMS)
+ds2video.com##+js(rmnt, script, tryCount)
+||pardaotopazes.shop^
+ds2video.com##.vjs-poster
+
 ! Eporner
 ||eporner.com/dot/
 ||eporner.com/event.php
@@ -1125,6 +1150,28 @@ famousinternetgirls.com###ai_widget-4
 famousinternetgirls.com###ai_widget-7
 famousinternetgirls.com##[href*="slut2fuck.net"]
 
+! Fansteek
+fansteek.com###menu-item-1148 > [href="https://theporndude.com/"]
+fansteek.com###menu-item-11417 > [href="https://faplyt.com/photos/"]
+fansteek.com##.g1-injected-unit
+||agqoshfujku.com^
+/en/ztaak/oxv
+||thanksgivingdelights.name^
+a/pop/js
+||2489may2024.com^
+||earringsatisfiedsplice.com^
+/pn07uscr/f/tr/zavbn
+en/asd/ozk/abdr
+fansteek.com##+js(rmnt, script, randomIndex)
+||static-landing-assets.project1content.com/P1TGP/Bangbros/Affiliates/Fallback/Default/PC/TGP1$media
+fansteek.com##+js(set, adList, '')
+fansteek.com##+js(rmnt, script, flgdabcpokrineutm)
+fansteek.com##+js(rmnt, script, cclt)
+fansteek.com##[href="https://theporndude.com/"]
+fansteek.com##[href="https://faplyt.com/photos/"]
+fansteek.com###secondary
+||29vpnmv4q.com^
+
 ! Fapachi
 fapachi.com##.exc-pp.btn-success.btn
 fapachi.com##.one-pack > .exc-pp
@@ -1224,6 +1271,22 @@ fapista.com##.text-white.shado.rounded.py-2.px-1.mr-1.max-h-10.lg\:block.items-c
 ||interruptlogic.com^
 ##a[href^="https://bongacams"][href*="com/track?"]
 
+! Faplyt
+faplyt.com##[href="https://theporndude.com/"]
+faplyt.com##+js(rmnt, script, fromCharCode)
+faplyt.com##+js(rmnt, script, flgdabcpokrineutm)
+||static-landing-assets.project1content.com^$domain=faplyt.com
+faplyt.com##.happy-sidebar
+faplyt.com###main:style(margin-right: 0px !important;)
+faplyt.com##+js(rmnt, script, vastTimeout)
+faplyt.com##.happy-under-player
+faplyt.com##.happy-under-player-mobile
+faplyt.com##.happy-footer-mobile
+faplyt.com##.wps-player__happy-inside
+||vjs.zencdn.net^$script,domain=faplyt.com
+||faplyt.com/wp-content/plugins/clean-tube-player/public/vendors/fluidplayer*.js$script
+||faplyt.com/wp-content/plugins/clean-tube-player/public/vendors/jquery*.js$script
+
 ! Fapodrop
 fapodrop.com##.exc-pp.btn-success.btn
 fapodrop.com##.one-pack > .exc-pp
@@ -1256,6 +1319,15 @@ fapoleaks.com##a[href*="go.xlivrdr.com"]
 fapoleaks.com##a[href*="traffichaus.com"]
 fapoleaks.com##a[href*="https://outfitswap.ai"]
 fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
+
+! Fapopedia
+fapopedia.net##div[style="margin:10px auto 10px; width:300px; height:250px;"]
+fapopedia.net##[href="https://theporndude.com/"]
+fapopedia.net##.wp_xsize_class
+fapopedia.net##.r-dsc
+||falsifylilac.com^
+||witskirifkab.com^
+fapopedia.net##+js(rmnt, script, flgdabcpokrineutm)
 
 ! Fikfap
 fikfap.com##:has(.stripcash-card)
@@ -2114,6 +2186,24 @@ qsxptjxruxrttu.xyz$all,important
 *$frame,domain=pixl.li
 pixl.li###image_footer_nsfw
 pixl.li##[id^="image_footer_nsfw"]
+
+! Platinumleaks
+platinumleaks.com##.happy-footer-mobile
+platinumleaks.com##.happy-sidebar
+platinumleaks.com##.happy-under-player
+platinumleaks.com##.happy-under-player-mobile
+platinumleaks.com##.happy-footer-mobile
+platinumleaks.com##.wps-player__happy-inside
+platinumleaks.com##+js(rmnt, script, fromCharCode)
+platinumleaks.com##+js(rmnt, script, flgdabcpokrineutm)
+||static-landing-assets.project1content.com^$domain=platinumleaks.com
+platinumleaks.com##+js(rmnt, script, vastTimeout)
+platinumleaks.com##+js(set, playerInitCallback, '')
+platinumleaks.com##+js(set, happyInsidePlayer, '')
+platinumleaks.com##+js(set, midRollTimer, '')
+||vjs.zencdn.net^$script,domain=platinumleaks.com
+||platinumleaks.com/wp-content/plugins/clean-tube-player/public/vendors/fluidplayer*.js$script
+||platinumleaks.com/wp-content/plugins/clean-tube-player/public/vendors/jquery*.js$script
 
 ! Porn4fans
 porn4fans.com##.top-links-wrap
@@ -3277,6 +3367,27 @@ tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 ||tiktokv.com/monitor_browser/
 ||tiktok.com/web/report?
 
+! Tittytube
+tittytube.com###menu-item-47 > [href="https://tittytube.com/friends/"]
+tittytube.com##[href="https://undressai.tools"]
+tittytube.com##[href^="https://undress.cc/"]
+tittytube.com##[href^="https://deepfakex.ai/"]
+tittytube.com##[href="https://theporndude.com/"]
+tittytube.com##.clearfix-after.archive-content > .widget_block.widget
+tittytube.com###block-9 > .container
+tittytube.com##.happy-footer-mobile
+||adsbetnet.com^
+||xadsmart.com^
+||d11enq2rymy0yl.cloudfront.net^
+tittytube.com##+js(rmnt, script, adsbetnet)
+tittytube.com##.happy-header-mobile
+tittytube.com##+js(rmnt, script, popundersPerIP)
+tittytube.com##.tracking-btn
+tittytube.com###block-9 > .container
+tittytube.com##.happy-footer-mobile
+tittytube.com##.happy-under-player
+tittytube.com###block-10 > .container
+
 ! Tnaflix
 tnaflix.com##+js(aopr, ads.pop_url)
 tnaflix.com##+js(aeld, getexoloader)
@@ -3502,6 +3613,33 @@ whoreshub.com##a[href*="theporndude.com"]
 whoreshub.com##+js(rmnt, script, puURLstrpcht)
 whoreshub.com###my-widget-container
 whoreshub.com##.my-widget-container
+
+! Wildskirts
+wildskirts.com###b-sticky
+wildskirts.com##.text-base.uppercase.py-2\.5.text-white.font-semibold.bg-black.w-1\/3.items-center.justify-center.flex.relative.undress
+wildskirts.com###undress-sidebar
+wildskirts.com##a[href="#"]:nth-of-type(8)
+wildskirts.com##[href="https://theporndude.com/"]
+wildskirts.com##+js(rmnt, script, customP)
+wildskirts.com##+js(rmnt, script, undress-sidebar)
+||linkinbio.fun^
+wildskirts.com##+js(rmnt, script, gainit)
+wildskirts.com##+js(rmnt, script, puURLstrpcht)
+wildskirts.com##+js(rmnt, script, featured_profile)
+wildskirts.com###undress
+wildskirts.com##.undress
+wildskirts.com##.my-5.justify-evenly.flex
+wildskirts.com##.font-semibold.text-xs.dark\:border-gray-400.border.dark\:text-white.rounded-md.py-2.px-3.dark\:hover\:bg-neutral-700.hover\:bg-transparent.bg-neutral-50.dark\:bg-neutral-900
+wildskirts.com###strame:remove()
+wildskirts.com##+js(rmnt, script, strame)
+!!Featured page is more or less just OF ads...!!
+wildskirts.com##[href="https://wildskirts.com/featured"]
+wildskirts.com##+js(rmnt, script, gtag)
+wildskirts.com##div[onclick*="of_aff_feed_click"]
+||wildskirts.com/undress/
+/en/asd/ozk/abdr
+/pn07uscr/f/tr/zavbn/
+/en/ztaak/oxv
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
