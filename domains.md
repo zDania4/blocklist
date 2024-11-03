@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Nov-02</strong></p><!-- for version 2024Nov02-1 -->
+<p align=center>Last updated: <strong>2024-Nov-03</strong></p> <!-- for version 2024Nov03-1 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -12,6 +12,7 @@ Generic favicon for domains without one: https://camo.githubusercontent.com/929b
 The following domains have rules in this blocklist:
 
 ![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=allfansleak.net) allfansleak.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=baddies.xxx) baddies.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=bitchesgirls.com) bitchesgirls.com  
@@ -30,17 +31,21 @@ The following domains have rules in this blocklist:
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
+![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com (dood domain)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=eporner.com) eporner.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erome.com) erome.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erothots.co) erothots.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=f95zone.to) f95zone.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=famousinternetgirls.com) famousinternetgirls.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=fansteek.com) fansteek.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapachi.com) fapachi.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapeza.com) fapeza.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapfappy.com) fapfappy.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapfolder.club) fapfolder.club  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapista.com) fapista.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=faplyt.com) faplyt.com  
+![](https://camo.githubusercontent.com/f6931fb6b132e947ae6c4dae05af61c42a0d47ad88e5ad35a3d55606be66cac8/68747470733a2f2f6661706f70656469612e6e65742f66617669636f6e2d31367831362e706e67) fapopedia.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
@@ -82,7 +87,8 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
-![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)
+![](https://www.google.com/s2/favicons?sz=16&domain=platinumleaks.com) platinumleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
@@ -116,8 +122,9 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (shows black pages every once in a while in place of cam ads, haven't found a fix yet, keep scrolling to continue on the page)  
+![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (shows black pages every once in a while in place of cam ads, keep scrolling to continue on the page)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
+![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
@@ -127,6 +134,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=voe.sx) voe.sx (and it's stream domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voyeurhit.com) voyeurhit.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=watchporn.to) watchporn.to  
+![](https://www.google.com/s2/favicons?sz=16&domain=wildskirts.com) wildskirts.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=whoreshub.com) whoreshub.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xfantazy.com) xfantazy.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xfree.com) xfree.com  
