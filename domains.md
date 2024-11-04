@@ -124,7 +124,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (shows black pages every once in a while in place of cam ads, keep scrolling to continue on the page)  
+![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (has [known issues](https://github.com/zDania4/blocklist/issues/4#issue-1950656880))  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
