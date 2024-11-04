@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov03-1
+! Version: 2024Nov04-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1918,6 +1918,13 @@ leakedmodels.com##+js(rmnt, script, ad-banner-wrap)
 ||leakedmodels.com/addons/forum_top.html
 ||leakedmodels.com/addons/forum_bottom.html
 
+! Leakedpage
+||supabase.co/rest/v1/rpc/$xhr,domain=leaked.page
+||umami.000315.xyz/api/send$xhr,domain=leaked.page
+||umami.000315.xyz/script.js$script
+||pertinentking.com^
+leaked.page##+js(rmnt, script, ffusb, excludes, textAlign, stay, 1, sedCount, 1)
+
 ! Leakxxx
 leak.xxx##[href="https://theporndude.com/"]
 ||nsfwadds.com^
@@ -3019,6 +3026,17 @@ sexy-egirls.com###ai_widget-4
 sexy-egirls.com###ai_widget-7
 sexy-egirls.com##[href*="slut2fuck.net"]
 sexy-egirls.com##[href^="https://flirtmeet.life/"]
+
+! Sexyteenpics
+sexyteenpics.com##[href^="https://www.crkshld.com/"]:nth-ancestor(1)
+||project-1067751275500851996.firebaseapp.com^$domain=sexyteenpics.com
+||smopy.com^$3p
+||sexyteenpics.com/ingest^
+||sexyteenpics.com/monitoring^
+sexyteenpics.com##+js(rmnt, script, ad_idzone, stay, 1, sedCount, 3)
+||sexyteenpics.com/_axiom/web-vitals$1p
+||sexyteenpics.com/_axiom/logs
+||supabase.co/rest/$domain=sexyteenpics.com
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
