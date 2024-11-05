@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov04-1
+! Version: 2024Nov05-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3808,8 +3808,8 @@ xozilla.com###scrollhere
 xozilla.com##.main-content > div:nth-of-type(4)
 
 ! Xvideos
-www.xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
-www.xvideos.com##.disclaimer-enter-gay.btn-primary.btn
+xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
+xvideos.com##.disclaimer-enter-gay.btn-primary.btn
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
 ||xvideos.name/*.php
@@ -3826,8 +3826,8 @@ xvideos.com##img[src*="blob:" i]:not(video)
 ###video-sponsor-links
 xvideos.com##+js(nowoif)
 xvideos2.com##+js(nowoif)
-xvideos.com##+js(window-close-if, /^/)
-xvideos2.com##+js(window-close-if, /^/)
+!xvideos.com##+js(window-close-if, /^/)
+!xvideos2.com##+js(window-close-if, /^/)
 xvideos.com,xvideos2.com,xnxx.com##.banner-game
 xvideos.com,xvideos2.com##.videoad-title
 xvideos.*###video-ad + div[class]
@@ -3838,7 +3838,7 @@ xvideos.*###video-ad + div[class]
 ##.remove-ads-link
 xvideos.com##.videoad-title
 xvideos.com##+js(no-window-open-if)
-##.exo-ad-ins-container
+!##.exo-ad-ins-container
 ##video-ad
 ###video-ad
 ###video-ad-companion-rectangle
@@ -3846,6 +3846,28 @@ xvideos.com##+js(no-window-open-if)
 ###video-adv-wrapper
 ###video-advert
 ||xvideos.com/picserror/
+xvideos.com###mobile-header-links > .mobile-slogan-sexshop.btn
+xvideos.com###mobile-header-links > .nutaku-games.mobile-slogan-games.btn
+xvideos.com###mobile-header-links > .btn.live-cams
+xvideos.com##.live-cams.head__menu-line__main-menu__lvl1
+xvideos.com##.nutaku-games.head__menu-line__main-menu__lvl1
+xvideos.com##.head__menu-line__main-menu__lvl1[href*="s.zlinkp.com"]
+xvideos.com##.exo-ad-ins-div
+||opoxv.com^
+xvideos.com##.noselect.slowseek-info
+splash.php?idzone=
+xvideos.com###ad-footer
+xvideos.com###video-right
+###ad-header-mobile
+xvideos.com##.video-ad
+||xvideos.com/lvcsm/abck-banners/
+xvideos.com###ad-header-mobile-contener
+xvideos.com###ad-header-mobile
+xvideos.com###video-sponsor-links
+xvideos.com###ad-footer
+xvideos.com##+js(addEventListener-defuser, click, ShouldShow)
+popunder1000.js
+ad-provider.js
 
 ! Xxbrits
 xxbrits.com##.header > div:nth-of-type(1)
