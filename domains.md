@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Nov-04</strong></p> <!-- for version 2024Nov04-1 -->
+<p align=center>Last updated: <strong>2024-Nov-09</strong></p> <!-- for version 2024Nov09-1 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -31,7 +31,7 @@ The following domains have rules in this blocklist:
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com (dood domain)  
+![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com/ds2play.com (dood domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=eporner.com) eporner.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erome.com) erome.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erothots.co) erothots.co  
@@ -78,12 +78,14 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=lewdstars.com) lewdstars.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=manysex.com) manysex.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mat6tube.com) mat6tube.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=mixdrop.ps) mixdrop.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=namethatporn.com) namethatporn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=noodlemagazine.com) noodlemagazine.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nsfw247.to) nsfw247.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudevista.com) nudevista.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudostar.com) nudostar.com/nudostar.tv  
+![](https://www.google.com/s2/favicons?sz=16&domain=ogfap.com) ogfap.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=onlytik.com) onlytik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
@@ -117,6 +119,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=spankbang.com) spankbang.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=swipeturbate.com) swipeturbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sxyprn.com) sxyprn.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theyarehuge.com) theyarehuge.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theporndude.com) theporndude.com  
@@ -124,7 +127,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn (has [known issues](https://github.com/zDania4/blocklist/issues/4#issue-1950656880))  
+![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
@@ -142,10 +145,13 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xfree.com) xfree.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xhamster.com) xhamster.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xmegadrive.com) xmegadrive.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=xmoviesforyou.com) xmoviesforyou.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xnxx.com) xnxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xozilla.com) xozilla.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xvideos.com) xvideos.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=xxxfollow.com) xxxfollow.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 
 <p align=right>☺</p>
