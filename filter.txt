@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov07-2
+! Version: 2024Nov09-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -991,7 +991,7 @@ dood.*##+js(rmnt, script, openedPop)
 dood.*##.sPreload
 /adgpt.js$script
 
-! Ds2video (dood)
+! Ds2video/ds2play (dood)
 ds2video.com##+js(set-constant, console.clear, undefined)
 ds2video.com##+js(abort-current-script, decodeURI, decodeURIComponent)
 ds2video.com##+js(addEventListener-defuser, contextmenu)
@@ -1007,6 +1007,10 @@ ds2video.com##+js(rmnt, script, secondsTimeSpanToHMS)
 ds2video.com##+js(rmnt, script, tryCount)
 ||pardaotopazes.shop^
 ds2video.com##.vjs-poster
+||betotodilea.com^
+ds2play.com##+js(addEventListener-defuser, contextmenu)
+ds2play.com##+js(set-constant, console.clear, undefined)
+ds2play.com##+js(remove-node-text, script, /adblock|popunder|openedPop|WebAssembly/)
 
 ! Eporner
 ||eporner.com/dot/
@@ -1985,6 +1989,24 @@ mat6tube.*##.ad-placement
 mat6tube.*##+js(rmnt, script, InterstitialTsAd)
 mat6tube.*##.c_video:style(margin-top: 25px !important)
 
+! Mixdrop
+mixdrop.*##+js(abort-current-script, $, String.fromCharCode)
+mixdrop.*##+js(set-constant, MDCore.adblock, 0)
+mixdrop.*##+js(adjust-setTimeout, disabled)
+mixdrop.*##+js(prevent-window-open)
+mixdrop.*##+js(remove-node-text, script, adserverDomain)
+mixdrop.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+||cjbyfsmr.life^
+||secqueduomo.com^
+||mdstats.info^
+mixdrop.*##body > div[style^="position: absolute;"][style*="z-index"]
+*$script,3p,denyallow=dotblocking.dummy|google.com|gstatic.com|hwcdn.net|jquery.com,from=~mixdrop.one|mixdroop.*|mixdrop.*|mixdrp.*
+||ztfzskpc.com^
+||iqjdbxwosn.com^
+||mixdrop.*/js/ads.js
+||mixdrop.*/xads.js
+mixdrop.*##+js(rmnt, script, fromCharCode)
+
 ! Motherless > Weird stuff on this site... wtf...
 motherless.com##.awn-ignore.text-center.motherless-cookie-wrapper
 motherless.com##.big.footer-section
@@ -2118,6 +2140,13 @@ nudostar.com##[href="https://fapfappy.com"]:upward(li)
 nudostar.com##+js(rmnt, script, ad-label)
 nudostar.tv##.zkido_div.wp_xsize_class
 nudostar.tv##.wp_xsize_class.nav2
+
+! Ogfap
+ogfap.com##.ad-container
+ogfap.com##li:nth-of-type(5) > .control-button
+ogfap.com##.icon-button-offset.icon-button
+ogfap.com##.banner
+ogfap.com##.svelte-1p5961z.profile-external-item.undress-ai-button
 
 ! Onlytik
 onlytik.com##.protection > .noSwipe.sidebar > .toolbar > .noSwipe.ext-link.toolbar-item
@@ -3247,6 +3276,23 @@ streamtape.com##+js(rmnt, script, parseInt)
 streamtape.com##+js(rmnt, script, adUnits)
 streamtape.*##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 ||streamtape.com/adgpt.js$script
+watchadsontape.com##+js(no-setInterval-if, adblock)
+watchadsontape.com##+js(prevent-window-open)
+watchadsontape.com##+js(adjust-setTimeout, counter)
+watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+watchadsontape.com##+js(rmnt, script, flgdabcpokrineutm)
+||zimpolo.com^
+watchadsontape.com##.play-overlay
+
+! Swipeturbate
+swipeturbate.com##.ad-container
+||turbulent-divide.com^
+swipeturbate.com##.ad-push
+||memorableworth.com^
+/bultykh/*/*/bazinga/*$script
+||earringsatisfiedsplice.com^
+swipeturbate.com##+js(rmnt, script, popunder)
+swipeturbate.com##li:nth-of-type(5) > .control-button
 
 ! Sxyprn
 sxyprn.com##.cbd
@@ -3385,6 +3431,8 @@ tik.porn##a.MenuBottom_menu_item__4ejCQ[href="/live-sex-cam"]
 ||apiv2.tik.porn/updatewatchtime$xhr
 ||apiv2.tik.porn/refreshtoken$xhr
 ||videos.slashed.cloud/player/country_code$xhr,domain=tik.porn
+tik.porn##div[class^="CreatorSocialLink_videoLinkWrapper"]
+tik.porn##div[class^="PlayerFooter_producerLink"]
 
 ! Tiktok (embed only)
 www.tiktok.com##+js(json-prune-fetch-response, itemList.[-].ad_info.ad_id, , propsToMatch, url:api/recommend/item_list/)
@@ -3783,6 +3831,21 @@ www.xmegadrive.com##li:nth-of-type(11)
 www.xmegadrive.com##li:nth-of-type(3)
 /player/stats.php?
 
+! Xmoviesforyou
+xmoviesforyou.*##[href^="https://crushmate.net/eraser/"]
+xmoviesforyou.*##.iframe-brick-container
+xmoviesforyou.*##[href="https://theporndude.com/"]
+/^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
+xmoviesforyou.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+xmoviesforyou.*##+js(abort-on-property-read, decodeURI)
+xmoviesforyou.*##+js(abort-on-property-read, popjs.init)
+||xlviirdr.com^
+_banner_ad_
+xmoviesforyou.*##+js(rmnt, script, flgdabcpokrineutm)
+||azcmcacuc.com^
+/en/studf^*kwfv=
+xmoviesforyou.com##.iframe-container
+
 ! Xnxx
 www.xnxx.com##.disclaimer-enter-gay.btn-primary.btn
 www.xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
@@ -3902,6 +3965,31 @@ xxbrits.com##.block-offer
 xxbrits.com##.link-offer
 xxbrits.com##+js(rmnt, script, adConfig)
 xxbrits.com##.header > .wrap
+
+! Xxxfollow
+xxxfollow.com##div[class^="index-module__menuCam"]
+xxxfollow.com##img[src="https://media.xfollow.com/media/fans/assets/manifest/xfollow/xfollow-apple-touch-icon-512x512.png"]:nth-ancestor(3)
+xxxfollow.com##a[class^="index-module__liveOnCam"]
+xxxfollow.com##a[target="_blank"]
+||xxxfollow.com/api/v1/log/web-vitals$xhr
+xxxfollow.com##+js(set-cookie, slide-creator, 1)
+xxxfollow.com##+js(set-cookie, slide-signup, 1)
+/imgcount.php?
+xxxfollow.com##a[class^=index-module__live]
+
+! Xxxtik
+xxxtik.com##.popunder-trigger
+xxxtik.com##.ng-star-inserted.ad-modal__content
+xxxtik.com##.ng-star-inserted.ad-modal
+xxxtik.com##a.icon-button.promo-button
+xxxtik.com##a.__item:nth-of-type(4)
+xxxtik.com##a.__item:nth-of-type(3)
+xxxtik.com##[href*="ogfap.com"]
+xxxtik.com##+js(rmnt, script, popunder)
+xxxtik.com##+js(abort-current-script, atob, Uint8Array)
+xxxtik.com##.app-bar-list
+xxxtik.com##.live-models
+xxxtik.com##.live-models--desktop
 
 ! Youjizz
 youjizz.com##[href^="//youjizzlive.com/lander/v2/preview/"]:nth-ancestor(1)
