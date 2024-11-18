@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Nov-09</strong></p> <!-- for version 2024Nov09-1 -->
+<p align=center>Last updated: <strong>2024-Nov-18</strong></p> <!-- for version 2024Nov18-1 -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -93,10 +93,12 @@ The following domains have rules in this blocklist:
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=platinumleaks.com) platinumleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
+![](https://www.google.com/s2/favicons?sz=16&domain=porndig.com) porndig.com (including their IT and PL versions found below)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=pornototale.com) pornototale.com (porndig's IT website)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) pornxrated.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornzog.com) pornzog.com  
@@ -132,6 +134,7 @@ The following domains have rules in this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
+![](https://www.google.com/s2/favicons?sz=16&domain=tybito.com) tybito.com (porndig's PL website)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
 ![](https://www.google.com/s2/favicons?sz=16&domain=upstream.to) upstream.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videzz.net) videzz.net  
