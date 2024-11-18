@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov13-1
+! Version: 2024Nov18-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -884,6 +884,9 @@ coomer.su##+js(rmnt, script, flgdabcpokrineutm)
 coomer.su##.ad-container
 coomer.su##a[href="https://coomer.su/matrix"]
 ||owxqunparw.com^
+coomer.su##[href="//kemono.su/importer"] > div
+coomer.su##[href*="theporndude.com"]
+coomer.su##+js(rmnt, script, flgdabcpokrineutm)
 
 ! Cyberdrop
 ###ads-header
@@ -1917,6 +1920,19 @@ jpg5.su##+js(rmnt, script, adConfig)
 
 ! Kemono
 kemono.su##.ad-container
+kemono.su##+js(abort-current-script, String.fromCharCode, \x)
+kemono.su##+js(addEventListener-defuser, , popMagic)
+kemono.su##[href="//kemono.su/importer"] > div
+kemono.su##[href*="theporndude.com"]
+||avhjzemp.com^
+kemono.su##+js(rmnt, script, flgdabcpokrineutm)
+kemono.su##div.ad-container
+kemono.su##.SCSpotScript
+||anewfeedliberty.com^
+kemono.su##+js(rmnt, script, videoAds)
+||anewfeedliberty.com/ceef/gdt3g0/tbt/2029287/tlk.xml
+ceef/gdt3g0/tbt/2029287/tlk.xml
+/^https:\/\/[a-z]{2,20}\.[a-z]{2,5}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[0-9]{5,10}\/tlk.xml/$script,3p
 
 ! Leakedmodels
 leakedmodels.com##.azz_div.wp_xsize_class
@@ -2276,6 +2292,80 @@ porn4fans.com##+js(rmnt, script, settingsList)
 porn4fans.com$frame
 ||porn4fans.com/player/html.php?
 porn4fans.com###_iframe_content
+
+! Porndig
+  ! EN !
+porndig.com##.dt_porndig.main_menu_item_number_6.dynamic_menu_item_snap.main_menu_item
+porndig.com##li.main_menu_item_number_6.main_menu_item:nth-of-type(3)
+porndig.com##.main_menu_premium_sponsor.main_menu_item_number_6.main_menu_item
+||porndig.com/sw$script,1p
+||plx.porndig.com^
+porndig.com##+js(set-constant, tkn_popunder, null)
+porndig.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
+porndig.com##.js_footer_partner_container_wrapper
+porndig.com##a[href*="/shemale-tags/"]:nth-ancestor(span)
+porndig.com##a[href*="/gay-tags/"]:nth-ancestor(span)
+porndig.com##.inner_box_container
+porndig.com##.webcams_grid_wrapper.js_content_top_webcams.js_entity_container
+porndig.com##.js_post_bottom_extra_wrapper.post_bottom_extra_wrapper
+porndig.com##.bottom_webcams.js_loader_main_wrapper.content_section_wrapper.lazy.js_webcam_models_container
+porndig.com##.mobile_banner_frame
+porndig.com##.dt_porndig.main_menu_item_number_4
+porndig.com##.main_menu_premium_sponsor.main_menu_item_number_4.main_menu_item
+porndig.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(3)
+porndig.com##div.top_bar_menu_buttons:nth-of-type(3) > div.top_bar_menu_item:nth-of-type(2)
+porndig.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(2)
+porndig.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(3)
+  ! IT / Pornototale !
+pornototale.com##.dt_porndig.main_menu_item_number_6.dynamic_menu_item_snap.main_menu_item
+pornototale.com##li.main_menu_item_number_6.main_menu_item:nth-of-type(3)
+pornototale.com##.main_menu_premium_sponsor.main_menu_item_number_6.main_menu_item
+||pornototale.com/sw$script,1p
+||plx.pornototale.com^
+pornototale.com##+js(set-constant, tkn_popunder, null)
+pornototale.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
+pornototale.com##.js_footer_partner_container_wrapper
+pornototale.com##a[href*="/shemale-tags/"]:nth-ancestor(span)
+pornototale.com##a[href*="/gay-tags/"]:nth-ancestor(span)
+pornototale.com##.inner_box_container
+pornototale.com##.webcams_grid_wrapper.js_content_top_webcams.js_entity_container
+pornototale.com##.js_post_bottom_extra_wrapper.post_bottom_extra_wrapper
+pornototale.com##.bottom_webcams.js_loader_main_wrapper.content_section_wrapper.lazy.js_webcam_models_container
+pornototale.com##.mobile_banner_frame
+pornototale.com##.dt_porndig.main_menu_item_number_4
+pornototale.com##.main_menu_premium_sponsor.main_menu_item_number_4.main_menu_item
+pornototale.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(3)
+pornototale.com##div.top_bar_menu_buttons:nth-of-type(3) > div.top_bar_menu_item:nth-of-type(2)
+pornototale.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(2)
+pornototale.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(3)
+pornototale.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(2)
+pornototale.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(4)
+  ! PL / Tybito !
+tybito.com##.dt_porndig.main_menu_item_number_6.dynamic_menu_item_snap.main_menu_item
+tybito.com##li.main_menu_item_number_6.main_menu_item:nth-of-type(3)
+tybito.com##.main_menu_premium_sponsor.main_menu_item_number_6.main_menu_item
+||tybito.com/sw$script,1p
+||plx.tybito.com^
+tybito.com##+js(set-constant, tkn_popunder, null)
+tybito.com##+js(set-constant, Object.prototype.AdOverlay, noopFunc)
+tybito.com##.js_footer_partner_container_wrapper
+tybito.com##a[href*="/shemale-tags/"]:nth-ancestor(span)
+tybito.com##a[href*="/gay-tags/"]:nth-ancestor(span)
+tybito.com##.inner_box_container
+tybito.com##.webcams_grid_wrapper.js_content_top_webcams.js_entity_container
+tybito.com##.js_post_bottom_extra_wrapper.post_bottom_extra_wrapper
+tybito.com##.bottom_webcams.js_loader_main_wrapper.content_section_wrapper.lazy.js_webcam_models_container
+tybito.com##.mobile_banner_frame
+tybito.com##.dt_porndig.main_menu_item_number_4
+tybito.com##.main_menu_premium_sponsor.main_menu_item_number_4.main_menu_item
+tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(3)
+tybito.com##div.top_bar_menu_buttons:nth-of-type(3) > div.top_bar_menu_item:nth-of-type(2)
+tybito.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(2)
+tybito.com##div.top_bar_menu_buttons:nth-of-type(2) > div.top_bar_menu_item:nth-of-type(3)
+tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(2)
+tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(4)
+tybito.com##.dt_tybito.main_menu_item_number_3.dynamic_menu_item_snap.main_menu_item
+tybito.com##li.main_menu_item_number_3.main_menu_item:nth-of-type(2)
 
 ! Porngo
 porngo.com##li.menu-list__row:nth-of-type(8)
@@ -2651,6 +2741,42 @@ pornl.com##section:nth-of-type(2)
 pornl.com##.underplayer:style(min-height: 0px !important)
 pornl.com##.video-ntv-wrapper
 pornl.com##.mobile-menu__item
+
+! Pornone
+pornone.com##div.xl\:grid-cols-6.lg\:grid-cols-4.md\:grid-cols-3.sm\:grid-cols-2.grid-cols-1.gap-y-4.gap-x-4.portrait\:gap-y-0\.1.portrait\:gap-x-0\.1.grid.w-full:nth-of-type(4)
+pornone.com##.sm\:px-0.px-\[3\%\].md\:mt-9.mb-2.mt-5.max-w-full.col-span-full.items-center.flex > .tracking-tight.dark\:text-white.text-black-darkest.font-bold.md\:text-f32.text-f19.block
+pornone.com##.justify-center.w-full.flex.py-4.px-4.col-span-full.items-center.flex-shrink-0
+pornone.com##.cbann
+pornone.com##.group.hover\:text-red1.cursor-pointer.uppercase.text-center.font-bold.lg\:mr-\[70px\].md\:mr-\[45px\].sm\:mr-\[30px\].mr-\[15px\].inline-block.py-\[17px\].gandermenu
+pornone.com##.vrazka.cursor-pointer.uppercase.text-center.font-bold.lg\:mr-\[70px\].md\:mr-\[45px\].sm\:mr-\[30px\].mr-\[15px\].inline-block
+pornone.com##span.vrazka.cursor-pointer.uppercase.text-center.font-bold.inline-block
+||wmccd.com^
+pornone.com##a[href*="//prtord.com/"]
+pornone.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+pornone.com##+js(abort-current-script, $, adblock)
+/matomo.js$from=~github.com
+||ajscdn.com^
+||nxt-psh.com^
+||twinrdsyte.com^
+pornone.com##+js(rmnt, script, _paq)
+pornone.com##+js(set, livesexcam_url, '')
+pornone.com##+js(rmnt, script, adConfig)
+pornone.com##+js(rmnt, script, infinity)
+pornone.com##.no-padding.center-sm.col-lg-8.col-sm-10.col-xs.col-ss-12
+pornone.com##.dark\:bg-black-d1.bg-white-500.flex-grow > .flex-initial
+pornone.com##.group.hover\:text-red1.cursor-pointer.uppercase.text-center.font-bold.lg\:mr-\[70px\].md\:mr-\[45px\].sm\:mr-\[30px\].mr-\[15px\].inline-block.py-\[17px\]
+pornone.com##.overflow-y-visible.overflow-x-scroll.col-span-full.items-center.flex
+pornone.com##+js(rmnt, script, AdProvider)
+pornone.com##.h-\[320px\].md\:hidden.col-span-full.my-2.flex-initial
+pornone.com##.lg\:w-\[300px\].md\:w-\[200px\].float-right.md\:inline-block.hidden.relative
+pornone.com##+js(set, infourl, '')
+pornone.com##+js(set, infoHtml, '')
+pornone.com##+js(set, a55, '')
+pornone.com##+js(set, ifrm, {})
+pornone.com##+js(set, ifrm.innerHTML, '')
+pornone.com##+js(set, invideoad, 0)
+pornone.com##+js(set, vastad, false)
+pornone.com##+js(set, pauseCount, 0)
 
 ! Porntrex
 porntrex.com##+js(disable-newtab-links)
@@ -3206,6 +3332,8 @@ simpcity.su##.prm-btn
 !simpcity.su##.prm-exit
 ||v6.realxxx.com^
 simpcity.su##+js(rmnt, script, promoban)
+||gigachadlitics.b-cdn.net^
+*litics.b-cdn.net^
 
 ! Simpshub
 simpshub.com##.tags.links
