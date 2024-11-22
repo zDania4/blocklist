@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov19-1
+! Version: 2024Nov22-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -887,6 +887,37 @@ coomer.su##a[href="https://coomer.su/matrix"]
 coomer.su##[href="//kemono.su/importer"] > div
 coomer.su##[href*="theporndude.com"]
 coomer.su##+js(rmnt, script, flgdabcpokrineutm)
+
+! Cumlouder
+cumlouder.com###webcams-button
+cumlouder.com###menu-webcams
+cumlouder.com##.link-general--superporn.link-general
+||im0.imgcm.com/img-frontend/home/main_cat_webcams.jpg$image
+cumlouder.com##a[href*="join.webcams.cumlouder.com"]
+||trfpump.com^$3p
+||techpump.com^
+cumlouder.com##+js(abort-on-property-write, ExoLoader)
+cumlouder.com##.advertisement
+##.advertisement:not(html, body, :empty)
+cumlouder.com##.banner-frame
+cumlouder.com##.sticky-banner
+cumlouder.com##.banner-300x100
+##a[href^="https://lnkxt.bannerator.com/"]
+cumlouder.com##+js(rmnt, script, PopCookie)
+cumlouder.com##+js(rmnt, script, .banner-300x100)
+cumlouder.com##+js(rmnt, script, renderIfVisibleAsync)
+cumlouder.com##+js(rmnt, script, mtm.startTime)
+cumlouder.com###adContainer
+cumlouder.com##+js(set, initializePR, noopFunc)
+cumlouder.com##+js(set, hotGirls, '')
+cumlouder.com##+js(set, datingUrl, '')
+cumlouder.com##+js(set, snapChat, '')
+cumlouder.com###menu-chicas
+cumlouder.com##+js(set, vmap, '')
+cumlouder.com##+js(rmnt, script, webcamsCountry)
+||cumlouder.com/track_video.php?$xhr
+cumlouder.com##.btn-secondary--superporn.btn-secondary.btn.tab__link
+
 
 ! Cyberdrop
 ###ads-header
@@ -3417,6 +3448,13 @@ watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventList
 watchadsontape.com##+js(rmnt, script, flgdabcpokrineutm)
 ||zimpolo.com^
 watchadsontape.com##.play-overlay
+
+! Superporn
+superporn.com##+js(rmnt, script, mtm.startTime)
+superporn.com##+js(set, global_player_pad_tag, '')
+superporn.com##+js(rmnt, script, _mtm)
+superporn.com##.ath-phone
+||api.superporn.com/video/inc-view/$xhr
 
 ! Swipeturbate
 swipeturbate.com##.ad-container
