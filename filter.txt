@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov22-1
+! Version: 2024Nov24-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1383,14 +1383,19 @@ fikfap.com##.drop-shadow.sidebar-position.select-none.pointer-events-auto.size-7
 fikfap.com##.select-none.justify-center.items-center.sidebar-position.mr-0.bottom-4.flex-col.flex.absolute > .p-2
 fikfap.com##.border-brand.story-pulsating-brand.mb-4.relative.border-2.overflow-hidden.justify-center.items-center.flex.rounded-full.h-12.w-12 > [src]
 fikfap.com##.h-\[19\.5rem\].mobile-container.animate-slide-in-from-below.select-none.overflow-hidden.mx-auto.rounded-t-md.text-black.bg-white.no-scrollbar.overflow-y-scroll.max-h-full.pb-1.pt-3.right-0.left-0.bottom-0.fixed > div > .select-none.cursor-pointer.font-medium.h-12.gap-x-6.px-6.items-center.flex
-||models-api.fikfap.com/live$xhr
+!||models-api.fikfap.com/live$xhr
 ||clarity.ms^
 ||fikfap.com/assets/workbox-window.prod.es5-D5gOYdM7.js$script,1p
 ||fikfap.com/workbox-b03bd2db.js$script,1p
 fikfap.com##.text-accent-900.bg-accent-50.rounded-md.p-4.w-full.max-w-md.items-center.flex-col.flex.relative
-fikfap.com##.overflow-hidden.m-auto.flex-col.flex.w-full.bottom-0.absolute
-fikfap.com##.md\:aspect-mobile.md\:w-auto.w-full.relative > .h-full.w-full.relative
+!fikfap.com##.overflow-hidden.m-auto.flex-col.flex.w-full.bottom-0.absolute
+!fikfap.com##.md\:aspect-mobile.md\:w-auto.w-full.relative > .h-full.w-full.relative
 ||wstats.slashed.cloud^
+fikfap.com##.bg-opacity-20.bg-white.cursor-pointer.select-none.pointer-events-auto.font-normal.text-nowrap.text-xs.rounded-full.px-1\.5.h-6.gap-x-1.items-center.flex-row.flex
+||edge-hls.doppiocdn.net/hls/$domain=fikfap.com
+fikfap.com##.overflow-hidden.m-auto.flex-col.flex.w-full.bottom-0.absolute > div.items-center.flex-row.flex
+fikfap.com##.cursor-pointer.select-none.p-0.m-0.text-base
+fikfap.com##.bg-accent-900.cursor-pointer.select-none.ring-brand.ring-2.rounded-full.w-16.h-16
 
 ! Filemoon
 ||filemoon.*/js/baf.js
@@ -3908,8 +3913,14 @@ xfantazy.com##.partwidg1
 /splash.php?idzone=
 
 ! Xfree
-www.xfree.com##.aside-content__middle
-www.xfree.com##.aside-section--right.aside-section
+xfree.com##.aside-content__middle
+xfree.com##.aside-section--right.aside-section
+xfree.com##.aside-prbn:nth-ancestor(1)
+||mtm.ntl.cloud^$script,domain=www.xfree.com
+xfree.com##+js(set-local-storage-item, creatorsVisited, true)
+! Not really a fan of this have18 solution but it blocks their "somewhat" forced acceptance of cookies...
+xfree.com##+js(set-cookie, have18, 1)
+xfree.com##.item--online.item
 
 ! Xhamster
 xhamster.com##.yld-pcno-ts-init.yld-pc--top.yld-pc
