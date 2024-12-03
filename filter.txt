@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Nov29-1
+! Version: 2024Dec03-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3577,6 +3577,12 @@ thothub.*##+js(abort-on-stack-trace, localStorage, inlineScript)
 thothub.*##li:nth-of-type(8)
 thothub.*##li:nth-of-type(9)
 thothub.*##.sponsor
+thothub.*##.asside-link
+thothub.*##.header-links
+thothub.*##+js(rmnt, script, flgdabcpokrineutm)
+||tilpuvhis.com
+||oqrzuvarwgm.com
+afu.php?zoneid=$document,script
 
 ! Thotsflix
 thotsflix.com##[href="https://thotsflix.com/live-sex/"]:upward(li)
