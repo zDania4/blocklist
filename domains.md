@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Nov-18</strong></p> <!-- for version 2024Nov18-1 -->
+<p align=center>Last updated: <strong>2024-Dec-19</strong></p> <!-- for version 2024Dec19-1 -->
 <!-- 147 covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
@@ -149,6 +149,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=whoreshub.com) whoreshub.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xfantazy.com) xfantazy.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xfree.com) xfree.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=xgroovy.com) xgroovy.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xhamster.com) xhamster.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xmegadrive.com) xmegadrive.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xmoviesforyou.com) xmoviesforyou.*  
@@ -160,4 +161,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 
-<p align=right><strong>147</strong> | ☺</p>
+<p align=right><strong>148</strong> | ☺</p>
