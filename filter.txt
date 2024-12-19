@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Dec05-2
+! Version: 2024Dec19-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3933,6 +3933,32 @@ xfree.com##+js(set-local-storage-item, creatorsVisited, true)
 ! Not really a fan of this have18 solution but it blocks their "somewhat" forced acceptance of cookies...
 xfree.com##+js(set-cookie, have18, 1)
 xfree.com##.item--online.item
+
+! Xgroovy
+xgroovy.com##.second-menu-shemale:nth-ancestor(1)
+xgroovy.com##.cookie_warn
+xgroovy.com##+js(rmnt, script, innerHTML)
+||xgroovy.com/static/js/initsite.min.js
+xgroovy.com##+js(set, popurl, '')
+xgroovy.com##+js(set, popurl2, '')
+||rtb-*.xgroovy.com/rtb2.php?
+xgroovy.com##.headZ.headC
+xgroovy.com##+js(abort-on-property-read, VAST)
+xgroovy.com##+js(set, exoSubId, 1)
+xgroovy.com##+js(set, exoAdSubId, 1)
+xgroovy.com###top_links
+xgroovy.com##+js(set, onPauseHtml, {})
+xgroovy.com##+js(set, onEndHtml, '')
+xgroovy.com##+js(set, force_exo, false)
+xgroovy.com##+js(set, rtb_vast_url, '')
+xgroovy.com##+js(set, exo_vast, ')
+xgroovy.com##+js(set, exo_post_vast, ')
+xgroovy.com##+js(set, vastAds, )
+xgroovy.com##.fluid-b
+xgroovy.com##.fluid_html_on_pause
+xgroovy.com##.table
+xgroovy.com##+js(set, abCatch, true)
+xgroovy.com##+js(set, adProvider, '')
 
 ! Xhamster
 xhamster.com##.yld-pcno-ts-init.yld-pc--top.yld-pc
