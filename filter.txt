@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Dec27-1
+! Version: 2024Dec28-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3544,6 +3544,10 @@ theyarehuge.com##[href="https://www.inxxx.com/"]
 theyarehuge.com##[href="https://www.bemyhole.com/"]
 theyarehuge.com##.h2
 theyarehuge.com##a[target="_blank"]
+theyarehuge.com##.before-player--source-block
+/adpopup.js$script
+theyarehuge.com##div[style="z-index: 169; inset: 0px; position: absolute; overflow: hidden; background: transparent; display: block;"]
+theyarehuge.com##[src*="theyarehuge.com/player/html.php?aid=start_html&video_id="]
 
 ! Theporndude
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
