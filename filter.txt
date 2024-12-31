@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Dec28-1
+! Version: 2024Dec31-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1959,6 +1959,7 @@ jpg5.su##div[class*="ad-banner"]
 jpg5.su##+js(abort-current-script, TsMasterSpot)
 jpg5.su##+js(abort-on-property-read, adConfig)
 jpg5.su##+js(rmnt, script, adConfig)
+||eunow4u.com^
 
 ! Kemono
 kemono.su##.ad-container
@@ -4283,6 +4284,8 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ##a[href^="https://t.ajrkm3.com/"]
 ###header-ads
 ##.header-ads
+! ##Disable devtools:
+||jsdelivr.net/npm/disable-devtool
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
