@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2024Dec31-1
+! Version: 2025Dec02-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -272,6 +272,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkr.sk
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=bunkrr.ru
 @@||static.bunkr.ru/img/logo_bunkr-9Kl5M1Y.svg$inline-font,domain=get.bunkrr.su
+@@||stats.bunkr.ru/api/file/stats^$xhr,method=GET|HEAD
 @@||sxyprn.com/js/jq36.js
 @@||sxyprn.com/js/lazysizes.min.js
 @@||sxyprn.com/js/main.js
@@ -678,6 +679,8 @@ bunkrr.*##+js(rmnt, script, aclib)
 ||isolatedovercomepasted.com^
 bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: none !important)
 ||bunkr.*/js/last_visit.js$script
+||stats.bunkr.ru$xhr,method=POST
+||delicioustaco.b-cdn.net^
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
