@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan09-1
+! Version: 2025Jan09-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2341,28 +2341,6 @@ porn4fans.com$frame
 ||porn4fans.com/player/html.php?
 porn4fans.com###_iframe_content
 
-! Porndoe
-porndoe.com##+js(abort-on-property-read, open)
-porndoe.com##+js(addEventListener-defuser, click, pop_under)
-porndoe.com##+js(prevent-setTimeout, location.href, 500)
-porndoe.com##+js(abort-on-property-read, ExoLoader)
-porndoe.com##.\-f-banners
-porndoe.com##.-h-ticker
-##.advertisement-box
-porndoe.com##.videos-tsq
-porndoe.com##a[href*=".com/track/"]
-_300x250_
-porndoe.com##.below-video
-porndoe.com##.player-right
-porndoe.com##.vpr-section
-||porndoe.com/wp-contents/channel?
-porndoe.com##.-channel-join.-grow
-porndoe.com##.-ad-top-wrap
-porndoe.com##.-up-mobile
-porndoe.com##.advertisement-mobile
-porndoe.com##.vpc-join
-porndoe.com##.-sidebar-try
-
 ! Porndig
   ! EN !
 porndig.com##.dt_porndig.main_menu_item_number_6.dynamic_menu_item_snap.main_menu_item
@@ -2436,6 +2414,28 @@ tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(2)
 tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(4)
 tybito.com##.dt_tybito.main_menu_item_number_3.dynamic_menu_item_snap.main_menu_item
 tybito.com##li.main_menu_item_number_3.main_menu_item:nth-of-type(2)
+
+! Porndoe
+porndoe.com##+js(abort-on-property-read, open)
+porndoe.com##+js(addEventListener-defuser, click, pop_under)
+porndoe.com##+js(prevent-setTimeout, location.href, 500)
+porndoe.com##+js(abort-on-property-read, ExoLoader)
+porndoe.com##.\-f-banners
+porndoe.com##.-h-ticker
+##.advertisement-box
+porndoe.com##.videos-tsq
+porndoe.com##a[href*=".com/track/"]
+_300x250_
+porndoe.com##.below-video
+porndoe.com##.player-right
+porndoe.com##.vpr-section
+||porndoe.com/wp-contents/channel?
+porndoe.com##.-channel-join.-grow
+porndoe.com##.-ad-top-wrap
+porndoe.com##.-up-mobile
+porndoe.com##.advertisement-mobile
+porndoe.com##.vpc-join
+porndoe.com##.-sidebar-try
 
 ! Porngo
 porngo.com##li.menu-list__row:nth-of-type(8)
