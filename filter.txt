@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan09-3
+! Version: 2025Jan09-4
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3731,6 +3731,7 @@ tnaflix.com##.bannerBlock
 tnaflix.com###ads-ntv1:nth-ancestor(1)
 tnaflix.com##.footer-wrapper > .row > .offset-lg-3.col-lg-3.col-6
 ||shukriya90.com^
+tnaflix.com###ads-under-video_
 
 ! Twitch embed
 player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
