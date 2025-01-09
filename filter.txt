@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan09-2
+! Version: 2025Jan09-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -17,11 +17,13 @@
 
 ! # Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||bunkr.*/a/*$popup,domain=simpcity.su
+@@||bunkr.*/f/*$popup,domain=simpcity.su
 @@||bunkr.*/i/*$popup,domain=simpcity.su
 @@||bunkr.*/v/*$popup,domain=simpcity.su
 @@||bunkr.sk/i/*$popup,domain=simpcity.su
 @@||bunkr.sk/v/*$popup,domain=simpcity.su
 @@||bunkrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrr.*/f/*$popup,domain=simpcity.su
 @@||bunkrr.*/i/*$popup,domain=simpcity.su
 @@||bunkrr.*/v/*$popup,domain=simpcity.su
 @@||bunkrr.ru/a/*$popup,domain=simpcity.su
@@ -31,6 +33,7 @@
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 @@||bunkrrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrrr.*/f/*$popup,domain=simpcity.su
 @@||bunkrrr.*/i/*$popup,domain=simpcity.su
 @@||bunkrrr.*/v/*$popup,domain=simpcity.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
@@ -2436,6 +2439,8 @@ porndoe.com##.-up-mobile
 porndoe.com##.advertisement-mobile
 porndoe.com##.vpc-join
 porndoe.com##.-sidebar-try
+porndoe.com##+js(set-cookie, _aGaB, 1)
+porndoe.com##+js(set-cookie, _aCan_analytical, 0)
 
 ! Porngo
 porngo.com##li.menu-list__row:nth-of-type(8)
@@ -4314,6 +4319,8 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ##.header-ads
 ! ##Disable devtools:
 ||jsdelivr.net/npm/disable-devtool
+! ## Pixeldrain-bypass remove games4u layer
+pixeldrain-bypass.cybar.xyz###games4uorg
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
