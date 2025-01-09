@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Dec07-1
+! Version: 2025Jan09-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -130,6 +130,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkr.*
 @@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
 @@||bunkr.*/lul/pepega-loading.webp$inline-font,domain=bunkr.*
+@@||bunkr.*/js/player.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
@@ -681,6 +682,7 @@ bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: no
 ||bunkr.*/js/last_visit.js$script
 ||stats.bunkr.ru$xhr,method=POST
 ||delicioustaco.b-cdn.net^
+bunkr.*##.footer_center > svg
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -2339,6 +2341,28 @@ porn4fans.com$frame
 ||porn4fans.com/player/html.php?
 porn4fans.com###_iframe_content
 
+! Porndoe
+porndoe.com##+js(abort-on-property-read, open)
+porndoe.com##+js(addEventListener-defuser, click, pop_under)
+porndoe.com##+js(prevent-setTimeout, location.href, 500)
+porndoe.com##+js(abort-on-property-read, ExoLoader)
+porndoe.com##.\-f-banners
+porndoe.com##.-h-ticker
+##.advertisement-box
+porndoe.com##.videos-tsq
+porndoe.com##a[href*=".com/track/"]
+_300x250_
+porndoe.com##.below-video
+porndoe.com##.player-right
+porndoe.com##.vpr-section
+||porndoe.com/wp-contents/channel?
+porndoe.com##.-channel-join.-grow
+porndoe.com##.-ad-top-wrap
+porndoe.com##.-up-mobile
+porndoe.com##.advertisement-mobile
+porndoe.com##.vpc-join
+porndoe.com##.-sidebar-try
+
 ! Porndig
   ! EN !
 porndig.com##.dt_porndig.main_menu_item_number_6.dynamic_menu_item_snap.main_menu_item
@@ -3701,6 +3725,7 @@ tnaflix.com###top-temp-ad-mobile
 tnaflix.com##.bannerBlock
 tnaflix.com###ads-ntv1:nth-ancestor(1)
 tnaflix.com##.footer-wrapper > .row > .offset-lg-3.col-lg-3.col-6
+||shukriya90.com^
 
 ! Twitch embed
 player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
