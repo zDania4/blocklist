@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan11-1
+! Version: 2025Jan14-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3884,6 +3884,21 @@ voyeurhit.*##.tozwwjjzjzoot
 voyeurhit.*###downloader-download
 voyeurhit.*###downloader-install
 
+! Watchdirty (watchmdh)
+watchdirty.to##.top-links
+watchdirty.to##[href^="https://go.rmhfrtnd.com"]:nth-ancestor(1)
+watchdirty.to##[href^="https://www.seduced.ai"]:nth-ancestor(1)
+watchdirty.to##.friends
+watchdirty.to##+js(set-constant, flashvars.protect_block, '')
+watchdirty.to##+js(set-constant, flashvars.popunder_url, '')
+watchdirty.to##+js(set-constant, flashvars.video_click_url, '')
+watchdirty.to##+js(set-constant, flashvars.adv_pre_vast, '')
+||queasytonight.com^
+watchdirty.to##+js(rmnt, script, wuyf)
+watchdirty.to##+js(rmnt, script, StripchatSpot)
+watchdirty.to##.player-related-videos
+watchdirty.to##.sponsor
+
 ! Watchpornto
 watchporn.to##.top-links
 watchporn.to##[href^="https://go.lnkpth.com/aff_f"]
@@ -4325,6 +4340,8 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ||jsdelivr.net/npm/disable-devtool
 ! ## Pixeldrain-bypass remove games4u layer
 pixeldrain-bypass.cybar.xyz###games4uorg
+! ## Meganz ad
+mega.nz###commercial-wrapper-webfilinkb
 
 ! *** easylist:easylist_adult/adult_thirdparty.txt ***
 ||18onlygirls.tv/wp-content/banners/
