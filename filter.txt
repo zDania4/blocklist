@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan14-1
+! Version: 2025Jan16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -898,6 +898,8 @@ coomer.su##a[href="https://coomer.su/matrix"]
 coomer.su##[href="//kemono.su/importer"] > div
 coomer.su##[href*="theporndude.com"]
 coomer.su##+js(rmnt, script, flgdabcpokrineutm)
+coomer.su##a[href*="realxxx.com"]
+||v6.realxxx.com^
 
 ! Cumlouder
 cumlouder.com###webcams-button
@@ -1987,6 +1989,7 @@ kemono.su##+js(rmnt, script, videoAds)
 ||anewfeedliberty.com/ceef/gdt3g0/tbt/2029287/tlk.xml
 ceef/gdt3g0/tbt/2029287/tlk.xml
 /^https:\/\/[a-z]{2,20}\.[a-z]{2,5}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[0-9]{5,10}\/tlk.xml/$script,3p
+kemono.su##a[href*="realxxx.com"]
 
 ! Leakedmodels
 leakedmodels.com##.azz_div.wp_xsize_class
@@ -3413,6 +3416,7 @@ simpcity.su##.prm-btn
 simpcity.su##+js(rmnt, script, promoban)
 ||gigachadlitics.b-cdn.net^
 *litics.b-cdn.net^
+simpcity.su##div.notice-content > a[href="https://catflix.su/home"]:upward(li.notice)
 
 ! Simpshub
 simpshub.com##.tags.links
