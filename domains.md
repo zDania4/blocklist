@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Jan-14</strong></p> <!-- for version 2025Jan14-1 -->
+<p align=center>Last updated: <strong>2024-Jan-18</strong></p> <!-- for version 2025Jan18-1 -->
 <!-- 150 covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
@@ -101,6 +101,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=porntn.com) porntn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornototale.com) pornototale.com (porndig's IT website)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) pornxrated.com  
@@ -135,6 +136,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
+![](https://www.google.com/s2/favicons?sz=16&domain=titstok.me) titstok.me  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
@@ -163,4 +165,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 
-<p align=right><strong>150</strong> | ☺</p>
+<p align=right><strong>152</strong> | ☺</p>
