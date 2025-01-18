@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan16-1
+! Version: 2025Jan18-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2860,6 +2860,17 @@ pornone.com##+js(set, invideoad, 0)
 pornone.com##+js(set, vastad, false)
 pornone.com##+js(set, pauseCount, 0)
 
+! Porntn
+porntn.com##.network
+porntn.com##.primary > li > [href*="aj1070.online"]:upward(1)
+porntn.com##+js(set-constant, flashvars.protect_block, '')
+porntn.com##+js(abort-current-script, decodeURIComponent, 0x)
+porntn.com##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+porntn.com##+js(set, adv_pre_vast, '')
+porntn.com##+js(set, protect_block, '')
+||porntn.com/player/player_ads.html
+||go.rmhfrtnd.com^
+
 ! Porntrex
 porntrex.com##+js(disable-newtab-links)
 &action=js_stats&
@@ -3677,6 +3688,22 @@ tiktok.com##*:style(-webkit-touch-callout: default !important; -webkit-user-sele
 ||tiktok.com/ttwid/check/
 ||tiktokv.com/monitor_browser/
 ||tiktok.com/web/report?
+
+! Titstok
+titstok.me##.left_top.animatedfsmenu-navbar-toggler
+titstok.me##[href="https://theporndude.com/"]:upward(1)
+titstok.me##[href^="https://undressai.tools/"]:upward(1)
+titstok.me##[href^="https://go.rmhfrtnd.com"]:upward(1)
+titstok.me##[href^="https://candy.ai"]:upward(1)
+titstok.me##.swiper-slide-active.swiper-video-slide.swiper-slide > .swiper-side > .avatar-img
+titstok.me##.afsmenu_scroll
+##a[href^="https://bngprm.com/"]
+://analytics.*/event
+! Fix for no audio, but causes multiple videos to play audio at once...
+!titstok.me##+js(set, wpst_player_init_var.mute_videos_by_default, false)
+titstok.me##.avatar-img
+titstok.me##.animation_line.animatedfsmenu__opacity.animatedfsmenu__sidemenu.align_left.animatedfsmenu
+||inevitablyflop.com^
 
 ! Tittytube
 tittytube.com###menu-item-47 > [href="https://tittytube.com/friends/"]
