@@ -28,7 +28,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=chatwhores.com) chatwhores.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=cloudbate.com) cloudbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=coomer.party) coomer.party/coomer.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=cumlouder.com) coumlouder.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=cumlouder.com) cumlouder.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=cyberdrop.me) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
