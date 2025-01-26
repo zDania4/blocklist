@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2024-Jan-18</strong></p> <!-- for version 2025Jan18-1 -->
-<!-- 150 covered domains in list -->
+<p align=center>Last updated: <strong>2025-Jan-26</strong></p> <!-- for version 2025Jan26-1 -->
+<!-- 153+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -92,6 +92,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=pixhost.to) pixhost.*  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=platinumleaks.com) platinumleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
@@ -165,4 +166,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 
-<p align=right><strong>152</strong> | ☺</p>
+<p align=right><strong>153</strong> | ☺</p>
