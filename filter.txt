@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan18-1
+! Version: 2025Jan26-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2293,6 +2293,19 @@ pimpbunny.com##+js(rmnt, script, parseInt)
 pimpbunny.com##.pb-adv-under-video
 ||c0d05e4183.59aa4e4c1c.com/045a07ae2e6c5ee0653c669d893674c6.js
 /^https?:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
+
+! Pixhost
+pixhost.*##+js(remove-node-text, script, exdynsrv)
+pixhost.*###web:style(display: block !important;)
+pixhost.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+pixhost.*###js
+pixhost.*##+js(rmnt, script, randStr)
+pixhost.to##.asdadasda
+pixhost.*##+js(rmnt, script, ShowIt)
+pixhost.*###adn-138
+pixhost.*##.down
+pixhost.*##.above-image
+pixhost.*##.under-image
 
 ! Pixlli
 pixl.li##+js(nowoif)
