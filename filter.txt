@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jan26-1
+! Version: 2025Jan30-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1414,6 +1414,12 @@ fikfap.com##.bg-opacity-20.bg-white.cursor-pointer.select-none.pointer-events-au
 fikfap.com##.overflow-hidden.m-auto.flex-col.flex.w-full.bottom-0.absolute > div.items-center.flex-row.flex
 fikfap.com##.cursor-pointer.select-none.p-0.m-0.text-base
 fikfap.com##.bg-accent-900.cursor-pointer.select-none.ring-brand.ring-2.rounded-full.w-16.h-16
+fikfap.com##.justify-center.flex.drop-shadow-sm.sidebar-position.select-none.pointer-events-auto.size-7.w-16.top-4.absolute
+fikfap.com##.select-none.justify-center.items-center.sidebar-position.w-16.bottom-4.flex-col.flex.absolute > .p-2
+fikfap.com##div.will-change-transform.right-0.left-0.bottom-0.top-0.absolute:nth-of-type(2) > .rounded-md.justify-center.overflow-hidden.bg-cover.bg-center.m-auto.flex.w-full.h-full.relative > .md\:aspect-mobile.md\:w-auto.w-full.relative > .justify-center.right-0.left-0.h-8.bottom-0.absolute > .pointer-events-none.right-20.left-4.bottom-4.absolute > .flex-wrap.gap-2.flex-row.flex > div:nth-of-type(1)
+fikfap.com##.border-brand.story-pulsating-brand
+fikfap.com##.border-brand > div > .bg-brand
+fikfap.com##[href*="api.fikfap.com/t/link?url="]
 
 ! Filemoon
 ||filemoon.*/js/baf.js
@@ -1531,6 +1537,9 @@ hclips.com##.header__network
 hclips.com##[href^="https://porntourist.com/"]
 hclips.com##div.headline:nth-of-type(2)
 hclips.com##.mobile-menu__container > div.mobile-menu__item > .mobile-dropdown
+hclips.com##.nopop.jw-atitle.jw-reset
+hclips.com##.jw-download-btn.jw-custom-btn
+hclips.com##.jwplayer-custom-button.jw-reset.jw-button-color.jw-icon-inline.jw-icon
 
 ! Hdzog
 hdzog.*##a.item-primary.desktop-menu-item:nth-of-type(9)
@@ -2294,6 +2303,9 @@ pimpbunny.com##.pb-adv-under-video
 ||c0d05e4183.59aa4e4c1c.com/045a07ae2e6c5ee0653c669d893674c6.js
 /^https?:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
 
+! Pinporn
+pin.porn##[href="https://theporndude.com/"]
+
 ! Pixhost
 pixhost.*##+js(remove-node-text, script, exdynsrv)
 pixhost.*###web:style(display: block !important;)
@@ -2962,6 +2974,9 @@ privatehomeclips.com##+js(rmnt, script, hommy)
 privatehomeclips.com##+js(rmnt, script, isBasicBetterAds)
 privatehomeclips.com##+js(rmnt, script, adzone)
 privatehomeclips.com##.jw-related
+privatehomeclips.com##.nopop.jw-atitle.jw-reset
+privatehomeclips.com##.jw-download-btn.jw-custom-btn
+privatehomeclips.com##.jwplayer-custom-button.jw-reset.jw-button-color.jw-icon-inline.jw-icon
 
 ! Prnfap
 prnfap.com##.menu-item-object-custom.menu-item-type-custom.menu-item.menu-item-depth-0.main-menu-item
@@ -3620,6 +3635,7 @@ theporndude.com##body::before
 theporndude.com##.--show.coo-widget.coomeet-app
 theporndude.com###category-block-97 > .category-after-block > .link
 theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
+theporndude.com##.chat-widget
 
 ! Thotbook
 thotbook.tv###page > .code-block-3.code-block
