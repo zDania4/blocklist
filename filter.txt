@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb01-2
+! Version: 2025Feb02-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -4224,6 +4224,22 @@ xozilla.com##.primary > li:nth-of-type(10)
 xozilla.com##.primary > li:nth-of-type(9)
 xozilla.com###scrollhere
 xozilla.com##.main-content > div:nth-of-type(4)
+
+! Xpics
+xpics.me##a[href^="/goto/"]
+xpics.me##a[href="https://t.me/xpicsm"]
+xpics.me##div.masonry-item > .wrapper
+xpics.me##div.masonry-item > .wrapper:upward(1)
+xpics.me##+js(cookie-remover, service-token)
+xpics.me##+js(cookie-remover, service-token-passport)
+xpics.me##+js(set-local-storage-item, service-token, $remove$)
+xpics.me##+js(set-session-storage-item, service-token, $remove$)
+xpics.me##.justify-center.d-flex.mx-auto.my-2.wrapper
+||log.fapder.com/renderer/renderer.js$script,domain=xpics.me
+xpics.me##.pb-2.px-4.generator-button
+xpics.me##+js(abort-on-property-read, popit)
+xpics.me##+js(addEventListener-defuser, popstate, noPop)
+xpics.me##+js(prevent-window-open)
 
 ! Xvideos
 xvideos.com##.disclaimer-enter-shemale.btn-primary.btn
