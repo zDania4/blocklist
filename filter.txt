@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb02-1
+! Version: 2025Feb07-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -86,6 +86,8 @@
 @@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
 @@||simpcity.su/.well-known/ddos-guard/mark/*$1p
 @@||simpcity.su/.well-known/ddos-guard/mark/$xhr,1p
+@@||simpcity.su/captcha/
+@@||simpcity.su/verify/
 @@/.well-known/ddos-guard/*
 
 ! # Anti-adblock / #CHP Ads Block Detector
@@ -951,6 +953,7 @@ cyberdrop.me##ads-footer-mobile
 dwiovmamhb.com^
 cyberdrop.me##+js(rmnt, script, concat)
 cyberdrop.me##+js(rmnt, script, L0soL, stay, 1)
+cyberdrop.me##+js(rmnt, script, ZcZZdddSVSaYM)
 
 ! Cyberfile
 ||acscdn.com^
