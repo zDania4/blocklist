@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb07-1
+! Version: 2025Feb08-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1389,6 +1389,18 @@ fapoleaks.com##a[href*="traffichaus.com"]
 fapoleaks.com##a[href*="https://outfitswap.ai"]
 fapoleaks.com##+js(rmnt, script, TSOutstreamVideo)
 
+! Faponhd
+faponhd.com##.porn-chat
+faponhd.com##li.item > .chatl
+faponhd.com##.hold_nav .chatl:upward(li)
+faponhd.com##[href="https://zagruz.tv/"]
+faponhd.com##.fh-margin.fh-line
+||xbigduck.com/lib.js$script
+||cdn-fc.com/creatives/bar/bar.min.js$script
+faponhd.com/player/player_ads.html
+##img[src*="//counter.yadro.ru/"]
+&action=js_stats$domain=faponhd.com
+
 ! Fapopedia
 fapopedia.net##div[style="margin:10px auto 10px; width:300px; height:250px;"]
 fapopedia.net##[href="https://theporndude.com/"]
@@ -1576,6 +1588,17 @@ hdzog.*##div.item-video.listing__item_video.listing__item
 hdzog.*##.download-btn.info-block__controllers-control
 hdzog.*###downloader-download
 hdzog.*###downloader-install
+
+! Hobbyporn
+hobby.porn##.sgdpr-box
+hobby.porn##[href^="https://li.ru/go"]:upward(li)
+hobby.porn##.player-block:style(margin-right: 0 !imporant; margin-left: 0 !imporant overflow: hidden !imporant; padding-right: 0 !important; position: relative !imporant)
+hobby.porn##.fp-brand
+hobby.porn##+js(set, protect_block, '')
+hobby.porn/player/player_ads.html
+hobby.porn##.pad
+hobby.porn##[href="https://www.faponhd.com/"]:upward(li)
+&action=js_stats$domain=hobby.porn
 
 ! Hotleak
 hotleak.vip##+js(aeld, contextmenu)
@@ -4393,6 +4416,23 @@ youjizz.com##.cookie-toast
 !youjizz.com##.adblock-detector
 !youjizz.com##+js(set-session-storage-item, yjAdblockerWarningClosed, true)
 youjizz.com##+js(set-session-storage-item, yj_hd, true)
+
+! Zagrus
+||iam4thetop.cfd^
+||octo25.me^
+||lin01.biz^
+||rdrctgoweb.com^
+##.bigClickTeasersBlock
+zagruz.tv##.bigClickTeasersBlock:upward(#list_videos_related_videos)
+||connect.facebook.net/en_US/sdk.js$script,domain=zagruz.tv
+zagruz.tv##.media_aside
+||69m.info^
+||cjvdfw.com^
+zagruz.tv##.player-related-videos
+zagrus.tv##+js(set, related_src, '')
+zagruz.tv##.aside > [href] > .aside_list_item_title
+zagruz.tv##.aside > h3
+zagruz.tv##.aside_spot
 
 ! Non-specific and other stuff
 ||twinrdsrv.com^
