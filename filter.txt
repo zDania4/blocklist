@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb14-1
+! Version: 2025Feb16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2208,6 +2208,23 @@ nudevista.*##+js(abort-current-script, document.querySelectorAll, popMagic)
 nudevista.com##.header__live.header__tab--white.header__tab
 nudevista.com###paysite
 
+! Nudogram
+nudogram.com##.top-links
+nudogram.com##[href="https://fapopedia.net/"]:upward(li)
+nudogram.com##[href="https://theporndude.com/"]:upward(li)
+nudogram.com##+js(abort-on-property-read, decodeURI)
+nudogram.com##+js(abort-current-script, decodeURI, decodeURIComponent)
+||dmzjmp.com^
+://adv.$from=~adv.asahi.com|~adv.bet|~adv.blue|~adv.chunichi.co.jp|~adv.cincsys.com|~adv.cryptonetlabs.it|~adv.derfunke.at|~adv.design|~adv.digimatix.ru|~adv.ec|~adv.ee|~adv.gg|~adv.hokkaido-np.co.jp|~adv.kompas.id|~adv.lack-girl.com|~adv.mcr.club|~adv.mcu.edu.tw|~adv.michaelgat.com|~adv.msk.ru|~adv.neosystem.co.uk|~adv.peronihorowicz.com.br|~adv.rest|~adv.ru|~adv.tools|~adv.trinet.ru|~adv.ua|~adv.vg|~adv.yomiuri.co.jp|~advancedradiology.com|~advids.co|~farapp.com|~pracuj.pl|~r7.com|~typeform.com|~welaika.com
+||adv.clickadu.net^
+||mrybahnw.com^
+##[href^="https://join3.bannedsextapes.com"]
+nudogram.com##+js(rmnt, script, .test)
+nudogram.com##.wp_xsize_class
+nudogram.com##.wp_xsize_class:upward(.headline)
+nudogram.com##+js(rmnt, script, LiveInternet)
+nudogram.com##.txt
+
 ! Nudostar
 nudostar.com##.azz_div.wp_xsize_class
 nudostar.com###post-98942
@@ -2913,6 +2930,7 @@ pornone.com##+js(set, invideoad, 0)
 pornone.com##+js(set, vastad, false)
 pornone.com##+js(set, pauseCount, 0)
 pornone.com##.vrazka
+pornone.com##a[href*="zlinkb.com/d.php"]:upward(1)
 
 ! Porntn
 porntn.com##.network
@@ -3144,6 +3162,8 @@ redgifs.com##div[class*="_adDefault300x250_"]
 redgifs.com##div[class^="_Item_"]:nth-of-type(1)
 redgifs.com##div[class^="_advertSearchLink_"]
 redgifs.com##div[class^="_liveAdButton_"]
+redgifs.com##.InformationBar_islight.InformationBar_isvalentines.InformationBar
+
 
 ! Redtube
 redtube.*###paid_tabs_list
