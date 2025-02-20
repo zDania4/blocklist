@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb16-1
+! Version: 2025Feb20-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1110,6 +1110,8 @@ bongacams.com/pwa-bc.js$all,important
 www.eporner.com###headholder > [href]
 www.eporner.com###footsocbuttons
 www.eporner.com###cookies
+eporner.com##admobiletop
+eporner.com##admobiletopinside
 
 ! Erome
 erome.com##+js(acs, $, exo)
@@ -1409,6 +1411,9 @@ fapopedia.net##.r-dsc
 ||falsifylilac.com^
 ||witskirifkab.com^
 fapopedia.net##+js(rmnt, script, flgdabcpokrineutm)
+fapopedia.net##+js(rmnt, script, fromCharCode)
+||aljasdgc.com^
+||nimbleboilerdived.com^
 
 ! Fikfap
 fikfap.com##:has(.stripcash-card)
