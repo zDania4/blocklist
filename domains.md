@@ -15,6 +15,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=allfansleak.net) allfansleak.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=babepedia.com) babepedia.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=baddies.xxx) baddies.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=bitchesgirls.com) bitchesgirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
