@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Feb20-1
+! Version: 2025Feb25-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -138,6 +138,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/lul/pepega-loading.webp$image,domain=bunkrr.*
 @@||bunkr.*/lul/pepega-loading.webp$inline-font,domain=bunkr.*
 @@||bunkr.*/js/player.js$script,domain=bunkr.*|bunkrr.*
+@@||bunkr.*/js/player.enc.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/magic/dashboard-v3.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
@@ -349,6 +350,20 @@ allfansleak.net##.single-top-ad
 ! Anon-v
 anon-v.*##+js(abort-current-script, atob, decodeURI)
 anon-v.*##+js(abort-current-script, onload)
+
+! Babepedia
+babepedia.com###friends-block
+babepedia.com###linkbox
+babepedia.com##[href="https://www.fapcat.com/"]:upward(li)
+babepedia.com##[href="https://vrpornmania.com/best-sites/"]:upward(li)
+babepedia.com##[href^="https://go.rmishe.com/smartpop"]:upward(li)
+babepedia.com##[href="https://www.girlsnxxxtdoor.com/vv20"]:upward(li)
+babepedia.com##+js(abort-on-property-read, loadTool)
+babepedia.com##.left_side > .sidebar_block > a
+babepedia.com##.sidebar_block > a[rel="nofollow noopener"]
+babepedia.com##.sticky.left_side > div.sidebar_block:nth-of-type(2)
+babepedia.com##.sticky.left_side > div.sidebar_block:nth-of-type(3) > h2
+babepedia.com##[href="https://www.honestpornreviews.com/default.cfm"]:upward(li)
 
 ! Baddiesxxx
 baddies.xxx##[href="https://pimpbunny.com"]
@@ -691,6 +706,9 @@ bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: no
 ||stats.bunkr.ru$xhr,method=POST
 ||delicioustaco.b-cdn.net^
 bunkr.*##.footer_center > svg
+bunkr.*/api/a_details$xhr
+bunkr.*###a-script-container
+bunkr.*/js/lv.js$script
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
