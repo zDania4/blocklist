@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Feb-16</strong></p> <!-- for version 2025Feb16-1 -->
-<!-- 159+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Mar-01</strong></p> <!-- for version 2025Mar01-3 -->
+<!-- 164+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -27,6 +27,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=camwhorescloud.com) camwhorescloud.com  
 ![](https://camo.githubusercontent.com/74626c766e0716f93810d055cbc38362c3d30960fc5ae1979729ffbd656dd705/68747470733a2f2f692e696d6775722e636f6d2f39656e4d647a542e706e67) chatpic.org  
 ![](https://www.google.com/s2/favicons?sz=16&domain=chatwhores.com) chatwhores.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=checkporno.com) checkporno.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=cloudbate.com) cloudbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=coomer.party) coomer.party/coomer.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=cumlouder.com) cumlouder.com  
@@ -107,6 +108,8 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=porno-365.lol) porno-365.lol (and 2video365.me)  
+![](https://www.google.com/s2/favicons?sz=16&domain=порно.me) порно.me/порно.io (xn--m1abbbg.me/.io)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntn.com) porntn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornototale.com) pornototale.com (porndig's IT website)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
@@ -120,6 +123,8 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=reddit.com) reddit.com (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=redgifs.com) redgifs.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=redtube.com) redtube.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=русский-секс.net) русский-секс.net (xn----jtbhede0biaeco.net)  
+![](https://www.google.com/s2/favicons?sz=16&domain=rusvideos.day) rusvideos.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=saint2.su) saint2.su/saint2.pk (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=se.video) se.video  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sendvid.com) sendvid.com  
@@ -173,4 +178,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
 
-<p align=right><strong>159</strong> | ☺</p>
+<p align=right><strong>164</strong> | ☺</p>
