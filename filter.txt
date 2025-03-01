@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar01-2
+! Version: 2025Mar01-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -850,6 +850,15 @@ chatwhores.*##+js(no-window-open-if)
 ||papmeatidigbo.com^
 ||worstideatum.com^
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,5}(?:\?[_v]=\d+)?$/$script,3p,redirect-rule=noop.js,match-case
+
+! Checkporno
+checkporno.com##script[src*="a.magsrv.com"]
+checkporno.com##script[src*="a.magsrv.com"]:upward(div.mb-4.pr-2.pl-2.col-lg-3.col-md-4.col-sm-6.col-12.video)
+checkporno.com##+js(rmnt, script, _paq)
+! Center has to be enabled for desktop use, for mobile it sadly leaves a big blank space.
+checkporno.com##center[style="height:250px"]:style(height: 64px !important)
+checkporno.com##ins[class="eas6a97888e"]:remove()
+checkporno.com##.main-desc
 
 ! Cloudbate
 ||cloudbate.com/chat.php$document
@@ -2919,6 +2928,31 @@ pornl.com##.underplayer:style(min-height: 0px !important)
 pornl.com##.video-ntv-wrapper
 pornl.com##.mobile-menu__item
 
+! Porno-365 / 2video365
+m.2video365.me##script[src*="a.pemsrv.com/popunder1000.js"]:remove()
+||geosrealscdn.com^
+||georealcdn.com^
+||rdrctgoweb.com^
+m.2video365.me##+js(rmnt, script, decodeURIComponent)
+m.2video365.me##script[src*="georealcdn.com"]:remove()
+m.2video365.me##script[src*="geosrealscdn.com"]:remove()
+m.2video365.me##+js(set, adv_pre_vast, '')
+||threewoodslose.com^
+||adtmastercdn.com^
+m.2video365.me###e102bd2020
+porno-365.lol##+js(rmnt, script, decodeURIComponent)
+porno-365.lol##script[src*="georealcdn.com"]:remove()
+porno-365.lol##script[src*="geosrealscdn.com"]:remove()
+porno-365.lol##+js(set, adv_pre_vast, '')
+porno-365.lol##script[src*="a.pemsrv.com/popunder1000.js"]:remove()
+porno-365.lol##[href="https://taki-taki.me/"]:upward(li)
+
+! Pornome / Pornoio (xn--m1abbbg.me/.io)
+порно.me##+js(rmnt, script, clickadilla7970)
+порно.me##+js(rmnt, script, prerolls.replace)
+порно.io##+js(rmnt, script, clickadilla7970)
+порно.io##+js(rmnt, script, prerolls.replace)
+
 ! Pornone
 pornone.com##div.xl\:grid-cols-6.lg\:grid-cols-4.md\:grid-cols-3.sm\:grid-cols-2.grid-cols-1.gap-y-4.gap-x-4.portrait\:gap-y-0\.1.portrait\:gap-x-0\.1.grid.w-full:nth-of-type(4)
 pornone.com##.sm\:px-0.px-\[3\%\].md\:mt-9.mb-2.mt-5.max-w-full.col-span-full.items-center.flex > .tracking-tight.dark\:text-white.text-black-darkest.font-bold.md\:text-f32.text-f19.block
@@ -2980,6 +3014,12 @@ porntrex.com###index-link
 www.porntrex.com##li.hidden-sm > .hidden-sm
 www.porntrex.com##[href="https://bongacams.com/"]
 www.porntrex.com##.open-tool.pop-adv
+
+! Pornushka (xn--80atidehw4b.org)
+порнушка.tv##+js(rmnt, script, clickadilla7979)
+порнушка.tv##+js(rmnt, script, prerolls.replace)
+m.порнушка.tv##+js(rmnt, script, clickadilla7979)
+m.порнушка.tv##+js(rmnt, script, prerolls.replace)
 
 ! Pornxrated
 forum.pornxrated.com##.node--link.node--depth2.node--id5.node
@@ -3226,6 +3266,16 @@ redtube.com##video[autoplay][src*="data:" i]
 !redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
 /_xa/ads_
 /ht.js?site_
+
+! Russkiy-seks (xn----jtbhede0biaeco.net)
+русский-секс.net##+js(rmnt, script, clickadilla7976)
+русский-секс.net##+js(rmnt, script, prerolls.replace)
+m.русский-секс.net##+js(rmnt, script, clickadilla7976)
+m.русский-секс.net##+js(rmnt, script, prerolls.replace)
+||elonreptiloid.com^
+
+! Rusvideos
+rusvideos.*##+js(set, preroll, '')
 
 ! Saint
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr,domain=saint.to
