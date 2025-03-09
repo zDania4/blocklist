@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar01-3
+! Version: 2025Mar09-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1313,6 +1313,13 @@ fapello.com##[href*="undress.app"]
 fapello.com##[href*="camsoda.com"]
 fapello.com##[src^="https://fapello.com/assets/exclusive/"]:upward(3)
 fapello.com##[class*='uk-align']:style(margin-top: 0px !important)
+fapello.com##[href^="https://fapello.com/a/menu-2"]
+fapello.com##[href^="https://fapello.com/a/menu-3"]
+fapello.com##[href*="undress.cc"]:upward(div.p-5.space-x-5.flex)
+fapello.com##.barbie_desktop
+fapello.com##.barbie_mobile
+?bannerid=
+||adxserve.com/adx/www/delivery/afr.php^
 
 ! Fapeza
 fapeza.com##+js(abort-current-script, globalThis, break;case)
