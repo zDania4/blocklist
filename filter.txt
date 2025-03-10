@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar10-1
+! Version: 2025Mar10-3
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -197,6 +197,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cdn.jsdelivr.net/npm/*$inline-font,domain=get.bunkrr.su
 @@||cdn.jsdelivr.net/npm/vanilla-lazyload$script,domain=jpg5.su
 @@||cold1.saint2.*/videos/
+@@||cdn.tailwindcss.com^$domain=bunkr.*|bunkrr.*
 @@||ct1.saint2.*/thumbs/
 @@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
@@ -711,6 +712,7 @@ bunkr.*##.footer_center > svg
 bunkr.*/api/a_details$xhr
 bunkr.*###a-script-container
 bunkr.*/js/lv.js$script
+||87fa4b7e.b-cdn.net^
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -931,6 +933,7 @@ coomer.su##[href*="theporndude.com"]
 coomer.su##+js(rmnt, script, flgdabcpokrineutm)
 coomer.su##a[href*="realxxx.com"]
 ||v6.realxxx.com^
+||soonpubplatform.online^
 
 ! Cumcoming
 cumcoming.com##.stop-holder
