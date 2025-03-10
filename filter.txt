@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar09-1
+! Version: 2025Mar10-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -932,6 +932,12 @@ coomer.su##+js(rmnt, script, flgdabcpokrineutm)
 coomer.su##a[href*="realxxx.com"]
 ||v6.realxxx.com^
 
+! Cumcoming
+cumcoming.com##.stop-holder
+||cumcoming.com/?mode=async&action=js_stats
+cumcoming.com##.middle-col
+cumcoming.com##.item.thumb.spot
+
 ! Cumlouder
 cumlouder.com###webcams-button
 cumlouder.com###menu-webcams
@@ -961,7 +967,6 @@ cumlouder.com##+js(set, vmap, '')
 cumlouder.com##+js(rmnt, script, webcamsCountry)
 ||cumlouder.com/track_video.php?$xhr
 cumlouder.com##.btn-secondary--superporn.btn-secondary.btn.tab__link
-
 
 ! Cyberdrop
 ###ads-header
@@ -1090,6 +1095,15 @@ ds2video.com##.vjs-poster
 ds2play.com##+js(addEventListener-defuser, contextmenu)
 ds2play.com##+js(set-constant, console.clear, undefined)
 ds2play.com##+js(remove-node-text, script, /adblock|popunder|openedPop|WebAssembly/)
+
+! Epawg
+epawg.com##[href="https://notfans.com"]:upward(li)
+||toprevenuegate.com^
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js,to=com
+||epawg.com/?mode=async&action=js_stats
+epawg.com##.footer-margin
+epawg.com##+js(set, adv_pre_vast, '')
+epawg.com/player/stats.php?$image,redirect-rule=1x1.gif
 
 ! Eporner
 ||eporner.com/dot/
@@ -2226,6 +2240,11 @@ noodlemagazine.com##div:nth-of-type(6)
 ||tbpot.com^
 banner.go?spaceid=
 
+! Notfans
+||notfans.com/?mode=async&action=js_stats
+notfans.com##+js(set, adv_pre_vast, '')
+notfans.com##.footer-margin
+
 ! Nsfw247
 nsfw247.to###nav-menu-item-322538 > .main-menu-link.menu-link
 nsfw247.to###menu-main-1 > .menu-item-object-custom.menu-item-type-custom.menu-item.theporndude.menu-item-depth-0.menu-item-even.main-menu-item
@@ -2997,6 +3016,20 @@ pornone.com##+js(set, vastad, false)
 pornone.com##+js(set, pauseCount, 0)
 pornone.com##.vrazka
 pornone.com##a[href*="zlinkb.com/d.php"]:upward(1)
+
+! Pornstarbyface
+pornstarbyface.com###testCount
+pornstarbyface.com##.thematic-links
+pornstarbyface.com##[href="https://www.vrporn.com/"]:upward(div)
+pornstarbyface.com##.partnersFullRez.text-right.col-sm-3 > .foot-links
+pornstarbyface.com##div.text-center > .info-first-page
+||pornstarbyface.com/Scripts/Ads.js$script
+pornstarbyface.com###object_container
+pornstarbyface.com##div[id^="sponcored-content-"]
+pornstarbyface.com##[href*="pornhubpremium.com/premium_signup"]
+pornstarbyface.com##img[src*="/Content/Images/pornhubBanner.jpg"]
+pornstarbyface.com##a[href^="https://www.brazzersnetwork.com/landing/"]:upward(div)
+pornstarbyface.com##.partnersMobileRez
 
 ! Porntn
 porntn.com##.network
@@ -4094,6 +4127,22 @@ watchdirty.to##+js(rmnt, script, StripchatSpot)
 watchdirty.to##.player-related-videos
 watchdirty.to##.sponsor
 
+! Watchmygf
+watchmygf.me##li.premium-item
+watchmygf.me##.duplicated.title-content-body
+watchmygf.me##.tablet-b
+watchmygf.me##+js(set-constant, flashvars.adv_pre_src, '')
+watchmygf.me##+js(set, adv_pre_url, '')
+watchmygf.me##+js(noeval)
+watchmygf.me##+js(abort-on-property-read, open)
+watchmygf.me##+js(set-constant, $.magnificPopup.open, noopFunc)
+watchmygf.me##.content-footer
+||wpiohdquqo.com^
+||watchmygf.me/?mode=async&action=js_stats
+watchmygf.me##+js(rmnt, script, constructor)
+watchmygf.me##.publicity
+watchmygf.me##.second.col-video
+
 ! Watchpornto
 watchporn.to##.top-links
 watchporn.to##[href^="https://go.lnkpth.com/aff_f"]
@@ -4432,6 +4481,9 @@ xvideos.com###ad-footer
 xvideos.com##+js(addEventListener-defuser, click, ShouldShow)
 popunder1000.js
 ad-provider.js
+
+! Xwiks
+xwiks.com##.adts-wrap
 
 ! Xxbrits
 xxbrits.com##.header > div:nth-of-type(1)
