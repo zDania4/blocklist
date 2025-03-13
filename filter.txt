@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar10-3
+! Version: 2025Mar13-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2399,6 +2399,19 @@ peekvids.com,playvids.com,pornflip.com##+js(set, pop_target, null)
 www.peekvids.com##[href="/gayporn"]
 www.peekvids.com##.add_href_jsclick
 
+! Picazor
+picazor.com##.transition-transform.h-\[50px\].shadow-sm.z-50.dark\:bg-slate-800.bg-white.w-full.left-0.bottom-0.fixed.md\:block.hidden.md\:pl-\[300px\]
+picazor.com##[href="/livesex"]
+picazor.com##.block.font-bold.whitespace-nowrap.py-1.px-2.rounded-lg.text-white.bg-rose-500
+picazor.com##div.my-4.h-0\.5.w-full.dark\:border-slate-700.border-b-\[1px\]:nth-of-type(8)
+picazor.com##[href="https://theporndude.com/"]
+picazor.com##div.my-4.h-0\.5.w-full.dark\:border-slate-700.border-b-\[1px\]:nth-of-type(9)
+picazor.com##.overflow-hidden.rounded-lg.shadow-lg.bg-white.h-\[105px\].w-\[620px\].mx-auto.items-center.justify-center
+picazor.com##.space-x-4.flex
+picazor.com##.border-none
+/lvesnk.html?zoneid=
+picazor.com##.mt-20.overflow-hidden.rounded-lg.shadow-lg.bg-white.h-\[260px\].w-\[325px\].mx-auto.items-center.justify-center.flex
+
 ! Pimpbunny
 pimpbunny.com##[href^="https://go.rmhfrtnd.com"]
 pimpbunny.com##[href="https://theporndude.com"]
@@ -3019,6 +3032,25 @@ pornone.com##+js(set, vastad, false)
 pornone.com##+js(set, pauseCount, 0)
 pornone.com##.vrazka
 pornone.com##a[href*="zlinkb.com/d.php"]:upward(1)
+
+! Pornpicsclick
+pornpics.click##a[href^="/go/"]
+pornpics.click##a[href="https://theporndude.com/"]
+pornpics.click##+js(cookie-remover, service-token)
+pornpics.click##+js(cookie-remover, service-token-passport)
+pornpics.click##+js(set-local-storage-item, service-token, $remove$)
+pornpics.click##+js(set-session-storage-item, service-token, $remove$)
+||log.fapder.com/renderer/renderer.js$script$domain=pornpics.click
+||fapder.com/resource?zones=
+pornpics.click##div.masonry-item > .wrapper
+pornpics.click##div.masonry-item > .wrapper:upward(1)
+pornpics.click##.justify-center.d-flex.mx-auto.my-2.wrapper
+pornpics.click##.pb-2.px-4.generator-button
+pornpics.click##+js(abort-on-property-read, popit)
+pornpics.click##+js(addEventListener-defuser, popstate, noPop)
+pornpics.click##+js(prevent-window-open)
+pornpics.click##.pb-2.px-4.generator-button
+pornpics.click##div.masonry-item > .wrapper:upward(.masonry-item)
 
 ! Pornstarbyface
 pornstarbyface.com###testCount
