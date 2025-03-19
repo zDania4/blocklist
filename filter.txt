@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar18-2
+! Version: 2025Mar19-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3571,7 +3571,7 @@ simpcity.su##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
 simpcity.su##.nav-shoosh.p-navEl-link
 !simpcity.su##+js(nowoif) --- Disabled to allow for upload buttons to work.
 !simpcity.su##+js(window-close-if, /^/)
-simpcity.su##.js-bottomFixTarget.u-bottomFixer
+!simpcity.su##.js-bottomFixTarget.u-bottomFixer
 !simpcity.su##.p-body-inner > div:nth-of-type(2) - Breaks logged in users, but shows ads when not logged in in Chromium, but not in Brave -- Needs further testing.
 x7r3mk6ldr.com$all,important
 .*/aas/r45d
