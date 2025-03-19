@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar19-1
+! Version: 2025Mar19-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -406,7 +406,7 @@ bitchesgirls.com##.info-link.model-links
 bitchesgirls.com##div.my-girls-popup-element.popup-element
 
 ! Bunkr 
-$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|bunkr.ps|bunkr.pk|bunkr.ph|bunkr.cr|c.bunkr-cache.se,domain=bunkr.*|bunkrr.*
+$popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|bunkr.ps|bunkr.pk|bunkr.ph|bunkr.cr|c.bunkr-cache.se|brg-bk.cdn.gigachad-cdn.ru,domain=bunkr.*|bunkrr.*
 bunkr.*##center:nth-of-type(1)
 bunkr.*##a.report-album.is-outlined.is-primary.button:nth-of-type(1)
 bunkr.*##center:nth-of-type(3) > p
