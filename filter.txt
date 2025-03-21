@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar19-3
+! Version: 2025Mar21-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -123,6 +123,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/i/*$popup,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkr.*/i/*$popup,domain=app.bunkrr.su
 @@||bunkr.*/js/albums*.js$script
+@@||bunkr.*/js/album_replace.js$script,from=bunkr.*|bunkrr.*
 @@||bunkr.*/js/album-stats.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/js/album-sorting.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkr.*/js/alerts.js$inline-font,domain=saint2.*
@@ -131,6 +132,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/js/alerts.js$script,domain=saint2.pk
 @@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
 @@||bunkr.*/js/alerts.js$script,domain=saint2.su
+@@||bunkr.*/js/gallery.js$script,from=bunkr.*|bunkrr.*
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 @@||bunkr.*/js/main.js$script,domain=bunkr.*|bunkrr.*|bunkrrr.*
 @@||bunkr.*/js/home-rt.js$script,domain=app.bunkrr.su
@@ -171,6 +173,8 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkrr.*/file-stats.js$script,domain=get.bunkrr.su
 @@||bunkrr.*/fonts/inter.woff2$font,inline-font,domain=get.bunkrr.su
 @@||bunkrr.*/get-files.css$stylesheet,inline-font,domain=get.bunkrr.su
+@@||bunkrr.*/js/album_replace.js$script,from=bunkr.*|bunkrr.*
+@@||bunkrr.*/js/gallery.js$script,from=bunkr.*|bunkrr.*
 @@||bunkrr.*/magic/album-sort.js$script,domain=bunkr.*|bunkrr.*
 @@||bunkrr.*/magic/dashboard-v3.js$script,domain=app.bunkrr.*|app.bunkr.*
 @@||bunkrr.*/magic/dashboard-v5.js$inline-font,domain=app.bunkrr.*|app.bunkr.*
@@ -711,10 +715,12 @@ bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: no
 ||stats.bunkr.ru$xhr,method=POST
 ||delicioustaco.b-cdn.net^
 bunkr.*##.footer_center > svg
-bunkr.*/api/a_details$xhr
+bunkr.*/api/a_details
 bunkr.*###a-script-container
 bunkr.*/js/lv.js$script
 ||87fa4b7e.b-cdn.net^
+||2916247c.b-cdn.net^
+/^https:\/\/[a-zA-Z0-9]{8}\.b-cdn\.net\/js\/script.js/$script,3p
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
