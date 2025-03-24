@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar21-1
+! Version: 2025Mar24-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3324,6 +3324,7 @@ redgifs.com##.InformationBar_islight.InformationBar_isvalentines.InformationBar
 redgifs.com##+js(json-prune, gifs.[-].cta)
 redgifs.com##.menuItemLabel:has-text('RedGIFs Cams'):upward(.burgerMenuItem)
 redgifs.com##.SideBar-Item:has(> [class^="_liveAdButton"])
+redgifs.com##.flameLeftIcon:upward(div.InformationBar)
 
 ! Redtube
 redtube.*###paid_tabs_list
@@ -4663,6 +4664,7 @@ disqus.com##+js(href-sanitizer, a[href^="https://disq.us/?url=http"], ?url)
 google.com##+js(set-local-storage-item, mapslitepromosdismissed, 1)
 www.google.*##+js(set-constant, rwt, noopFunc)
 www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="link"], rlhc, 1)
+||google.com/log^$from=~meet.google.com
 ||doubleclick.net^
 ||doubleclick.net^$xhr,redirect-rule=noop.txt
 ##.grecaptcha-badge[data-style]
