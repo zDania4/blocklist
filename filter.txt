@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar25-1
+! Version: 2025Mar27-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -245,6 +245,8 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
 @@||recordbate.com/assets/js/main.js
 @@||reddit.com^$generichide
+@@||s.bunkr.ru/api/file/stats^$xhr,method=GET|HEAD
+@@||s.bunkr.ru/api/album/stats^$xhr,method=GET|HEAD
 @@||saint.to/dropzone/dropzone.js
 @@||saint.to/js/main-login.js$script,1p
 @@||saint.to/js/main.js$script,1p
@@ -712,7 +714,8 @@ bunkrr.*##+js(rmnt, script, aclib)
 ||isolatedovercomepasted.com^
 bunkr.*##.plyr--full-ui input[type=range]:focus:style(outline: 0; box-shadow: none !important)
 ||bunkr.*/js/last_visit.js$script
-||stats.bunkr.ru$xhr,method=POST
+||stats.bunkr.ru/api/album/stats$xhr,method=POST
+||stats.bunkr.ru/api/file/stats$xhr,method=POST
 ||delicioustaco.b-cdn.net^
 bunkr.*##.footer_center > svg
 bunkr.*/api/a_details
@@ -721,6 +724,8 @@ bunkr.*/js/lv.js$script
 ||87fa4b7e.b-cdn.net^
 ||2916247c.b-cdn.net^
 /^https:\/\/[a-zA-Z0-9]{8}\.b-cdn\.net\/js\/script.js/$script,3p
+||s.bunkr.ru/api/album/stats$xhr,method=POST
+||s.bunkr.ru/api/file/stats$xhr,method=POST
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
