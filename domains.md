@@ -80,7 +80,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=instagram.com) instagram.com (stylistic rules only)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=kemono.su) kemono.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=leakedmodels.com) leakedmodels.com  
+![](https://camo.githubusercontent.com/6b1470254b45cf9bba94596eb8a931a002e90185990e8e6910a8f3f7c7f7fd67/68747470733a2f2f6c65616b65646d6f64656c732e636f6d2f66617669636f6e2f66617669636f6e2d31367831362e706e67) leakedmodels.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=leaked.page) leaked.page  
 ![](https://www.google.com/s2/favicons?sz=16&domain=leak.xxx) leak.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=lewdstars.com) lewdstars.com  
@@ -135,7 +135,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=saint2.su) saint2.su/saint2.pk (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=se.video) se.video  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sendvid.com) sendvid.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=sextubefun.com) sextubefun.com  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) sextubefun.com (down?)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sexy-egirls.com) sexy-egirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sexyteenpics.com) sexyteenpics.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpcity.su) simpcity.su  
@@ -148,7 +148,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=sxyprn.com) sxyprn.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theyarehuge.com) theyarehuge.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=theporndude.com) theporndude.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.tv) thotbook.tv  
+![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.co) thotbook.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
@@ -160,7 +160,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tybito.com) tybito.com (porndig's PL website)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
-![](https://www.google.com/s2/favicons?sz=16&domain=upstream.to) upstream.to  
+![](https://camo.githubusercontent.com/48363bccd925c693281f7be3aa859f314e997ea253775e6e4022b1c7463c3e4b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d757073747265616d2e746f) upstream.to (changed domains?)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videzz.net) videzz.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videy.co) videy.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voe.sx) voe.sx (and it's stream domains)  
