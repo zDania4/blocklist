@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Mar27-1
+! Version: 2025Apr01-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1637,6 +1637,8 @@ hclips.com##.mobile-menu__container > div.mobile-menu__item > .mobile-dropdown
 hclips.com##.nopop.jw-atitle.jw-reset
 hclips.com##.jw-download-btn.jw-custom-btn
 hclips.com##.jwplayer-custom-button.jw-reset.jw-button-color.jw-icon-inline.jw-icon
+hclips.com##.video-videos-slider
+hclips.com##.nopop.fah-btn
 
 ! Hdzog
 hdzog.*##a.item-primary.desktop-menu-item:nth-of-type(9)
@@ -2234,6 +2236,51 @@ motherless.com##.menu-element > [href^="https://ad.servetag.com/adraw"]
 motherless.com##div.footer-links-list:nth-of-type(3)
 motherless.com##.header-right > .hidden-xs
 motherless.com##.text-center.ml-footer-girl
+
+! Mylust
+mylust.com##.topb-250
+mylust.com##.topb-100
+##.adSense
+||mylust.com/assets/script.js
+||mylust.com/*.jsx
+||rtb-1.mylust.com^
+mylust.com##+js(abort-on-property-read, document.dispatchEvent)
+mylust.com##+js(abort-on-property-read, console.clear)
+mylust.com##+js(rmnt, script, 'document.write')
+mylust.com##+js(rmnt, script, SCSpotScript)
+mylust.com##+js(set, ab_fn, noopFunc)
+mylust.com##+js(set, exo_vast, '')
+mylust.com##+js(set, vastAds, [])
+mylust.com##+js(set, onEndHtml, '')
+mylust.com##+js(set, onPauseHtml, {})
+mylust.com##+js(set, exo_post_vast, '')
+mylust.com###main_video_fluid_html_on_pause
+mylust.com##.fluid-custom-buttons
+mylust.com##+js(rmnt, script, fluidNextVideo)
+mylust.com##.fluid_next_video_left
+mylust.com##.country
+mylust.com##.header_text
+mylust.com##.span1 > .cat_desc
+mylust.com##+js(rmnt, script, scashSpotLastShown)
+mylust.com##+js(rmnt, script, ExoLoader.addZone)
+||mylust.com/js/current_country.php$script,1p
+mylust.com##.graybox
+mylust.com##.domestic_desc
+mylust.com##.text
+mylust.com##.span2 > div.cat_desc
+mylust.com##.right_side
+mylust.com##.addthis.body:upward(1)
+mylust.com###wrapper > div[style*="height:18px"]
+mylust.com##.cs-bnr
+mylust.com##.no_pop.centeredbox
+mylust.com##div[class^="span"] > div.box:has(> .title > div:has-text(Advertisement))
+mylust.com##iframe.clear_both
+||mylust.com/b/underplayer.html
+mylust.com##.content_source
+||mylust.com/contents/content_sources/$image
+mylust.com##+js(rmnt, script, ad_idzone)
+mylust.com##.adv_block
+||mylust.com/b/f.html
 
 ! Namethatporn
 namethatporn.com##.brtt54
