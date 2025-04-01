@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr01-1
+! Version: 2025Apr01-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3918,27 +3918,52 @@ theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
 theporndude.com##.chat-widget
 
 ! Thotbook
-thotbook.tv###page > .code-block-3.code-block
-thotbook.tv##.code-block-9.code-block
-thotbook.tv##.code-block-11.code-block
-thotbook.tv##.menu-item-26445.menu-item-object-custom.menu-item-type-custom.menu-item
-||tb3.thotbook.tv/thotbook.tv.mp4$media,1p,redirect=noopmp3-0.1s
+thotbook.*###page > .code-block-3.code-block
+thotbook.*##.code-block-9.code-block
+thotbook.*##.code-block-11.code-block
+thotbook.*##.menu-item-26445.menu-item-object-custom.menu-item-type-custom.menu-item
+||tb3.thotbook.*/thotbook.tv.mp4$media,1p,redirect=noopmp3-0.1s
 /plugins/ad-ace/assets/js/slot-slideup.js
 /plugins/ad-ace/includes/shoppable-images/*
 /plugins/ad-ace/assets/js/coupons.js
-||thotbook.tv/vast/thotbook.xml
+||thotbook.*/vast/thotbook.xml
 ||avhtaapxml.com/sc4fr/rwff/f9ef/1941908/dba.xml
 ||avhtaapxml.com^
 ||owlunimmvn.com/lv/esnk/1942173/code.js
 /lv/esnk^
 ||owlunimmvn.com^
-thotbook.tv##.entry-content.g1-typography-xl.g1-content-narrow > .code-block-4.code-block
+thotbook.*##.entry-content.g1-typography-xl.g1-content-narrow > .code-block-4.code-block
 ##.adace-slot
 ##.adace-slot-wrapper
 ##.g1-advertisement
 ||mbidadm.com^
-thotbook.tv##[href^="https://flirtmeet.life/"]
-thotbook.tv##[href*="slut2fuck.net"]
+thotbook.*##[href^="https://flirtmeet.life/"]
+thotbook.*##[href*="slut2fuck.net"]
+thotbook.*##[href^="https://go.rmhfrtnd.com"]
+thotbook.*###ts_ad_native_m55s4
+thotbook.*##.widget_super_rss_reader.widget
+thotbook.*##.widget_wyr_widget_latest_reactions.widget
+thotbook.*##.cfp_dl_base
+||thotbook.*/wp-content/cache/min/1/sdk/v1/n.js$script
+thotbook.*##+js(rmnt, script, NativeAd)
+||thotbook.*/*/lv/esnk/*/code.js$script
+thotbook.*##+js(set, vastOptions, null)
+thotbook.*##.code-block-2
+||thotbook.*/*/video.instant.message.js$script
+||tc1.thotbook.*/wp-content/uploads/essb_cache/*.js$script
+thotbook.*##+js(rmnt, script, TSVideoInstantMessage)
+thotbook.*##+js(set, adList, '')
+thotbook.*##+js(set, vastTag, '')
+thotbook.*##+js(set, roll, '')
+||thotbook.*/wp-content/cache/min/1/sdk/v1/p.js$script
+!Stops vast xml from loading, only way I've found to block the video ads in case of domain changes
+.*/*/*.xml$domain=thotbook.*
+thotbook.*##div.g1-loaded.g1-hb-row-3.g1-sticky-top-wrapper
+thotbook.*##.menu-item-22599
+thotbook.*##.menu-item-42828
+thotbook.*##.menu-item-26424
+thotbook.*###menu-item-42835
+thotbook.*###menu-item-59784
 
 ! Thothub
 thothub.*##+js(abort-current-script, decodeURI, decodeURIComponent)
