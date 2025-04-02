@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr01-2
+! Version: 2025Apr02-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1569,6 +1569,47 @@ fkbae.to##.top-ad-space
 fkbae.to##.bottom-post-ad-space
 fkbae.to##.footer-ad-space
 
+! Fleshed
+fleshed.com##.right_background
+fleshed.com##.fl_topmenu_link_accented.prevent_pop:upward(li)
+fleshed.com##.fl_topmenu_link_accented.prevent_pop
+fleshed.com###fl_submenu
+fleshed.com###cb_iframe
+fleshed.com##.right_side.col-sm-9
+fleshed.com##.left_side.col-sm-3:remove-class(left_side)
+fleshed.com##+js(rmnt, script, sitepop_pop_var_name)
+||fleshed.com/aff/chaturbate-iframe.php
+||fleshed.com/aff/chaturbate/js/adblock-anchors.min.js$script
+fleshed.com##+js(rmnt, script, _gaq)
+fleshed.com##.sidebar.content_sidebar
+fleshed.com##.content_body:style(width: 100% !important; float: left !important; vertical-align: top !important; padding-top: 20px; !important)
+fleshed.com##+js(set, vast_ad_url, '')
+fleshed.com##+js(set, vast_should_show, false)
+fleshed.com##+js(set, vast_cooldown_type, '')
+fleshed.com##+js(set, vast_cookie_name_expiry, '')
+fleshed.com##+js(set, vast_cookie_name_pageviews, '')
+fleshed.com##+js(set, vast_cookie_value_expiry, '')
+fleshed.com##+js(set, vast_cookie_value_pageviews, '')
+fleshed.com##+js(set, cookie_expiry, '')
+fleshed.com##+js(set, cookie_pageviews, '')
+fleshed.com##+js(set, vast_tags, '')
+fleshed.com##+js(set, adTagUrl, '')
+fleshed.com##+js(set, initAdDisplayContainer, '')
+fleshed.com##+js(set, startEvent, '')
+fleshed.com##+js(set, wrapperDiv, '')
+##.ima-ad-container
+||bngdyn.com^
+/videojs.ads.css$stylesheet
+fleshed.com##div.related_list_container-thirds.related_list_container:nth-of-type(3) > .related_list
+fleshed.com##.left_background
+||wmctjd.com^
+fleshed.com##[href*="wmctjd.com"]
+||statics.fleshed.com/min/d211705b/fleshed/p/ohkque*.js$script
+fleshed.com###cb_iframe
+||impactserving.com/preroll.engine?
+fleshed.com##div.related_list_container-thirds.related_list_container:nth-of-type(3)
+fleshed.com##.mobile_ad
+
 ! Fyptt
 fyptt.to##.fl-node-content.fl-module-content > p
 ##.bottom-post-ad-space
@@ -2281,6 +2322,8 @@ mylust.com##.content_source
 mylust.com##+js(rmnt, script, ad_idzone)
 mylust.com##.adv_block
 ||mylust.com/b/f.html
+mylust.com##.likeh1
+mylust.com##.cf.with_pagi.content > .cat_desc
 
 ! Namethatporn
 namethatporn.com##.brtt54
@@ -3599,6 +3642,25 @@ sexyteenpics.com##+js(rmnt, script, ad_idzone, stay, 1, sedCount, 3)
 ||sexyteenpics.com/_axiom/web-vitals$1p
 ||sexyteenpics.com/_axiom/logs
 ||supabase.co/rest/$domain=sexyteenpics.com
+
+! Shooshtime
+shooshtime.com##+js(prevent-window-open)
+shooshtime.com##+js(abort-current-script, document.getElementsByTagName, adn)
+||quixova.com^
+loadeactrl.go?
+##a[href^="https://chaturbate.com/in/?"]
+://a.*/loader?a=$frame,3p
+shooshtime.com##+js(rmnt, script, adMoxyCtrl)
+shooshtime.com##.box-down
+shooshtime.com##.main > .secondary.section
+shooshtime.com##.seo_text
+shooshtime.com##.grey-btn.join.btn
+shooshtime.com##[href^="https://shooshtime.com/link/"]
+shooshtime.com##.spot-vertical
+shooshtime.com##.bottom-adv
+shooshtime.com##.undervideo
+shooshtime.com##.sponsor
+shooshtime.com##+js(set, adv_pre_vast, '')
 
 ! Simpcity
 simpcity.su##.offCanvasMenu-link.nav-shoosh
