@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Apr-01</strong></p> <!-- for version 2025Apr01-1 -->
-<!-- 173+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Apr-02</strong></p> <!-- for version 2025Apr02-1 -->
+<!-- 175+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -58,6 +58,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
+![](https://www.google.com/s2/favicons?sz=16&domain=fleshed.com) fleshed.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=gofile.io) gofile.io  
 ![](https://www.google.com/s2/favicons?sz=16&domain=gotanynudes.com) gotanynudes.com  
@@ -138,6 +139,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) sextubefun.com (down?)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sexy-egirls.com) sexy-egirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sexyteenpics.com) sexyteenpics.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=shooshtime.com) shooshtime.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpcity.su) simpcity.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpshub.com) simpshub.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
@@ -187,4 +189,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
 
-<p align=right><strong>173</strong> | ☺</p>
+<p align=right><strong>175</strong> | ☺</p>
