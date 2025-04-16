@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr15-1
+! Version: 2025Apr16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -4312,19 +4312,25 @@ voyeurhit.*###downloader-download
 voyeurhit.*###downloader-install
 
 ! Watchdirty (watchmdh)
-watchdirty.to##.top-links
-watchdirty.to##[href^="https://go.rmhfrtnd.com"]:nth-ancestor(1)
-watchdirty.to##[href^="https://www.seduced.ai"]:nth-ancestor(1)
-watchdirty.to##.friends
-watchdirty.to##+js(set-constant, flashvars.protect_block, '')
-watchdirty.to##+js(set-constant, flashvars.popunder_url, '')
-watchdirty.to##+js(set-constant, flashvars.video_click_url, '')
-watchdirty.to##+js(set-constant, flashvars.adv_pre_vast, '')
+watchdirty.*##.top-links
+watchdirty.*##[href^="https://go.rmhfrtnd.com"]:nth-ancestor(1)
+watchdirty.*##[href^="https://www.seduced.ai"]:nth-ancestor(1)
+watchdirty.*##.friends
+watchdirty.*##+js(set-constant, flashvars.protect_block, '')
+watchdirty.*##+js(set-constant, flashvars.popunder_url, '')
+watchdirty.*##+js(set-constant, flashvars.video_click_url, '')
+watchdirty.*##+js(set-constant, flashvars.adv_pre_vast, '')
 ||queasytonight.com^
-watchdirty.to##+js(rmnt, script, wuyf)
-watchdirty.to##+js(rmnt, script, StripchatSpot)
-watchdirty.to##.player-related-videos
-watchdirty.to##.sponsor
+watchdirty.*##+js(rmnt, script, wuyf)
+watchdirty.*##+js(rmnt, script, StripchatSpot)
+watchdirty.*##.player-related-videos
+watchdirty.*##.sponsor
+watchdirty.*##[href^="https://www.seduced."]
+||watchdirty.*/banners/visitx2.gif
+watchdirty.*##[src="/banners/visitx2.gif"]
+||to-go5.eu/p/^
+watchdirty.*##[href^="https://to-go5.eu"]
+watchdirty.is##.block-video > .table
 
 ! Watchmygf
 watchmygf.me##li.premium-item
