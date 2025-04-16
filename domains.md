@@ -167,7 +167,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=videy.co) videy.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voe.sx) voe.sx (and it's stream domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voyeurhit.com) voyeurhit.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=watchdirty.to) watchdirty.to (watchmdh)  
+![](https://www.google.com/s2/favicons?sz=16&domain=watchdirty.is) watchdirty.* (previously "watchmdh", *but **not** the official MyDirtyHobby site*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=watchmygf.me) watchmygf.me  
 ![](https://www.google.com/s2/favicons?sz=16&domain=watchporn.to) watchporn.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=wildskirts.com) wildskirts.com  
