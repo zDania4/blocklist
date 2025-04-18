@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr16-1
+! Version: 2025Apr18-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3048,6 +3048,7 @@ pornhub.com##+js(set-local-storage-item, hideLangRedirect, true)
 pornhub.com##.ad-tabSplit
 pornhub.com##.adsbytrafficjunky:upward(1)
 pornhub.com##a.gtm-event-external-link.externalLinkButton
+pornhub.com##.middleAdContainer
 
 ! Pornl
 pornl.com##.header__network
