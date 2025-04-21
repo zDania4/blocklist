@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr18-2
+! Version: 2025Apr21-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2455,6 +2455,50 @@ ogfap.com##.icon-button-offset.icon-button
 ogfap.com##.banner
 ogfap.com##.svelte-1p5961z.profile-external-item.undress-ai-button
 
+! Okxxx
+ok.xxx##.cookiesBanner
+ok.xxx##+js(abort-on-property-read, document.dispatchEvent)
+ok.xxx##+js(abort-current-script, document.querySelectorAll, popMagic)
+||ctwmcd.com^
+ok.xxx##.bn
+ok.xxx##.bns-bl
+ok.xxx##.bns-bl-new.bns-bl
+ok.xxx##.top_spot
+##a[href^="https://go.xlivrdr.com"]
+ok.xxx##[href^="https://as.fontheader.com/as/nl"]:upward(li)
+ok.xxx##.head-menu > ul > li > a[href*="a.adtng.com"]:upward(li)
+ok.xxx##.friends
+ok.xxx##.spot_wrap
+ok.xxx##.hide-on-mobile
+ok.xxx##+js(rmnt, script, adConfig)
+ok.xxx##+js(rmnt, script, makeIns)
+ok.xxx##.right-player-col
+ok.xxx##.spot_player.spot
+ok.xxx##.video-block:style(width:100% !important)
+ok.xxx##div.player-bn
+ok.xxx##b
+ok.xxx##.before-player
+ok.xxx##.mob_show
+ok.xxx##.desk_show
+ok.xxx##.player-bn
+ok.xxx##.on_country
+||ok.xxx/static/player/spot.geoip.js$script
+||static.ok.xxx/static/js/spot.geoip.*.js$script
+||ok.xxx/static/player/geoip.php$xhr
+||ok.xxx/player/geoip/geoip.php$xhr
+ok.xxx##+js(set, percentage, '100')
+ok.xxx##+js(set, $fluidVast_src1, '')
+ok.xxx##+js(set, $fluidVast_src2, '')
+ok.xxx##[href*="fontheader.com"]
+ok.xxx##.video_loader
+ok.xxx##.spot_player.spot
+ok.xxx##.video-loader
+ok.xxx##.spot_player-mobile
+ok.xxx##+js(set-session-storage-item, fluidVastStartAfter, 0)
+ok.xxx##+js(set-session-storage-item, fluidVast, 1)
+ok.xxx##.bn-title
+ok.xxx##+js(set-local-storage-item, history_videos, $remove$)
+
 ! Onlytik
 onlytik.com##.protection > .noSwipe.sidebar > .toolbar > .noSwipe.ext-link.toolbar-item
 ||datingem.com^
@@ -2733,6 +2777,49 @@ porngo.com##+js(aeld, popstate)
 porngo.com##.video-side
 ||porngo.com/vpaid/videojs_5.vast.vpaid.min.js$script
 ||porngo.com/vpaid/videojs.vast.vpaid.min.css$stylesheet
+
+! Pornhat
+pornhat.*##.cookiesBanner
+pornhat.*##+js(abort-on-property-read, document.dispatchEvent)
+pornhat.*##+js(abort-current-script, document.querySelectorAll, popMagic)
+||ctwmcd.com^
+pornhat.*##.bn
+pornhat.*##.bns-bl
+pornhat.*##.bns-bl-new.bns-bl
+pornhat.*##.top_spot
+##a[href^="https://go.xlivrdr.com"]
+pornhat.*##[href^="https://as.fontheader.com/as/nl"]:upward(li)
+pornhat.*##.head-menu > ul > li > a[href*="a.adtng.com"]:upward(li)
+pornhat.*##.friends
+pornhat.*##.spot_wrap
+pornhat.*##.hide-on-mobile
+pornhat.*##+js(rmnt, script, adConfig)
+pornhat.*##+js(rmnt, script, makeIns)
+pornhat.*##.right-player-col
+pornhat.*##.spot_player.spot
+pornhat.*##.video-block:style(width:100% !important)
+pornhat.*##div.player-bn
+pornhat.*##b
+pornhat.*##.before-player
+pornhat.*##.mob_show
+pornhat.*##.desk_show
+pornhat.*##.player-bn
+pornhat.*##.on_country
+||pornhat.*/static/player/spot.geoip.js$script
+||static.pornhat.*/static/js/spot.geoip.*.js$script
+||pornhat.*/static/player/geoip.php$xhr
+||pornhat.*/player/geoip/geoip.php$xhr
+pornhat.*##+js(set, percentage, '100')
+pornhat.*##+js(set, $fluidVast_src1, '')
+pornhat.*##+js(set, $fluidVast_src2, '')
+pornhat.*##[href*="fontheader.com"]
+pornhat.*##.video_loader
+pornhat.*##.spot_player.spot
+pornhat.*##.video-loader
+pornhat.*##.spot_player-mobile
+pornhat.*##+js(set-session-storage-item, fluidVastStartAfter, 0)
+pornhat.*##+js(set-session-storage-item, fluidVast, 1)
+pornhat.*##+js(set-local-storage-item, history_videos, $remove$)
 
 ! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
@@ -4169,6 +4256,40 @@ player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
 twitch.tv##+js(no-window-open-if, amazon-adsystem)
 twitch.tv##+js(twitch-videoad)
 ||d2v02itv0y9u9t.cloudfront.net^
+
+! Txxx
+txxx.*##.cookie-notify
+txxx.*##.network
+txxx.*##+js(abort-current-script, setTimeout, hommy.mutation.mutation)
+txxx.*##+js(abort-on-property-read, jwplayer.utils.Timer)
+||exoclick.com^$3p
+||ads.exoclick.com/ads.js$script,redirect-rule=noop.js
+! Following 2 lines can be toggled for country specific content. 
+!txxx.*##+js(set, window.constants.country_code, '')
+!txxx.*##+js(set, window.constants.region_code, '')
+txxx.*##+js(rmnt, script, utm_campaign)
+txxx.*##+js(rmnt, script, window.cpa_undpItems)
+txxx.*##+js(rmnt, script, tc_invideo_download)
+txxx.*##+js(rmnt, script, window.directSale)
+txxx.*##+js(rmnt, script, window._hl)
+txxx.*##+js(rmnt, script, window._hl2)
+txxx.*##+js(rmnt, script, window.__direct_banner_ntv_wall)
+||cdn-fc.com/creatives/bar/images^$image,domain=txxx.*
+txxx.*##.fh-line2:upward(3)
+txxx.*##.sugggestio
+txxx.*##.hover.stat-item-download.stat-item
+txxx.*##.video-conten > div > div > a[href="/signin/"]:upward(2)
+txxx.*##.jw-custom-btn.jw-related-toggle-button
+txxx.*##.top-keywords > a[target=_blank]
+txxx.*##+js(rmnt, script, iab_extended)
+txxx.*##.hover.stat-item-download.stat-item:upward(.item)
+txxx.*##.group-dropdown-body:upward(.group)
+txxx.*##div.divider:nth-of-type(10)
+txxx.*##.jw-reset-text.jw-title
+txxx.*##.video-conten > div > div > div > a[href="#"]:upward(2)
+txxx.*##.btn-icon.btn-o-red.btn-min.btn
+txxx.*##.page-channel-left > div > img:upward(div)
+txxx.*##.page-channel-right > div > img:upward(div)
 
 ! Upornplus
 uporn.plus##li.item:nth-of-type(5) > .inner > .text
