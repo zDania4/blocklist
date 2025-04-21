@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Apr-02</strong></p> <!-- for version 2025Apr02-1 -->
-<!-- 175+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Apr-21</strong></p> <!-- for version 2025Apr21-1 -->
+<!-- 179+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -98,6 +98,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudogram.com) nudogram.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nudostar.com) nudostar.com/nudostar.tv  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ogfap.com) ogfap.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=порно.me) ok.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=onlytik.com) onlytik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
@@ -111,11 +112,13 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=porndig.com) porndig.com (including their IT and PL versions found below)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porndoe.com) porndoe.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=pornhat.com) pornhat.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porno-365.lol) porno-365.lol (and 2video365.me)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=порно.me) порно.me/порно.io (xn--m1abbbg.me/.io)  
+![](https://www.google.com/s2/favicons?sz=16&domain=pornone.com) pornone.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornpics.click) pornpics.click  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornstarbyface.com) pornstarbyface.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntn.com) porntn.com  
@@ -160,6 +163,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
+![](https://www.google.com/s2/favicons?sz=16&domain=txxx.com) txxx.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=tybito.com) tybito.com (porndig's PL website)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
 ![](https://camo.githubusercontent.com/48363bccd925c693281f7be3aa859f314e997ea253775e6e4022b1c7463c3e4b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d757073747265616d2e746f) upstream.to (changed domains?)  
@@ -189,4 +193,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
 
-<p align=right><strong>175</strong> | ☺</p>
+<p align=right><strong>179</strong> | ☺</p>
