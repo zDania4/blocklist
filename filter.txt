@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr21-1
+! Version: 2025Apr21-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2498,6 +2498,7 @@ ok.xxx##+js(set-session-storage-item, fluidVastStartAfter, 0)
 ok.xxx##+js(set-session-storage-item, fluidVast, 1)
 ok.xxx##.bn-title
 ok.xxx##+js(set-local-storage-item, history_videos, $remove$)
+ok.xxx##.mobile.top_spot
 
 ! Onlytik
 onlytik.com##.protection > .noSwipe.sidebar > .toolbar > .noSwipe.ext-link.toolbar-item
@@ -2813,13 +2814,13 @@ pornhat.*##+js(set, percentage, '100')
 pornhat.*##+js(set, $fluidVast_src1, '')
 pornhat.*##+js(set, $fluidVast_src2, '')
 pornhat.*##[href*="fontheader.com"]
-pornhat.*##.video_loader
 pornhat.*##.spot_player.spot
 pornhat.*##.video-loader
 pornhat.*##.spot_player-mobile
 pornhat.*##+js(set-session-storage-item, fluidVastStartAfter, 0)
 pornhat.*##+js(set-session-storage-item, fluidVast, 1)
 pornhat.*##+js(set-local-storage-item, history_videos, $remove$)
+pornhat.*##.mobile.top_spot
 
 ! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
