@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr21-2
+! Version: 2025Apr22-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -393,6 +393,27 @@ beeg.com##a.v-btn--variant-text.v-btn--size-large.v-btn--density-default.v-btn--
 !Setting ls_video_muted to 0 makes no difference for some reason.
 !beeg.com##+js(set-cookie, ls_video_muted, 0)
 beeg.com##+js(set-local-storage-item, ls_last_leave, $remove$)
+
+! Bigwarp
+bigwarp.*##+js(prevent-window-open)
+bigwarp.*##+js(remove-node-text, script, popundersPerIP)
+###adbd.overdiv
+||bigwarp.io^$frame,csp=script-src 'self' data: 'unsafe-inline' 'unsafe-hashes' 'unsafe-eval' www.gstatic.com cdn.jsdelivr.net maxcdn.bootstrapcdn.com
+bigwarp.*###blk1
+||ptichoolsougn.net^
+||paupsoborofoow.net^
+||vastilymoid.com^
+||afrdtech.com^
+$script,3p,denyallow=gstatic.com|bigwarp.io,domain=bigwarp.*
+/^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$script,3p,redirect-rule=noop.js,match-case
+||bigwarp.*/js/dnsads.js
+||bigwarp.*/js/bgwp.js$script,1p
+bigwarp.*##+js(rmnt, script, kmnrSc)
+bigwarp.*##+js(rmnt, script, data-zone)
+bigwarp.*##+js(rmnt, script, +d+)
+bigwarp.*##+js(rmnt, script, bgwp.config)
+bigwarp.*##+js(rmnt, script, delay_done)
+||youdloaners.com^
 
 ! Bitchesgirls
 bitchesgirls.com##.ad-btn-container
@@ -1063,6 +1084,60 @@ dirtyship.com##.mobiletop
 dirtyship.com##div[id="l_340"]
 dirtyship.com##.mobilebottom
 
+! Dirtyvideofun (netu)
+||ybs2ffs7v.com/lvesnk.html$subdocument
+dirtyvideo.fun##+js(no-window-open-if)
+dirtyvideo.fun##+js(no-window-open-if)
+dirtyvideo.fun##+js(set-constant, arrvast, [])
+/fuckadblock.$script
+/fuckadblock.$script,redirect-rule=fuckadblock.js-3.2.0:5
+||dirtyvideo.fun/js/script_
+/video.counters.
+||ybs2ffs7v.com^
+||0b7741a902.com^
+.com/script/utils.js|$3p
+||googlesyndication.com^
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,from=~zipextractor.app
+||sadjklq.com^
+||alleviatepracticableaddicted.com^
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js
+||marazma.com^
+||popmansion.com^
+||sadjklq.com^
+*$ping,3p
+dirtyvideo.fun/ad/top/popunder.js
+dirtyvideo.fun##a[href*="mailto"]
+||histats.com^$3p
+##[href="https://t.me/Russia_Vs_Ukraine_War3"]
+/assets/jquery/adult0.js?v=$script,1p
+||videocdnmetrika.com^
+||unpkg.com/videojs-vast-vpaid@
+||profitableexactly.com^
+dirtyvideo.fun###label_clicker
+dirtyvideo.fun##+js(set, new_ad, false)
+dirtyvideo.fun##+js(set, adtype, 0)
+dirtyvideo.fun##+js(set, adfree, 1)
+dirtyvideo.fun##+js(rmnt, script, Bingo)
+dirtyvideo.fun##+js(set, arrvast, '')
+dirtyvideo.fun##+js(set, adscore, noopFunc)
+dirtyvideo.fun##+js(set, loadadscore, noopFunc)
+||buyseoblog.com/add.php$domain=dirtyvideo.fun
+dirtyvideo.fun##+js(rmnt, script, ad_ad)
+dirtyvideo.fun##+js(rmnt, script, ab_domain)
+dirtyvideo.fun##+js(set, doSecondPopU, '')
+||labadena.com
+dirtyvideo.fun/out.php?
+
+! Do7go (dood)
+do7go.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+do7go.com##+js(prevent-window-open)
+do7go.com##+js(abort-current-script, decodeURI, decodeURIComponent)
+do7go.com##+js(remove-node-text, script, /adblock|popunder|openedPop|WebAssembly/)
+||scriveaerocar.top^
+||faqirsgoliard.top^
+||tritmapwise.top^
+do7go.com##+js(rmnt, script, tryCount)
+
 ! Dood
 dood.*##+js(acs, adcashMacros)
 dood.*,dooood.*##+js(acs, document.createElement, 'script')
@@ -1540,6 +1615,29 @@ file-mi11ljwj-embed.com##+js(rmnt, script, parseInt)
 ||file-mi11ljwj-embed.com/js/bafsd.js$script
 ||file-mi11ljwj-embed.com/js/dnsads.js
 ||ieyri61b.xyz^
+||djx10.org/js/baf.js
+djx10.org##+js(addEventListener-defuser, , break;case $.)
+djx10.org##+js(remove-node-text, script, break;case $.)
+djx10.org##+js(no-window-open-if)
+djx10.org##+js(abort-current-script, navigator, popunder)
+djx10.org##+js(abort-on-property-read, FMPoopS)
+djx10.org##+js(adjust-setInterval, seconds)
+/adcgi?
+djx10.org##+js(abort-current-script, document.querySelectorAll, popMagic)
+djx10.org##+js(remove-node-text, script, ;}}};break;case $.)
+djx10.org##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
+djx10.org##+js(abort-current-script, document.querySelectorAll, popMagic)
+/player/jw8/vast.js|$script,1p
+djx10.org##+js(abort-current-script, Math.random, parseInt(localStorage['\x)
+jx10.org##+js(abort-current-script, Math.random, parseInt(localStorage['\x)
+||djx10.org/js/dnsads.js$script
+||djx10.org/js/bafsd.js$script
+djx10.org##+js(rmnt, script, blocked.html)
+djx10.org##+js(rmnt, script, Deruga)
+djx10.org##+js(rmnt, script, getLink2)
+||djx10.org/js/pagina.js$script
+djx10.org##+js(rmnt, script, getLink)
+djx10.org##+js(rmnt, script, ?sc=ppd&r=)
 
 ! Fkbae
 fkbae.to##.fl-node-5f59ec0e1d1f7.fl-col-group
@@ -2193,6 +2291,37 @@ vast.go?spaceid=
 lewdstars.com##+js(rmnt, script, mnpw)
 lewdstars.com##+js(rmnt, script, adMoxyCtrl)
 
+! Listeamed (vidguard)
+listeamed.net##+js(prevent-setTimeout, afterOpen)
+listeamed.net##+js(prevent-window-open, !/d/)
+listeamed.net##+js(json-prune, AffiliateAdBlock)
+listeamed.net##+js(set-constant, PlayerConfig.config.CustomAdSetting, [])
+listeamed.net##+js(no-setTimeout-if, console.clear)
+listeamed.net##.jw-logo-button.jw-reset.jw-button-color.jw-icon-inline.jw-icon
+||jwpltx.com^$3p
+*$xhr,3p,redirect-rule=nooptext,from=listeamed.net
+||heardaccumulatebeans.com^
+||outbrain.com^
+||adligature.com^
+||srvtrck.com^
+
+! Luluvdo (lulustream)
+luluvdo.com##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+luluvdo.com##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+luluvdo.com##+js(addEventListener-defuser, click, popunder)
+luluvdo.com##+js(prevent-window-open)
+luluvdo.com##+js(abort-current-script, WebAssembly, Promise)
+luluvdo.com##+js(rmnt, script, showADBOverlay)
+luluvdo.com##+js(rmnt, script, justDetectAdblock)
+||admpire.com^
+/^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,3p,match-case,to=top
+||lulucdn.com/js/jdadbl.js$script
+luluvdo.com##.adbd
+||lulucdn.com/js/dnsads.js$script
+||lulucdn.com/js/pop.js$script
+luluvdo.com##+js(rmnt, script, unscopables)
+||pop.admpire.com^$subdocument
+
 ! Manysex
 manysex.com##a.nav__tag:nth-of-type(1)
 manysex.com##div.select:nth-of-type(2) > .select__label
@@ -2335,6 +2464,12 @@ namethatporn.com##span.fl.sdbrmi
 namethatporn.com##div.sdbrttl:nth-of-type(4)
 namethatporn.com###slddwnr_wrp
 namethatporn.com###fab_blacko
+
+! Niikaplayerr (vidhide)
+||niikaplayerr.com/js/localstorage-slim.js$script
+||niikaplayerr.com/ad$script
+niikaplayerr.com##+js(rmnt, script, loadPushHelper)
+||dalyio.com^
 
 ! Noodlemagazine
 *$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
@@ -2824,61 +2959,12 @@ pornhat.*##.mobile.top_spot
 
 ! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
-ww1.pornhoarder.tv##[href="https://theporndude.com/"]
-ww1.pornhoarder.tv##.mb-sm
-ww1.pornhoarder.tv##.video-detail-bspace
-ww1.pornhoarder.tv##.homepage-center > .mt-md
-||ybs2ffs7v.com/lvesnk.html$subdocument
-dirtyvideo.fun##+js(no-window-open-if)
-dirtyvideo.fun##+js(no-window-open-if)
-dirtyvideo.fun##+js(set-constant, arrvast, [])
-/fuckadblock.$script
-/fuckadblock.$script,redirect-rule=fuckadblock.js-3.2.0:5
-||dirtyvideo.fun/js/script_
-/video.counters.
-||ybs2ffs7v.com^
-||0b7741a902.com^
-.com/script/utils.js|$3p
-||googlesyndication.com^
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,from=~zipextractor.app
-||sadjklq.com^
-||alleviatepracticableaddicted.com^
-/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js
-||marazma.com^
-||popmansion.com^
-||sadjklq.com^
-*$ping,3p
-dirtyvideo.fun/ad/top/popunder.js
-dirtyvideo.fun##a[href*="mailto"]
-||histats.com^$3p
-##[href="https://t.me/Russia_Vs_Ukraine_War3"]
-/assets/jquery/adult0.js?v=$script,1p
-streamwish.*##+js(set-constant, xRds, true)
-streamwish.*##+js(set-constant, cRAds, false)
-streamwish.*##+js(abort-on-property-read, __Y)
-||dalysv.com^
-||coinblocktyrusmiram.com^
-/^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
-/redirect?tid=
-mdzsmutpcvykb.net##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
-||sozzlypeavies.com^
-/plausible.js$from=~plausible.io
-mdzsmutpcvykb.net##+js(no-window-open-if)
-mdzsmutpcvykb.net##+js(nowoif)
-||jocauzee.net^
-||mdzsmutpcvykb.net/xads.js$script
-||sozzlypeavies.com/fMFsIkFaCIm2WRJcX/70562
-ak.*.*/4/
-tauphaub.net/4/6543079?var=MP1P4
-$popup,domain=mdzsmutpcvykb.net
-||ak.jocauzee.net/4/3520015
-ak.stoorgel.com/4/3520015
-mdzsmutpcvykb.net^script:has-text(sfpp45a)
-mdzsmutpcvykb.net##+js(aeld, appendChild)
-mdzsmutpcvykb.net##+js(abort-on-property-read, wpn63s)
-||dsnymrk0k4p3v.cloudfront.net^
-/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
-||midwifelangurs.com^
+pornhoarder.*##[href="https://theporndude.com/"]
+pornhoarder.*##.mb-sm
+pornhoarder.*##.video-detail-bspace
+pornhoarder.*##.homepage-center > .mt-md
+pornhoarder.*##+js(remove-node-text, script, /wpadmngr|adserverDomain/)
+pornhoarder.*##.video-detail-bspace
 
 ! Pornhub
 ##.adsbytrafficjunky
@@ -3970,6 +4056,44 @@ watchadsontape.com##+js(abort-current-script, EventTarget.prototype.addEventList
 watchadsontape.com##+js(rmnt, script, flgdabcpokrineutm)
 ||zimpolo.com^
 watchadsontape.com##.play-overlay
+streamtape.*##+js(abort-on-property-read, Adcash)
+streamtape.*##+js(remove-node-text, script, /WebAssembly|forceunder/)
+
+! Streamwish
+streamwish.*##+js(set-constant, xRds, true)
+streamwish.*##+js(set-constant, cRAds, false)
+streamwish.*##+js(abort-on-property-read, __Y)
+||dalysv.com^
+||coinblocktyrusmiram.com^
+/^https?:\/\/(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$frame
+/redirect?tid=
+mdzsmutpcvykb.net##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
+||sozzlypeavies.com^
+/plausible.js$from=~plausible.io
+mdzsmutpcvykb.net##+js(no-window-open-if)
+mdzsmutpcvykb.net##+js(nowoif)
+||jocauzee.net^
+||mdzsmutpcvykb.net/xads.js$script
+||sozzlypeavies.com/fMFsIkFaCIm2WRJcX/70562
+ak.*.*/4/
+tauphaub.net/4/6543079?var=MP1P4
+$popup,domain=mdzsmutpcvykb.net
+||ak.jocauzee.net/4/3520015
+ak.stoorgel.com/4/3520015
+mdzsmutpcvykb.net^script:has-text(sfpp45a)
+mdzsmutpcvykb.net##+js(aeld, appendChild)
+mdzsmutpcvykb.net##+js(abort-on-property-read, wpn63s)
+||dsnymrk0k4p3v.cloudfront.net^
+/^https?:\/\/s3\.us-east-1\.amazonaws\.com\/[0-9a-f]{50,}\/[0-9a-f]{10}$/$xhr,3p
+||midwifelangurs.com^
+iplayerhls.com##+js(remove-node-text, script, #adbd)
+/assets/jquery/app0.js?type=$1p
+||daly2024.com^
+/js/code.min.js$3p,domain=iplayerhls.com
+/obj/ad-site-$xhr,domain=iplayerhls.com
+iplayerhls.com##+js(rmnt, script, loadPushHelper)
+iplayerhls.com##+js(rmnt, script, PushOptions)
+iplayerhls.com##+js(rmnt, script, blocked.html)
 
 ! Superporn
 superporn.com##+js(rmnt, script, mtm.startTime)
@@ -4311,6 +4435,33 @@ upstream.to##+js(set-constant, cRAds, null)
 upstream.to##+js(abort-current-script, Math, break;case $.)
 upstream.to##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
 
+! Veev | Player works and doesn't do popups but needs to be pressed 3 times to work.
+@@*$generichide,from=veev.to
+*$script,3p,redirect-rule=noopjs,from=doods.to|poophq.com|veev.to
+veev.to##+js(abort-current-script, document.documentElement, break;case $.)
+||predictivadnetwork.com^
+veev.to##+js(prevent-setTimeout, '/(\'|`|")\s*\+.{10,100}(\'|`|")\s*\+|[a-z]{1,2}\s*\[\s*\[|(\'|`|")\s*,\s*(\'|`|")|\"\s*\;\s*[a-zA-Z]{1,2}\s*\=[a-z]+\s*,|zza|\]\s*,\s*[a-z]+\s*\)\s*\}/')
+veev.to##+js(prevent-setTimeout, '/^\s*function\s*\(\s*\)\s*{\s*[a-zA-Z]{1,2}\s*\(.{1,10}$/')
+veev.to##+js(prevent-xhr, /click\.com|preroll|native_render\.js|acscdn/, length:10001)
+veev.to##+js(prevent-xhr, /vast.php?)
+veev.to#@#+js(prevent-window-open)
+||adsco.re^
+/dl?op=player_api&cmd=*adb=$xhr,1p,important,from=doods.to|poophq.com|veev.to
+veev.to##+js(rmnt, script, 1195516ZymOdl)
+veev.to##+js(rmnt, script, adscoreLibLoader)
+$xhr,to=adsco.re|googlesyndication.com,domain=veev.to,important
+||veev.to/c.html$subdocument
+veev.to##+js(rmnt, script, VEEVPop)
+veev.to##+js(rmnt, script, popup)
+veev.to##+js(rmnt, script, Funb)
+veev.to##+js(rmnt, script, adsbygoogle)
+veev.to##+js(rmnt, script, popundersPerIP)
+veev.to##+js(rmnt, script, initHeartbeat)
+||xapi.juicyads.com^
+||static.veevcdn.co/prcvr.html$subdocument
+veev.to##.plyr__ads
+
+
 ! Videzz
 videzz.net##+js(no-setTimeout-if, console.clear)
 videzz.net##+js(set-constant, isAdBlockDetected, false)
@@ -4402,6 +4553,11 @@ zacharycollectionmight.com##+js(rmnt, script, u7)
 zacharycollectionmight.com##+js(rmnt, script, popWin)
 zacharycollectionmight.com##+js(rmnt, script, iOS)
 ||zacharycollectionmight.com/engine/plyr/playback$xhr,1p
+richardsignfish.com##.guestMode
+richardsignfish.com##+js(no-window-open-if)
+richardsignfish.com##+js(set-constant, console.clear, undefined)
+||richardsignfish.com/engine/plyr/playback$xhr,1p
+||landsideresendtrousers.com^
 
 ! Voyeurhit
 voyeurhit.*##.header__network
