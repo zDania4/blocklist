@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Apr-21</strong></p> <!-- for version 2025Apr21-1 -->
-<!-- 179+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Apr-22</strong></p> <!-- for version 2025Apr22-1 -->
+<!-- 187+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -16,6 +16,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=allfansleak.net) allfansleak.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=babepedia.com) babepedia.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=bigwarp.io) bigwarp.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=baddies.xxx) baddies.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=bitchesgirls.com) bitchesgirls.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
@@ -35,6 +36,8 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=cyberdrop.me) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=dirtyvideo.fun) dirtyvideo.fun (Netu)  
+![](https://www.google.com/s2/favicons?sz=16&domain=do7go.com) do7go.com (dood)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com/ds2play.com (dood domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=epawg.com) epawg.com  
@@ -56,7 +59,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=faponhd.com) fapohd.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.* (including djx10 domain)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fleshed.com) fleshed.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
@@ -85,12 +88,15 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=leaked.page) leaked.page  
 ![](https://www.google.com/s2/favicons?sz=16&domain=leak.xxx) leak.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=lewdstars.com) lewdstars.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=listeamed.net) listeamed.net (vidguard)  
+![](https://www.google.com/s2/favicons?sz=16&domain=luluvdo.com) lulucdn.com/luluvdo.com (lulustream)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=manysex.com) manysex.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mat6tube.com) mat6tube.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mixdrop.ps) mixdrop.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mylust.com) mylust.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=namethatporn.com) namethatporn.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=niikaplayerr.com) niikaplayerr.com (vidhide)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=noodlemagazine.com) noodlemagazine.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=notfans.com) notfans.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=nsfw247.to) nsfw247.to  
@@ -148,6 +154,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=spankbang.com) spankbang.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
+![](https://www.google.com/s2/favicons?sz=16&domain=streamhg.com) streamwish.* (streamhg, including iplayerhls)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=superporn.com) superporn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=swipeturbate.com) swipeturbate.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=sxyprn.com) sxyprn.*  
@@ -167,6 +174,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=tybito.com) tybito.com (porndig's PL website)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
 ![](https://camo.githubusercontent.com/48363bccd925c693281f7be3aa859f314e997ea253775e6e4022b1c7463c3e4b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d757073747265616d2e746f) upstream.to (changed domains?)  
+![](https://www.google.com/s2/favicons?sz=16&domain=veev.to) veev.to (the player works with no popups, but play button must be pressed 3 times to start)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videzz.net) videzz.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=videy.co) videy.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=voe.sx) voe.sx (and it's stream domains)  
@@ -193,4 +201,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
 
-<p align=right><strong>179</strong> | ☺</p>
+<p align=right><strong>187+</strong> | ☺</p>
