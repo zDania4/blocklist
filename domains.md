@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Apr-22</strong></p> <!-- for version 2025Apr22-1 -->
-<!-- 187+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Apr-28</strong></p> <!-- for version 2025Apr28-1 -->
+<!-- 188+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -151,6 +151,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=shooshtime.com) shooshtime.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpcity.su) simpcity.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=simpshub.com) simpshub.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=simptown.su) simptown.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
 ![](https://www.google.com/s2/favicons?sz=16&domain=spankbang.com) spankbang.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
@@ -201,4 +202,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
 
-<p align=right><strong>187+</strong> | ☺</p>
+<p align=right><strong>188+</strong> | ☺</p>
