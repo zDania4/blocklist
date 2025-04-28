@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Apr22-1
+! Version: 2025Apr28-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -17,15 +17,23 @@
 
 ! # Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
 @@||bunkr.*/a/*$popup,domain=simpcity.su
+@@||bunkr.*/a/*$popup,domain=simptown.su
 @@||bunkr.*/f/*$popup,domain=simpcity.su
+@@||bunkr.*/f/*$popup,domain=simptown.su
 @@||bunkr.*/i/*$popup,domain=simpcity.su
+@@||bunkr.*/i/*$popup,domain=simptown.su
 @@||bunkr.*/v/*$popup,domain=simpcity.su
+@@||bunkr.*/v/*$popup,domain=simptown.su
 @@||bunkr.sk/i/*$popup,domain=simpcity.su
 @@||bunkr.sk/v/*$popup,domain=simpcity.su
 @@||bunkrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrr.*/a/*$popup,domain=simptown.su
 @@||bunkrr.*/f/*$popup,domain=simpcity.su
+@@||bunkrr.*/f/*$popup,domain=simptown.su
 @@||bunkrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrr.*/i/*$popup,domain=simptown.su
 @@||bunkrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrr.*/v/*$popup,domain=simptown.su
 @@||bunkrr.ru/a/*$popup,domain=simpcity.su
 @@||bunkrr.ru/i/*$popup,domain=simpcity.su
 @@||bunkrr.ru/v/*$popup,domain=simpcity.su
@@ -33,9 +41,15 @@
 @@||bunkrr.su/a/*$popup,domain=simpcity.su
 @@||bunkrr.su/v/*$popup,domain=simpcity.su
 @@||bunkrrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrrr.*/a/*$popup,domain=simptown.su
 @@||bunkrrr.*/f/*$popup,domain=simpcity.su
+@@||bunkrrr.*/f/*$popup,domain=simptown.su
 @@||bunkrrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrrr.*/i/*$popup,domain=simptown.su
 @@||bunkrrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrrr.*/v/*$popup,domain=simptown.su
+@@||jpg*.su/img/*$popup,domain=simpcity.su
+@@||jpg*.su/img/*$popup,domain=simptown.su
 @@||jpg1.su/img/*$popup,domain=simpcity.su
 @@||jpg1.su/upload$all,domain=simpcity.su
 @@||jpg2.su/img/*$popup,domain=simpcity.su
@@ -46,7 +60,9 @@
 @@||jpg4.su/upload$all,domain=simpcity.su
 @@||jpg5.su/img/*$popup,domain=simpcity.su
 @@||jpg5.su/upload$all,domain=simpcity.su
+@@||jpg5.su/img/*$popup,domain=simptown.su
 @@||redgifs.com^$popup,domain=simpcity.su
+@@||redgifs.com^$popup,domain=simptown.su
 
 ! # DDOS-Guard / Cloudflare
 @@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
@@ -3977,6 +3993,12 @@ simpcity.su##.nav-dfake:remove()
 ! Simpshub
 simpshub.com##.tags.links
 ||supercounters.com^$3p
+
+! Simptown
+||simptown.su/api/juice$xhr
+##.ad-iframe
+simptown.su##.juice_ban
+||simptown.su/assets/img/juice/juice*_cry.jpg$image
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
