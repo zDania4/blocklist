@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025May05-1
+! Version: 2025May08-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -219,6 +219,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cold1.saint2.*/videos/
 @@||cdn.tailwindcss.com^$domain=bunkr.*|bunkrr.*
 @@||ct1.saint2.*/thumbs/
+@@||cyberdrop.me/f/*$popup,domain=cyberdrop.me|simpcity.su|simptown.su
 @@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
 @@||fonts.gstatic.com^
@@ -1047,6 +1048,12 @@ cyberdrop.me##+js(rmnt, script, ZcZZdddSVSaYM)
 ||eatthiskok.b-cdn.net^
 ||chaseherbalpasty.com^
 ||rarrfibuf.com^
+||b-cdn.net/api/event$xhr,domain=cyberdrop.me|bunkr.*|bunkrr.*|bunkrrr.*
+/^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,10}\/){0,2}[a-z]{2,}\?(?:[a-z]+=[^&=?\s]*?&)*?id=[12]\d{6}\b/$script,3p,match-case,to=com
+||rregahfuk.com^
+||simahtkk.com^
+/en/skuorbma?
+/skuorbma
 
 ! Cyberfile
 ||acscdn.com^
