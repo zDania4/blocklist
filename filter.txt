@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025May11-1
+! Version: 2025May12-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2371,6 +2371,29 @@ manysex.com##+js(rmnt, script, bypassAb)
 manysex.com##+js(rmnt, script, constants.country_code)
 manysex.com##+js(rmnt, script, isAdBlock)
 manysex.com##+js(rmnt, script, hlink_1)
+
+! Masterfap
+masterfap.net##.m-auto.container > center
+masterfap.net###myBtn3
+masterfap.net##.dot2
+masterfap.net##.dot
+masterfap.net##.active.sharebtn
+masterfap.net##+js(set-cookie, norobot, true)
+masterfap.net##.sharebtn
+masterfap.net##+js(rmnt, script, ("showimg2").style.webkitFilter = "blur(15px)")
+masterfap.net##div.items-center.justify-between.flex > a.uk-align-center:style(pointer-events: auto !important)
+||mwekuzaj.com^
+||reebr.com^
+||creative.reebr.com^
+||go.reebr.com^
+masterfap.net##.sidebar_inner [href="https://www.masterfap.net/partners/"]
+masterfap.net##+js(rmnt, script, instantiate)
+||engine.forbiddenhunter.com^
+masterfap.net##.nopopx:not(.onetrust-pc-dark-filter, .card, .container-card, center.nopopx, img.nopopx, b.nopopx, .buttons, .button-7, span.nopopx)
+masterfap.net###isRobot
+||masterfap.net/static/preview.jpg$image,1p
+masterfap.net##.mx-auto > center > h1
+||masterfap.net/static/free.png$image,1p
 
 ! Mat6tube
 mat6tube.*##+js(set-constant, ads, undefined)
