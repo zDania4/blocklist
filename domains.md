@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Apr-28</strong></p> <!-- for version 2025Apr28-1 -->
-<!-- 188+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-May-12</strong></p> <!-- for version 2025May12-1 -->
+<!-- 189+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -91,6 +91,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=listeamed.net) listeamed.net (vidguard)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=luluvdo.com) lulucdn.com/luluvdo.com (lulustream)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=manysex.com) manysex.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=masterfap.net) masterfap.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mat6tube.com) mat6tube.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mixdrop.ps) mixdrop.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
@@ -200,6 +201,6 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxfollow.com) xxxfollow.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=zagruz.tv) zagruz.tv  
+![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>188+</strong> | ☺</p>
+<p align=right><strong>189+</strong> | ☺</p>
