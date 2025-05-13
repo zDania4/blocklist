@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025May12-1
+! Version: 2025May13-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3915,12 +3915,20 @@ simpcity.su##.node--link.node--depth2.node--id95.node
 simpcity.su##.node--link.node--depth2.node--id107.node
 simpcity.su##.node--link.node--depth2.node--id122.node
 simpcity.su##.node--link.node--depth2.node--id109.node
-!The following 4 lines removes Trans categories from the main SC page and their icons - posts in these aren't removed and will show up on the site. Remove if needed.
+!! The following lines removes Trans categories from the main SC page and stops their icons from loading. TS posts in "Verified creators" are also hidden using a couple of these rules. Allow these rules (in Custom rules/"My filters" > add "@@" in front of each rule starting with "||", paste the rule(s), replace "##" with "#@#" for those not starting with "||", and add ",important" after each rule) if needed. !!
 simpcity.su##.block--category101.block--category.block
-simpcity.su##.node-subNodeFlatList > li:nth-of-type(10)
+simpcity.su##.node--unread.node--category.node--depth2.node--id25.node > .node-body > .js-nodeMain.node-main > .node-subNodesFlat > .node-subNodeFlatList > li > a[href="/forums/trans.42/"]
+||simpcity.su/data/assets/nodeicons/transHeartIcon.png$image
 ||simpcity.su/static/icons/nodes/36.png$image,1p
+||simpcity.su/static/icons/nodes/39.png$image,1p
+||simpcity.su/static/icons/nodes/40.png$image,1p
 ||simpcity.su/static/icons/nodes/42.png$image,1p
-!End of trans category
+||simpcity.su/static/icons/nodes/43.png$image,1p
+||simpcity.su/static/icons/nodes/64.png$image,1p
+||simpcity.su/static/icons/nodes/121.png$image,1p
+simpcity.su##.node-extra-title > .label--trans.label:upward(.node-extra)
+simpcity.su##.labelLink > .label--trans.label:upward(.is-prefix19, .structItem)
+!! End of Trans category !!
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
 ||onlyfinder.bio^$important
@@ -3938,7 +3946,6 @@ simpcity.su##.nav-shoosh.p-navEl-link
 !simpcity.su##+js(nowoif) --- Disabled to allow for upload buttons to work.
 !simpcity.su##+js(window-close-if, /^/)
 !simpcity.su##.js-bottomFixTarget.u-bottomFixer
-!simpcity.su##.p-body-inner > div:nth-of-type(2) - Breaks logged in users, but shows ads when not logged in in Chromium, but not in Brave -- Needs further testing.
 x7r3mk6ldr.com$all,important
 .*/aas/r45d
 simpcity.su##.node--link.node--depth2.node--id125.node
@@ -3951,8 +3958,6 @@ simpcity.su##.nav-bonga.p-navEl-link
 simpcity.su##div[style*="background-color:#FBCA27"]
 simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
 ##a[href^="https://a.adtng.com/"]
-!REMOVE BELOW IF MAIN CONTENT GETS NUKED AFTER BANNER IS GONE!
-!simpcity.su##body > div:nth-of-type(1)
 ||weeb.party/api/img.php$image
 ||turbostats.xyz/js/script.js$script,domain=simpcity.su
 ||simpcity.su/data/assets/nodeicons/soulgen.png$image,1p
@@ -3981,7 +3986,6 @@ simpcity.su##a[href*="/link-forums/"]
 ||adtng.com^
 ||simpcity.su/data/assets/nodeicons/a.png$image
 ||simpcity.su/data/assets/nodeicons/1000162665.jpg$image
-||simpcity.su/data/assets/nodeicons/transHeartIcon.png$image
 ||simpcity.su/data/assets/nodeicons/cflix.png$xhr,image
 simpcity.su##.node--link.node--depth2.node--id130.node
 ||simpcity.su/custom/banners/catflix.png$xhr,image
@@ -4043,14 +4047,22 @@ simpshub.com##.tags.links
 ##.ad-iframe
 simptown.su##.juice_ban
 ||simptown.su/assets/img/juice/juice*_cry.jpg$image
-!! Trans category stuff
+!! Trans category stuff > See the description on how to allow these under Simpcitys trans category rules.
 simptown.su##.node_grid_group_2
 simptown.su##.node_group_2
 simptown.su##.node_group_2:upward(.home_nodes_title)
-||simptown.su/assets/img/cat_new/36.png$image
-||simptown.su/assets/img/cat_new/40.png$image
-||simptown.su/assets/img/cat_new/39.png$image
-||simptown.su/assets/img/cat_new/42.png$image
+simptown.su##.prefix--transgender:upward(.recent-thread-wrapper)
+simptown.su##.prefix--trans-general-discussion:upward(.recent-thread-wrapper)
+simptown.su##.prefix--trans-requests:upward(.recent-thread-wrapper)
+simptown.su##.prefix--trans:upward(.recent-thread-wrapper)
+simptown.su##.prefix--trans-rea-de-pedidos:upward(.recent-thread-wrapper)
+||simptown.su/assets/img/cat_new/36.png$image,1p
+||simptown.su/assets/img/cat_new/39.png$image,1p
+||simptown.su/assets/img/cat_new/40.png$image,1p
+||simptown.su/assets/img/cat_new/42.png$image,1p
+||simptown.su/assets/img/cat_new/64.png$image,1p
+||simptown.su/assets/img/cat_new/121.png$image,1p
+!! End of Trans category
 
 ! Someporn
 some.porn##.flex-wrap.flex.w-full
