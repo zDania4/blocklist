@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jun08-1
+! Version: 2025Jun10-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2523,7 +2523,7 @@ niikaplayerr.com##+js(rmnt, script, loadPushHelper)
 ||dalyio.com^
 
 ! Noodlemagazine
-*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com,domain=noodlemagazine.com
+*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com|nmcorp.video,domain=noodlemagazine.com
 noodlemagazine.com##div[style] > ins:upward(1)
 noodlemagazine.com##noindex
 noodlemagazine.com##+js(nano-stb, download, 1100)
@@ -3230,7 +3230,7 @@ pornhub.com##.wide.clear.hd
 ||pornhub.com/_xa/ads$xhr,domain=pornhub.com
 ||record.enlabspartners.com^
 ||vinaomilan.xyz^
-pornhub.com##^script:has-text(zone_id)
+!pornhub.com##^script:has-text(zone_id)
 pornhub.com##+js(aopr, phxvv78s)
 pornhub.com##+js(aopr, aHR0cHM6Ly93d3cucG9ybmh1Yi5jb20=)
 pornhub.com##+js(aopr, isURL)
@@ -3280,6 +3280,12 @@ pornhub.*##+js(rmnt, script, tjEmbeddedAdsDuration)
 pornhub.com##.ctasSection
 pornhub.com###q_preroll_5_5
 pornhub.com###q_preroll_
+||openfpcdn.io^
+||astonishlandmassnervy.com^
+pornhub.*##.mgp_overlayContainer
+pornhub.*##.menuLinkDiv:has(a[href^="https://www.spicevids.com/"])
+pornhub.*##[data-event="header_paid_tabs"]
+pornhub.com##a[href^="http://ads.trafficjunky.net/"]
 
 ! Pornl
 pornl.com##.header__network
@@ -3933,6 +3939,7 @@ simpcity.su##.node-extra-title > .label--trans.label:upward(.node-extra) > div[c
 simpcity.su##.labelLink > .label--trans.label:upward(.is-prefix19, .structItem)
 simpcity.su##div.home_nodes_title:has-text("Transgender")
 simpcity.su##.grow.flex.node-title > a[href*="/forums/transgender.36/"]:upward(.node_grid_group_2)
+simpcity.su##.label--trans.label:upward(li.js-inlineModContainer.block-row--separated.block-row)
 !! End of Trans category !!
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
