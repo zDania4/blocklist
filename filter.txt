@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jun10-1
+! Version: 2025Jun11-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -323,6 +323,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||tnaflix.com/assets/js/dist/bundle.min.js
 @@||tnaflix.com/assets/js/dist/bundle.min.js
 @@||tnaflix.com/assets/libs/plyr/plyr.polyfilled.js$script,1p
+@@||tnaflix.com/assets/js/dist/smth.min.js$script
 @@||tnaflix.com/compiled/header.min.js
 @@||tnaflix.com/js/tnaflix.desktop.comments.js
 @@||saint2.*/thumbs/
@@ -4092,8 +4093,8 @@ some.porn##div[class*="fluid_html_on_pause_container"]:remove()
 
 ! Spankbang
 !*$popunder,3p,domain=spankbang.com
-spankbang.com##+js(nowoif)
-spankbang.com##+js(window-close-if, /^/)
+!spankbang.com##+js(nowoif)
+!spankbang.com##+js(window-close-if, /^/)
 spankbang.com##+js(set, chrome, undefined)
 spankbang.com##.ttaa2v3
 ||ersties.com^$3p
@@ -4125,6 +4126,14 @@ spankbang.com##.ads_placement
 spankbang.com##.more_videos.ft-button
 spankbang.com##div.space-y-4.mt-6.main_content_container
 spankbang.com##span.video-inline-ads
+||ctcdwm.com^
+spankbang.*##+js(set-constant, send_gravity_event, noopFunc)
+spankbang.*##+js(set-constant, send_recommendation_event, noopFunc)
+spankbang.*##+js(set-constant, BJSShowUnder, {})
+spankbang.*##+js(set-constant, BJSShowUnder.bindTo, noopFunc)
+||assets.sb-cd.com/static/dist/desktop/js/analytics.
+spankbang.*##+js(set-constant, BJSShowUnder.add, noopFunc)
+||assets.sb-cd.com/static/common/js/bjssu_
 
 ! Streamtape
 streamtape.*##+js(addEventListener-defuser, contextmenu)
