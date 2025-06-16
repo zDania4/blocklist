@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-May-12</strong></p> <!-- for version 2025May12-1 -->
+<p align=center>Last updated: <strong>2025-Jun-16</strong></p> <!-- for version 2025Jun16-1 -->
 <!-- 189+ covered domains in list -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
@@ -13,7 +13,7 @@ Generic favicon for domains without one: https://camo.githubusercontent.com/929b
 The following domains have rules and are covered by this blocklist:
 
 ![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=allfansleak.net) allfansleak.net  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) allfansleak.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=babepedia.com) babepedia.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=bigwarp.io) bigwarp.*  
@@ -36,7 +36,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=cyberdrop.me) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
 ![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=dirtyvideo.fun) dirtyvideo.fun (Netu)  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) dirtyvideo.fun (Netu)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=do7go.com) do7go.com (dood)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com/ds2play.com (dood domains)  
@@ -52,7 +52,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapeza.com) fapeza.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapfappy.com) fapfappy.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapfolder.club) fapfolder.club  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapista.com) fapista.com  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) fapista.com (down?)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=faplyt.com) faplyt.com  
 ![](https://camo.githubusercontent.com/f6931fb6b132e947ae6c4dae05af61c42a0d47ad88e5ad35a3d55606be66cac8/68747470733a2f2f6661706f70656469612e6e65742f66617669636f6e2d31367831362e706e67) fapopedia.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
@@ -81,7 +81,6 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=influencerchicks.com) influencerchicks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=influencersgonewild.com) influencersgonewild.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ixxx.com) ixxx.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=instagram.com) instagram.com (stylistic rules only)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su (and its related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=kemono.su) kemono.su  
 ![](https://camo.githubusercontent.com/6b1470254b45cf9bba94596eb8a931a002e90185990e8e6910a8f3f7c7f7fd67/68747470733a2f2f6c65616b65646d6f64656c732e636f6d2f66617669636f6e2f66617669636f6e2d31367831362e706e67) leakedmodels.com  
@@ -131,6 +130,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntn.com) porntn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornototale.com) pornototale.com (porndig's IT website)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=pornwex.tv) pornwex.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) pornxrated.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=pornzog.com) pornzog.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=postimages.org) postimages.org/postimg.cc  
