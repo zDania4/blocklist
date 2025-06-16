@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jun11-1
+! Version: 2025Jun16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2110,11 +2110,6 @@ internetchicks.com##.cam-live
 ! IXXX
 ||ixxx.com/js/analytics$script,domain=www.ixxx.com
 
-! Instagram
-www.instagram.com##.xl56j7k.x1iyjqo2.xdt5ytf.x78zum5.x9f619.x1qjc9v5
-www.instagram.com##.x1jfb8zj.x1qrby5j.x1n2onr6.x7ja8zs.x1t2pt76.x1lytzrv.xedcshv.xarpa2k.x3igimt.x12ejxvf.xaigb6o.x1beo9mf.x1h91t0o.x4k7w5x.x1uvtmcs
-www.instagram.com##.x1uhb9sk
-
 ! Jpg.fish - .fishing - .pet / jpg1.su / jpg2.su
 $popup,3p,domain=jpg1.su
 jpg.*/quicknoisilyheadbites.js
@@ -2524,7 +2519,7 @@ niikaplayerr.com##+js(rmnt, script, loadPushHelper)
 ||dalyio.com^
 
 ! Noodlemagazine
-*$3p,script,xhr,denyallow=cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com|nmcorp.video,domain=noodlemagazine.com
+*$3p,script,xhr,denyallow=ajax.cloudflare.com|cloudflare.net|google.com|gstatic.com|googleapis.com|hcaptcha.com|jsdelivr.net|pvvstream.pro|recaptcha.net|userapi.com|nmcorp.video,domain=noodlemagazine.com
 noodlemagazine.com##div[style] > ins:upward(1)
 noodlemagazine.com##noindex
 noodlemagazine.com##+js(nano-stb, download, 1100)
@@ -2542,6 +2537,7 @@ noodlemagazine.com##div:nth-of-type(6)
 ||cloudflareinsights.com^
 ||tbpot.com^
 banner.go?spaceid=
+noodlemagazine.com##[href*="https://theporndude.com"]
 
 ! Notfans
 ||notfans.com/?mode=async&action=js_stats
@@ -3448,6 +3444,17 @@ www.porntrex.com##.open-tool.pop-adv
 порнушка.tv##+js(rmnt, script, prerolls.replace)
 m.порнушка.tv##+js(rmnt, script, clickadilla7979)
 m.порнушка.tv##+js(rmnt, script, prerolls.replace)
+
+! Pornwex
+/player/stats.php?$image,redirect-rule=1x1.gif
+||iuniu-fzn.com^
+||mystr1.xyz^
+pornwex.*##+js(rmnt, script, puURL)
+pornwex.*##+js(cookie-remover, kt_tcookie)
+pornwex.*##+js(cookie-remover, kt_referer)
+pornwex.*##+js(cookie-remover, kt_qparams)
+pornwex.*##+js(cookie-remover, kt_ips)
+pornwex.*##.bottom-adv:upward(.footer-margin)
 
 ! Pornxrated
 forum.pornxrated.com##.node--link.node--depth2.node--id5.node
