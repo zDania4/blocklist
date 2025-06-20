@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jun16-2
+! Version: 2025Jun20-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -4490,6 +4490,8 @@ tnaflix.com###ads-ntv1:nth-ancestor(1)
 tnaflix.com##.footer-wrapper > .row > .offset-lg-3.col-lg-3.col-6
 ||shukriya90.com^
 tnaflix.com###ads-under-video_
+tnaflix.com##.nav-livesex
+tnaflix.com##[href="/goto/323"]
 
 ! Twitch embed
 player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
@@ -4530,6 +4532,9 @@ txxx.*##.video-conten > div > div > div > a[href="#"]:upward(2)
 txxx.*##.btn-icon.btn-o-red.btn-min.btn
 txxx.*##.page-channel-left > div > img:upward(div)
 txxx.*##.page-channel-right > div > img:upward(div)
+txxx.*##.jw-hardlink-inner
+txxx.*##.jw-download-btn
+txxx.*##.jwplayer-custom-button
 
 ! Upornplus
 uporn.plus##li.item:nth-of-type(5) > .inner > .text
@@ -4969,12 +4974,13 @@ xmoviesforyou.*##+js(rmnt, script, flgdabcpokrineutm)
 xmoviesforyou.com##.iframe-container
 
 ! Xnxx
-www.xnxx.com##.disclaimer-enter-gay.btn-primary.btn
-www.xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
+xnxx.com##.disclaimer-enter-gay.btn-primary.btn
+xnxx.com##.disclaimer-enter-shemale.btn-primary.btn
 ||xnxx.com/zoneload/
-www.xnxx.com###mobile-menu .gold-plate
-www.xnxx.com###site-nav > .gold-plate
-www.xnxx.com###header-mobile-live-cam
+xnxx.com###mobile-menu .gold-plate
+xnxx.com###site-nav > .gold-plate
+xnxx.com###header-mobile-live-cam
+xnxx.com##a.video-overlay-title-invideo
 
 ! Xozilla
 /js/ppndr.
@@ -5080,6 +5086,7 @@ xvideos.com###ad-footer
 xvideos.com##+js(addEventListener-defuser, click, ShouldShow)
 popunder1000.js
 ad-provider.js
+xvideos.com##a.video-overlay-title-invideo
 
 ! Xwiks
 xwiks.com##.adts-wrap
