@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jun20-1
+! Version: 2025Jul01-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3006,6 +3006,47 @@ pornhat.*##+js(set-session-storage-item, fluidVast, 1)
 pornhat.*##+js(set-local-storage-item, history_videos, $remove$)
 pornhat.*##.mobile.top_spot
 
+! Pornhd3x
+||en.javfun.me/api-ads?callback=movies_ads
+||pornhd3x.*/video-ads.ejs
+pornhd3x.*##[href*="https://pornhouse.me"]:upward(li)
+pornhd3x.*##[href*="https://en.javfun.me"]:upward(li)
+pornhd3x.*##[href*="https://theporndude.com"]:upward(li)
+pornhd3x.*##.porn-videos-ads
+pornhd3x.*##div.footer-link:nth-of-type(1)
+pornhd3x.*##.footer-tags
+||connect.facebook.net/*$script,domain=pornhd3x.*
+pornhd3x.*##[href="https://javfun.me"]:upward(li)
+pornhd3x.*##a[title="COUNTRY"]:upward(li)
+pornhd3x.*###bar-player
+pornhd3x.*###invideo_wrapper
+pornhd3x.*##.outstream
+pornhd3x.*##.mvic-btn
+pornhd3x.*##.jw-logo-bar.jw-reset.jw-button-color.jw-icon-inline.jw-icon
+||pornhd3x.*/Cms_Data/Sites/admin/Files/logo/brazzers_logo3.png
+pornhd3x.*##.se-next
+pornhd3x.*##.block-trailer
+pornhd3x.*##.ml-title-page.ml-title
+pornhd3x.*##div#pagination:nth-of-type(2)
+||apis.google.com/js/platform.js$script,domain=pornhd3x.*
+pornhd3x.*##+js(rmnt, script, ad_sub)
+pornhd3x.*##+js(rmnt, script, _0x5b6a)
+pornhd3x.*##+js(rmnt, script, TSVideoInstantMessage)
+pornhd3x.*##+js(rmnt, script, isCookieEnabled)
+pornhd3x.*##+js(rmnt, script, fbAsyncInit)
+pornhd3x.*##+js(rmnt, script, TSOutstreamVideo)
+||pornhd4k.net/api-ads?callback=movies_ads$script
+/api-ads?callback=$domain=pornhd3x.*
+||pornhd3x.*/Cms_Data/Sites/admin/Files/ads2.js
+pornhd3x.*##+js(rmnt, script, movies_ads)
+pornhd3x.*##.outstream
+pornhd3x.*##.porn-videos-ads
+||p.jwpcdn.com/player/plugins/vast/
+||sacdnssedge.com^
+pornhd3x.*##.alert-bottom
+||g.jwpsrv.com/g/gcid-*?notrack$frame
+pornhd3x.*###switch-mode
+
 ! Pornhoarder
 pornhoarder.*##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
 pornhoarder.*##[href="https://theporndude.com/"]
@@ -3284,6 +3325,7 @@ pornhub.*##.mgp_overlayContainer
 pornhub.*##.menuLinkDiv:has(a[href^="https://www.spicevids.com/"])
 pornhub.*##[data-event="header_paid_tabs"]
 pornhub.com##a[href^="http://ads.trafficjunky.net/"]
+pornhub.com##.fancentroButton
 
 ! Pornl
 pornl.com##.header__network
@@ -3833,6 +3875,9 @@ saint2.*##+js(rmnt, script, fromCharCode)
 saint2.*##+js(nowoif, !//a/)
 ||nmevhudzi.com^
 ||b-cdn.net/api/event$xhr,domain=saint2.*
+||acquiredeceasedundress.com^
+in.js$domain=saint2.*
+||sacwumsf.com^
 
 ! Sevideo
 ||cef7cb85aa.com^
