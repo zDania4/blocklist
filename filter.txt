@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul01-1
+! Version: 2025Jul04-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3535,14 +3535,16 @@ pornzog.com##a:remove-attr(target)
 ##.jw-controls-logo.jw-reset.jw-button-color.jw-icon-inline.jw-icon
 
 ! Postimages.org / postimg.cc
-postimg.cc###td-image > div:nth-of-type(1)
-postimg.cc##div[style="display:inline-block;width:728px;height:120px;margin-bottom:15px;"]
+!postimg.cc###td-image > div:nth-of-type(1)
+!postimg.cc##div[style="display:inline-block;width:728px;height:120px;margin-bottom:15px;"]
 ##.adtop
 ##ins.adsbygoogle
 ##ins.adsbygoogle[data-ad-slot]
 ||wmpted.com^
 ||cdwmpt.com^
 ##.td-ad
+||usefulcontentsites.com^
+||perfops.net/rom3/
 
 ! Privatehomeclips
 privatehomeclips.com##a[href^="https://porntourist.com"]
