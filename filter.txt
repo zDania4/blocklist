@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul11-1
+! Version: 2025Jul11-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -769,7 +769,7 @@ bunkr.*/js/lv.js$script
 ||deputizepacifistwipe.com^
 ||avalanchetremorunfilled.com^
 ||androidduvetscribble.com^
-/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{2}\.js(\?.*)?$/$script,domain=bunkr.*|bunkrr.*|bunkrrr.*|cyberdrop.*|saint2.*|jpg5.*
+/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{2}\.js(\?.*)?$/$3p,script,domain=bunkr.*|bunkrr.*|bunkrrr.*|cyberdrop.*|saint2.*|jpg5.*
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
