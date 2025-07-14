@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul11-2
+! Version: 2025Jul14-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -991,6 +991,12 @@ coomer.su##+js(rmnt, script, flgdabcpokrineutm)
 coomer.su##a[href*="realxxx.com"]
 ||v6.realxxx.com^
 ||soonpubplatform.online^
+coomer.su##.sidebar-extra-style.global-sidebar-entry-item[href*="tsyndicate.com"]
+coomer.su##+js(set-local-storage-item, plausible_ignore, true)
+coomer.su##+js(abort-current-script, String.fromCharCode, \x)
+coomer.su##+js(addEventListener-defuser, '', popMagic)
+coomer.*##+js(rmnt, script, _TSMIDDLE)
+coomer.*##+js(rmnt, script, videoAds)
 
 ! Cumcoming
 cumcoming.com##.stop-holder
@@ -5189,6 +5195,30 @@ xxxtik.com##+js(abort-current-script, atob, Uint8Array)
 xxxtik.com##.app-bar-list
 xxxtik.com##.live-models
 xxxtik.com##.live-models--desktop
+
+! Yandex (Disk)
+||yandex.ru/log?
+yandex.*##a[class*="PSHeaderPremiumButton"]:style(display: none !important)
+disk.yandex.*##[data-test-id^="ps-header-logo-"] svg ~ svg
+yandex.*##.PSHeaderLogo360 a[href^="https://360.yandex."]:style(pointer-events: none !important)
+disk.yandex.*##.footer__copyright:style(color: transparent !important)
+||csp.yandex.net^
+yandex.*##+js(json-prune, direct rtb seatbid data.*.attributes.blockId)
+yandex.*##+js(prevent-xhr, yabs.yandex.ru/count/)
+yandex.*##+js(set-constant, Object.prototype.initDeps, undefined)
+yandex.*##+js(remove-attr, data-counter, #search-result > .serp-item a)
+yandex.*##+js(set-constant, Object.prototype._directAdvStyles, undefined)
+yandex.*##+js(prevent-setTimeout, Ya.Rum.getSetting, 15)
+yandex.*##+js(abort-on-property-read, Ya.loaderVer)
+yandex.*##+js(remove-cookie, tvoid)
+yandex.*##+js(set-constant, __AAB__, false)
+yandex.*##+js(set-constant, Object.prototype._getAdConfig, noopFunc)
+yandex.*##+js(set-constant, Object.prototype.getHoneypot, null)
+yandex.*##+js(set-constant, Object.prototype.isOpenImageUnauthPopupEnabled, false)
+yandex.*##+js(set-constant, Object.prototype.los, null)
+disk.yandex.*##+js(remove-class, has-fullscreen-banner|has-right-direct, .public__root, stay)
+||adfstat.yandex.ru^
+||yandex.ru/clck/
 
 ! Youjizz
 youjizz.com##[href^="//youjizzlive.com/lander/v2/preview/"]:nth-ancestor(1)
