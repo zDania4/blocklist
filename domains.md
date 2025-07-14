@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Jul-01</strong></p> <!-- for version 2025Jul01-1 -->
-<!-- 190+ covered domains in list -->
+<p align=center>Last updated: <strong>2025-Jul-14</strong></p> <!-- for version 2025Jul14-1 -->
+<!-- 191+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -56,7 +56,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=faplyt.com) faplyt.com  
 ![](https://camo.githubusercontent.com/f6931fb6b132e947ae6c4dae05af61c42a0d47ad88e5ad35a3d55606be66cac8/68747470733a2f2f6661706f70656469612e6e65742f66617669636f6e2d31367831362e706e67) fapopedia.net  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapoleaks.com) fapoleaks.com  
+![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) fapoleaks.com (down?)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=faponhd.com) fapohd.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.* (including djx10 domain)  
@@ -201,7 +201,8 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxfollow.com) xxxfollow.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=disk.yandex.com) (disk.)yandex.* (rules are *only* tested on Yandex Disk)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>190+</strong> | ☺</p>
+<p align=right><strong>191+</strong> | ☺</p>
