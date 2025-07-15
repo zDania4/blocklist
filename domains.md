@@ -1,5 +1,5 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Jul-14</strong></p> <!-- for version 2025Jul14-1 -->
+<p align=center>Last updated: <strong>2025-Jul-15</strong></p> <!-- for version 2025Jul15-1 -->
 <!-- 191+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
@@ -94,6 +94,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=mat6tube.com) mat6tube.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mixdrop.ps) mixdrop.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=multi.xxx) multi.xxx  
 ![](https://www.google.com/s2/favicons?sz=16&domain=mylust.com) mylust.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=namethatporn.com) namethatporn.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=niikaplayerr.com) niikaplayerr.com (vidhide)  
