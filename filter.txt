@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul15-1
+! Version: 2025Jul16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -770,6 +770,7 @@ bunkr.*/js/lv.js$script
 ||avalanchetremorunfilled.com^
 ||androidduvetscribble.com^
 /^https?:\/\/[^\/]+\/[a-zA-Z0-9]{2}\.js(\?.*)?$/$3p,script,domain=bunkr.*|bunkrr.*|bunkrrr.*|cyberdrop.*|saint2.*|jpg5.*
+||s.gigachad-cdn.ru/js/script.js$script
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1282,11 +1283,23 @@ bongacams.com/pwa-bc.js$all,important
 ||go.sexfortokens.com^$important
 ||tsyndicate.com^$important
 ||twinrdsrv.com^$important
-www.eporner.com###headholder > [href]
-www.eporner.com###footsocbuttons
-www.eporner.com###cookies
+eporner.com###headholder > [href]
+eporner.com###footsocbuttons
+eporner.com###cookies
 eporner.com##admobiletop
 eporner.com##admobiletopinside
+||ad.twinrdengine.com^
+eporner.com###adstripe
+eporner.com##.vjs-docker > #videotextbanner
+/piwik.js$domain=~player.smotrim.ru
+||eporner.com/dash-report.php$xhr,domain=eporner.com
+!! Eporner video (seperate site)
+eporner.video##.link-sponsor
+eporner.video##.network
+&action=js_stats$domain=eporner.video
+eporner.video##.top
+eporner.video##+js(rmnt, script, adConfig)
+eporner.video##[href*="spankbang.sex"]:upward(li)
 
 ! Erome
 erome.com##+js(acs, $, exo)
