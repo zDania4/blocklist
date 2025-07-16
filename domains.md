@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Jul-15</strong></p> <!-- for version 2025Jul15-1 -->
-<!-- 191+ covered domains in list, *3* are of unknown status -->
+<p align=center>Last updated: <strong>2025-Jul-16</strong></p> <!-- for version 2025Jul16-1 -->
+<!-- 192+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 
@@ -42,6 +42,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com/ds2play.com (dood domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=epawg.com) epawg.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=eporner.com) eporner.com  
+![](https://www.google.com/s2/favicons?sz=16&domain=eporner.video) eporner.video (completely different site to the regular eporner, despite the name and favicon)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erome.com) erome.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=erothots.co) erothots.co  
 ![](https://www.google.com/s2/favicons?sz=16&domain=f95zone.to) f95zone.to  
@@ -206,4 +207,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>191+</strong> | ☺</p>
+<p align=right><strong>192+</strong> | ☺</p>
