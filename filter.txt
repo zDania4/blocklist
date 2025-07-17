@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul17-1
+! Version: 2025Jul17-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -222,6 +222,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cold1.saint2.*/videos/
 @@||cdn.tailwindcss.com^$domain=bunkr.*|bunkrr.*
 @@||ct1.saint2.*/thumbs/
+@@||cyberfile-is.b-cdn.net/themes/spirit/assets/frontend/js/jquery$script,domain=cyberfile.me
 @@||cyberdrop.me/f/*$popup,domain=cyberdrop.me|simpcity.su|simptown.su
 @@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
@@ -2938,6 +2939,7 @@ porndoe.com##.vpc-join
 porndoe.com##.-sidebar-try
 porndoe.com##+js(set-cookie, _aGaB, 1)
 porndoe.com##+js(set-cookie, _aCan_analytical, 0)
+porndoe.com##.bunny-button-resume
 
 ! Porngo
 porngo.com##li.menu-list__row:nth-of-type(8)
@@ -3456,9 +3458,9 @@ porntrex.com##+js(disable-newtab-links)
 porntrex.com###exclusive-link
 porntrex.com###index-link
 ##.fp-player > div[style="position: absolute; inset: 0px; overflow: hidden; z-index: 160; background: transparent; display: block;"]
-www.porntrex.com##li.hidden-sm > .hidden-sm
-www.porntrex.com##[href="https://bongacams.com/"]
-www.porntrex.com##.open-tool.pop-adv
+porntrex.com##li.hidden-sm > .hidden-sm
+porntrex.com##[href="https://bongacams.com/"]
+porntrex.com##.open-tool.pop-adv
 
 ! Pornushka (xn--80atidehw4b.org)
 порнушка.tv##+js(rmnt, script, clickadilla7979)
@@ -4319,6 +4321,8 @@ theporndude.com##.--show.coo-widget.coomeet-app
 theporndude.com###category-block-97 > .category-after-block > .link
 theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
 theporndude.com##.chat-widget
+theporndude.com##.drawer
+theporndude.com##.quotes-count
 
 ! Thotbook
 thotbook.*###page > .code-block-3.code-block
@@ -4367,6 +4371,7 @@ thotbook.*##.menu-item-42828
 thotbook.*##.menu-item-26424
 thotbook.*###menu-item-42835
 thotbook.*###menu-item-59784
+thotbook.*##+js(set, adList, noopFunc)
 
 ! Thothub
 thothub.*##+js(abort-current-script, decodeURI, decodeURIComponent)
@@ -4589,7 +4594,6 @@ veev.to##+js(rmnt, script, initHeartbeat)
 ||xapi.juicyads.com^
 ||static.veevcdn.co/prcvr.html$subdocument
 veev.to##.plyr__ads
-
 
 ! Videzz
 videzz.net##+js(no-setTimeout-if, console.clear)
@@ -5242,6 +5246,8 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ##a[href^="https://t.ajrkm3.com/"]
 ###header-ads
 ##.header-ads
+q88z1s3.com^
+||popcash.net^
 ! ##Disable devtools:
 ||jsdelivr.net/npm/disable-devtool
 ! ## Pixeldrain-bypass remove games4u layer
