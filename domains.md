@@ -82,7 +82,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://www.google.com/s2/favicons?sz=16&domain=influencerchicks.com) influencerchicks.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=influencersgonewild.com) influencersgonewild.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=ixxx.com) ixxx.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su (and its related domains)  
+![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su/jpg6.su (and related domains)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=kemono.su) kemono.su  
 ![](https://camo.githubusercontent.com/6b1470254b45cf9bba94596eb8a931a002e90185990e8e6910a8f3f7c7f7fd67/68747470733a2f2f6c65616b65646d6f64656c732e636f6d2f66617669636f6e2f66617669636f6e2d31367831362e706e67) leakedmodels.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=leaked.page) leaked.page  
