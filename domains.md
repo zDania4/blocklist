@@ -1,8 +1,9 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Jul-16</strong></p> <!-- for version 2025Jul16-1 -->
-<!-- 192+ covered domains in list, *3* are of unknown status -->
+<p align=center>Last updated: <strong>2025-Jul-19</strong></p> <!-- for version 2025Jul19-1 -->
+<!-- 193+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
+<!-- Make sure to use camo.githubusercontent url's for new favicons! It's a little slower but KEEPS the favicons cached and makes the network traffic less "descriptive" -->
 
 > [!NOTE]
 > Want a domain added or updated? Please create an [issue](https://github.com/zDania4/blocklist/issues/new/choose) to let me know.
@@ -12,199 +13,199 @@ Generic favicon for domains without one: https://camo.githubusercontent.com/929b
 
 The following domains have rules and are covered by this blocklist:
 
-![](https://www.google.com/s2/favicons?sz=16&domain=3movs.com) 3movs.com  
+![](https://camo.githubusercontent.com/2c834753711524c38b14ba98c38a3a107e8d8a056a0938d792100dd2475db607/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d336d6f76732e636f6d) 3movs.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) allfansleak.net  
-![](https://www.google.com/s2/favicons?sz=16&domain=anon-v.com) anon-v.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=babepedia.com) babepedia.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=bigwarp.io) bigwarp.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=baddies.xxx) baddies.xxx  
-![](https://www.google.com/s2/favicons?sz=16&domain=bitchesgirls.com) bitchesgirls.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=beeg.com) beeg.com  
+![](https://camo.githubusercontent.com/5c58c13a17d52b3022adcfbe9d1cb09345cd424bb8744cb1035d665e401f0bcc/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d616e6f6e2d762e636f6d) anon-v.*  
+![](https://camo.githubusercontent.com/fd3d6e74a27648fc9558758be9e11ea70aa864c4292f5c43f78d739f0a950ed3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6261626570656469612e636f6d) babepedia.com  
+![](https://camo.githubusercontent.com/b81883c0d7efd0a588503fa537ca2cc7baec46583cf37fc9fe98051b5ea0995f/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d626967776172702e696f) bigwarp.*  
+![](https://camo.githubusercontent.com/0b1c2a5fb27e805710751336bdac80948775c89a1342709d4c1de1c051f70537/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d626164646965732e787878) baddies.xxx  
+![](https://camo.githubusercontent.com/75101e07d15d40c1f5ea73e22759e4ff46b8c79ab60867aa15e6fecd77bba8ce/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d626974636865736769726c732e636f6d) bitchesgirls.com  
+![](https://camo.githubusercontent.com/33a59f1364d2dedb794d06eafbd040055c55d81b67929cfff444042de0ad7725/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d626565672e636f6d) beeg.com  
 ![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr/bunkrr/bunkrrr.\*  
 ![](https://camo.githubusercontent.com/e43ec5dbe7d394ade2dd558468e0080d8d9bbdaf8273dda36ec768827909e18b/68747470733a2f2f692e696d6775722e636f6d2f596370736c5a642e706e67) bunkr-albums.io  
-![](https://www.google.com/s2/favicons?sz=16&domain=camshot.tv) camshot.tv  
-![](https://www.google.com/s2/favicons?sz=16&domain=camwhores.tv) camwhores.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=camwhoresbay.com) camwhoresbay.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=camwhorescloud.com) camwhorescloud.com  
+![](https://camo.githubusercontent.com/e219edb5b3dc7b63bb28c409198223066c41d2e026a09435ccfb0e788f0c3732/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63616d73686f742e7476) camshot.tv  
+![](https://camo.githubusercontent.com/a1df34993fd8172515ab7c4cfaf94d5c372d20648e5d3212cf22616c530dd381/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63616d77686f7265732e7476) camwhores.*  
+![](https://camo.githubusercontent.com/56033faac00f6a77549577fd6c6225031badf6cf867df267a83fff901d81fe78/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63616d77686f7265736261792e636f6d) camwhoresbay.com  
+![](https://camo.githubusercontent.com/ea5c04965c6469fe288880ee9a9eea3daa629ab2639ea67061b6a20e72b984a8/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63616d77686f726573636c6f75642e636f6d) camwhorescloud.com  
 ![](https://camo.githubusercontent.com/74626c766e0716f93810d055cbc38362c3d30960fc5ae1979729ffbd656dd705/68747470733a2f2f692e696d6775722e636f6d2f39656e4d647a542e706e67) chatpic.org  
-![](https://www.google.com/s2/favicons?sz=16&domain=chatwhores.com) chatwhores.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=checkporno.com) checkporno.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=cloudbate.com) cloudbate.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=coomer.party) coomer.party/coomer.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=cumcoming.com) cumcoming.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=cumlouder.com) cumlouder.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=cyberdrop.me) cyberdrop.me  
+![](https://camo.githubusercontent.com/5c36a1e169d19baa8304ad43e4bfb660be7e381c1fb2efddfdcf21ad81862530/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6368617477686f7265732e636f6d) chatwhores.*  
+![](https://camo.githubusercontent.com/bc784c7a7248c1cbb2d529dd8d04728749e864889fec120525495a981b9fab04/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d636865636b706f726e6f2e636f6d) checkporno.com  
+![](https://camo.githubusercontent.com/21858c23f4591f7c8b7942836f21cb5dcb290ba70256a695b1c63e4ccad793b2/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d636c6f7564626174652e636f6d) cloudbate.com  
+![](https://camo.githubusercontent.com/8ab898f2066e90995937c042d887505f9bbe23f47bc309bbf07b0eb40713f62b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d636f6f6d65722e7061727479) coomer.party/coomer.su  
+![](https://camo.githubusercontent.com/e0e31e9e630c11e7966a60006a4c769eeaa50b86de4cd175f4fa321aec62225e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63756d636f6d696e672e636f6d) cumcoming.com  
+![](https://camo.githubusercontent.com/f785fb91efcd32b44ed6ac70a0ec4d77c9d3dbc8ccfd801579cdb6441a9d9884/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63756d6c6f756465722e636f6d) cumlouder.com  
+![](https://camo.githubusercontent.com/d36aefe7b2e7a98a36037d0555456fe9445b39a30439222a985a758270f1ba09/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d637962657264726f702e6d65) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=dirtyship.com) dirtyship.com  
+![](https://camo.githubusercontent.com/249d3635c217f49a8eceac46bafb066bc22c4e278aa8a194c2a0fde9c609191c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6469727479736869702e636f6d) dirtyship.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) dirtyvideo.fun (Netu)  
-![](https://www.google.com/s2/favicons?sz=16&domain=do7go.com) do7go.com (dood)  
-![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) dood.* (and its related domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=doodstream.com) ds2video.com/ds2play.com (dood domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=epawg.com) epawg.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=eporner.com) eporner.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=eporner.video) eporner.video (completely different site to the regular eporner, despite the name and favicon)  
-![](https://www.google.com/s2/favicons?sz=16&domain=erome.com) erome.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=erothots.co) erothots.co  
-![](https://www.google.com/s2/favicons?sz=16&domain=f95zone.to) f95zone.to  
-![](https://www.google.com/s2/favicons?sz=16&domain=famousinternetgirls.com) famousinternetgirls.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fansteek.com) fansteek.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapachi.com) fapachi.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapello.com) fapello.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapeza.com) fapeza.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapfappy.com) fapfappy.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapfolder.club) fapfolder.club  
+![](https://camo.githubusercontent.com/04bee7f1c40deae18f0f372ba35b37d77d02c6a029a7cac3d756a23484fae174/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d646f37676f2e636f6d) do7go.com (dood)  
+![](https://camo.githubusercontent.com/f7399c6e5e0787cd08162e160539d2b6e988103e2bdd166f1a8f9ee4a1ebf7d8/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d646f6f6473747265616d2e636f6d) dood.* (and its related domains)  
+![](https://camo.githubusercontent.com/f7399c6e5e0787cd08162e160539d2b6e988103e2bdd166f1a8f9ee4a1ebf7d8/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d646f6f6473747265616d2e636f6d) ds2video.com/ds2play.com (dood domains)  
+![](https://camo.githubusercontent.com/6ca1cf1e61d8e9e1e47e9949719f2944a4ba8468ebf20e73cbd6ba037345333c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d65706177672e636f6d) epawg.com  
+![](https://camo.githubusercontent.com/ce1b887650b310962273d06a6deaf505c70aadbeb1814936930ab628b0d69ce0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d65706f726e65722e636f6d) eporner.com  
+![](https://camo.githubusercontent.com/dc3b1a8e1c02ed2a9a895262ffcf2e2c58f70c295571aa9254018f1e15a6296a/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d65706f726e65722e766964656f) eporner.video (completely different site to the regular eporner, despite the name and favicon)  
+![](https://camo.githubusercontent.com/10c8c5d130ea57e6d76a63ab4176244796cd9f9936e7783e5a60ff551d2e9a10/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d65726f6d652e636f6d) erome.com  
+![](https://camo.githubusercontent.com/ca2a56abd01c89efd952e948a176911a71a285494f22e6ce254aa3a4d13b2662/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d65726f74686f74732e636f) erothots.co  
+![](https://camo.githubusercontent.com/50f59650987c3c4aed387c4af46d6a1a3df747335dc6dcb0442968e112700532/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6639357a6f6e652e746f) f95zone.to  
+![](https://camo.githubusercontent.com/98771df150b2dafeb74fb3a843d728329e03c27a3046f93078668836e6e8e3e1/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66616d6f7573696e7465726e65746769726c732e636f6d) famousinternetgirls.com  
+![](https://camo.githubusercontent.com/2e087c6c252ea2f44e9e91ef97db3273da4faefa91e909628842499ce791af3f/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66616e737465656b2e636f6d) fansteek.com  
+![](https://camo.githubusercontent.com/ce451706993730d50017e006530d0513530c72bacc30fe1bbb56cc9fe1be14ca/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666170616368692e636f6d) fapachi.com  
+![](https://camo.githubusercontent.com/8919837ebe25847adb2369b4d5732a1818c07c4f82835ccc9c4eb16ea0ceb9af/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666170656c6c6f2e636f6d) fapello.com  
+![](https://camo.githubusercontent.com/b578e7ca27fe675a861d325f8173c683fb46d55c7b214d05f3eb80cd57618536/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666170657a612e636f6d) fapeza.com  
+![](https://camo.githubusercontent.com/d6c276e293681303a1c7575cb768a7811916a2d2d7f9f8e4d51b6edaf87ec6f7/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66617066617070792e636f6d) fapfappy.com  
+![](https://camo.githubusercontent.com/cdb3a4b87259c52c1f399e3076cf8496402bd7db4a2d403948bd73b00856dac6/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666170666f6c6465722e636c7562) fapfolder.club  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) fapista.com (down?)  
-![](https://www.google.com/s2/favicons?sz=16&domain=faplyt.com) faplyt.com  
+![](https://camo.githubusercontent.com/17b0f0a2de7508b69f756f3caede6fb6b59a15fe33ea49cdaf45f500bfb09a4d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6661706c79742e636f6d) faplyt.com  
 ![](https://camo.githubusercontent.com/f6931fb6b132e947ae6c4dae05af61c42a0d47ad88e5ad35a3d55606be66cac8/68747470733a2f2f6661706f70656469612e6e65742f66617669636f6e2d31367831362e706e67) fapopedia.net  
-![](https://www.google.com/s2/favicons?sz=16&domain=fapodrop.com) fapodrop.com  
+![](https://camo.githubusercontent.com/9c5276b52672795c5e02c5b937d923872c989c9f0d6a9b397a791aaef85a8569/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6661706f64726f702e636f6d) fapodrop.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) fapoleaks.com (down?)  
-![](https://www.google.com/s2/favicons?sz=16&domain=faponhd.com) fapohd.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fikfap.com) fikfap.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=filemoon.sx) filemoon.* (including djx10 domain)  
-![](https://www.google.com/s2/favicons?sz=16&domain=fkbae.to) fkbae.to  
-![](https://www.google.com/s2/favicons?sz=16&domain=fleshed.com) fleshed.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=fyptt.to) fyptt.to  
-![](https://www.google.com/s2/favicons?sz=16&domain=gofile.io) gofile.io  
-![](https://www.google.com/s2/favicons?sz=16&domain=gotanynudes.com) gotanynudes.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=hclips.com) hclips.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=hdzog.com) hdzog.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=hobby.porn) hobby.porn  
-![](https://www.google.com/s2/favicons?sz=16&domain=hotleak.vip) hotleak.vip  
-![](https://www.google.com/s2/favicons?sz=16&domain=hotmovs.com) hotmovs.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=hotscope.tv) hotscope.tv  
-![](https://www.google.com/s2/favicons?sz=16&domain=hqporner.com) hqporner.com (and their mydaddy.cc and hqwo.cc CDN)  
-![](https://www.google.com/s2/favicons?sz=16&domain=ilovnudes.com) ilovnudes.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=imagebam.com) imagebam.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=imageban.ru) imageban.ru  
-![](https://www.google.com/s2/favicons?sz=16&domain=imagevenue.com) imagevenue.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=imgbb.com) imgbb.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=imgbox.com) imgbox.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=influencerchicks.com) influencerchicks.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=influencersgonewild.com) influencersgonewild.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=ixxx.com) ixxx.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=jpg5.su) jpg5.su/jpg6.su (and related domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=kemono.su) kemono.su  
+![](https://camo.githubusercontent.com/2c984dd890d5025e878b1779fb1cfb0b7aae7171d20c5c623299459aeb91d14b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6661706f6e68642e636f6d) fapohd.com  
+![](https://camo.githubusercontent.com/40b7102149f31580ad000220c29296a5b17693c4996a06977a90f906bc16ab03/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66696b6661702e636f6d) fikfap.com  
+![](https://camo.githubusercontent.com/3813bd5f0428f35d88f4db7ea489c7ae4e7eefaeec2e7fd0e2ebb645c192f971/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66696c656d6f6f6e2e7378) filemoon.* (including djx10 domain)  
+![](https://camo.githubusercontent.com/a89ea9d9a94de250521cb84038906202366841ee60cc26bef4495f206c444ada/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666b6261652e746f) fkbae.to  
+![](https://camo.githubusercontent.com/449c1999f6dc19c04bf28c81fce74f9670881fc59986b6f7b9085f2438663fb8/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d666c65736865642e636f6d) fleshed.com  
+![](https://camo.githubusercontent.com/1a174a69e17a8e719a043c978c95ba9fe51771f77e9932c18e5b346b2a5d52a5/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d66797074742e746f) fyptt.to  
+![](https://camo.githubusercontent.com/058e3926c79fcbe719bb14ecbded4fc8d2ddc824a97d921d47957ced8697cc95/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d676f66696c652e696f) gofile.io  
+![](https://camo.githubusercontent.com/9af6572cc6e6941920cea4be8efaf1b0f7946f2877185b1b0dd706c01ae57228/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d676f74616e796e756465732e636f6d) gotanynudes.com  
+![](https://camo.githubusercontent.com/1fbda056cc205e4a13939b9453e21bc3f72d70da2ec31b3b060dcd1245b4aec0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d68636c6970732e636f6d) hclips.com  
+![](https://camo.githubusercontent.com/0235f63f3ddb810e5ace6f4113af18c62f82cbb68d8c7e2420d53bc41d962d51/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d68647a6f672e636f6d) hdzog.*  
+![](https://camo.githubusercontent.com/186b6b1739cfb3d479ef790b0d019ab8b9ae7d8972765a2a8e777f05513aaea7/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d686f6262792e706f726e) hobby.porn  
+![](https://camo.githubusercontent.com/ea04fca006ceff15064c1e486e8d5297fb9b5c383208b81c9f3c61adbfc5c7cb/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d686f746c65616b2e766970) hotleak.vip  
+![](https://camo.githubusercontent.com/b2c28a99a2280332fc60c85ea6d134b999aea272f10e50d78dbc6151b491645d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d686f746d6f76732e636f6d) hotmovs.*  
+![](https://camo.githubusercontent.com/5a8c4be71a4f41c8b52f44bc4d9e94584f02dddd5ef7f59341762f95ef15bb0d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d686f7473636f70652e7476) hotscope.tv  
+![](https://camo.githubusercontent.com/a2a42df9cc53ca9cfdffb9bbeb1369fa613e91f19fa427f1e515df22a79d058b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6871706f726e65722e636f6d) hqporner.com (and their mydaddy.cc and hqwo.cc CDN)  
+![](https://camo.githubusercontent.com/465fb62f9586a3b66bc8caafdcb6729d75c6a1ef792700f32ef3e8f41aa16232/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696c6f766e756465732e636f6d) ilovnudes.com  
+![](https://camo.githubusercontent.com/a6ded807bd73996f0f87ed7d14b00c66a4c154e5d58a902050a279c3a2c7c837/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696d61676562616d2e636f6d) imagebam.com  
+![](https://camo.githubusercontent.com/b08ccc7346c08823f9fbf8a0df8096aed527f7ca5cf9b2b0a1b836ff458d20bd/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696d61676562616e2e7275) imageban.ru  
+![](https://camo.githubusercontent.com/d9d08ca9fd70a980768108081fbfd2bdba86527b0b87c2cc10dd5b2817566b8b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696d61676576656e75652e636f6d) imagevenue.com  
+![](https://camo.githubusercontent.com/ff951a6a3b7d75f048db16867b4215428a8b27908146de767f0adc422602e4a1/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696d6762622e636f6d) imgbb.com  
+![](https://camo.githubusercontent.com/549fa05ed64024918f3dd3f1ab86c9082cf45cdb6278598d5e34789aaa7cdc84/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696d67626f782e636f6d) imgbox.com  
+![](https://camo.githubusercontent.com/32c87faae462cd9224e879f77805685e5d16c42280a2cfd638e0a2a3485e3008/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696e666c75656e636572636869636b732e636f6d) influencerchicks.com  
+![](https://camo.githubusercontent.com/bc1aab2c6dcc8ac90601d794c6cfd83a143791a6feda8eac723df05c0b20650a/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d696e666c75656e63657273676f6e6577696c642e636f6d) influencersgonewild.*  
+![](https://camo.githubusercontent.com/c07696fe27c06f8a36baa273c3e7d05e92da204ab6d670a7c79f0aef43287377/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d697878782e636f6d) ixxx.com  
+![](https://camo.githubusercontent.com/a11313c28c07f60d6d004f79a3ea5756251143b7bfe2b1c08c6a3fa56e27b9ae/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6a7067352e7375) jpg5.su/jpg6.su (and related domains)  
+![](https://camo.githubusercontent.com/7af9a1436d371b3914751c51b3f0a3d54415160a69ac1d989fd506210cd28374/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6b656d6f6e6f2e7375) kemono.su  
 ![](https://camo.githubusercontent.com/6b1470254b45cf9bba94596eb8a931a002e90185990e8e6910a8f3f7c7f7fd67/68747470733a2f2f6c65616b65646d6f64656c732e636f6d2f66617669636f6e2f66617669636f6e2d31367831362e706e67) leakedmodels.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=leaked.page) leaked.page  
-![](https://www.google.com/s2/favicons?sz=16&domain=leak.xxx) leak.xxx  
-![](https://www.google.com/s2/favicons?sz=16&domain=lewdstars.com) lewdstars.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=listeamed.net) listeamed.net (vidguard)  
-![](https://www.google.com/s2/favicons?sz=16&domain=luluvdo.com) lulucdn.com/luluvdo.com (lulustream)  
-![](https://www.google.com/s2/favicons?sz=16&domain=manysex.com) manysex.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=masterfap.net) masterfap.net  
-![](https://www.google.com/s2/favicons?sz=16&domain=mat6tube.com) mat6tube.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=mixdrop.ps) mixdrop.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=motherless.com) motherless.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=multi.xxx) multi.xxx  
-![](https://www.google.com/s2/favicons?sz=16&domain=mylust.com) mylust.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=namethatporn.com) namethatporn.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=niikaplayerr.com) niikaplayerr.com (vidhide)  
-![](https://www.google.com/s2/favicons?sz=16&domain=noodlemagazine.com) noodlemagazine.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=notfans.com) notfans.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=nsfw247.to) nsfw247.to  
-![](https://www.google.com/s2/favicons?sz=16&domain=nudevista.com) nudevista.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=nudogram.com) nudogram.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=nudostar.com) nudostar.com/nudostar.tv  
-![](https://www.google.com/s2/favicons?sz=16&domain=ogfap.com) ogfap.com  
+![](https://camo.githubusercontent.com/59dc850767e2be0721705cfffb6a48b2d82e0cee6bf810f6c2fa41ff7fb7c7cc/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6c65616b65642e70616765) leaked.page  
+![](https://camo.githubusercontent.com/bdda2d88d3c78a904052d1c56362d2bb169604d382f716c1b06fafed8242da03/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6c65616b2e787878) leak.xxx  
+![](https://camo.githubusercontent.com/c646e99b078c983033cc6b5babe1fe764bc32b7217ad122c1207a8457ac00cc2/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6c65776473746172732e636f6d) lewdstars.com  
+![](https://camo.githubusercontent.com/051a929729c820c9501d1d120ba596452e146364260393e0109a941d56e6226d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6c69737465616d65642e6e6574) listeamed.net (vidguard)  
+![](https://camo.githubusercontent.com/a58d6ab8c0863d5ab69337e6340418c67311b2a5e5aadf65289e7b5623450d66/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6c756c7576646f2e636f6d) lulucdn.com/luluvdo.com (lulustream)  
+![](https://camo.githubusercontent.com/5f8c37b20b00a1c6c77de9f0737759c9b385d42bb9b4c090d5f849694165b8de/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d616e797365782e636f6d) manysex.com  
+![](https://camo.githubusercontent.com/0f4d0767a846dede6b806cf01f8bf88d64596af8872b1cf7b5857fe4d3404c1d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d61737465726661702e6e6574) masterfap.net  
+![](https://camo.githubusercontent.com/72cd02abbd0f93c08f6100da9f8d32d48dcf595832e90c6d064a4f63a62ec815/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d617436747562652e636f6d) mat6tube.*  
+![](https://camo.githubusercontent.com/74a13ee86cc14605be838c67e876442593ad3057fafe515a50f89a2a580999a4/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d697864726f702e7073) mixdrop.*  
+![](https://camo.githubusercontent.com/4f8e9a99fbbb46909a7999ca1058a7ebfa30088e4397579abe7ef5ec3a6679ab/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d6f746865726c6573732e636f6d) motherless.com  
+![](https://camo.githubusercontent.com/f72f85a95cc99af8c143e561fbd73a4f4104bbadc535bde638ba9ea51b7bcde0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d756c74692e787878) multi.xxx  
+![](https://camo.githubusercontent.com/5c732bff461b241dec8b9bddba36b9388436efaaf4db7f4599e1a617b0425970/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d796c7573742e636f6d) mylust.com  
+![](https://camo.githubusercontent.com/a6d074948086cd4155a15b9b9010e540ab9df9765c7d1c58c41c800bb996de1f/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e616d6574686174706f726e2e636f6d) namethatporn.com  
+![](https://camo.githubusercontent.com/ba91188cdb655b1565890c061a1fcb37c7541b8103fa67e315116bd101278b6c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e69696b61706c61796572722e636f6d) niikaplayerr.com (vidhide)  
+![](https://camo.githubusercontent.com/c5b5457198f87a70b65b076210281d1a1239389bc31987d7393e2b18cc44fe01/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e6f6f646c656d6167617a696e652e636f6d) noodlemagazine.com  
+![](https://camo.githubusercontent.com/dd5717fa2ceedc06ad941e1b3d21719798798a2d446820f2dd1d38def9982871/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e6f7466616e732e636f6d) notfans.com  
+![](https://camo.githubusercontent.com/3556c113e0fa07167705398f51b76684cca352c5c06ab69600e213a2c5dcb23c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e7366773234372e746f) nsfw247.to  
+![](https://camo.githubusercontent.com/2316c710f08927239d60169e39c189f87b75e0b085bb41529872cfded2941adf/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e75646576697374612e636f6d) nudevista.*  
+![](https://camo.githubusercontent.com/ea9b10c674d2ce5a697eb54df126a4ac52f6c60571971dc9bae242b61cc90770/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e75646f6772616d2e636f6d) nudogram.com  
+![](https://camo.githubusercontent.com/f40d25de35f0ce56635761317acf1d2c7f30e5a9184526433056ae4cf5fb7631/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e75646f737461722e636f6d) nudostar.com/nudostar.tv  
+![](https://camo.githubusercontent.com/6d8fac0d63694837e971aea659a7394bffff531d736f6f9ada23cc27ea0c3af0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6f676661702e636f6d) ogfap.com  
 ![](https://www.google.com/s2/favicons?sz=16&domain=порно.me) ok.xxx  
-![](https://www.google.com/s2/favicons?sz=16&domain=onlytik.com) onlytik.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=ooxxx.com) ooxxx.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=peekvids.com) peekvids.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=picazor.com) picazor.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pimpbunny.com) pimpbunny.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pin.porn) pin.porn  
-![](https://www.google.com/s2/favicons?sz=16&domain=pixhost.to) pixhost.*  
+![](https://camo.githubusercontent.com/e144e34560229481879e2d192024adb1cc73e386445e152aa7d52edf6640ca49/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6f6e6c7974696b2e636f6d) onlytik.com  
+![](https://camo.githubusercontent.com/cf4ea7d9ff8c6b42baefb8575066a117c4b83cef377dec0051f71157f8d27ce1/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6f6f7878782e636f6d) ooxxx.com  
+![](https://camo.githubusercontent.com/d977bacfbbdb1cce03deff9127f916b054419d20b7a1166029b8fef1420e2528/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7065656b766964732e636f6d) peekvids.com  
+![](https://camo.githubusercontent.com/5be0cbf28b433c07a031e1f13c804afc6ad2b55da33417dd3d1e8bc0b33661e3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706963617a6f722e636f6d) picazor.com  
+![](https://camo.githubusercontent.com/bf4597fff59dacc34c4e03c878dea6f9ee76cb3ca8bc973605c6df069cc2345d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d70696d7062756e6e792e636f6d) pimpbunny.com  
+![](https://camo.githubusercontent.com/f16d1f6306f44963af07d2e3469355217557e096318031dae99ff5df43a950f9/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d70696e2e706f726e) pin.porn  
+![](https://camo.githubusercontent.com/5d1ecf8eef9671ae763c0578bda3f22ff544c4bfff5552a53ce70ea0a5934cd2/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706978686f73742e746f) pixhost.*  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pixl.li (no longer hosting stuff, but still active)  
-![](https://www.google.com/s2/favicons?sz=16&domain=platinumleaks.com) platinumleaks.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=porn4fans.com) porn4fans.com (might have some slight issues, but all ads are blocked)  
-![](https://www.google.com/s2/favicons?sz=16&domain=porndig.com) porndig.com (including their IT and PL versions found below)  
-![](https://www.google.com/s2/favicons?sz=16&domain=porndoe.com) porndoe.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=porngo.com) porngo.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornhat.com) pornhat.*  
+![](https://camo.githubusercontent.com/6545d5a3fc65d46665915f1afb35a7f16289b3d686b644156f8e82e0d8d7b3f7/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706c6174696e756d6c65616b732e636f6d) platinumleaks.com  
+![](https://camo.githubusercontent.com/be164e212e8f5bd4c29cfc9db353d0f0b54c5e97f1a256ec3cde1174225fcedd/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e3466616e732e636f6d) porn4fans.com (might have some slight issues, but all ads are blocked)  
+![](https://camo.githubusercontent.com/49c12bf70cdb18766fc0bfc9c8e258df5a643ae50d1471247d73e5ac455f5905/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6469672e636f6d) porndig.com (including their IT and PL versions found below)  
+![](https://camo.githubusercontent.com/7dfb76e8adc9cb1dcd6ed8cb010c4bd84afb5291beb9b459d27fe16cbbb7e27b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e646f652e636f6d) porndoe.com  
+![](https://camo.githubusercontent.com/bf87ec0efb05debd83348828ce2b593295ab0342d8a6aabc425ae2bb41b30f31/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e676f2e636f6d) porngo.com  
+![](https://camo.githubusercontent.com/7620ab9e3ee2beeb0758d38c886ef609d6cdd50ea87389972538a5eff6f4c24e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6861742e636f6d) pornhat.*  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pornhd3x.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornhoarder.tv) pornhoarder.* (including streamwish.\*)  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornhub.com) pornhub.com   
-![](https://www.google.com/s2/favicons?sz=16&domain=pornl.com) pornl.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=porno-365.lol) porno-365.lol (and 2video365.me)  
+![](https://camo.githubusercontent.com/807cb6589ef7bf0e5074e5067debbda07a29b0281463f335bf3be027a63a9104/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e686f61726465722e7476) pornhoarder.* (including streamwish.\*)  
+![](https://camo.githubusercontent.com/dc0714d2615d40dc5c505e35e5a6e3344cb92ac1805a95e4346a3f22e36d3760/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6875622e636f6d) pornhub.com   
+![](https://camo.githubusercontent.com/92bec0ba4d110539b3f35da753a00c0950411f6b175edbb750e38e1db2fef095/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6c2e636f6d) pornl.com  
+![](https://camo.githubusercontent.com/c2a46841647b6b0e07627f47323aa17a7357687d70b5df1e1c563136fed59613/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6f2d3336352e6c6f6c) porno-365.lol (and 2video365.me)  
 ![](https://www.google.com/s2/favicons?sz=16&domain=порно.me) порно.me/порно.io (xn--m1abbbg.me/.io)  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornone.com) pornone.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornpics.click) pornpics.click  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornstarbyface.com) pornstarbyface.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=porntn.com) porntn.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornototale.com) pornototale.com (porndig's IT website)  
-![](https://www.google.com/s2/favicons?sz=16&domain=porntrex.com) porntrex.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornwex.tv) pornwex.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornxrated.com) pornxrated.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=pornzog.com) pornzog.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=postimages.org) postimages.org/postimg.cc  
-![](https://www.google.com/s2/favicons?sz=16&domain=privatehomeclips.com) privatehomeclips.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=prnfap.com) prnfap.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=prothots.com) prothots.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=recordbate.com) recordbate.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=reddit.com) reddit.com (only for embeds)  
-![](https://www.google.com/s2/favicons?sz=16&domain=redgifs.com) redgifs.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=redtube.com) redtube.*  
+![](https://camo.githubusercontent.com/2b1c0d8b97980f726c4516034a4fca1f945c022aff1588454b51452749afbaad/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6f6e652e636f6d) pornone.com  
+![](https://camo.githubusercontent.com/9114ad34a0213cd0bd7fdea57da370955f89c324d05daa55b9210fb6d44fe461/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e706963732e636c69636b) pornpics.click  
+![](https://camo.githubusercontent.com/43f83e2c0efe7271ab15c6dd376fdc350af21d491e92e986c2810afc13ea481c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e737461726279666163652e636f6d) pornstarbyface.com  
+![](https://camo.githubusercontent.com/57bb563fa644dbfd38536ce308c0a9d955f1e0d8a7845f1104de54385dc33d5e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e746e2e636f6d) porntn.com  
+![](https://camo.githubusercontent.com/71634aa9bb12ec014f993d4babe55046b5094dd42d4b29684ad14e9bb123cd04/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6f746f74616c652e636f6d) pornototale.com (porndig's IT website)  
+![](https://camo.githubusercontent.com/9ee092c47794d12f89698ec31b5b5badc66d975a8c70fe63f0d90e5506f54081/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e747265782e636f6d) porntrex.com  
+![](https://camo.githubusercontent.com/b5c7014bf38a33b9528bb2bee8fc4a59657fccb3a1a310b32597ba6dc71259c0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e7765782e7476) pornwex.*  
+![](https://camo.githubusercontent.com/d0d38b668ec6e7d1db47646a4d55ac429d239aca7738ded1a0632e7d2a62e9ae/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e7872617465642e636f6d) pornxrated.com  
+![](https://camo.githubusercontent.com/624ce227c29a46b13a534ec8a8db7a8eb9c530849974d58306c7860c89202ca7/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e7a6f672e636f6d) pornzog.com  
+![](https://camo.githubusercontent.com/cfbcf9bcce22f262f7842e9ee225d73bf245d12f8e2781b1b57b9360f1dbfa38/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f7374696d616765732e6f7267) postimages.org/postimg.cc  
+![](https://camo.githubusercontent.com/eb39120916a351447cb7433cc05a5ea7c7960f84c8d57602d3e07811ab74e0d1/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d70726976617465686f6d65636c6970732e636f6d) privatehomeclips.com  
+![](https://camo.githubusercontent.com/e7f3f4e9734a83cecaf5054ed70b4d5a08cb9253325605eab07b58f1f02b1a9a/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d70726e6661702e636f6d) prnfap.com  
+![](https://camo.githubusercontent.com/3173bd5897cd0fce58ee753c5b9c6c6cec78e9d72928e3f0cffe57aba2cdfe46/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d70726f74686f74732e636f6d) prothots.com  
+![](https://camo.githubusercontent.com/56d256ceb284d920c262aec17f6b2f9f26267f50726ea0e1c69a009245af24d4/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7265636f7264626174652e636f6d) recordbate.com  
+![](https://camo.githubusercontent.com/27da2ade1c26b4e834f709ae45be5e968b14695ff618d70aebdd700462141dc5/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7265646469742e636f6d) reddit.com (only for embeds)  
+![](https://camo.githubusercontent.com/35cbc57c749f2ed2b1c1e637fa59e708994294aad3a7ebee12a725a2e335db2f/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d726564676966732e636f6d) redgifs.com  
+![](https://camo.githubusercontent.com/ca618100075ef9a8bcb32188b127779ff4bc984b58a0c0de3444d26748493626/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d726564747562652e636f6d) redtube.*  
 ![](https://www.google.com/s2/favicons?sz=16&domain=русский-секс.net) русский-секс.net (xn----jtbhede0biaeco.net)  
-![](https://www.google.com/s2/favicons?sz=16&domain=rusvideos.day) rusvideos.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=saint2.su) saint2.su/saint2.pk (and its related domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=se.video) se.video  
-![](https://www.google.com/s2/favicons?sz=16&domain=sendvid.com) sendvid.com  
+![](https://camo.githubusercontent.com/038553f3b3f72116ece01d312f441927db8bc2cc8c567cd2075e2157d2386326/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d727573766964656f732e646179) rusvideos.*  
+![](https://camo.githubusercontent.com/62d9ce0c47cf008eab00a94040c1096043341299e3c881ca6551594441d0e6c3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7361696e74322e7375) saint2.su/saint2.pk (and its related domains)  
+![](https://camo.githubusercontent.com/0131c00abea84c6cc3b8185c9757c9588f52ca148434eb7aaff0c0cdcc9690f3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73652e766964656f) se.video  
+![](https://camo.githubusercontent.com/4938781198f9e89e88c596ce166a1facc77d7775c79ae6d025307bae98359429/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73656e647669642e636f6d) sendvid.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) sextubefun.com (down?)  
-![](https://www.google.com/s2/favicons?sz=16&domain=sexy-egirls.com) sexy-egirls.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=sexyteenpics.com) sexyteenpics.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=shooshtime.com) shooshtime.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=simpcity.su) simpcity.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=simpshub.com) simpshub.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=simptown.su) simptown.su  
-![](https://www.google.com/s2/favicons?sz=16&domain=some.porn) some.porn  
-![](https://www.google.com/s2/favicons?sz=16&domain=spankbang.com) spankbang.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=streamtape.com) streamtape.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=streamhg.com) streamwish.* (streamhg, including iplayerhls)  
-![](https://www.google.com/s2/favicons?sz=16&domain=superporn.com) superporn.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=swipeturbate.com) swipeturbate.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=sxyprn.com) sxyprn.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=theyarehuge.com) theyarehuge.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=theporndude.com) theporndude.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=thotbook.co) thotbook.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=thothub.com) thothub.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=thotsflix.com) thotsflix.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=thotslife.com) thotslife.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tik.porn) tik.porn  
-![](https://www.google.com/s2/favicons?sz=16&domain=tiktok.com) tiktok.com (only for embeds)  
-![](https://www.google.com/s2/favicons?sz=16&domain=titstok.me) titstok.me  
-![](https://www.google.com/s2/favicons?sz=16&domain=tittytube.com) tittytube.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=tnaflix.com) tnaflix.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=twitch.tv) twitch.tv (only for embeds)  
-![](https://www.google.com/s2/favicons?sz=16&domain=txxx.com) txxx.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=tybito.com) tybito.com (porndig's PL website)  
+![](https://camo.githubusercontent.com/f94f72fbed2813e6875dc69418b44198d4466f9d717f96adce51a4baa030effe/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d736578792d656769726c732e636f6d) sexy-egirls.com  
+![](https://camo.githubusercontent.com/97580013c3243134bbd4c236d28b47dff594e036177766f9809114d6105e0daf/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d736578797465656e706963732e636f6d) sexyteenpics.com  
+![](https://camo.githubusercontent.com/56ba4409a767639631d63da5bd3750f6ee2f77e4f6fb838547ffaa3214728441/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73686f6f736874696d652e636f6d) shooshtime.com  
+![](https://camo.githubusercontent.com/c4379898fbffd2ed29f0a70ebe2e7edf6b4a8f3b3207d37380242bdc0e53d500/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73696d70636974792e7375) simpcity.su  
+![](https://camo.githubusercontent.com/b1f3389f3662fdba0b00c54d6daac8ded42fd1c258aab6456280b0efc2802674/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73696d70736875622e636f6d) simpshub.com  
+![](https://camo.githubusercontent.com/59f67934f72ca8dcacb62a420cd3e705901f64a521508de11240bf60875cb35b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73696d70746f776e2e7375) simptown.su  
+![](https://camo.githubusercontent.com/93fd132760142c450fb90441ba1b7ce216f0206c399fdbbc1b760fc8df53d831/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d736f6d652e706f726e) some.porn  
+![](https://camo.githubusercontent.com/1aec6bb2449084d250a72371c961bb4a197198b90fc9499e02f156e15569c14c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7370616e6b62616e672e636f6d) spankbang.com  
+![](https://camo.githubusercontent.com/44d908dc63158ebaf9605fb92a8da2ab7fa535ec0b5b4868dc455c280ceec543/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73747265616d746170652e636f6d) streamtape.*  
+![](https://camo.githubusercontent.com/234757e6baacf55306d52eed84d5d1df8668bedb086f045ad6e24c7eb9bfbfcb/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73747265616d68672e636f6d) streamwish.* (streamhg, including iplayerhls)  
+![](https://camo.githubusercontent.com/399312cb4553e4659ba338cd02b7e0a8f185965245ad622ff0d961011e2f5ebd/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7375706572706f726e2e636f6d) superporn.com  
+![](https://camo.githubusercontent.com/861a65d130715a6dd7a8d6c5cad66783f47ce236375f0dd706de6567ac7131d5/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7377697065747572626174652e636f6d) swipeturbate.com  
+![](https://camo.githubusercontent.com/cafda8ecad8ccccee5428809494df63a69706e0f98e13251818e8e2caa04080d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73787970726e2e636f6d) sxyprn.*  
+![](https://camo.githubusercontent.com/596bdf742954bd4e379492cd33262a873a99e96c5df899ef4c2371522def6ea3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686579617265687567652e636f6d) theyarehuge.com  
+![](https://camo.githubusercontent.com/02f00e74bca1faf42b7cfa625e25c8201d38b480fdc8792979c2e8767460fe35/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d746865706f726e647564652e636f6d) theporndude.com  
+![](https://camo.githubusercontent.com/51698dd28ff8439dbac4acb5859a7f8636436aa305d7e8d580e0dbedbffdbaf0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f74626f6f6b2e636f) thotbook.*  
+![](https://camo.githubusercontent.com/e80d76adb4e6d66d6e3d85cde300c542e0edd4f059913c8643e9b0729cfe874c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f746875622e636f6d) thothub.*  
+![](https://camo.githubusercontent.com/cc64662a4ffb4d6593f7614142f2d61115e383ebf01d5f82283d23e770a50e4a/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f7473666c69782e636f6d) thotsflix.com  
+![](https://camo.githubusercontent.com/d4b3a2ab0dbf001bde20297984788b3be1163ecaeb746fc4c382625e37956967/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f74736c6966652e636f6d) thotslife.com  
+![](https://camo.githubusercontent.com/67e041d4ea64057c0168fb6d4409c81ccbb4b20cbfb7b8c963534686cd895be1/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74696b2e706f726e) tik.porn  
+![](https://camo.githubusercontent.com/f96987e4cbd24bfa69224f914b2e3f7624a04b764704b0bee0fa7ea2e120860e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74696b746f6b2e636f6d) tiktok.com (only for embeds)  
+![](https://camo.githubusercontent.com/4556423e34bad30a8d19392b9f47242ae5b6a01c712d9b4fd867003aae806258/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74697473746f6b2e6d65) titstok.me  
+![](https://camo.githubusercontent.com/1001e3e5f55a9aedf2b5201aae9ecb245a80a086b8407568a4dbfab046269c42/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7469747479747562652e636f6d) tittytube.com  
+![](https://camo.githubusercontent.com/34d1024d9ad3213fc260315ef0cc36332407ff824e92217804f08b278792e196/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d746e61666c69782e636f6d) tnaflix.com  
+![](https://camo.githubusercontent.com/dbf7bee69476444aee3e4d2b6c01c92ed4384de3cbe4a3ba2890a84230d04bb9/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7477697463682e7476) twitch.tv (only for embeds)  
+![](https://camo.githubusercontent.com/fc7ac10352d4da283323804b20957848294514caf1b429d4b7faf19ed27c97cb/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d747878782e636f6d) txxx.*  
+![](https://camo.githubusercontent.com/95372861dbb7f43a37a39263ce46a89020a0228602dd73f670a6307bebb42c4e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74796269746f2e636f6d) tybito.com (porndig's PL website)  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) uporn.plus  
 ![](https://camo.githubusercontent.com/48363bccd925c693281f7be3aa859f314e997ea253775e6e4022b1c7463c3e4b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d757073747265616d2e746f) upstream.to (changed domains?)  
-![](https://www.google.com/s2/favicons?sz=16&domain=veev.to) veev.to (the player works with no popups, but play button must be pressed 3 times to start)  
-![](https://www.google.com/s2/favicons?sz=16&domain=videzz.net) videzz.net  
-![](https://www.google.com/s2/favicons?sz=16&domain=videy.co) videy.co  
-![](https://www.google.com/s2/favicons?sz=16&domain=voe.sx) voe.sx (and it's stream domains)  
-![](https://www.google.com/s2/favicons?sz=16&domain=voyeurhit.com) voyeurhit.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=watchdirty.is) watchdirty.* (previously "watchmdh", *but **not** the official MyDirtyHobby site*)  
-![](https://www.google.com/s2/favicons?sz=16&domain=watchmygf.me) watchmygf.me  
-![](https://www.google.com/s2/favicons?sz=16&domain=watchporn.to) watchporn.to  
-![](https://www.google.com/s2/favicons?sz=16&domain=wildskirts.com) wildskirts.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=whoreshub.com) whoreshub.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xfantazy.com) xfantazy.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xfree.com) xfree.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xgroovy.com) xgroovy.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xhamster.com) xhamster.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xmegadrive.com) xmegadrive.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xmoviesforyou.com) xmoviesforyou.*  
-![](https://www.google.com/s2/favicons?sz=16&domain=xnxx.com) xnxx.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xozilla.com) xozilla.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xpics.me) xpics.me  
-![](https://www.google.com/s2/favicons?sz=16&domain=xvideos.com) xvideos.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xwiks.com) xwiks.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xxbrits.com) xxbrits.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xxxfollow.com) xxxfollow.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=xxxtik.com) xxxtik.com  
-![](https://www.google.com/s2/favicons?sz=16&domain=disk.yandex.com) (disk.)yandex.* (rules are *only* tested on Yandex Disk)  
-![](https://www.google.com/s2/favicons?sz=16&domain=youjizz.com) youjizz.com  
+![](https://camo.githubusercontent.com/99ac7b0c91a1b5eb08b1f4ed30de93fbad4e946798e5b075cc4ca42da9d55977/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d766565762e746f) veev.to (the player works with no popups, but play button must be pressed 3 times to start)  
+![](https://camo.githubusercontent.com/3a45a7bf1303b6d1363829af661418358c046e92c5f2bdaa29b0574e678efbc3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d766964657a7a2e6e6574) videzz.net  
+![](https://camo.githubusercontent.com/f428b28ce68fd9b39a44bfbb84ea567bec1d7d4399026874d644fc97bf4745cd/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d76696465792e636f) videy.co  
+![](https://camo.githubusercontent.com/808474b59b702848ec05d0beb82380ceed997a9982c54d5ddff7db80f6ba9026/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d766f652e7378) voe.sx (and it's stream domains)  
+![](https://camo.githubusercontent.com/6a5f114ba9be7e25b90ba79e1fd41d5fa3f4664247b00d0e986c1fc8031ef1ab/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d766f796575726869742e636f6d) voyeurhit.*  
+![](https://camo.githubusercontent.com/cfc53780a4d0354eed23bbb875399b069973b642dc93ab9d73b176cf50f9699d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d776174636864697274792e6973) watchdirty.* (previously "watchmdh", *but **not** the official MyDirtyHobby site*)  
+![](https://camo.githubusercontent.com/98bb2a84d67238ec1e48333220187dfe831caf2940b34cf4879bc2bcbcbad2df/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d77617463686d7967662e6d65) watchmygf.me  
+![](https://camo.githubusercontent.com/21dde4088a7e2c6546ea5c9f2389776b39f9547b1f068497562350704818d980/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7761746368706f726e2e746f) watchporn.to  
+![](https://camo.githubusercontent.com/1ef123459c35f2e490295d1f3763e22e4d684de3ce4f402aa73947cc5f7dec58/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d77696c64736b697274732e636f6d) wildskirts.com  
+![](https://camo.githubusercontent.com/b34380f8aec056583392928d8bcf921b2e57a09b2500fed31ebbdad4af11ec64/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d77686f7265736875622e636f6d) whoreshub.com  
+![](https://camo.githubusercontent.com/ef50e659c27c5af43755231760b368abd451303481831f4cdf35346b0947fa64/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7866616e74617a792e636f6d) xfantazy.com  
+![](https://camo.githubusercontent.com/49afe9bba6436b28934dece5efe79d27904a9245e4a966c2556a5b4b5572a9e8/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d78667265652e636f6d) xfree.com  
+![](https://camo.githubusercontent.com/f1624f3d7bb4f26bf89fb8bbbb5499c972ce5dbd1eca019fd0df0ed4d2b6c06c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7867726f6f76792e636f6d) xgroovy.com  
+![](https://camo.githubusercontent.com/98531f95a2b33cde03bb4d73b2e7cfe2fcf80b6a36e8d279008e76e01fd07388/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7868616d737465722e636f6d) xhamster.com  
+![](https://camo.githubusercontent.com/3c27f00e535d8eaaee3b4ef02842fc6d0e11d194a31f98d858eeb520360e1b55/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d786d65676164726976652e636f6d) xmegadrive.com  
+![](https://camo.githubusercontent.com/9b8810cb1ab0535d602c2aab75dd6737ccff6cf8f9362e8db7331eadc2171cae/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d786d6f76696573666f72796f752e636f6d) xmoviesforyou.*  
+![](https://camo.githubusercontent.com/736168edf77dfd5de3cf193accb4721284e980db17883e02a833a7ad2e54f8eb/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d786e78782e636f6d) xnxx.com  
+![](https://camo.githubusercontent.com/235b4db8f8ba160b4d405680c9a8b3de8949cbc8d629be5991fa48bcb0ff1c2b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d786f7a696c6c612e636f6d) xozilla.com  
+![](https://camo.githubusercontent.com/f668003b5c724e54f7828218c68c3c3d18ea9817b1d9069e011f5dc399ce54b3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d78706963732e6d65) xpics.me  
+![](https://camo.githubusercontent.com/31a2ded6a28fc94b4f32a02b076711a6f4587cf788eed8ec7ed1f5f885064788/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d78766964656f732e636f6d) xvideos.com  
+![](https://camo.githubusercontent.com/961bb5e03b9a5116b87055e8a5f8ab14a7aed24292149005a22e753f46cbc0fd/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7877696b732e636f6d) xwiks.com  
+![](https://camo.githubusercontent.com/349c8035c5415f94d693503594e751528cb3ff6e68de91e26e653887e18944e2/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d787862726974732e636f6d) xxbrits.com  
+![](https://camo.githubusercontent.com/3f2b367240203d36936d188792bd860140cc3c100947be28cf380b57ca211618/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d787878666f6c6c6f772e636f6d) xxxfollow.com  
+![](https://camo.githubusercontent.com/3d9a272052d96bcced55c96452fc3a30a744c902e58df03deb98047259cb5c10/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d78787874696b2e636f6d) xxxtik.com  
+![](https://camo.githubusercontent.com/034a7d2c6eb1530b1f90b3ba6a7a5617a898ef877025a76a50bf509c6eb4942d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6469736b2e79616e6465782e636f6d) (disk.)yandex.* (rules are *only* tested on Yandex Disk)  
+![](https://camo.githubusercontent.com/be191055dbbb7d42539aa16ba45d56f832bbaa30ee35af63cc4debd93e65922c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f756a697a7a2e636f6d) youjizz.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>192+</strong> | ☺</p>
+<p align=right><strong>193+</strong> | ☺</p>
