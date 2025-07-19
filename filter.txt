@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul19-1
+! Version: 2025Jul19-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1814,6 +1814,8 @@ hdsex.org##.player-info__adv
 hdsex.org##.player-info__adv-default
 hdsex.org##[href*="hdsexcams.live"]
 hdsex.org##.second-navigation__link
+hdsex.org##.fluid_controls_ad_markers_holder
+hdsex.org###player_fluid_timeline_preview_container_shadow
 
 ! Hdzog
 hdzog.*##a.item-primary.desktop-menu-item:nth-of-type(9)
