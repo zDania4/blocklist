@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul19-2
+! Version: 2025Jul21-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -16,55 +16,55 @@
 @@||bunkrrr.*/thumbs/$domain=bunkr.*|bunkrr.*|bunkrrr.*
 
 ! # Allows for necessary popups to show content on JPG/Bunkrr/redgifs, when linked from SC
-@@||bunkr.*/a/*$popup,domain=simpcity.su
+@@||bunkr.*/a/*$popup,domain=simpcity.*
 @@||bunkr.*/a/*$popup,domain=simptown.su
-@@||bunkr.*/f/*$popup,domain=simpcity.su
+@@||bunkr.*/f/*$popup,domain=simpcity.*
 @@||bunkr.*/f/*$popup,domain=simptown.su
-@@||bunkr.*/i/*$popup,domain=simpcity.su
+@@||bunkr.*/i/*$popup,domain=simpcity.*
 @@||bunkr.*/i/*$popup,domain=simptown.su
-@@||bunkr.*/v/*$popup,domain=simpcity.su
+@@||bunkr.*/v/*$popup,domain=simpcity.*
 @@||bunkr.*/v/*$popup,domain=simptown.su
-@@||bunkr.sk/i/*$popup,domain=simpcity.su
-@@||bunkr.sk/v/*$popup,domain=simpcity.su
-@@||bunkrr.*/a/*$popup,domain=simpcity.su
+@@||bunkr.sk/i/*$popup,domain=simpcity.*
+@@||bunkr.sk/v/*$popup,domain=simpcity.*
+@@||bunkrr.*/a/*$popup,domain=simpcity.*
 @@||bunkrr.*/a/*$popup,domain=simptown.su
-@@||bunkrr.*/f/*$popup,domain=simpcity.su
+@@||bunkrr.*/f/*$popup,domain=simpcity.*
 @@||bunkrr.*/f/*$popup,domain=simptown.su
-@@||bunkrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrr.*/i/*$popup,domain=simpcity.*
 @@||bunkrr.*/i/*$popup,domain=simptown.su
-@@||bunkrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrr.*/v/*$popup,domain=simpcity.*
 @@||bunkrr.*/v/*$popup,domain=simptown.su
-@@||bunkrr.ru/a/*$popup,domain=simpcity.su
-@@||bunkrr.ru/i/*$popup,domain=simpcity.su
-@@||bunkrr.ru/v/*$popup,domain=simpcity.su
-@@||bunkrr.sk/a/*$popup,domain=simpcity.su
-@@||bunkrr.su/a/*$popup,domain=simpcity.su
-@@||bunkrr.su/v/*$popup,domain=simpcity.su
-@@||bunkrrr.*/a/*$popup,domain=simpcity.su
+@@||bunkrr.ru/a/*$popup,domain=simpcity.*
+@@||bunkrr.ru/i/*$popup,domain=simpcity.*
+@@||bunkrr.ru/v/*$popup,domain=simpcity.*
+@@||bunkrr.sk/a/*$popup,domain=simpcity.*
+@@||bunkrr.su/a/*$popup,domain=simpcity.*
+@@||bunkrr.su/v/*$popup,domain=simpcity.*
+@@||bunkrrr.*/a/*$popup,domain=simpcity.*
 @@||bunkrrr.*/a/*$popup,domain=simptown.su
-@@||bunkrrr.*/f/*$popup,domain=simpcity.su
+@@||bunkrrr.*/f/*$popup,domain=simpcity.*
 @@||bunkrrr.*/f/*$popup,domain=simptown.su
-@@||bunkrrr.*/i/*$popup,domain=simpcity.su
+@@||bunkrrr.*/i/*$popup,domain=simpcity.*
 @@||bunkrrr.*/i/*$popup,domain=simptown.su
-@@||bunkrrr.*/v/*$popup,domain=simpcity.su
+@@||bunkrrr.*/v/*$popup,domain=simpcity.*
 @@||bunkrrr.*/v/*$popup,domain=simptown.su
-@@||jpg*.su/img/*$popup,domain=simpcity.su
+@@||jpg*.su/img/*$popup,domain=simpcity.*
 @@||jpg*.su/img/*$popup,domain=simptown.su
-@@||jpg1.su/img/*$popup,domain=simpcity.su
-@@||jpg1.su/upload$all,domain=simpcity.su
-@@||jpg2.su/img/*$popup,domain=simpcity.su
-@@||jpg2.su/upload$all,domain=simpcity.su
-@@||jpg3.su/img/*$popup,domain=simpcity.su
-@@||jpg3.su/upload$all,domain=simpcity.su
-@@||jpg4.su/img/*$popup,domain=simpcity.su
-@@||jpg4.su/upload$all,domain=simpcity.su
-@@||jpg5.su/img/*$popup,domain=simpcity.su
-@@||jpg5.su/upload$all,domain=simpcity.su
+@@||jpg1.su/img/*$popup,domain=simpcity.*
+@@||jpg1.su/upload$all,domain=simpcity.*
+@@||jpg2.su/img/*$popup,domain=simpcity.*
+@@||jpg2.su/upload$all,domain=simpcity.*
+@@||jpg3.su/img/*$popup,domain=simpcity.*
+@@||jpg3.su/upload$all,domain=simpcity.*
+@@||jpg4.su/img/*$popup,domain=simpcity.*
+@@||jpg4.su/upload$all,domain=simpcity.*
+@@||jpg5.su/img/*$popup,domain=simpcity.*
+@@||jpg5.su/upload$all,domain=simpcity.*
 @@||jpg5.su/img/*$popup,domain=simptown.su
-@@||jpg6.su/img/*$popup,domain=simpcity.su
-@@||jpg6.su/upload$all,domain=simpcity.su
+@@||jpg6.su/img/*$popup,domain=simpcity.*
+@@||jpg6.su/upload$all,domain=simpcity.*
 @@||jpg6.su/img/*$popup,domain=simptown.su
-@@||redgifs.com^$popup,domain=simpcity.su
+@@||redgifs.com^$popup,domain=simpcity.*
 @@||redgifs.com^$popup,domain=simptown.su
 
 ! # DDOS-Guard / Cloudflare
@@ -91,21 +91,21 @@
 @@||challenges.cloudflare.com/cdn-cgi/challenge-platform/
 @@||check.ddos-guard.net/check.js$inline-font
 @@||check.ddos-guard.net/set/id/*$domain=bunkr.sk
-@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.su
+@@||check.ddos-guard.net/set/id/*$domain=bunkrr.*|bunkr.*|simpcity.*
 @@||check.ddos-guard.net/set/id/*$domain=bunkrr.su
 @@||check.ddos-guard.net^
 @@||cloudflare-terms-of-service-abuse.com^
 @@||kemono.su/.well-known/ddos-guard/mark/
-@@||simpcity.su/.well-known/ddos-guard/*$1p
-@@||simpcity.su/.well-known/ddos-guard/check
-@@||simpcity.su/.well-known/ddos-guard/id/*$1p
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/*$1p
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/index.js$script,1p
-@@||simpcity.su/.well-known/ddos-guard/js-challenge/view.js$script,1p
-@@||simpcity.su/.well-known/ddos-guard/mark/*$1p
-@@||simpcity.su/.well-known/ddos-guard/mark/$xhr,1p
-@@||simpcity.su/captcha/
-@@||simpcity.su/verify/
+@@||simpcity.*/.well-known/ddos-guard/*$1p
+@@||simpcity.*/.well-known/ddos-guard/check
+@@||simpcity.*/.well-known/ddos-guard/id/*$1p
+@@||simpcity.*/.well-known/ddos-guard/js-challenge/*$1p
+@@||simpcity.*/.well-known/ddos-guard/js-challenge/index.js$script,1p
+@@||simpcity.*/.well-known/ddos-guard/js-challenge/view.js$script,1p
+@@||simpcity.*/.well-known/ddos-guard/mark/*$1p
+@@||simpcity.*/.well-known/ddos-guard/mark/$xhr,1p
+@@||simpcity.*/captcha/
+@@||simpcity.*/verify/
 @@/.well-known/ddos-guard/*
 
 ! # Anti-adblock / #CHP Ads Block Detector
@@ -223,7 +223,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||cdn.tailwindcss.com^$domain=bunkr.*|bunkrr.*
 @@||ct1.saint2.*/thumbs/
 @@||cyberfile-is.b-cdn.net/themes/spirit/assets/frontend/js/jquery$script,domain=cyberfile.me
-@@||cyberdrop.me/f/*$popup,domain=cyberdrop.me|simpcity.su|simptown.su
+@@||cyberdrop.me/f/*$popup,domain=cyberdrop.me|simpcity.*|simptown.su
 @@||dash.bunkr.*/assets/img/icon.svg$image
 @@||doodcdn.co^$from=dood.la|dood.pm|dood.to|dood.ws
 @@||fonts.gstatic.com^
@@ -345,9 +345,9 @@ motherless.com#@#iframe[style]
 motherless.com#@#.page-to-top-link-wrapper
 pornhub.com#@#.share-link-container
 sendvid.com#@#+js(abort-current-inline-script, $, pop)
-simpcity.su#@#.p-footer-rssLink
-simpcity.su#@#.u-scrollButtons
-simpcity.su#@#+js(addEventListener-defuser, , open)
+simpcity.*#@#.p-footer-rssLink
+simpcity.*#@#.u-scrollButtons
+simpcity.*#@#+js(addEventListener-defuser, , open)
 
 ! ## BLOCKLIST ##
 
@@ -3338,7 +3338,6 @@ pornhub.com##.mgp_gridMenu
 pornhub.com##.mgp_isLink.mgp_logo
 pornhub.com##.videoEmbedLink
 
-
 ! Pornl
 pornl.com##.header__network
 pornl.com##.cookies-policy-block
@@ -3968,39 +3967,39 @@ shooshtime.com##.sponsor
 shooshtime.com##+js(set, adv_pre_vast, '')
 
 ! Simpcity
-simpcity.su##.offCanvasMenu-link.nav-shoosh
-simpcity.su##li:nth-of-type(3) > .offCanvasMenu-linkHolder
-simpcity.su##li:nth-of-type(4) > .offCanvasMenu-linkHolder
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(5)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(6)
-simpcity.su##.offCanvasMenu-list > li:nth-of-type(7)
-simpcity.su##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(3)
-simpcity.su##.nav-stripchat.p-navEl-link
-simpcity.su##.nav-dfake.p-navEl-link
-simpcity.su##.nav-faze.p-navEl-link
-simpcity.su##.nav-tpd.p-navEl-link
-simpcity.su##.node--link.node--depth2.node--id20.node
-simpcity.su##.node--link.node--depth2.node--id119.node
-simpcity.su##.node--link.node--depth2.node--id95.node
-simpcity.su##.node--link.node--depth2.node--id107.node
-simpcity.su##.node--link.node--depth2.node--id122.node
-simpcity.su##.node--link.node--depth2.node--id109.node
+simpcity.*##.offCanvasMenu-link.nav-shoosh
+simpcity.*##li:nth-of-type(3) > .offCanvasMenu-linkHolder
+simpcity.*##li:nth-of-type(4) > .offCanvasMenu-linkHolder
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(5)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(6)
+simpcity.*##.offCanvasMenu-list > li:nth-of-type(7)
+simpcity.*##.js-offCanvasNavSource.p-nav-list > li:nth-of-type(3)
+simpcity.*##.nav-stripchat.p-navEl-link
+simpcity.*##.nav-dfake.p-navEl-link
+simpcity.*##.nav-faze.p-navEl-link
+simpcity.*##.nav-tpd.p-navEl-link
+simpcity.*##.node--link.node--depth2.node--id20.node
+simpcity.*##.node--link.node--depth2.node--id119.node
+simpcity.*##.node--link.node--depth2.node--id95.node
+simpcity.*##.node--link.node--depth2.node--id107.node
+simpcity.*##.node--link.node--depth2.node--id122.node
+simpcity.*##.node--link.node--depth2.node--id109.node
 !! The following lines removes Trans categories from the main SC page and stops their icons from loading. TS posts in "Verified creators" are also hidden using a couple of these rules. Allow these rules (in Custom rules/"My filters" > add "@@" in front of each rule starting with "||", paste the rule(s), replace "##" with "#@#" for those not starting with "||", and add ",important" after each rule) if needed. !!
-simpcity.su##.block--category101.block--category.block
-simpcity.su##.node--unread.node--category.node--depth2.node--id25.node > .node-body > .js-nodeMain.node-main > .node-subNodesFlat > .node-subNodeFlatList > li > a[href="/forums/trans.42/"]
-||simpcity.su/data/assets/nodeicons/transHeartIcon.png$image
-||simpcity.su/static/icons/nodes/36.png$image,1p
-||simpcity.su/static/icons/nodes/39.png$image,1p
-||simpcity.su/static/icons/nodes/40.png$image,1p
-||simpcity.su/static/icons/nodes/42.png$image,1p
-||simpcity.su/static/icons/nodes/43.png$image,1p
-||simpcity.su/static/icons/nodes/64.png$image,1p
-||simpcity.su/static/icons/nodes/121.png$image,1p
-simpcity.su##.node-extra-title > .label--trans.label:upward(.node-extra) > div[class^=node-extra-]
-simpcity.su##.labelLink > .label--trans.label:upward(.is-prefix19, .structItem)
-simpcity.su##div.home_nodes_title:has-text("Transgender")
-simpcity.su##.grow.flex.node-title > a[href*="/forums/transgender.36/"]:upward(.node_grid_group_2)
-simpcity.su##.label--trans.label:upward(li.js-inlineModContainer.block-row--separated.block-row)
+simpcity.*##.block--category101.block--category.block
+simpcity.*##.node--unread.node--category.node--depth2.node--id25.node > .node-body > .js-nodeMain.node-main > .node-subNodesFlat > .node-subNodeFlatList > li > a[href="/forums/trans.42/"]
+||simpcity.*/data/assets/nodeicons/transHeartIcon.png$image
+||simpcity.*/static/icons/nodes/36.png$image,1p
+||simpcity.*/static/icons/nodes/39.png$image,1p
+||simpcity.*/static/icons/nodes/40.png$image,1p
+||simpcity.*/static/icons/nodes/42.png$image,1p
+||simpcity.*/static/icons/nodes/43.png$image,1p
+||simpcity.*/static/icons/nodes/64.png$image,1p
+||simpcity.*/static/icons/nodes/121.png$image,1p
+simpcity.*##.node-extra-title > .label--trans.label:upward(.node-extra) > div[class^=node-extra-]
+simpcity.*##.labelLink > .label--trans.label:upward(.is-prefix19, .structItem)
+simpcity.*##div.home_nodes_title:has-text("Transgender")
+simpcity.*##.grow.flex.node-title > a[href*="/forums/transgender.36/"]:upward(.node_grid_group_2)
+simpcity.*##.label--trans.label:upward(li.js-inlineModContainer.block-row--separated.block-row)
 !! End of Trans category !!
 ||letsfuntogethernow.com^$important
 ||luvmenow.com^$important
@@ -4009,105 +4008,108 @@ simpcity.su##.label--trans.label:upward(li.js-inlineModContainer.block-row--sepa
 ||timeformeeting.com
 ||datingsteam.com
 ?aid=*&sub1=$doc
-||simpcity.su/magic/badpapi.php$all
-||simpcity.su/magic/surprise-master.js$all
-simpcity.su##^script:has-text(papi-hates-blocks)
-simpcity.su##+js(abort-current-script, papiMagicldr)
-simpcity.su##.p-body-content > div:nth-of-type(2)
-simpcity.su##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
-simpcity.su##.nav-shoosh.p-navEl-link
-!simpcity.su##+js(nowoif) --- Disabled to allow for upload buttons to work.
-!simpcity.su##+js(window-close-if, /^/)
-!simpcity.su##.js-bottomFixTarget.u-bottomFixer
+||simpcity.*/magic/badpapi.php$all
+||simpcity.*/magic/surprise-master.js$all
+simpcity.*##^script:has-text(papi-hates-blocks)
+simpcity.*##+js(abort-current-script, papiMagicldr)
+simpcity.*##.p-body-content > div:nth-of-type(2)
+simpcity.*##div:nth-of-type(1) > [src="https://a.adtng.com/*"]
+simpcity.*##.nav-shoosh.p-navEl-link
+!simpcity.*##+js(nowoif) --- Disabled to allow for upload buttons to work.
+!simpcity.*##+js(window-close-if, /^/)
+!simpcity.*##.js-bottomFixTarget.u-bottomFixer
 x7r3mk6ldr.com$all,important
 .*/aas/r45d
-simpcity.su##.node--link.node--depth2.node--id125.node
-simpcity.su##.nav-bonga.p-navEl-link
+simpcity.*##.node--link.node--depth2.node--id125.node
+simpcity.*##.nav-bonga.p-navEl-link
 ||adtng.com^
 ##iframe[src^="https://a.adtng.com/"]
-!simpcity.su##+js(addEventListener-defuser, , open)
+!simpcity.*##+js(addEventListener-defuser, , open)
 ||a.adtng.com^
 ||turbostats.xyz/api/event
-simpcity.su##div[style*="background-color:#FBCA27"]
-simpcity.su##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
+simpcity.*##div[style*="background-color:#FBCA27"]
+simpcity.*##div[style="background-color:#FBCA27;padding:0.25em;text-align:center;font-weight:bold;"]
 ##a[href^="https://a.adtng.com/"]
 ||weeb.party/api/img.php$image
-||turbostats.xyz/js/script.js$script,domain=simpcity.su
-||simpcity.su/data/assets/nodeicons/soulgen.png$image,1p
-||simpcity.su/data/assets/nodeicons/dp.png$image,1p
-||simpcity.su/data/assets/nodeicons/sexgames.png$image,1p
-||simpcity.su/data/assets/nodeicons/b12.png$image,1p
-||simpcity.su/data/assets/nodeicons/image_2024-03-28_16-42-17.png$image,1p
+||turbostats.xyz/js/script.js$script,domain=simpcity.*
+||simpcity.*/data/assets/nodeicons/soulgen.png$image,1p
+||simpcity.*/data/assets/nodeicons/dp.png$image,1p
+||simpcity.*/data/assets/nodeicons/sexgames.png$image,1p
+||simpcity.*/data/assets/nodeicons/b12.png$image,1p
+||simpcity.*/data/assets/nodeicons/image_2024-03-28_16-42-17.png$image,1p
 ||gpockaajwo.com^
 solid.gif?z=1986859
-simpcity.su##.p-navEl-link.nav-shoosh
-simpcity.su##.p-navEl-link.nav-bonga
-simpcity.su##.p-navEl-link.nav-dfake
-simpcity.su##.p-navEl-link.nav-faze
-simpcity.su##.p-navEl-link.nav-tpd
-simpcity.su##a[href*="ucam.xxx/?utm_source"]
-simpcity.su##a[href*="ma3ion.com"]
-simpcity.su##a[href*="qrlsx.com"]
-simpcity.su##a[href*="pornfaze.com"]
-simpcity.su##a[href*="theporndude.com"]
-||simpcity.su/data/assets/nodeicons/candy_icon_04.png$image
-simpcity.su##.node--link.node--depth2.node--id128.node
-cdn.jsdelivr.net/npm/disable-devtool$domain=simpcity.su
-simpcity.su##.node--link.node--depth2.node--id129.node
-simpcity.su##:has(a[href*="/link-forums/"]):is(li)
-simpcity.su##a[href*="/link-forums/"]
-||simpcity.su/data/assets/nodeicons/a.png$image
-||simpcity.su/data/assets/nodeicons/1000162665.jpg$image
-||simpcity.su/data/assets/nodeicons/cflix.png$xhr,image
-simpcity.su##.node--link.node--depth2.node--id130.node
-||simpcity.su/custom/banners/catflix.png$xhr,image
-simpcity.su##.nav-lcams.p-navEl-link
-simpcity.su##.node--link.node--depth2.node--id131.node
-simpcity.su/data/assets/nodeicons/1000208174.png$image
+simpcity.*##.p-navEl-link.nav-shoosh
+simpcity.*##.p-navEl-link.nav-bonga
+simpcity.*##.p-navEl-link.nav-dfake
+simpcity.*##.p-navEl-link.nav-faze
+simpcity.*##.p-navEl-link.nav-tpd
+simpcity.*##a[href*="ucam.xxx/?utm_source"]
+simpcity.*##a[href*="ma3ion.com"]
+simpcity.*##a[href*="qrlsx.com"]
+simpcity.*##a[href*="pornfaze.com"]
+simpcity.*##a[href*="theporndude.com"]
+||simpcity.*/data/assets/nodeicons/candy_icon_04.png$image
+simpcity.*##.node--link.node--depth2.node--id128.node
+cdn.jsdelivr.net/npm/disable-devtool$domain=simpcity.*
+simpcity.*##.node--link.node--depth2.node--id129.node
+simpcity.*##:has(a[href*="/link-forums/"]):is(li)
+simpcity.*##a[href*="/link-forums/"]
+||simpcity.*/data/assets/nodeicons/a.png$image
+||simpcity.*/data/assets/nodeicons/1000162665.jpg$image
+||simpcity.*/data/assets/nodeicons/cflix.png$xhr,image
+simpcity.*##.node--link.node--depth2.node--id130.node
+||simpcity.*/custom/banners/catflix.png$xhr,image
+simpcity.*##.nav-lcams.p-navEl-link
+simpcity.*##.node--link.node--depth2.node--id131.node
+simpcity.*/data/assets/nodeicons/1000208174.png$image
 ||bunkr-cache.se/js/script.js$script
 ||bunkr-cache.se/api/event$xhr
-simpcity.su##a[href*="energizeio.com"]
+simpcity.*##a[href*="energizeio.com"]
 energizeio.com^
-simpcity.su##+js(rmnt, script, adConfig)
-simpcity.su##.js-installPromptContainer.offCanvasMenu-installBanner
-||simpcity.su/static/icons/nodes/129.png$image,1p
-||simpcity.su/static/icons/nodes/119.png$image,1p
-||simpcity.su/static/icons/nodes/95.png$image,1p
-||simpcity.su/static/icons/nodes/107.png$image,1p
-||simpcity.su/static/icons/nodes/122.png$image,1p
-||simpcity.su/static/icons/nodes/125.png$image,1p
-||simpcity.su/static/icons/nodes/128.png$image,1p
-||simpcity.su/custom/sgames2.png$image,1p
-||simpcity.su/custom/dp-3.png$image,1p
-||simpcity.su/custom/faze.png$image,1p
-||simpcity.su/custom/tpd-b-24px.png$image,1p
+simpcity.*##+js(rmnt, script, adConfig)
+simpcity.*##.js-installPromptContainer.offCanvasMenu-installBanner
+||simpcity.*/static/icons/nodes/129.png$image,1p
+||simpcity.*/static/icons/nodes/119.png$image,1p
+||simpcity.*/static/icons/nodes/95.png$image,1p
+||simpcity.*/static/icons/nodes/107.png$image,1p
+||simpcity.*/static/icons/nodes/122.png$image,1p
+||simpcity.*/static/icons/nodes/125.png$image,1p
+||simpcity.*/static/icons/nodes/128.png$image,1p
+||simpcity.*/custom/sgames2.png$image,1p
+||simpcity.*/custom/dp-3.png$image,1p
+||simpcity.*/custom/faze.png$image,1p
+||simpcity.*/custom/tpd-b-24px.png$image,1p
 ||b-cdn.net/js/script.js$script
 ||hornylitics.b-cdn.net^
 ||hornylitics.b-cdn.net/js/script.js$script
-simpcity.su##[src*="candy.engine.adglare.net"]
-||simpcity.su/custom/catto.png$image
-simpcity.su##[href^="https://catflix.su/?utm_source=simp"]
-simpcity.su##+js(rmnt, script, juiceConfig)
-simpcity.su##+js(rmnt, script, cldr)
-simpcity.su##+js(rmnt, script, papi-hates-blocks)
-simpcity.su##+js(addEventListener-defuser, , shouldShow)
-simpcity.su##+js(rmnt, script, queenMagic)
+simpcity.*##[src*="candy.engine.adglare.net"]
+||simpcity.*/custom/catto.png$image
+simpcity.*##[href^="https://catflix.su/?utm_source=simp"]
+simpcity.*##+js(rmnt, script, juiceConfig)
+simpcity.*##+js(rmnt, script, cldr)
+simpcity.*##+js(rmnt, script, papi-hates-blocks)
+simpcity.*##+js(addEventListener-defuser, , shouldShow)
+simpcity.*##+js(rmnt, script, queenMagic)
 ||qceatqoqwpza.com^
-simpcity.su##+js(set-cookie, zone-cap-papi-hates-blocks, 1)
-simpcity.su##+js(rmnt, script, zone-cap)
-simpcity.su##.prm-wrapper
-simpcity.su##.prm-content-wrapper
-simpcity.su##.prm-title
-simpcity.su##.prm-btn
-!simpcity.su##.prm-exit
-simpcity.su##+js(rmnt, script, promoban)
+simpcity.*##+js(set-cookie, zone-cap-papi-hates-blocks, 1)
+simpcity.*##+js(rmnt, script, zone-cap)
+simpcity.*##.prm-wrapper
+simpcity.*##.prm-content-wrapper
+simpcity.*##.prm-title
+simpcity.*##.prm-btn
+!simpcity.*##.prm-exit
+simpcity.*##+js(rmnt, script, promoban)
 ||gigachadlitics.b-cdn.net^
 *litics.b-cdn.net^
-simpcity.su##div.notice-content > a[href="https://catflix.su/home"]:upward(li.notice)
-simpcity.su##.nav-bonga:remove()
-simpcity.su##.nav-tpd:remove()
-simpcity.su##.nav-faze:remove()
-simpcity.su##.nav-dfake:remove()
+simpcity.*##div.notice-content > a[href="https://catflix.su/home"]:upward(li.notice)
+simpcity.*##.nav-bonga:remove()
+simpcity.*##.nav-tpd:remove()
+simpcity.*##.nav-faze:remove()
+simpcity.*##.nav-dfake:remove()
+simpcity.*##div.blockitsowereplaceit
+||simpcity.*/smp/d.min.js$script
+||simpcity.*/smp/RLI_Static*$image
 
 ! Simpshub
 simpshub.com##.tags.links
