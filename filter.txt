@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul21-1
+! Version: 2025Jul24-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3491,6 +3491,32 @@ porntrex.com###index-link
 porntrex.com##li.hidden-sm > .hidden-sm
 porntrex.com##[href="https://bongacams.com/"]
 porntrex.com##.open-tool.pop-adv
+porntrex.com##[href*="https://go.rmzsglng.com"]:upward(li)
+porntrex.com##.top-nav
+porntrex.com##.container > .row > div.col-sm-3:nth-of-type(3)
+porntrex.com##.container > .row > div.col-sm-3:nth-of-type(4)
+porntrex.com##.container > .content > div[style*="border:1px solid #ccc"]
+porntrex.com##.container > .text-bottom
+porntrex.com##+js(rmnt, script, loadSliderScript)
+porntrex.com##+js(rmnt, script, readCookieDelit)
+porntrex.com##+js(rmnt, script, kt_rt_adv_index)
+||go.go-srv.com^
+*$script,3p,denyallow=blazingcdn.net|cdntrex.com|fastly.net|google.com|googleapis.com|gstatic.com|h-cdn.com|stackpathcdn.com,from=porntrex.com
+||cluster.aawspeedy.com/inc/combined.js
+||cluster.aawspeed.com^
+||rmzsglng.com^
+||rtr2perf1.com^
+||as.fontheader.com^
+||cluster.aawspeedy.com/inc/ptrex_min.js$script
+porntrex.com##+js(set, flashvars.adv_pre_vast, '')
+porntrex.com##+js(set, flashvars.adv_post_vast, '')
+porntrex.com##[href*="rtr2perf1.com"]
+porntrex.com##[href*="as.fontheader.com"]
+porntrex.com##.bottomNav
+porntrex.com##+js(rmnt, script, pop-adv)
+porntrex.com##.fp-embed
+porntrex.com##.opt:upward(.table)
+porntrex.com##.block-video:style(justify-content: center; !important)
 
 ! Pornushka (xn--80atidehw4b.org)
 порнушка.tv##+js(rmnt, script, clickadilla7979)
@@ -5281,6 +5307,17 @@ www.google.*##+js(set-attr, c-wiz[data-p] [data-query] a[target="_blank"][role="
 ##.header-ads
 q88z1s3.com^
 ||popcash.net^
+||granular-reflection.com^
+||eroplayai.net^
+||girls24chat.com^
+||eptrackpb.com^
+||go.awdeliverynet.com^
+||xjoy.top^
+||ss.heyserves.com^
+||profitableratecpm.com^
+||cuteab.com^
+||profitableratecpm.com
+||arminius.io^
 ! ##Disable devtools:
 ||jsdelivr.net/npm/disable-devtool
 ! ## Pixeldrain-bypass remove games4u layer
