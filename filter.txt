@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul24-1
+! Version: 2025Jul27-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -929,58 +929,58 @@ cloudbate.com##.play-now:remove-attr(onclick)
 cloudbate.com##+js(nowoif)
 
 ! Coomer
-coomer.party##all:has-text(SCSpotscript)
+coomer.*##all:has-text(SCSpotscript)
 ||xlivrdr.com^$all
-coomer.party##^script:has-text(ScSpotAppeared)
+coomer.*##^script:has-text(ScSpotAppeared)
 ||tsyndicate.com^$all
-||coomer.party/api/event
-||img.coomer.party/cnudify1.gif$important
-coomer.party##div.ad-container
-coomer.su##all:has-text(SCSpotscript)
-coomer.su##script:has-text(ScSpotAppeared)
-||coomer.su/api/event
+||coomer.*/api/event
+||img.coomer.*/cnudify1.gif$important
+coomer.*##div.ad-container
+coomer.*##all:has-text(SCSpotscript)
+coomer.*##script:has-text(ScSpotAppeared)
+||coomer.*/api/event
 ||dynspt.com^
-coomer.party##div.ad-container > .image-link
-coomer.su##div.ad-container > .image-link
-coomer.su##div.ad-container
+coomer.*##div.ad-container > .image-link
+coomer.*##div.ad-container > .image-link
+coomer.*##div.ad-container
 ||s.magsrv.com^$all,important
-||coomer.su/api/v1/%D0%B5vent$xhr,1p
+||coomer.*/api/v1/%D0%B5vent$xhr,1p
 ||a.magsrv.com^$all,important
-||img.coomer.su/cnudify1.gif$all,important
+||img.coomer.*/cnudify1.gif$all,important
 ||magsrv.com^$all,important
 cnudify1.gif$all,important
-||img.coomer.su/coomer-nudify.gif
+||img.coomer.*/coomer-nudify.gif
 coomer-nudify.gif
 ||topaitools.fun^
-coomer.su##a[href*="topaitools.fun"]
+coomer.*##a[href*="topaitools.fun"]
 ||creative.xlivrdr.com/widgets/Spot/lib.js
 ||creative.xlivrdr.com^
-coomer.su##div[class^="ad-container"]
-coomer.su##[href="//a.adtng.com/get/10014806"] > div
-coomer.su##[href="//a.adtng.com/get/10014806"]:remove()
-coomer.su/api/v1/%D0%B5vent
-||coomer.su/api/v1/tryagain
+coomer.*##div[class^="ad-container"]
+coomer.*##[href="//a.adtng.com/get/10014806"] > div
+coomer.*##[href="//a.adtng.com/get/10014806"]:remove()
+coomer.*/api/v1/%D0%B5vent
+||coomer.*/api/v1/tryagain
 ||mnaspm.com^
 ||traffichunt.com^
-coomer.su##^all:has-text(SCSpotScript)
-coomer.su##.ad-container
-coomer.su##+js(rmnt, script, adConfig)
-coomer.su##+js(set-cookie, zone-cap-5294206, 1)
-coomer.su##+js(rmnt, script, flagName)
-coomer.su##+js(rmnt, script, videoAds)
-/Spot/lib.js$script,domain=coomer.su
-coomer.su##a[href="https://coomer.su/matrix"]
+coomer.*##^all:has-text(SCSpotScript)
+coomer.*##.ad-container
+coomer.*##+js(rmnt, script, adConfig)
+coomer.*##+js(set-cookie, zone-cap-5294206, 1)
+coomer.*##+js(rmnt, script, flagName)
+coomer.*##+js(rmnt, script, videoAds)
+/Spot/lib.js$script,domain=coomer.*
+coomer.*##a[href="https://coomer.*/matrix"]
 ||owxqunparw.com^
-coomer.su##[href="//kemono.su/importer"] > div
-coomer.su##[href*="theporndude.com"]
-coomer.su##+js(rmnt, script, flgdabcpokrineutm)
-coomer.su##a[href*="realxxx.com"]
+coomer.*##[href="//kemono.*/importer"] > div
+coomer.*##[href*="theporndude.com"]
+coomer.*##+js(rmnt, script, flgdabcpokrineutm)
+coomer.*##a[href*="realxxx.com"]
 ||v6.realxxx.com^
 ||soonpubplatform.online^
-coomer.su##.sidebar-extra-style.global-sidebar-entry-item[href*="tsyndicate.com"]
-coomer.su##+js(set-local-storage-item, plausible_ignore, true)
-coomer.su##+js(abort-current-script, String.fromCharCode, \x)
-coomer.su##+js(addEventListener-defuser, '', popMagic)
+coomer.*##.sidebar-extra-style.global-sidebar-entry-item[href*="tsyndicate.com"]
+coomer.*##+js(set-local-storage-item, plausible_ignore, true)
+coomer.*##+js(abort-current-script, String.fromCharCode, \x)
+coomer.*##+js(addEventListener-defuser, '', popMagic)
 coomer.*##+js(rmnt, script, _TSMIDDLE)
 coomer.*##+js(rmnt, script, videoAds)
 
