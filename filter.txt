@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Jul27-1
+! Version: 2025Aug03-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -455,6 +455,28 @@ bitchesgirls.com##+js(rmnt, script, adSession)
 bitchesgirls.com##.info-link.model-links
 ||bitchesgirls.com/api/viewpage/$xhr
 bitchesgirls.com##div.my-girls-popup-element.popup-element
+
+! Borntobefuck (mediadelivery/zavastream)
+borntobefuck.com##.ad-carousel
+borntobefuck.com##.banner > .announce
+borntobefuck.com##.banner
+borntobefuck.com##.ad_link_bar:upward(li)
+borntobefuck.com##[href*="ad.ad"]:upward(li)
+borntobefuck.com##.ad_banner_under_video_player
+borntobefuck.com##.ad_card_in_scroll
+borntobefuck.com##.banner-under-player-mobile
+mediadelivery.net##+js(rmnt, script, MAX_POPUPS)
+zavastream.com##+js(rmnt, script, MAX_POPUPS)
+borntobefuck.com##*:style(cursor: auto !important)
+mediadelivery.net##*:style(cursor: auto !important)
+borntobefuck.com##.header-desktop > .announce
+borntobefuck.com###theporndude-link-desktop
+borntobefuck.com##div.ad.video
+borntobefuck.com##[href="https://theporndude.com/"]
+borntobefuck.com##.hide-mobile
+borntobefuck.com###footer-nav-sex_cams
+borntobefuck.com##.bell_header.header-notification
+mediadelivery.net##+js(set, defaultOptions.ads, '')
 
 ! Bunkr 
 $popup,3p,denyallow=bunkrr.ru|bunkr.ru|bunkr.sk|bunkrr.su|bunkr.ac|bunkr.ws|bunkr.black|bunkr.cat|bunkr.media|bunkr.red|bunkr.site|bunkr.si|bunkr-albums.io|bunkr.se|bunkr.nu|bunkr.ax|bunkr.fi|bunkrrr.org|bunkr.ci|bunkr.site|bunkr.ps|bunkr.pk|bunkr.ph|bunkr.cr|c.bunkr-cache.se|brg-bk.cdn.gigachad-cdn.ru,domain=bunkr.*|bunkrr.*
@@ -1180,6 +1202,11 @@ dood.*##+js(abort-current-script, WebAssembly, _0x)
 dood.*##+js(rmnt, script, openedPop)
 dood.*##.sPreload
 /adgpt.js$script
+d-s.io##+js(remove-node-text, script, /adblock|popunder|openedPop|WebAssembly|wpadmngr/)
+d-s.io##+js(prevent-window-open)
+d-s.io##+js(abort-current-script, decodeURI, decodeURIComponent)
+/^https?:\/\/(?:[a-z]{2}\.)?[a-z]{7,14}\.com\/r(?=[a-z]*[0-9A-Z])[0-9A-Za-z]{10,16}\/[A-Za-z]{5}(?:\?(?:param|_)=\w+)?$/$script,3p,match-case,to=com
+||doodcdn.io/ads/ad.js$script
 
 ! Ds2video/ds2play (dood)
 ds2video.com##+js(set-constant, console.clear, undefined)
@@ -2315,6 +2342,24 @@ leakedmodels.com##+js(rmnt, script, ad-banner-wrap)
 ||pertinentking.com^
 leaked.page##+js(rmnt, script, ffusb, excludes, textAlign, stay, 1, sedCount, 1)
 
+! Leakgallery
+leakgallery.com###onesignal-slidedown-container
+leakgallery.com##app-add-home-safari
+leakgallery.com##app-header-ads
+leakgallery.com##[href*="linkinbio.fun"]:upward(li)
+leakgallery.com##[href*="linkinbio.fun"]
+leakgallery.com##[href*="golove.ai"]
+leakgallery.com##[href="https://hornyroad.com"]
+leakgallery.com##[href="https://hornyroad.com"]:upward(li)
+leakgallery.com##[href="https://theporndude.com/"]
+leakgallery.com##[href="https://theporndude.com/"]:upward(li)
+leakgallery.com##.header-right > .noads.cam
+leakgallery.com##[href*="https://hornyroad.com/"]
+leakgallery.com##.forum:upward(1)
+leakgallery.com##.undressai
+leakgallery.com##+js(rmnt, script, aclib)
+leakgallery.com##.btn-disable-ads
+
 ! Leakxxx
 leak.xxx##[href="https://theporndude.com/"]
 ||nsfwadds.com^
@@ -2841,6 +2886,21 @@ platinumleaks.com##+js(set, midRollTimer, '')
 ||platinumleaks.com/wp-content/plugins/clean-tube-player/public/vendors/fluidplayer*.js$script
 ||platinumleaks.com/wp-content/plugins/clean-tube-player/public/vendors/jquery*.js$script
 
+! Porn00
+porn00.org##.member1link
+porn00.org##.member2link
+porn00.org##[href="https://porn00.org/best-casino/"]
+porn00.org##[href="http://porn00.org/solcasinoio-bonus/"]
+porn00.org##[href="https://www.solcasino.io"]:upward(li)
+porn00.org##[href="https://solcasino.io"]:upward(li)
+porn00.org##+js(abort-current-script, document.querySelectorAll, popMagic)
+porn00.org##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
+porn00.org##+js(prevent-window-open)
+&action=js_stats$domain=porn00.org
+porn00.org##.spot
+porn00.org##.text
+porn00.org##+js(set, flashvars.adv_pre_vast, '')
+
 ! Porn4fans
 porn4fans.com##.top-links-wrap
 porn4fans.com##.footer-link[href="https://www.porn4fans.com/partners/"]:upward(li)
@@ -2941,6 +3001,20 @@ tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(2)
 tybito.com##li.main_menu_item_number_4.main_menu_item:nth-of-type(4)
 tybito.com##.dt_tybito.main_menu_item_number_3.dynamic_menu_item_snap.main_menu_item
 tybito.com##li.main_menu_item_number_3.main_menu_item:nth-of-type(2)
+
+! Porndish
+porndish.com##.g1-hb-shadow-off.g1-hb-sticky-on.g1-hb-boxed.g1-hb-row-3.g1-hb-row-c.g1-hb-row-normal.g1-hb-row.g1-row-layout-page.g1-row > .g1-row-inner > .g1-dropable.g1-column > .g1-bin-grow-off.g1-bin-1 > .g1-bin-align-left.g1-bin > [href="https://theporndude.com/"]
+porndish.com##[href^="https://go.rmhfrtnd.com"]
+porndish.com##.g1-injected-unit
+porndish.com##[href="https://www.porndudecams.com/"]:upward(1)
+porndish.com##.animate-in.adace-slideup-slot-wrap
+||politicalpiano.com
+porndish.com##+js(rmnt, script, zaraz)
+porndish.com##+js(rmnt, script, adace)
+porndish.com##+js(rmnt, script, atOptions)
+porndish.com##.widget_adace_ads_widget
+||xr.staxisclivias.com^
+porndish.com##[href="https://theporndude.com/"]
 
 ! Porndoe
 porndoe.com##+js(abort-on-property-read, open)
@@ -3912,6 +3986,12 @@ saint2.*##+js(nowoif, !//a/)
 in.js$domain=saint2.*
 ||sacwumsf.com^
 
+! Savefiles
+savefiles.com##+js(set-constant, SaveFiles.add, noopFunc)
+savefiles.com##+js(rmnt, script, zaraz)
+savefiles.com##+js(abort-current-script, WebAssembly, atob)
+savefiles.com##+js(abort-on-property-write, showADBOverlay)
+
 ! Sevideo
 ||cef7cb85aa.com^
 se.video##+js(rmnt, script, nager)
@@ -4301,6 +4381,21 @@ swipeturbate.com##.ad-push
 /bultykh/*/*/bazinga/*$script
 swipeturbate.com##+js(rmnt, script, popunder)
 swipeturbate.com##li:nth-of-type(5) > .control-button
+
+! Strmup
+strmup.to##+js(abort-current-script, document.createElement, "'script'")
+strmup.to##+js(remove-node-text, script, popundersPerIP)
+strmup.to##+js(prevent-window-open)
+strmup.to##+js(remove-node-text, script, wpadmngr.com)
+strmup.to##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|fastly.net|gstatic.com|jsdelivr.net|jwpcdn.com,from=streamup.ws|strmup.to
+||2514june2024.com^
+||alaheepinged.com^
+||nappyonsetstiffness.com^
+||obqj2.com^
+strmup.to##+js(rmnt, script, popupWindow)
+||bvtpk.com/tag.min.js
+||strmup.to/assets/js/new100.js
 
 ! Sxyprn
 sxyprn.com##.cbd
@@ -5318,6 +5413,13 @@ q88z1s3.com^
 ||cuteab.com^
 ||profitableratecpm.com
 ||arminius.io^
+||go.gosrv.cl^
+||newrelic.com^$3p
+newbienudes.com^
+/log?format=
+nr-rum-*.min.js
+||userreport.com^$3p
+||llowever-doweden.com^
 ! ##Disable devtools:
 ||jsdelivr.net/npm/disable-devtool
 ! ## Pixeldrain-bypass remove games4u layer
