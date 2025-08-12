@@ -4489,6 +4489,17 @@ theyarehuge.com##.before-player--source-block
 theyarehuge.com##div[style="z-index: 169; inset: 0px; position: absolute; overflow: hidden; background: transparent; display: block;"]
 theyarehuge.com##[src*="theyarehuge.com/player/html.php?aid=start_html&video_id="]
 
+! Theporndude
+!theporndude.com##+js(trusted-set-cookie, wallpaper, click)
+theporndude.com##+js(set-cookie, wallpaper, click)
+theporndude.com##body::before
+theporndude.com##.--show.coo-widget.coomeet-app
+theporndude.com###category-block-97 > .category-after-block > .link
+theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
+theporndude.com##.chat-widget
+theporndude.com##.drawer
+theporndude.com##.quotes-count
+
 ! Thisvid
 thisvid.com##.spots
 thisvid.com##.spot
@@ -4512,17 +4523,6 @@ thisvid.com##div[style*="margin: 0 auto 16px; display: inline-block; white-space
 thisvid.com##[href*="tsyndicate.com"]:upward(li)
 thisvid.com##[href*="theporndude.com"]:upward(li)
 thisvid.com##.player-related-videos
-
-! Theporndude
-!theporndude.com##+js(trusted-set-cookie, wallpaper, click)
-theporndude.com##+js(set-cookie, wallpaper, click)
-theporndude.com##body::before
-theporndude.com##.--show.coo-widget.coomeet-app
-theporndude.com###category-block-97 > .category-after-block > .link
-theporndude.com##.scrollspy-btn-fixed.scrollspy-btn
-theporndude.com##.chat-widget
-theporndude.com##.drawer
-theporndude.com##.quotes-count
 
 ! Thotbook
 thotbook.*###page > .code-block-3.code-block
