@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Aug-03</strong></p> <!-- for version 2025Aug03-1 -->
-<!-- 199+ covered domains in list, *3* are of unknown status -->
+<p align=center>Last updated: <strong>2025-Aug-12</strong></p> <!-- for version 2025Aug12-1 -->
+<!-- 201+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 <!-- Make sure to use camo.githubusercontent url's for new favicons! It's a little slower but KEEPS the favicons cached and makes the network traffic less "descriptive". Google favicon url: https://www.google.com/s2/favicons?sz=16&domain= -->
@@ -37,6 +37,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/f785fb91efcd32b44ed6ac70a0ec4d77c9d3dbc8ccfd801579cdb6441a9d9884/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d63756d6c6f756465722e636f6d) cumlouder.com  
 ![](https://camo.githubusercontent.com/d36aefe7b2e7a98a36037d0555456fe9445b39a30439222a985a758270f1ba09/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d637962657264726f702e6d65) cyberdrop.me  
 ![](https://camo.githubusercontent.com/097117e18de01752215731d8f2887b321422c0374b0a6e6bc37e0ce287ee101c/68747470733a2f2f692e696d6775722e636f6d2f734449667652492e706e67) cyberfile.me/cyberfile.su  
+![](https://camo.githubusercontent.com/fad1e341cbd8cba12a5f2a880a8f671717227375eb739de23dca43c8635d293e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d64656570666565642e66756e) deepfeed.fun  
 ![](https://camo.githubusercontent.com/249d3635c217f49a8eceac46bafb066bc22c4e278aa8a194c2a0fde9c609191c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6469727479736869702e636f6d) dirtyship.com  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) dirtyvideo.fun (Netu)  
 ![](https://camo.githubusercontent.com/04bee7f1c40deae18f0f372ba35b37d77d02c6a029a7cac3d756a23484fae174/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d646f37676f2e636f6d) do7go.com (dood)  
@@ -172,6 +173,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/cafda8ecad8ccccee5428809494df63a69706e0f98e13251818e8e2caa04080d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73787970726e2e636f6d) sxyprn.*  
 ![](https://camo.githubusercontent.com/596bdf742954bd4e379492cd33262a873a99e96c5df899ef4c2371522def6ea3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686579617265687567652e636f6d) theyarehuge.com  
 ![](https://camo.githubusercontent.com/02f00e74bca1faf42b7cfa625e25c8201d38b480fdc8792979c2e8767460fe35/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d746865706f726e647564652e636f6d) theporndude.com  
+![](https://camo.githubusercontent.com/c7eb80a21b62ddd745dedd1ff7f4dc7d967fd6e49b7520fb04ecfc779d497ffe/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d746869737669642e636f6d) thisvid.com  
 ![](https://camo.githubusercontent.com/51698dd28ff8439dbac4acb5859a7f8636436aa305d7e8d580e0dbedbffdbaf0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f74626f6f6b2e636f) thotbook.*  
 ![](https://camo.githubusercontent.com/e80d76adb4e6d66d6e3d85cde300c542e0edd4f059913c8643e9b0729cfe874c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f746875622e636f6d) thothub.*  
 ![](https://camo.githubusercontent.com/cc64662a4ffb4d6593f7614142f2d61115e383ebf01d5f82283d23e770a50e4a/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d74686f7473666c69782e636f6d) thotsflix.com  
@@ -214,4 +216,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/be191055dbbb7d42539aa16ba45d56f832bbaa30ee35af63cc4debd93e65922c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f756a697a7a2e636f6d) youjizz.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>199+</strong> | ☺</p>
+<p align=right><strong>201+</strong> | ☺</p>
