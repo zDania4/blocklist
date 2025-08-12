@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Aug11-1
+! Version: 2025Aug12-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1111,6 +1111,13 @@ $popup,domain=cyberfile.su
 $script,3p,domain=cyberfile.su
 ||cdn.plyr.io^$script,domain=cyberfile.me
 ||cdn.plyr.io^$script,domain=cyberfile.su
+
+! Deepfeed
+||cbxyz.com^
+deepfeed.fun##+js(aeld, /^(?:click|mousedown|mousemove|touchstart|touchend|touchmove)$/, window.open)
+deepfeed.fun##a[href*="chaturbate.com"]:upward(div.mb-4)
+deepfeed.fun##.lucide-video.lucide
+||chaturbate.com^$domain=deepfeed.fun
 
 ! Dirtyship
 dirtyship.com##+js(abort-on-property-read, dataPopUnder)
@@ -4481,6 +4488,30 @@ theyarehuge.com##.before-player--source-block
 /adpopup.js$script
 theyarehuge.com##div[style="z-index: 169; inset: 0px; position: absolute; overflow: hidden; background: transparent; display: block;"]
 theyarehuge.com##[src*="theyarehuge.com/player/html.php?aid=start_html&video_id="]
+
+! Thisvid
+thisvid.com##.spots
+thisvid.com##.spot
+thisvid.com##.bottom-spots
+thisvid.com##.column-right
+thisvid.com##.wpcc-container
+thisvid.com##+js(rmnt, script, getexoloader)
+||thisvid.com/enblk/envblk.js$script,1p
+||thisvid.com/enblk/envbcdldr.php$script,1p
+||thisvid.com/enblk/envbcdldr.php$image,1p
+&action=js_stats$domain=thisvid.com
+/get_file/*.mp4/?rnd=$image,domain=thisvid.com
+||media.thisvid.com/js/advertising.js$script,1p
+thisvid.com##+js(set, flashvars.adv_pre_vast, '')
+thisvid.com##+js(set, flashvars.adv_pre_vast_alt, '')
+thisvid.com##+js(rmnt, script, AdProvider)
+thisvid.com##+js(rmnt, script, TsMasterSpot)
+thisvid.com##+js(rmnt, script, TSVideoInstantMessage)
+thisvid.com##div[id*="ts_ad"]:upward(1)
+thisvid.com##div[style*="margin: 0 auto 16px; display: inline-block; white-space: nowrap;"]
+thisvid.com##[href*="tsyndicate.com"]:upward(li)
+thisvid.com##[href*="theporndude.com"]:upward(li)
+thisvid.com##.player-related-videos
 
 ! Theporndude
 !theporndude.com##+js(trusted-set-cookie, wallpaper, click)
