@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Aug21-2
+! Version: 2025Aug24-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -334,6 +334,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||tnaflix.com/compiled/header.min.js
 @@||tnaflix.com/js/tnaflix.desktop.comments.js
 @@||saint2.*/thumbs/
+@@||video.wildskirts.com/*/teasers/
 @@||www.redgifs.com/users/*$popup,domain=redgifs.com
 @@||www.redgifs.com/watch/*$popup,domain=redgifs.com
 @@||www.redgifs.com^$popup,domain=redgifs.com
@@ -5029,6 +5030,15 @@ wildskirts.com##div[onclick*="of_aff_feed_click"]
 ||wildskirts.com/undress/
 /en/asd/ozk/abdr
 /pn07uscr/f/tr/zavbn/
+wildskirts.com##.prm-content-wrapper
+wildskirts.com##[onclick*="window.open('https://go.xlirdr.com"]
+wildskirts.com##[onclick*="window.open(atob"]
+wildskirts.com##.skip-link
+wildskirts.com##[href="https://wildskirts.com/ai-girlfriend"]:upward(li)
+wildskirts.com##[onclick*="window.open('ht' + 'tps' + ':/' + '/' + 'onlyfans' + '.' + 'com/"]
+||wildskirts.com/api/ping$xhr
+||wildskirts.com/api/ping
+||cdn.fluidplayer.com/*/fluidplayer.min.js$domain=wildskirts.com
 
 ! Xfantazy
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,xhr,3p
