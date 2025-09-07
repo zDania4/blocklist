@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Sep07-1
+! Version: 2025Sep07-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -503,7 +503,7 @@ bunkrr.*##.bg-\[\#2A2E43\].border-\[\#2A2E43\].lg\:max-w-7xl.w-full.py-4.mx-auto
 ||https://if.pittinekunai.com$important
 ||https://godpvqnszo.com$important
 bunkr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-bunkr.*##+js(abort-current-script, document.createElement, click)
+!bunkr.*##+js(abort-current-script, document.createElement, click)
 ||bunkr.se/build/asdajklsdashjdasjk.js$all,important
 bunkr.*##^script:has-text(data-cfasync)
 bunkr.*##^script:has-text(window.document.querySelectorAll)
@@ -561,7 +561,7 @@ build/asdajklsdashjdasjk.js$all
 bunkrr.*##+js(abort-current-script, document.querySelectorAll)
 bunkrr.*##+js(acs, document.oncontextmenu)
 bunkrr.*##+js(abort-current-script, document.querySelectorAll, popMagic)
-bunkrr.*##+js(abort-current-script, document.createElement, click)
+!bunkrr.*##+js(abort-current-script, document.createElement, click)
 bunkrr.*##^script:has-text(data-cfasync)
 bunkrr.*##^script:has-text(window.document.querySelectorAll)
 bunkrr.*##^script:has-text(this.config.ads_host)
@@ -4952,10 +4952,14 @@ watchdirty.*##[src="/banners/visitx2.gif"]
 ||to-go5.eu/p/^
 watchdirty.*##[href^="https://to-go5.eu"]
 watchdirty.*##.block-video > .table
-watchdirty.is##[href*="eunow4u.com"]
-watchdirty.is##.friends-grid
-watchdirty.is##.primary > li > a[target="_blank"]
+watchdirty.*##[href*="eunow4u.com"]
+watchdirty.*##.friends-grid
+watchdirty.*##.primary > li > a[target="_blank"]
 watchdirty.*##+js(rmnt, script, adConfig)
+watchdirty.*##.friends-grid
+watchdirty.*##div[class*="friends"]
+watchdirty.*##.primary > li > a:not([href^="https://watchdirty."])
+||ahrefs.com^$3p
 
 ! Watchmygf
 watchmygf.me##li.premium-item
