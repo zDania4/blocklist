@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Sep07-2
+! Version: 2025Sep13-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -2545,6 +2545,13 @@ multi.xxx##+js(set, flashvars.popunder_url, '')
 multi.xxx##+js(set, flashvars.popunder_duration, '')
 multi.xxx##.player-related-videos
 &action=js_stats$domain=multi.xxx
+
+! Myfakedude
+||api.ok.ru$xhr,domain=myfakedude.com
+||myfakedude.com/session_start/$xhr,domain=myfakedude.com
+||static.addtoany.com/menu/page.js$script,domain=myfakedude.com
+myfakedude.com##.footer_nav > ul > li > .link[href*="nasty"]:upward(li)
+myfakedude.com##.footer_nav > ul > li > .link[href*="myfakedude.com/partners"]:upward(li)
 
 ! Mylust
 mylust.com##.topb-250
