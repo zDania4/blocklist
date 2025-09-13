@@ -1,9 +1,10 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Aug-12</strong></p> <!-- for version 2025Aug12-1 -->
-<!-- 201+ covered domains in list, *3* are of unknown status -->
+<p align=center>Last updated: <strong>2025-Sep-13</strong></p> <!-- for version 2025Sep13-1 -->
+<!-- 202+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 <!-- Make sure to use camo.githubusercontent url's for new favicons! It's a little slower but KEEPS the favicons cached and makes the network traffic less "descriptive". Google favicon url: https://www.google.com/s2/favicons?sz=16&domain= -->
+<!-- Base list format: "![](https://www.google.com/s2/favicons?sz=16&domain=) URL  " -->
 
 > [!NOTE]
 > Want a domain added or updated? Please create an [issue](https://github.com/zDania4/blocklist/issues/new/choose) to let me know.
@@ -100,6 +101,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/74a13ee86cc14605be838c67e876442593ad3057fafe515a50f89a2a580999a4/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d697864726f702e7073) mixdrop.*  
 ![](https://camo.githubusercontent.com/4f8e9a99fbbb46909a7999ca1058a7ebfa30088e4397579abe7ef5ec3a6679ab/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d6f746865726c6573732e636f6d) motherless.com  
 ![](https://camo.githubusercontent.com/f72f85a95cc99af8c143e561fbd73a4f4104bbadc535bde638ba9ea51b7bcde0/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d756c74692e787878) multi.xxx  
+![](https://camo.githubusercontent.com/c5a0e7b1fa37b22c9b95bec872edf636a2920cdb70fd1de79f746f6c87e9cfeb/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d7966616b65647564652e636f6d) myfakedude.com  
 ![](https://camo.githubusercontent.com/5c732bff461b241dec8b9bddba36b9388436efaaf4db7f4599e1a617b0425970/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6d796c7573742e636f6d) mylust.com  
 ![](https://camo.githubusercontent.com/a6d074948086cd4155a15b9b9010e540ab9df9765c7d1c58c41c800bb996de1f/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e616d6574686174706f726e2e636f6d) namethatporn.com  
 ![](https://camo.githubusercontent.com/ba91188cdb655b1565890c061a1fcb37c7541b8103fa67e315116bd101278b6c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6e69696b61706c61796572722e636f6d) niikaplayerr.com (vidhide)  
@@ -216,4 +218,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/be191055dbbb7d42539aa16ba45d56f832bbaa30ee35af63cc4debd93e65922c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f756a697a7a2e636f6d) youjizz.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>201+</strong> | ☺</p>
+<p align=right><strong>202+</strong> | ☺</p>
