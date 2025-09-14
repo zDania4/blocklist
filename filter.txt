@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Sep13-1
+! Version: 2025Sep14-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -4967,6 +4967,8 @@ watchdirty.*##.friends-grid
 watchdirty.*##div[class*="friends"]
 watchdirty.*##.primary > li > a:not([href^="https://watchdirty."])
 ||ahrefs.com^$3p
+watchdirty.*##+js(rmnt, script, adConfig)
+watchdirty.*##.spot-primary > [href="https://watchdirty.org"]
 
 ! Watchmygf
 watchmygf.me##li.premium-item
@@ -5323,6 +5325,14 @@ xvideos.com##+js(addEventListener-defuser, click, ShouldShow)
 popunder1000.js
 ad-provider.js
 xvideos.com##a.video-overlay-title-invideo
+xvideos.*##[href*="xvideos.red"]:upward(div[style*="background: rgb(222, 38, 0)"])
+xvideos.*##.btn-clear.head__btn--join.head__btn
+xvideos.*##.red-ticket
+xvideos.*###mobile-header-links > .mobile-slogan-red.btn:upward(#mobile-header-links)
+||live.mmcdn.com$domain=xvideos.*
+xvideos.*##.live_model_thumb:upward(3)
+xvideos.*##.ignore-popunder.head__menu-line__main-menu__lvl1[href*="zlinkt"]:upward(li)
+xvideos.*##[href*="zlinkt.com/"]
 
 ! Xwiks
 xwiks.com##.adts-wrap
