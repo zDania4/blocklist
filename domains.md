@@ -7,6 +7,9 @@ Generic favicon for domains without one: https://camo.githubusercontent.com/929b
 <!-- Base list format: "![](https://www.google.com/s2/favicons?sz=16&domain=) URL  " -->
 
 > [!NOTE]
+> Some of the sites mentioned below *may* have rules that hasn't been updated in a while.
+
+> [!NOTE]
 > Want a domain added or updated? Please create an [issue](https://github.com/zDania4/blocklist/issues/new/choose) to let me know.
 
 > [!NOTE]
