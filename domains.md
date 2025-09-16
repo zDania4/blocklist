@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Sep-16</strong></p> <!-- for version 2025Sep16-1 -->
-<!-- 203+ covered domains in list, *3* are of unknown status -->
+<p align=center>Last updated: <strong>2025-Sep-16</strong></p> <!-- for version 2025Sep16-2 -->
+<!-- 205+ covered domains in list, *3* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 <!-- Make sure to use camo.githubusercontent url's for new favicons! It's a little slower but KEEPS the favicons cached and makes the network traffic less "descriptive". Google favicon url: https://www.google.com/s2/favicons?sz=16&domain= -->
@@ -130,6 +130,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/49c12bf70cdb18766fc0bfc9c8e258df5a643ae50d1471247d73e5ac455f5905/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6469672e636f6d) porndig.com (including their IT and PL versions found below)  
 ![](https://camo.githubusercontent.com/94f805480daf448cd91c296efa43e9ac19faddfbc5017a1f51f35ce2bfe02952/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e646973682e636f6d) porndish.com  
 ![](https://camo.githubusercontent.com/7dfb76e8adc9cb1dcd6ed8cb010c4bd84afb5291beb9b459d27fe16cbbb7e27b/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e646f652e636f6d) porndoe.com  
+![](https://camo.githubusercontent.com/29deaa97c14fc6fa4484c00bbc5ee56cdf5e9991b8fbf96db943842b91fbdbe9/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e646974742e636f6d) pornditt.com  
 ![](https://camo.githubusercontent.com/bf87ec0efb05debd83348828ce2b593295ab0342d8a6aabc425ae2bb41b30f31/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e676f2e636f6d) porngo.com  
 ![](https://camo.githubusercontent.com/7620ab9e3ee2beeb0758d38c886ef609d6cdd50ea87389972538a5eff6f4c24e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d706f726e6861742e636f6d) pornhat.*  
 ![](https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67) pornhd3x.*  
@@ -220,6 +221,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/3d9a272052d96bcced55c96452fc3a30a744c902e58df03deb98047259cb5c10/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d78787874696b2e636f6d) xxxtik.com  
 ![](https://camo.githubusercontent.com/034a7d2c6eb1530b1f90b3ba6a7a5617a898ef877025a76a50bf509c6eb4942d/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d6469736b2e79616e6465782e636f6d) (disk.)yandex.* (rules are *only* tested on Yandex Disk)  
 ![](https://camo.githubusercontent.com/be191055dbbb7d42539aa16ba45d56f832bbaa30ee35af63cc4debd93e65922c/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f756a697a7a2e636f6d) youjizz.com  
+![](https://camo.githubusercontent.com/4dd6456ebc66eadd55e2019e7d5fdd8a4008a02a98eaf5befc8bfb0796156013/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f75706f726e2e636f6d) youporn.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>203+</strong> | ☺</p>
+<p align=right><strong>205+</strong> | ☺</p>
