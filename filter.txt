@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Sep16-1
+! Version: 2025Sep16-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3036,6 +3036,24 @@ porndish.com##.widget_adace_ads_widget
 ||xr.staxisclivias.com^
 porndish.com##[href="https://theporndude.com/"]
 
+! Pornditt
+pornditt.com##[href="https://prndot.com/"]:upward(li)
+pornditt.com##[href="https://tgtsporn.com/"]:upward(li)
+pornditt.com##[href="https://lewdporn.games/"]:upward(li)
+pornditt.com##div.table
+pornditt.com##+js(abort-current-script, document.querySelectorAll, popMagic)
+/api/spots/*$frame
+||sharki.online^
+adgpt.js
+&action=js_stats$domain=pornditt.com
+||dajex.club^
+pornditt.com##+js(set, flashvars.adv_pre_vast, '')
+pornditt.com##+js(set, flashvars.adv_post_vast, '')
+pornditt.com##.videoIterationStream
+pornditt.com##.top_nav_menu
+pornditt.com##.top
+pornditt.com##.bladv
+
 ! Porndoe
 porndoe.com##+js(abort-on-property-read, open)
 porndoe.com##+js(addEventListener-defuser, click, pop_under)
@@ -4360,6 +4378,7 @@ spankbang.com##.join
 spankbang.com##.vjs-paused-banner-ad-container
 /counters^$from=~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~letu.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
 /myvids/click/*$script,1p
+spankbang.com##.js-inline-ad
 
 ! Streamtape
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -4475,6 +4494,11 @@ sxyprn.*###vid_container_id > .tdn
 !sxyprn.com##.main_content > div:nth-of-type(1)
 *$3p,script,domain=sxyprn.com|sxyprn.net
 *$1p,script,domain=sxyprn.com
+sxyprn.com##[href^="https://s.zlinkt.com"]
+||marshalcurve.com^
+sxyprn.com##[href="http://theporndude.com/"]:upward(1)
+sxyprn.com##.transition.tm_live
+myporn.club##[href="http://theporndude.com/"]:upward(1)
 
 ! Theyarehuge
 theyarehuge.com##div.mtab:nth-of-type(3)
@@ -5245,9 +5269,9 @@ xhamster.*##.dots-loader:upward(div[class^="container"])
 xhamster.*##div[class^="linkButton"]:has-text(Join)
 xhamster.*##.button-cdbbb[href*="faphouse.com"]
 xhamster.*##[id="open-link-usage"]:upward(div)
-xhamster.com##.xp-aftershot
-xhamster.com##div[data-nav-item-id="cams"]
-xhamster.com##.try-mobile
+xhamster.*##.xp-aftershot
+xhamster.*##div[data-nav-item-id="cams"]
+xhamster.*##.try-mobile
 
 ! Xmegadrive
 xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
@@ -5382,7 +5406,7 @@ xvideos.com###video-sponsor-links
 xvideos.com##+js(addEventListener-defuser, click, ShouldShow)
 popunder1000.js
 ad-provider.js
-xvideos.com##a.video-overlay-title-invideo
+xvideos.*##a.video-overlay-title-invideo
 xvideos.*##[href*="xvideos.red"]:upward(div[style*="background: rgb(222, 38, 0)"])
 xvideos.*##.btn-clear.head__btn--join.head__btn
 xvideos.*##.red-ticket
@@ -5391,8 +5415,8 @@ xvideos.*###mobile-header-links > .mobile-slogan-red.btn:upward(#mobile-header-l
 xvideos.*##.live_model_thumb:upward(3)
 xvideos.*##.ignore-popunder.head__menu-line__main-menu__lvl1[href*="zlinkt"]:upward(li)
 xvideos.*##[href*="zlinkt.com/"]
-xvideos.com##.banner-goto-redtab.banner-1.banner-slide.embed-responsive-item
-xvideos.com##.banner-slider.embed-responsive
+xvideos.*##.banner-goto-redtab.banner-1.banner-slide.embed-responsive-item
+xvideos.*##.banner-slider.embed-responsive
 
 ! Xwiks
 xwiks.com##.adts-wrap
@@ -5507,6 +5531,24 @@ youjizz.com##.cookie-toast
 !youjizz.com##.adblock-detector
 !youjizz.com##+js(set-session-storage-item, yjAdblockerWarningClosed, true)
 youjizz.com##+js(set-session-storage-item, yj_hd, true)
+
+! Youporn
+youporn.com##.js_tracking-link
+youporn.com##.paidTab.js_paidTab.menu-item
+youporn.com##.upgradeButtonContainer
+youporn.com##ins.adsbytrafficjunky:upward(div)
+youporn.com###cookie_consent_wrapper
+youporn.com###cookie_banner_overlay
+youporn.com###cookie_consent_min_wrapper
+youporn.com##.watch-contentWrapper > .f8s1aep537wlk
+youporn.com##.watch-contentWrapper > div > div > ins:upward(2):not(.playWrapper)
+youporn.com##+js(rmnt, script, isChrome)
+youporn.com##+js(rmnt, script, holiday_promo)
+youporn.com##+js(set, page_params.pausePostRoll_params, {})
+debugbear.com$domain=youporn.com
+youporn.com##+js(rmnt, script, tjPreloadAds)
+youporn.com###adblock_tooltip
+youporn.com##+js(set, page_params.preroll, {})
 
 ! Zagrus
 ||iam4thetop.cfd^
