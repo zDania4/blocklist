@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Sep14-1
+! Version: 2025Sep16-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -3618,6 +3618,26 @@ porntrex.com##.block-video:style(justify-content: center; !important)
 m.порнушка.tv##+js(rmnt, script, clickadilla7979)
 m.порнушка.tv##+js(rmnt, script, prerolls.replace)
 
+! Pornve
+pornve.com##.col-asside
+pornve.com##.header-links
+pornve.com##+js(prevent-window-open)
+pornve.com##+js(set-constant, frg, 1)
+###close-teaser
+/api/spots/*$script
+://creative.*/widgets/v4/universal?$frame,3p
+pornve.com##[href*="favy.cam"]
+pornve.com##[href*="luxyescort.com"]
+pornve.com##[href*="theporndude.com"]
+pornve.com##.info-box-custom.info-box > .button-second[target="_blank"]
+pornve.com##.adv-sponser
+||runsexyad.site^
+pornve.com##+js(set, flashvars.adv_pause_html, '')
+pornve.com##+js(set, flashvars.adv_pre_vast, '')
+&action=js_stats$domain=pornve.com
+pornve.com##iframe[title="cam"]:upward(div[align="center"])
+pornve.com##.video_ad_mob
+
 ! Pornwex
 /player/stats.php?$image,redirect-rule=1x1.gif
 ||iuniu-fzn.com^
@@ -4333,6 +4353,13 @@ spankbang.*##+js(set-constant, BJSShowUnder.bindTo, noopFunc)
 ||assets.sb-cd.com/static/dist/desktop/js/analytics.
 spankbang.*##+js(set-constant, BJSShowUnder.add, noopFunc)
 ||assets.sb-cd.com/static/common/js/bjssu_
+spankbang.com###ad-bar
+spankbang.com##[href*="zybrdr.com"]
+||zybrdr.com^
+spankbang.com##.join
+spankbang.com##.vjs-paused-banner-ad-container
+/counters^$from=~au.ru|~av.by|~filmweb.pl|~glavagronom.ru|~itpc.ru|~letu.ru|~pay.tns-e.ru|~pikabu.ru|~poro.gg|~traktorist.ua|~work.ua
+/myvids/click/*$script,1p
 
 ! Streamtape
 streamtape.*##+js(addEventListener-defuser, contextmenu)
@@ -4723,6 +4750,7 @@ tnaflix.com##.plyr--video:style(min-height: 60vh; min-width: 60vw !important)
 tnaflix.com##.col-sm-12.col-md-12.col-lg-12.col-xl-9:style(min-width:100% !important)
 tnaflix.com##.plyr__video-wrapper:style(min-height: 250px !important)
 /get_file/*.mp4/?rnd=$image
+tnaflix.com##.pause-overlay
 
 ! Twitch embed
 player.twitch.tv##+js(set-constant, Object.prototype.disableAutoplay, true)
@@ -5190,6 +5218,36 @@ xhamster.com##.xh-dropdown.orientation-dropdown-container
 xhamster.*##div[class$="-pauseSpotContainer"]
 xhamster.*##.xp-banner-bottom + button
 xhamster.*##.xp-banner-pause
+xhamster.*##[class^="prePopunderLabel"]
+xhamster.*##.width-wrap.top-menu > div > div > div > a[href*="xhamsterlive.com/"]
+xhamster.*##.width-wrap.top-menu > div > div > div > a[href*="/ff/out?"]
+xhamster.*##.width-wrap.top-menu > div > div > div > a[href*="faphouse.com/"]
+xhamster.*##.width-wrap.top-menu > div > div > div > a[href*="lustyheroes.com/"]
+xhamster.*##.width-wrap.top-menu > div > div > div > a[href*="lovescape.com/"]
+xhamster.*##+js(addEventListener-defuser, click, [native code], elements, .main-wrap)
+xhamster.*##div[class$="-ts-init"]
+xhamster.*##div[class*="clipstore-bottom"]
+xhamster.*##div[class*="widget-section"]
+xhamster.*##div[data-role="promo-messages-wrapper"]
+&spotpagetype=*&statsuid=$xhr
+/v2/for-page?body=%$xhr
+xhamster.*##div[class*="cam-wgt"]
+xhamster.*##nav > ul > li > a[href*="https://xhamsterlive.com"]
+xhamster.*##nav > ul > li > a[href*="https://faphouse.com"]
+xhamster.*##nav > ul > li > a[href*="/ff/out?"]
+xhamster.*##nav > ul > li > a[href*="https://lovescape.com"]
+xhamster.*##img[src*="https://video.flirtify.com/"]:upward(div[class^="item"])
+xhamster.*##span[class^="text-"]:has-text(Join):upward(div)
+||video.flirtify.com$image
+xhamster.*##button[class*="bottomPanelButton"]:has-text(Chat)
+||flirtify.com^$domain=xhamster.*
+xhamster.*##.dots-loader:upward(div[class^="container"])
+xhamster.*##div[class^="linkButton"]:has-text(Join)
+xhamster.*##.button-cdbbb[href*="faphouse.com"]
+xhamster.*##[id="open-link-usage"]:upward(div)
+xhamster.com##.xp-aftershot
+xhamster.com##div[data-nav-item-id="cams"]
+xhamster.com##.try-mobile
 
 ! Xmegadrive
 xmegadrive.com##+js(abort-current-script, document.createElement, /l\.parentNode\.insertBefore\(s/)
@@ -5333,6 +5391,8 @@ xvideos.*###mobile-header-links > .mobile-slogan-red.btn:upward(#mobile-header-l
 xvideos.*##.live_model_thumb:upward(3)
 xvideos.*##.ignore-popunder.head__menu-line__main-menu__lvl1[href*="zlinkt"]:upward(li)
 xvideos.*##[href*="zlinkt.com/"]
+xvideos.com##.banner-goto-redtab.banner-1.banner-slide.embed-responsive-item
+xvideos.com##.banner-slider.embed-responsive
 
 ! Xwiks
 xwiks.com##.adts-wrap
