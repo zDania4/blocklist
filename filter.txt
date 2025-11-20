@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Oct11-1
+! Version: 2025Nov20-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -786,6 +786,7 @@ bunkr.*/js/lv.js$script
 ||s.gigachad-cdn.ru/js/script.js$script
 ||camper-solo-2000.b-cdn.net^
 ||gigglegrowlworrisome.com^
+||openpanel.dev/op1.js
 
 ! Bunkr-albums
 bunkr-albums.io##center:nth-of-type(1)
@@ -1775,6 +1776,36 @@ fyptt.to##[href="https://aj1070.online/zOEEowlkN6H0HBN3Hu-okGiqUepf9hUmUgw8Sbhew
 fyptt.to##.focus.menu-item-object-custom.menu-item-type-custom.menu-item
 ##.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 
+! Fyxxr (watchdirty / watchmdh)
+fyxxr.*##.top-links
+fyxxr.*##[href^="https://go.rmhfrtnd.com"]:upward(li)
+fyxxr.*##[href^="https://www.seduced.ai"]:upward(li)
+fyxxr.*##.friends
+fyxxr.*##+js(set-constant, flashvars.protect_block, '')
+fyxxr.*##+js(set-constant, flashvars.popunder_url, '')
+fyxxr.*##+js(set-constant, flashvars.video_click_url, '')
+fyxxr.*##+js(set-constant, flashvars.adv_pre_vast, '')
+||queasytonight.com^
+fyxxr.*##+js(rmnt, script, wuyf)
+fyxxr.*##+js(rmnt, script, StripchatSpot)
+fyxxr.*##.player-related-videos
+fyxxr.*##.sponsor
+fyxxr.*##[href^="https://www.seduced."]:upward(li)
+||fyxxr.*/banners/visitx2.gif
+fyxxr.*##[src="/banners/visitx2.gif"]
+fyxxr.*##[href^="https://to-go5.eu"]
+fyxxr.*##.block-video > .table
+fyxxr.*##[href*="eunow4u.com"]
+fyxxr.*##.friends-grid
+fyxxr.*##.primary > li > a[target="_blank"]
+fyxxr.*##+js(rmnt, script, adConfig)
+fyxxr.*##.friends-grid
+fyxxr.*##div[class*="friends"]
+fyxxr.*##.primary > li > a:not([href^="https://watchdirty."])
+fyxxr.*##+js(rmnt, script, adConfig)
+fyxxr.*##.spot-primary > [href="https://watchdirty.org"]
+fyxxr.*##.spot-primary
+
 ! GoFile
 gofile.io###adsGoogle
 gofile.io##.ml-auto.navbar-nav > li.nav-item
@@ -2321,21 +2352,26 @@ jpg6.su##+js(rmnt, script, adConfig)
 /^[a-zA-Z]*\.[a-zA-Z]{2,4}\/[a-zA-Z0-9]{2,3}\.js?$/$script,3p,domain=jpg6.su
 
 ! Kemono
-kemono.su##.ad-container
-kemono.su##+js(abort-current-script, String.fromCharCode, \x)
-kemono.su##+js(addEventListener-defuser, , popMagic)
-kemono.su##[href="//kemono.su/importer"] > div
-kemono.su##[href*="theporndude.com"]
+kemono.*##.ad-container
+kemono.*##+js(abort-current-script, String.fromCharCode, \x)
+kemono.*##+js(addEventListener-defuser, , popMagic)
+kemono.*##[href="//kemono.su/importer"] > div
+kemono.*##[href*="theporndude.com"]
 ||avhjzemp.com^
-kemono.su##+js(rmnt, script, flgdabcpokrineutm)
-kemono.su##div.ad-container
-kemono.su##.SCSpotScript
+kemono.*##+js(rmnt, script, flgdabcpokrineutm)
+kemono.*##div.ad-container
+kemono.*##.SCSpotScript
 ||anewfeedliberty.com^
-kemono.su##+js(rmnt, script, videoAds)
+kemono.*##+js(rmnt, script, videoAds)
 ||anewfeedliberty.com/ceef/gdt3g0/tbt/2029287/tlk.xml
 ceef/gdt3g0/tbt/2029287/tlk.xml
 /^https:\/\/[a-z]{2,20}\.[a-z]{2,5}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[a-z0-9]{2,10}\/[0-9]{5,10}\/tlk.xml/$script,3p
-kemono.su##a[href*="realxxx.com"]
+kemono.*##a[href*="realxxx.com"]
+kemono.*##[href*="tsyndicate"]
+kemono.*##[href*="theporndude"]
+kemono.*##.ad-container-slider
+kemono.*##.ad-container
+kemono.*##+js(rmnt, script, TsMasterSpot)
 
 ! Leakedmodels
 leakedmodels.com##.azz_div.wp_xsize_class
@@ -4993,7 +5029,7 @@ voyeurhit.*##.tozwwjjzjzoot
 voyeurhit.*###downloader-download
 voyeurhit.*###downloader-install
 
-! Watchdirty (watchmdh)
+! Watchdirty (watchmdh) -> Rebranded to Fyxxr
 watchdirty.*##.top-links
 watchdirty.*##[href^="https://go.rmhfrtnd.com"]:upward(li)
 watchdirty.*##[href^="https://www.seduced.ai"]:upward(li)
@@ -5023,6 +5059,7 @@ watchdirty.*##.primary > li > a:not([href^="https://watchdirty."])
 ||ahrefs.com^$3p
 watchdirty.*##+js(rmnt, script, adConfig)
 watchdirty.*##.spot-primary > [href="https://watchdirty.org"]
+watchdirty.*##.spot-primary
 
 ! Watchmygf
 watchmygf.me##li.premium-item
@@ -5617,6 +5654,8 @@ nr-rum-*.min.js
 ||campfirecroutondecorator.com^
 ||darnobedienceupscale.com^
 ||lytics.fileditch.com^
+||log.cookieyes.com^
+||94.242.247.32
 ! ##Disable devtools:
 ||jsdelivr.net/npm/disable-devtool
 ! ## Pixeldrain-bypass remove games4u layer
