@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Nov20-1
+! Version: 2025Dec04-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -1654,6 +1654,16 @@ fikfap.com##div.will-change-transform.right-0.left-0.bottom-0.top-0.absolute:nth
 fikfap.com##.border-brand.story-pulsating-brand
 fikfap.com##.border-brand > div > .bg-brand
 fikfap.com##[href*="api.fikfap.com/t/link?url="]
+
+! Fileditchfiles
+||fpyf8.com^
+||6opo.com^
+||grookilteepsou.net^
+||glempirteechacm.com^
+||roagrofoogrobo.com^
+||rtmark.net^
+/zone?pub
+fileditchfiles.me##+js(rmnt, script, plausible)
 
 ! Filemoon
 ||filemoon.*/js/baf.js
