@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2025Dec04-1
+! Version: 2026Jan09-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -149,6 +149,8 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||bunkr.*/js/alerts.js$script,domain=saint2.pk
 @@||bunkr.*/js/alerts.js$inline-font,domain=saint2.su
 @@||bunkr.*/js/alerts.js$script,domain=saint2.su
+@@||bunkr.*/js/alerts.js$inline-font,domain=turbovid.*
+@@||bunkr.*/js/alerts.js$script,domain=turbovid.*
 @@||bunkr.*/js/gallery.js$script,from=bunkr.*|bunkrr.*
 @@||bunkr.*/js/home-rt.js$inline-font,domain=app.bunkrr.su
 @@||bunkr.*/js/main.js$script,domain=bunkr.*|bunkrr.*|bunkrrr.*
@@ -269,6 +271,10 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.*
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.pk
 @@||lovefap.com/v2/js/jquery.min.js$script,domain=saint2.su
+@@||lovefap.com/v2/js/jquery.cookie.min.js$inline-font,domain=turbovid.*
+@@||lovefap.com/v2/js/jquery.cookie.min.js$script,domain=turbovid.*
+@@||lovefap.com/v2/js/jquery.min.js$inline-font,domain=turbovid.*
+@@||lovefap.com/v2/js/jquery.min.js$script,domain=turbovid.*
 @@||recordbate.com/assets/js/main.js
 @@||reddit.com^$generichide
 @@||s.bunkr.ru/api/file/stats^$xhr,method=GET|HEAD
@@ -301,7 +307,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||saint2.*/js/main.js$script
 @@||saint2.*/js/main-login.js$script
 @@||saint2.*/site.webmanifest$domain=saint2.su|saint2.pk|saint2.cr
-@@||saint2.*/thumbs/$image
+@@||saint2.*/thumbs
 @@||saint2.*/upload
 @@||saint2.*/videos
 @@||simp2.saint2.*/videos
@@ -333,7 +339,34 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||tnaflix.com/assets/js/dist/smth.min.js$script
 @@||tnaflix.com/compiled/header.min.js
 @@||tnaflix.com/js/tnaflix.desktop.comments.js
-@@||saint2.*/thumbs/
+@@||turbovid.*/direct-link$media
+@@||turbovid.*/favicon.ico$1p
+@@||turbovid.*/js/main-login.js$script,1p
+@@||turbovid.*/js/main.js$script,1p
+@@||turbovid.*/js/alerts.js$script
+@@||turbovid.cr/api
+@@||turbovid.*/api/account.php
+@@||turbovid.cr/api/altcha
+@@||turbovid.*/api/upload
+@@||turbovid.*/assets/home_cover$image
+@@||turbovid.*/assets/dribbble_1.gif$image
+@@||turbovid.*/assets/saintLogo.png$image
+@@||turbovid.*/css/$stylesheet
+@@||turbovid.*/css/main.css$stylesheet
+@@||turbovid.*/css/player-additional.css$stylesheet
+@@||turbovid.*/dropzone/dropzone.css$stylesheet
+@@||turbovid.*/dropzone/dropzone.js
+@@||turbovid.*/icons/$image
+@@||turbovid.cr/img/$image,1p
+@@||turbovid.*/js/main.js$script
+@@||turbovid.*/js/main-login.js$script
+@@||turbovid.*/site.webmanifest$domain=saint2.su|saint2.pk|saint2.cr|turbovid.*
+@@||turbovid.*/thumbs/$image
+@@||turbovid.*/upload
+@@||turbovid.*/videos
+@@||turbovid.*/thumbs
+@@||cdn*.turbovid.cr/data/
+@@||turbovid.cr/embed/*$subdocument,1p
 @@||video.wildskirts.com/*/teasers/
 @@||www.redgifs.com/users/*$popup,domain=redgifs.com
 @@||www.redgifs.com/watch/*$popup,domain=redgifs.com
@@ -782,7 +815,7 @@ bunkr.*/js/lv.js$script
 ||deputizepacifistwipe.com^
 ||avalanchetremorunfilled.com^
 ||androidduvetscribble.com^
-/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{2}\.js(\?.*)?$/$3p,script,domain=bunkr.*|bunkrr.*|bunkrrr.*|cyberdrop.*|saint2.*|jpg5.*|jpg6.*
+/^https?:\/\/[^\/]+\/[a-zA-Z0-9]{2}\.js(\?.*)?$/$3p,script,domain=bunkr.*|bunkrr.*|bunkrrr.*|cyberdrop.*|saint2.*|jpg5.*|jpg6.*|turbovid.*
 ||s.gigachad-cdn.ru/js/script.js$script
 ||camper-solo-2000.b-cdn.net^
 ||gigglegrowlworrisome.com^
@@ -3990,11 +4023,13 @@ m.русский-секс.net##+js(rmnt, script, prerolls.replace)
 ! Rusvideos
 rusvideos.*##+js(set, preroll, '')
 
-! Saint
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr,domain=saint.to
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr,domain=saint2.su
+! Saint / Turbovid
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|turbovid.cr,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|turbovid.cr,domain=saint2.su
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|saint2.su|turbovid.cr,domain=saint2.su
 *$1p,script,domain=saint.to
 *$1p,script,domain=saint2.su
+*$1p,script,domain=turbovid.*
 !saint.to/embed^$inline-script,important
 ||gmxvmvptfm.com^$all,important
 1987050^$all,important
@@ -4066,9 +4101,11 @@ saint2.pk/63e52888c97f0.php$all,important
 !saint2.pk##+js(nowoif)
 ||saint2.pk/api/pst.php$xhr
 /\?id=[12]\d{6}$/*$script,domain=saint2.pk
+/\?id=[12]\d{6}$/*$script,domain=turbovid.cr
 saint2.pk##+js(rmnt, script, concat)
 saint2.pk##+js(rmnt, script, L0soL)
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr,domain=saint2.*
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|cdn.tailwindcss.com|unpkg.com|turbovid.cr,domain=turbovid.*
 *$1p,script,domain=saint2.*
 saint2.*##all:has-text(popupUrl)
 saint2.*##all:has-text(popupWindow)
@@ -4094,13 +4131,33 @@ saint2.*##.ipprtcnt
 en/mif/wuh^
 /t/9/fret/meow4/*/*.js
 saint2.*##+js(rmnt, script, fromCharCode)
-*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk,domain=saint2.*
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com,domain=saint2.*
 saint2.*##+js(nowoif, !//a/)
 ||nmevhudzi.com^
 ||b-cdn.net/api/event$xhr,domain=saint2.*
 ||acquiredeceasedundress.com^
 in.js$domain=saint2.*
 ||sacwumsf.com^
+turbovid.*##all:has-text(popupUrl)
+turbovid.*##all:has-text(popupWindo)
+turbovid.*##all:has-text(adx)
+turbovid.*##all:has-text(0xd965)
+turbovid.*##all:has-text(1986859)
+turbovid.*##all:has-text(0x2e4efe)
+turbovid.*/63e52888c97f0.php$all,important
+||turbovid.*/api/pst.php$xhr
+/\?id=[12]\d{6}$/*$script,domain=turbovid.*
+turbovid.*##+js(rmnt, script, concat)
+turbovid.*##+js(rmnt, script, L0soL)
+turbovid.*##+js(rmnt, script, z_flgdabcpokrineutm)
+turbovid.*##.ipprtcnt
+turbovid.*##+js(rmnt, script, fromCharCode)
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com,domain=turbovid.*
+!turbovid.*##+js(nowoif, !//a/)
+turbovid.*##+js(nowoif, !//v/)
+||b-cdn.net/api/event$xhr,domain=turbovid.*
+in.js$domain=turbovid.*
+||turbovid.*/api/pst$important
 
 ! Savefiles
 savefiles.com##+js(set-constant, SaveFiles.add, noopFunc)
