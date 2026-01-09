@@ -1,6 +1,6 @@
 ## Domains list
-<p align=center>Last updated: <strong>2025-Dec-04</strong></p> <!-- for version 2025Dec04-1 -->
-<!-- 207+ covered domains in list, *6* are of unknown status -->
+<p align=center>Last updated: <strong>2026-Jan-09</strong></p> <!-- for version 2026Jan09-1 -->
+<!-- 208+ covered domains in list, *6* are of unknown status -->
 <!-- Inactive favicon: https://camo.githubusercontent.com/62177e459817b4df36853ce721ce84ca4ec9c02bd04eac6159fcfb516f2c5e55/68747470733a2f2f692e696d6775722e636f6d2f774c586a6b75792e706e67 -> Use "(no longer active, due to be removed from list)", or remove them from the actual list and then remove them from here.
 Generic favicon for domains without one: https://camo.githubusercontent.com/929bf5400adaa052864dbfd05652a2c9560cb8cf07c3dd2076498508eb5e2433/68747470733a2f2f692e696d6775722e636f6d2f6256686674394d2e706e67 -->
 <!-- Make sure to use camo.githubusercontent url's for new favicons! It's a little slower but KEEPS the favicons cached and makes the network traffic less "descriptive". Google favicon url: https://www.google.com/s2/favicons?sz=16&domain= -->
@@ -161,7 +161,7 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/ca618100075ef9a8bcb32188b127779ff4bc984b58a0c0de3444d26748493626/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d726564747562652e636f6d) redtube.*  
 ![](https://camo.githubusercontent.com/1c1318d03fc16da64022dcbc9460304f98c5afce696231abe3881c8f3f875d6e/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d2544312538302544312538332544312538312544312538312544302542412544302542382544302542392d2544312538312544302542352544302542412544312538312e6e6574) русский-секс.net (xn----jtbhede0biaeco.net)  
 ![](https://camo.githubusercontent.com/038553f3b3f72116ece01d312f441927db8bc2cc8c567cd2075e2157d2386326/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d727573766964656f732e646179) rusvideos.*  
-![](https://camo.githubusercontent.com/62d9ce0c47cf008eab00a94040c1096043341299e3c881ca6551594441d0e6c3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7361696e74322e7375) saint2.su/saint2.pk (and its related domains)  
+![](https://camo.githubusercontent.com/62d9ce0c47cf008eab00a94040c1096043341299e3c881ca6551594441d0e6c3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7361696e74322e7375) saint2.su/saint2.pk/turbovid.cr (and its related domains)  
 ![](https://camo.githubusercontent.com/6946964f10b476587e62c88faf77389bd817297e6c4d6eec58e1a038df356641/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d7361766566696c65732e636f6d) savefiles.com  
 ![](https://camo.githubusercontent.com/0131c00abea84c6cc3b8185c9757c9588f52ca148434eb7aaff0c0cdcc9690f3/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73652e766964656f) se.video  
 ![](https://camo.githubusercontent.com/4938781198f9e89e88c596ce166a1facc77d7775c79ae6d025307bae98359429/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d73656e647669642e636f6d) sendvid.com  
@@ -226,4 +226,4 @@ The following domains have rules and are covered by this blocklist:
 ![](https://camo.githubusercontent.com/4dd6456ebc66eadd55e2019e7d5fdd8a4008a02a98eaf5befc8bfb0796156013/68747470733a2f2f7777772e676f6f676c652e636f6d2f73322f66617669636f6e733f737a3d313626646f6d61696e3d796f75706f726e2e636f6d) youporn.com  
 ![](https://camo.githubusercontent.com/ba77b3908ff6a5691ac7b1cace79632ac525efc26e2dadcedfef71a84acfc204/68747470733a2f2f7a616772757a2e74762f66617669636f6e2e69636f) zagruz.tv  
 
-<p align=right><strong>207+</strong> | ☺</p>
+<p align=right><strong>208+</strong> | ☺</p>
