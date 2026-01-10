@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2026Jan09-1
+! Version: 2026Jan10-1
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -66,6 +66,8 @@
 @@||jpg6.su/img/*$popup,domain=simptown.su
 @@||redgifs.com^$popup,domain=simpcity.*
 @@||redgifs.com^$popup,domain=simptown.su
+@@||turbovid.cr^$popup,domain=simpcity.su
+@@||turbovid.cr^$popup,domain=simptown.su
 
 ! # DDOS-Guard / Cloudflare
 @@||bunkr.*/.well-known/ddos-guard/captcha_js$script,1p
@@ -360,6 +362,7 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||turbovid.cr/img/$image,1p
 @@||turbovid.*/js/main.js$script
 @@||turbovid.*/js/main-login.js$script
+@@||turbovid.*/player-assets$1p
 @@||turbovid.*/site.webmanifest$domain=saint2.su|saint2.pk|saint2.cr|turbovid.*
 @@||turbovid.*/thumbs/$image
 @@||turbovid.*/upload
@@ -4152,12 +4155,16 @@ turbovid.*##+js(rmnt, script, L0soL)
 turbovid.*##+js(rmnt, script, z_flgdabcpokrineutm)
 turbovid.*##.ipprtcnt
 turbovid.*##+js(rmnt, script, fromCharCode)
-*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com,domain=turbovid.*
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com|turbovid.cr,domain=turbovid.*
 !turbovid.*##+js(nowoif, !//a/)
 turbovid.*##+js(nowoif, !//v/)
 ||b-cdn.net/api/event$xhr,domain=turbovid.*
 in.js$domain=turbovid.*
+on.js$domain=turbovid.*
 ||turbovid.*/api/pst$important
+blackhole.js$domain=turbovid.*
+||turbostats.xyz
+||chilihandshakewing.com^
 
 ! Savefiles
 savefiles.com##+js(set-constant, SaveFiles.add, noopFunc)
