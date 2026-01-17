@@ -2,7 +2,7 @@
 ! Description: Dania's Blocklist. This list focuses on mainly Bunkrr's and SC related websites' annoyances, but also includes some other NSFW stuff.
 ! Expires: 2 days
 ! Homepage: https://zdania4.github.io/blocklist
-! Version: 2026Jan17-1
+! Version: 2026Jan17-2
 
 ! ## ALLOWLIST ##
 ! # Allow for login-, thumbnail- plus upload scripts to work on Bunkrr
@@ -4062,9 +4062,9 @@ m.русский-секс.net##+js(rmnt, script, prerolls.replace)
 rusvideos.*##+js(set, preroll, '')
 
 ! Saint / Turbovid / Turbo
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|turbovid.cr|turbo.cr,domain=saint.to
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|turbovid.cr|turbo.cr,domain=saint2.su
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|saint2.su|turbovid.cr|turbo.cr,domain=saint2.su
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|turbovid.cr|turbo.cr|turbocdn.st,domain=saint.to
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|turbovid.cr|turbo.cr|turbocdn.st,domain=saint2.su
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.pk|saint2.cr|saint2.su|turbovid.cr|turbo.cr|turbocdn.st,domain=saint2.su
 *$1p,script,domain=saint.to
 *$1p,script,domain=saint2.su
 *$1p,script,domain=turbovid.*
@@ -4145,8 +4145,8 @@ saint2.pk/63e52888c97f0.php$all,important
 saint2.pk##+js(rmnt, script, concat)
 saint2.pk##+js(rmnt, script, L0soL)
 *$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr,domain=saint2.*
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr,domain=turbovid.*
-*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr,domain=turbo.*
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr|turbocdn.st,domain=turbovid.*
+*$3p,all,denyallow=fluidplayer.com|b-cdn.net|jsdelivr.net|bootstrapcdn.com|cloudflare.com|fonts.googleapis.com|fonts.gstatic.com|cdn.plyr.io|fonts.bunny.net|s1.lovefap.com|thumbs-saint-to.bunkr.ru|google.com|gstatic.com|saint2.su|saint2.pk|saint2.cr|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr|turbocdn.st,domain=turbo.*
 *$1p,script,domain=saint2.*
 saint2.*##all:has-text(popupUrl)
 saint2.*##all:has-text(popupWindow)
@@ -4207,8 +4207,8 @@ turbo.*##+js(rmnt, script, L0soL)
 turbo.*##+js(rmnt, script, z_flgdabcpokrineutm)
 turbo.*##.ipprtcnt
 turbo.*##+js(rmnt, script, fromCharCode)
-*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr,domain=turbovid.*
-*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr,domain=turbo.*
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr|turbocdn.st,domain=turbovid.*
+*$1p,3p,denyallow=cdn.plyr.io|cdnjs.cloudflare.com|fonts.bunny.net|fonts.googleapis.com|cdn.jsdelivr.net|stackpath.bootstrapcdn.com|thumbs-saint-to.bunkr.ru|saint2.su|saint2.cr|saint2.pk|cdn.tailwindcss.com|unpkg.com|turbovid.cr|turbo.cr|turbocdn.st,domain=turbo.*
 !turbovid.*##+js(nowoif, !//a/)
 turbovid.*##+js(nowoif, !//v/)
 ||b-cdn.net/api/event$xhr,domain=turbovid.*
