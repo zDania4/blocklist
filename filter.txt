@@ -235,6 +235,10 @@ pornhub.com#@#.sectionWrapper > div.sectionTitle+div[class*=" "]:not([class="sec
 @@||fonts.gstatic.com^
 @@||get.bunkrr.su/api/_001$xhr,domain=bunkr.*|bunkrr.*|bunkrrr.*
 @@||get.bunkrr.su/js/src.enc.js$script,domain=get.bunkrr.su
+!Media not loading
+@@||scdn.st^$media|image,domain=bunkr.*
+@@||scdn.st^$media|image,domain=bunkrr.*
+@@||scdn.st^$media|image,domain=bunkrrr.*
 !"Not found" image for Bunkrr.
 @@||i.pixl.li/image3b64ca9d2cf0688e.png$image,domain=bunkrr.su
 @@||jpg*.su/assets/js/lazyload.plugin.js$script,domain=jpg6.*|jpg5.*
